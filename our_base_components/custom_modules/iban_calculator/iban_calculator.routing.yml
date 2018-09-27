@@ -1,0 +1,8 @@
+iban_calculator_register:
+  path: 'iban/calculator'
+  defaults:
+    _form: '\Drupal\iban_calculator\Form\CalculatorForm'
+    _title: 'IBAN Calculator Form'
+  requirements:
+    _permission: 'access content'
+    

@@ -1,0 +1,3 @@
+[submodule "vendor/apache/log4php"]
+	path = vendor/apache/log4php
+	url = https://git-wip-us.apache.org/repos/asf/logging-log4php.git

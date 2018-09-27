@@ -1,0 +1,9 @@
+name: Loan Calculator Module
+type: module
+description: 'Using this module the visitors can calculate there Loan.'
+package: Custom
+core: 8.x
+hidden: false
+
+libraries:
+  - 'loan_calculator/assets'

@@ -1,0 +1,8 @@
+loan_calculator_register:
+  path: 'loan/calculator'
+  defaults:
+    _form: '\Drupal\loan_calculator\Form\CalculatorForm'
+    _title: 'Loan Calculator Form'
+  requirements:
+    _permission: 'access content'
+    

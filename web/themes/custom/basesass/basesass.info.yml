@@ -1,0 +1,30 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'SASS bootstrap sub-theme by dot.jo'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  header_left:              'Header left'
+  header_center:            'Header center'
+  header_right:             'Header right'
+  dynamic_header_top:       'Dynamic header top'
+  dynamic_header:           'Dynamic header'
+  dynamic_header_bottom:    'Dynamic header bottom'
+  image_header:             'Header Image'
+  help:                     'Help'
+  content:                  'Content'
+  front_content_1:          'Front content 1'
+  front_content_2:          'Front content 2'
+  front_content_3:          'Front content 3'
+  footer_left:              'Footer left'
+  footer_right:             'Footer right'
+  footer_bottom:            'Footer bottom'
+
+libraries:
+  - 'basesass/global-styling'
+  - 'basesass/rtl-styling'
+  - 'basesass/bootstrap-scripts'
+  - 'basesass/global-scripts'

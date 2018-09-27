@@ -1,0 +1,8 @@
+name: Copyright
+description: Custom module to display copyright text as a block
+core: 8.x
+package: dotjo
+dependencies:
+- node
+- block
+type: module
