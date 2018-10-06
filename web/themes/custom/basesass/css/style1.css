@@ -64,3 +64,11 @@ header .top-header .language-switcher-language-url ul.links li.is-active {
 header .bottom-header {
   padding: 15px 70px;
 }
+/* line 69, ../sass/style1.scss */
+header .bottom-header .header_right #block-socialmedia-2 {
+  display: inline-block;
+}
+/* line 72, ../sass/style1.scss */
+header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
+  display: inline-block;
+}
