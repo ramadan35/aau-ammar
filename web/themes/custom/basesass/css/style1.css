@@ -7,3 +7,32 @@ and open the template in the editor.
     Created on : Oct 6, 2018, 5:47:10 PM
     Author     : aqasem
 */
+/* line 11, ../sass/style1.scss */
+header .top-header {
+  background-color: #4A4A4A;
+}
+/* line 15, ../sass/style1.scss */
+header .top-header #block-topmenu ul.nav li {
+  display: inline-block;
+}
+/* line 17, ../sass/style1.scss */
+header .top-header #block-topmenu ul.nav li a {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+/* line 25, ../sass/style1.scss */
+header .top-header .language-switcher-language-url ul.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 30, ../sass/style1.scss */
+header .top-header .language-switcher-language-url ul.links li a {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 36, ../sass/style1.scss */
+header .top-header .language-switcher-language-url ul.links li.is-active {
+  display: none;
+}

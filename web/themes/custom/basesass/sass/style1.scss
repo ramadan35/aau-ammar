@@ -7,3 +7,36 @@ and open the template in the editor.
     Created on : Oct 6, 2018, 5:47:10 PM
     Author     : aqasem
 */
+header{
+    .top-header{
+        background-color: #4A4A4A;
+        #block-topmenu{
+            ul.nav{
+                li{
+                    display:inline-block;
+                    a{
+                        color: #FFFFFF;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .language-switcher-language-url{
+            ul.links{
+                list-style: none;
+                padding:0;
+                margin:0;
+                li{
+                    a{
+                        color: #FFFFFF;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+                li.is-active{
+                    display: none;
+                }
+            }
+        }
+    }
+}
