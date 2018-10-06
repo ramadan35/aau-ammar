@@ -109,8 +109,11 @@
     {% if page.front_content_1 %}
         <div class="front_content_1">
             <div class="{{ container }}">
-                <div class="col-md-12"> 
-                    {{ page.front_content_1 }}
+                <div class="left col-md-6"> 
+                    {{ page.right_front_content_1 }}
+                </div>
+                <div class="right col-md-6"> 
+                    {{ page.left_front_content_1 }}
                 </div>
             </div>
         </div>
@@ -118,8 +121,14 @@
     {% if page.front_content_2 %}
         <div class="front_content_2">
             <div class="{{ container }}">
-                <div class="col-md-12"> 
-                    {{ page.front_content_2 }}
+                <div class="news col-md-4 col-sm-12 col-xs-12"> 
+                    {{ page.news_front_content_2 }}
+                </div>
+                <div class="announcement col-md-4 col-sm-12 col-xs-12"> 
+                    {{ page.announcement_front_content_2 }}
+                </div>
+                <div class="simplenews col-md-4 col-sm-12 col-xs-12"> 
+                    {{ page.simplenews_front_content_2 }}
                 </div>
             </div>
         </div>
@@ -129,6 +138,15 @@
             <div class="{{ container }}">
                 <div class="col-md-12"> 
                     {{ page.front_content_3 }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+        {% if page.front_content_4 %}
+        <div class="front_content_4">
+            <div class="{{ container }}">
+                <div class="col-md-12"> 
+                    {{ page.front_content_4 }}
                 </div>
             </div>
         </div>
