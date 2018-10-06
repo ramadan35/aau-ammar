@@ -2,6 +2,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/style1.css: {}
+      css/responsive.css: {}
+      css/responsive1.css: {}
       jquery.bxslider/jquery.bxslider.css: {}
       
 rtl-styling:
