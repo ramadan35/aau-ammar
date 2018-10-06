@@ -26,23 +26,39 @@ header .top-header #block-topmenu ul.nav li a {
   color: #FFFFFF;
   font-size: 14px;
 }
-/* line 27, ../sass/style1.scss */
+/* line 24, ../sass/style1.scss */
+header .top-header #block-topmenu ul.nav li a:hover, header .top-header #block-topmenu ul.nav li a:focus {
+  background: transparent;
+}
+/* line 30, ../sass/style1.scss */
 header .top-header .language-switcher-language-url {
   display: inline-block;
 }
-/* line 29, ../sass/style1.scss */
+/* line 32, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 34, ../sass/style1.scss */
+/* line 36, ../sass/style1.scss */
+header .top-header .language-switcher-language-url ul.links li {
+  border-right: 1px solid #FFF;
+  line-height: 14px;
+  padding: 0 8px;
+}
+/* line 40, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li a {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
+  padding: 0;
+  text-transform: uppercase;
 }
-/* line 40, ../sass/style1.scss */
+/* line 48, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li.is-active {
   display: none;
+}
+/* line 51, ../sass/style1.scss */
+header .top-header .language-switcher-language-url ul.links li:last-child {
+  border: 0;
 }

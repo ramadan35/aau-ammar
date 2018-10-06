@@ -21,6 +21,9 @@ header{
                         color: #FFFFFF;
                         font-size: 14px;
                     }
+                    a:hover , a:focus{
+                        background: transparent;
+                    }
                 }
             }
         }
@@ -31,14 +34,22 @@ header{
                 padding:0;
                 margin:0;
                 li{
+                    border-right: 1px solid #FFF;
+                    line-height: 14px;
+                    padding: 0 8px;
                     a{
                         color: #FFFFFF;
                         font-size: 14px;
                         font-weight: bold;
+                        padding: 0;
+                        text-transform: uppercase;
                     }
                 }
                 li.is-active{
                     display: none;
+                }
+                li:last-child{
+                    border:0;
                 }
             }
         }
