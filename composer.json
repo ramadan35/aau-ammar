@@ -351,6 +351,7 @@
         "drupal/admin_toolbar": "^1.22",
         "drupal/adminimal_admin_toolbar": "^1.5",
         "drupal/amp": "^1.0",
+        "drupal/backup_migrate": "^4.0",
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/bootstrap": "^3.9",
         "drupal/bootstrap_layouts": "^5.0",
