@@ -61,17 +61,6 @@
 
 {% include 'header.html.twig' %}
 
-{% block dynamic_header_top %}
-    {% if page.dynamic_header_top %}
-        <div class="dynamic_header_top">
-            <div class="{{ container }}">
-                <div class="col-md-12">
-                    {{ page.dynamic_header_top }}
-                </div>
-            </div>
-        </div>
-    {% endif %}
-{% endblock %}
 
 {% block dynamic_header %}
     {% if page.dynamic_header %}
