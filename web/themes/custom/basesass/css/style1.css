@@ -10,29 +10,39 @@ and open the template in the editor.
 /* line 11, ../sass/style1.scss */
 header .top-header {
   background-color: #4A4A4A;
+  text-align: right;
+  padding: 4px 70px;
 }
 /* line 15, ../sass/style1.scss */
+header .top-header #block-topmenu {
+  display: inline-block;
+}
+/* line 18, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li {
   display: inline-block;
 }
-/* line 17, ../sass/style1.scss */
+/* line 20, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li a {
   color: #FFFFFF;
   font-size: 14px;
 }
-/* line 25, ../sass/style1.scss */
+/* line 27, ../sass/style1.scss */
+header .top-header .language-switcher-language-url {
+  display: inline-block;
+}
+/* line 29, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 30, ../sass/style1.scss */
+/* line 34, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li a {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
 }
-/* line 36, ../sass/style1.scss */
+/* line 40, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li.is-active {
   display: none;
 }
