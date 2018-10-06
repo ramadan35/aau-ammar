@@ -60,3 +60,7 @@ header .top-header .language-switcher-language-url ul.links li a {
 header .top-header .language-switcher-language-url ul.links li.is-active {
   display: none;
 }
+/* line 60, ../sass/style1.scss */
+header .bottom-header {
+  padding: 15px 70px;
+}
