@@ -7,6 +7,7 @@ description: 'Uses the Bootstrap framework Sass source files and must be compile
 package: 'Bootstrap'
 
 regions:
+  top_header:               'Header top'
   header_left:              'Header left'
   header_center:            'Header center'
   header_right:             'Header right'
