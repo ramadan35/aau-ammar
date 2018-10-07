@@ -97,14 +97,9 @@
 {% block front_content %}
     <div class="front_content_1">
         <div class="{{ container }}">
-            {% if page.left_front_content_1 %}
-                <div class="left col-md-6"> 
-                    {{ page.left_front_content_1 }}
-                </div>
-            {% endif %}
-            {% if page.right_front_content_1 %}
-                <div class="right col-md-6"> 
-                    {{ page.right_front_content_1 }}
+            {% if page.front_content_1 %}
+                <div class="front-links"> 
+                    {{ page.front_content_1 }}
                 </div>
             {% endif %}
         </div>
