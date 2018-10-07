@@ -95,33 +95,39 @@
 {% endblock %}
 
 {% block front_content %}
-    {% if page.front_content_1 %}
-        <div class="front_content_1">
-            <div class="{{ container }}">
+    <div class="front_content_1">
+        <div class="{{ container }}">
+            {% if page.left_front_content_1 %}
                 <div class="left col-md-6"> 
-                    {{ page.right_front_content_1 }}
-                </div>
-                <div class="right col-md-6"> 
                     {{ page.left_front_content_1 }}
                 </div>
-            </div>
+            {% endif %}
+            {% if page.right_front_content_1 %}
+                <div class="right col-md-6"> 
+                    {{ page.right_front_content_1 }}
+                </div>
+            {% endif %}
         </div>
-    {% endif %}
-    {% if page.front_content_2 %}
-        <div class="front_content_2">
-            <div class="{{ container }}">
+    </div>
+    <div class="front_content_2">
+        <div class="{{ container }}">
+            {% if page.news_front_content_2 %}
                 <div class="news col-md-4 col-sm-12 col-xs-12"> 
                     {{ page.news_front_content_2 }}
                 </div>
+            {% endif %}
+            {% if page.announcement_front_content_2 %}
                 <div class="announcement col-md-4 col-sm-12 col-xs-12"> 
                     {{ page.announcement_front_content_2 }}
                 </div>
+            {% endif %}
+            {% if page.simplenews_front_content_2 %}
                 <div class="simplenews col-md-4 col-sm-12 col-xs-12"> 
                     {{ page.simplenews_front_content_2 }}
                 </div>
-            </div>
+            {% endif %}
         </div>
-    {% endif %}
+    </div>
     {% if page.front_content_3 %}
         <div class="front_content_3">
             <div class="{{ container }}">
