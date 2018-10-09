@@ -27,6 +27,22 @@ body {
         }
     }
 }
+.front_content_1{
+    .view{
+        .views-row{
+            .views-field-title{
+                a{
+                    font-size: 36px;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                } 
+                a:before{
+                    content:url('../images/2border.png');
+                }
+            }
+        }
+    }
+}
 
 .block-views{
     h2.block-title{

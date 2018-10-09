@@ -9620,31 +9620,42 @@ body {
   display: none;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
+.front_content_1 .view .views-row .views-field-title a {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/* line 39, ../sass/style.scss */
+.front_content_1 .view .views-row .views-field-title a:before {
+  content: url("../images/2border.png");
+}
+
+/* line 48, ../sass/style.scss */
 .block-views h2.block-title {
   text-align: center;
   color: #000000;
   font-size: 30px;
   font-weight: bold;
 }
-/* line 38, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .block-views .views-row {
   margin-bottom: 20px;
 }
-/* line 40, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .block-views .views-row .views-field-nothing {
   position: relative;
 }
-/* line 42, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .field-content {
   float: left;
   position: relative;
 }
-/* line 46, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image {
   position: relative;
 }
-/* line 48, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image #gradient {
   display: block;
   width: 100%;
@@ -9656,11 +9667,11 @@ body {
   position: absolute;
   bottom: 0;
 }
-/* line 59, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image img {
   width: 100%;
 }
-/* line 63, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content {
   position: absolute;
   bottom: 37px;
@@ -9670,11 +9681,11 @@ body {
   display: block;
   padding: 0px 20px;
 }
-/* line 71, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title {
   margin: 10px 0px;
 }
-/* line 73, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title a {
   display: block;
   text-align: center;
@@ -9682,18 +9693,18 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 80, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title a:hover, .block-views .views-row .views-field-nothing .second_content .title a:focus {
   text-decoration: none;
 }
-/* line 84, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .date {
   font-weight: bold;
   font-size: 14px;
   color: #fff;
   text-align: center;
 }
-/* line 90, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .body {
   display: block;
   text-align: center;
@@ -9701,38 +9712,38 @@ body {
   font-size: 14px;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 106, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 109, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 114, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 116, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 124, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 127, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
