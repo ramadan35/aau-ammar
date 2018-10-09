@@ -9606,56 +9606,57 @@ body {
   font-family: 'Lato', sans-serif;
   color: black;
   font-size: 18px;
+  display: none;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .help .region-help {
   background-color: inherit;
   border: 0px;
   padding: 0px;
   margin-bottom: 0px;
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .help .region-help span.glyphicon-question-sign {
   display: none;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a {
   font-size: 36px;
   font-weight: bold;
   color: #FFFFFF;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:before {
   content: url("../images/2border.png");
 }
 
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .block-views h2.block-title {
   text-align: center;
   color: #000000;
   font-size: 30px;
   font-weight: bold;
 }
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .block-views .views-row {
   margin-bottom: 20px;
 }
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .block-views .views-row .views-field-nothing {
   position: relative;
 }
-/* line 58, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .field-content {
   float: left;
   position: relative;
 }
-/* line 62, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image {
   position: relative;
 }
-/* line 64, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image #gradient {
   display: block;
   width: 100%;
@@ -9667,11 +9668,11 @@ body {
   position: absolute;
   bottom: 0;
 }
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .image img {
   width: 100%;
 }
-/* line 79, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content {
   position: absolute;
   bottom: 37px;
@@ -9681,11 +9682,11 @@ body {
   display: block;
   padding: 0px 20px;
 }
-/* line 87, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title {
   margin: 10px 0px;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title a {
   display: block;
   text-align: center;
@@ -9693,18 +9694,18 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .title a:hover, .block-views .views-row .views-field-nothing .second_content .title a:focus {
   text-decoration: none;
 }
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .date {
   font-weight: bold;
   font-size: 14px;
   color: #fff;
   text-align: center;
 }
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .block-views .views-row .views-field-nothing .second_content .body {
   display: block;
   text-align: center;
@@ -9712,38 +9713,38 @@ body {
   font-size: 14px;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 130, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 143, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
