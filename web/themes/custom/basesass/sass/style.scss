@@ -35,14 +35,21 @@ body {
                 position: absolute;
                 bottom: 45px;
                 display: block;
+                    left: 85px;
                 a{
                     font-size: 36px;
                     font-weight: bold;
                     color: #FFFFFF;
+                        position: relative;
+                            width: 60%;
+    display: block;
+    text-transform: uppercase;
                 } 
                 a:after{
                     content:url('../images/2border.png');
                     display: block;
+                        bottom: -23px;
+                            position: absolute;
                 }
             }
         }
