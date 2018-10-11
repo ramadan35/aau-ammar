@@ -161,36 +161,36 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
 
 @keyframes views-field-title1 {
   0% {
-    right: -80px;
+    /*right: -80px;*/
     opacity: 0;
     animation-timing-function: linear;
   }
   100% {
-    right: 0px;
+    /*right: 0px;*/
     opacity: 1;
     animation-timing-function: linear;
   }
 }
 @-webkit-keyframes views-field-title1 {
   0% {
-    right: -80px;
+    /*right: -80px;*/
     opacity: 0;
     animation-timing-function: linear;
   }
   100% {
-    right: 0px;
+    /*right: 0px;*/
     opacity: 1;
     animation-timing-function: linear;
   }
 }
 @-moz-keyframes views-field-title1 {
   0% {
-    right: -80px;
+    /*right: -80px;*/
     opacity: 0;
     animation-timing-function: linear;
   }
   100% {
-    right: 0px;
+    /*right: 0px;*/
     opacity: 1;
     animation-timing-function: linear;
   }
