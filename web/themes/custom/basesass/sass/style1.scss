@@ -83,16 +83,15 @@ header{
                     .slick-list{
                         .slick-track{
                             .slick__slide{
-                                position: relative;
                                 .views-field-field-image{
                                     img{
-                                        /*width:100%;*/
+                                        width:100%;
                                     }
                                 }
                                 .views-field-nothing{
-                                    position: absolute;
-                                    top:30px;
                                     .slider_conent{
+                                        position: absolute;
+                                        top:30px;
                                         .text1{
                                             color: #FFFFFF;
                                             font-size: 36px;
