@@ -80,7 +80,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
 /* line 92, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   position: absolute;
-  top: 30px;
+  top: 230px;
 }
 /* line 95, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
@@ -116,4 +116,73 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   display: block;
   padding: 14px;
   margin-top: 15px;
+}
+/* line 134, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text1 {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: bold;
+  animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
+  -webkit-animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
+  -moz-animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
+}
+/* line 142, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text1::after {
+  content: "";
+  display: block;
+  width: 470px;
+  height: 3px;
+  background-color: #FFB500;
+  margin-top: 5PX;
+}
+/* line 150, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text2 {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 27px;
+  max-width: 1110px;
+  margin-top: 16px;
+}
+/* line 158, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .link a {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 255px;
+  background-color: #0083D1;
+  display: block;
+  padding: 14px;
+  margin-top: 15px;
+}
+
+@keyframes views-field-field-background-image_gwd-keyframes {
+  0% {
+    opacity: 0;
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+}
+@-webkit-keyframes views-field-field-background-image_gwd-keyframes {
+  0% {
+    opacity: 0;
+    -webkit-animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+    -webkit-animation-timing-function: linear;
+  }
+}
+@-moz-keyframes views-field-field-background-image_gwd-keyframes {
+  0% {
+    opacity: 0;
+    -moz-animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+    -moz-animation-timing-function: linear;
+  }
 }
