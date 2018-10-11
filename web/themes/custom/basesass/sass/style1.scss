@@ -97,6 +97,13 @@ header{
                                             font-size: 36px;
                                             font-weight: bold;
                                         }
+                                        .text1::after{
+                                            content: "";
+                                            display: block;
+                                            width: 470px;
+                                            height: 3px;
+                                            background-color: #FFB500;
+                                        }
                                         .text2{
                                             color: #FFFFFF;
                                             font-size: 22px;
