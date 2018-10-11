@@ -20,8 +20,8 @@ jQuery(document).ready(function ($) {
     });
     
     // On edge hit
-    $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
-        $('.slick__slide .text1 , slick__slide .text2 , slick__slide .link').removeClass('animated bounceInRight');
+    $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
+        $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated bounceInRight');
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated bounceInRight');
         
     });
