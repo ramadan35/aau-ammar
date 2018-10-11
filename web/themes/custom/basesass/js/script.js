@@ -18,6 +18,11 @@ jQuery(document).ready(function ($) {
         $('.block-views-exposed-filter-blocksearch-api-page-1').hide();
 
     });
+    
+    // On edge hit
+    $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
+        console.log('next slide');
+    });
 
 });
 (function ($, _, Drupal, drupalSettings) {
