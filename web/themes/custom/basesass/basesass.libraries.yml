@@ -5,6 +5,7 @@ global-styling:
       css/style1.css: {}
       css/responsive.css: {}
       css/responsive1.css: {}
+      css/animate/animate.css: {}
       jquery.bxslider/jquery.bxslider.css: {}
       
 rtl-styling:

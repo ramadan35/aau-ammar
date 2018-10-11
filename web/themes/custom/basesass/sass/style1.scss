@@ -187,6 +187,27 @@ header{
                                         }
 
                                     }
+                                    .slider_conent.animate2{
+                                        .text1{
+                                            animation: text1;
+                                            -webkit-animation: text1;
+                                            -moz-animation: text1;
+                                            animation-duration: 0.5s;
+                                        }
+                                        .text2{
+                                            animation: text1;
+                                            -webkit-animation: text1;
+                                            -moz-animation: text1;
+                                            animation-duration: 1.5s;
+                                        }
+                                        .link{
+                                            animation: text1;
+                                            -webkit-animation: text1;
+                                            -moz-animation: text1;
+                                            animation-duration: 3s;
+                                        }
+
+                                    }
                                 }
                             }
                         }
