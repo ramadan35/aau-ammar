@@ -157,6 +157,20 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   animation: text1;
   -webkit-animation: text1;
   -moz-animation: text1;
+  animation-duration: 0.5s;
+}
+/* line 176, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 .text2 {
+  animation: text1;
+  -webkit-animation: text1;
+  -moz-animation: text1;
+  animation-duration: 1s;
+}
+/* line 182, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 .link {
+  animation: text1;
+  -webkit-animation: text1;
+  -moz-animation: text1;
   animation-duration: 2s;
 }
 
