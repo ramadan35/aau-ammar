@@ -135,9 +135,7 @@ header{
                                             color: #FFFFFF;
                                             font-size: 36px;
                                             font-weight: bold; 
-                                            animation:views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
-                                            -webkit-animation:views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
-                                            -moz-animation:views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards
+
                                         }
                                         .text1::after{
                                             content: "";
@@ -168,6 +166,11 @@ header{
                                             }
                                         }
                                     }
+                                    .slider_conent.animate1{
+                                        animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+                                        -webkit-animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+                                        -moz-animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+                                    }
                                 }
                             }
                         }
@@ -181,34 +184,39 @@ header{
     }
 }
 
-
-@keyframes views-field-field-background-image_gwd-keyframes {
-  0% {
-    opacity:0;
-    animation-timing-function:linear
-  }
-  100% {
-    opacity:1;
-    animation-timing-function:linear
-  }
+@keyframes views-filed-field-main-slider1 {
+    0% {
+        opacity: 0;
+        left: -80px;
+        animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+        animation-timing-function: linear;
+    }
 }
-@-webkit-keyframes views-field-field-background-image_gwd-keyframes {
-  0% {
-    opacity:0;
-    -webkit-animation-timing-function:linear
-  }
-  100% {
-    opacity:1;
-    -webkit-animation-timing-function:linear
-  }
+@-webkit-keyframes views-filed-field-main-slider1 {
+    0% {
+        opacity: 0;
+        left: -80px;
+        -webkit-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+        -webkit-animation-timing-function: linear;
+    }
 }
-@-moz-keyframes views-field-field-background-image_gwd-keyframes {
-  0% {
-    opacity:0;
-    -moz-animation-timing-function:linear
-  }
-  100% {
-    opacity:1;
-    -moz-animation-timing-function:linear;
-  }
+@-moz-keyframes views-filed-field-main-slider1 {
+    0% {
+        opacity: 0;
+        left: -80px;
+        -moz-animation-timing-function: linear;
+    }
+    100% {
+        opacity: 1;
+        left: 0px;
+        -moz-animation-timing-function: linear;
+    }
 }

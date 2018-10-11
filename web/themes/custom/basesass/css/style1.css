@@ -122,11 +122,8 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
-  animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
-  -webkit-animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
-  -moz-animation: views-field-field-background-image_gwd-keyframes 0.5s linear 0s 1 normal forwards;
 }
-/* line 142, ../sass/style1.scss */
+/* line 140, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text1::after {
   content: "";
   display: block;
@@ -135,7 +132,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 150, ../sass/style1.scss */
+/* line 148, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
@@ -143,7 +140,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   max-width: 1110px;
   margin-top: 16px;
 }
-/* line 158, ../sass/style1.scss */
+/* line 156, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -155,34 +152,46 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 14px;
   margin-top: 15px;
 }
+/* line 169, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 {
+  animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+  -webkit-animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+  -moz-animation: views-filed-field-main-slider1 0.5s linear 0.5s 1 normal forwards;
+}
 
-@keyframes views-field-field-background-image_gwd-keyframes {
+@keyframes views-filed-field-main-slider1 {
   0% {
     opacity: 0;
+    left: -80px;
     animation-timing-function: linear;
   }
   100% {
     opacity: 1;
+    left: 0px;
     animation-timing-function: linear;
   }
 }
-@-webkit-keyframes views-field-field-background-image_gwd-keyframes {
+@-webkit-keyframes views-filed-field-main-slider1 {
   0% {
     opacity: 0;
+    left: -80px;
     -webkit-animation-timing-function: linear;
   }
   100% {
     opacity: 1;
+    left: 0px;
     -webkit-animation-timing-function: linear;
   }
 }
-@-moz-keyframes views-field-field-background-image_gwd-keyframes {
+@-moz-keyframes views-filed-field-main-slider1 {
   0% {
     opacity: 0;
+    left: -80px;
     -moz-animation-timing-function: linear;
   }
   100% {
     opacity: 1;
+    left: 0px;
     -moz-animation-timing-function: linear;
   }
 }
