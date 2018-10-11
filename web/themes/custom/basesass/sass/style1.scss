@@ -129,8 +129,11 @@ header{
                                 }
                             }
                             .slick__slide.slick-active{
-                                animation-name: FadeIn;
-                                animation-duration: 1s;
+                                .views-field-nothing{
+                                    animation-name: FadeIn;
+                                    animation-duration: 1s;
+                                }
+
                             }
                         }
                     }

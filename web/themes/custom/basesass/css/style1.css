@@ -117,8 +117,8 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 14px;
   margin-top: 15px;
 }
-/* line 131, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active {
+/* line 132, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing {
   animation-name: FadeIn;
   animation-duration: 1s;
 }
