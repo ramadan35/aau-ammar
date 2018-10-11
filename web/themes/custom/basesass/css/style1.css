@@ -95,15 +95,17 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   width: 470px;
   height: 3px;
   background-color: #FFB500;
+  margin-top: 5PX;
 }
-/* line 107, ../sass/style1.scss */
+/* line 108, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
   line-height: 27px;
   max-width: 1110px;
+  margin-top: 16px;
 }
-/* line 114, ../sass/style1.scss */
+/* line 116, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -113,4 +115,5 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-color: #0083D1;
   display: block;
   padding: 14px;
+  margin-top: 15px;
 }
