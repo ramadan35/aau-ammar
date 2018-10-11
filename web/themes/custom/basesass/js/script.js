@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
     
     // On edge hit
     $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
-        console.log('next slide');
+        $('.slick-active').addClass('animated bounceInRight');
     });
 
 });
