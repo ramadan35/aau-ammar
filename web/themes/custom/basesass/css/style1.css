@@ -120,11 +120,17 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
 /* line 132, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing {
   animation-name: FadeIn;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 @keyframes FadeIn {
   0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
     opacity: 0;
   }
   100% {
@@ -135,12 +141,24 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
 }
 @-moz-keyframes FadeIn {
   0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
     opacity: 0;
   }
   100% {

@@ -131,7 +131,7 @@ header{
                             .slick__slide.slick-active{
                                 .views-field-nothing{
                                     animation-name: FadeIn;
-                                    animation-duration: 1s;
+                                    animation-duration: 2s;
                                 }
 
                             }
@@ -149,6 +149,12 @@ header{
     0% {
         opacity: 0;
     }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
@@ -157,12 +163,24 @@ header{
     0% {
         opacity: 0;
     }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
 }
 @-moz-keyframes FadeIn {
     0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
         opacity: 0;
     }
     100% {
