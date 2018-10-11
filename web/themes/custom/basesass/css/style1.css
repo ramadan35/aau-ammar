@@ -87,8 +87,9 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
+  display: none;
 }
-/* line 100, ../sass/style1.scss */
+/* line 101, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
   content: "";
   display: block;
@@ -97,15 +98,20 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 108, ../sass/style1.scss */
+/* line 109, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
   line-height: 27px;
   max-width: 1110px;
   margin-top: 16px;
+  display: none;
 }
-/* line 116, ../sass/style1.scss */
+/* line 117, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link {
+  display: none;
+}
+/* line 119, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -117,10 +123,9 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 14px;
   margin-top: 15px;
 }
-/* line 132, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing {
-  animation-name: FadeIn;
-  animation-duration: 1s;
+/* line 131, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link.animated {
+  display: block;
 }
 
 @keyframes FadeIn {

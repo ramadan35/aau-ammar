@@ -24,6 +24,7 @@ jQuery(document).ready(function ($) {
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated bounceInRight');
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated bounceInRight');
         
+        
     });
 
 });
