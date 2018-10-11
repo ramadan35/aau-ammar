@@ -3,20 +3,6 @@
  * Behaviors for the vartheme theme.
  */
 jQuery(document).ready(function ($) {
-    //Daynamic Header
-        $('.region-dynamic-header .block-views .view-content').bxSlider({
-        slideWidth: 0,
-        minSlides: 1,
-        maxSlides: 1,
-        responsive: true,
-        infiniteLoop: true,
-        controls: false,
-        pager: true,
-        adaptiveHeight: true,
-        captions: true,
-        pause: 6000,
-        auto: true
-    });
     //Search 
     $('.search.glyphicon-search').click(function (e) {
         e.preventDefault();
