@@ -75,3 +75,46 @@ header{
         }
     }
 }
+.dynamic_header{
+    .block-views{
+        .view-content{
+            #slick-views-dynamic-header-block-1-1{
+                #slick-views-dynamic-header-block-1-1-slider{
+                    .slick-list{
+                        .slick-track{
+                            .slick__slide{
+                                .views-field-field-image{
+                                    img{
+                                        width:100%;
+                                    }
+                                }
+                                .views-field-nothing{
+                                    .slider_conent{
+                                        .text1{
+                                            color: #FFFFFF;
+                                            font-size: 36px;
+                                            font-weight: bold;
+                                        }
+                                        .text2{
+                                            color: #FFFFFF;
+                                            font-size: 22px;
+                                            line-height: 27px;
+                                        }
+                                        .link{
+                                            a{
+                                                
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .slick__arrow{
+                    
+                }
+            }
+        }
+    }
+}
