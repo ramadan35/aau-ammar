@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     });
     
     // On edge hit
-    $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
+    $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
         $('.slick-active').addClass('animated bounceInRight');
     });
 
