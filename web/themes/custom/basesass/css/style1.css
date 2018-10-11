@@ -73,22 +73,26 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   display: inline-block;
 }
 
-/* line 87, ../sass/style1.scss */
+/* line 85, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide {
+  opacity: 0;
+}
+/* line 88, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-field-image img {
   width: 100%;
 }
-/* line 92, ../sass/style1.scss */
+/* line 93, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   position: absolute;
   top: 230px;
 }
-/* line 95, ../sass/style1.scss */
+/* line 96, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
 }
-/* line 100, ../sass/style1.scss */
+/* line 101, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
   content: "";
   display: block;
@@ -97,7 +101,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 108, ../sass/style1.scss */
+/* line 109, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
@@ -105,7 +109,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   max-width: 1110px;
   margin-top: 16px;
 }
-/* line 116, ../sass/style1.scss */
+/* line 117, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -117,85 +121,13 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 14px;
   margin-top: 15px;
 }
-/* line 134, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text1 {
-  color: #FFFFFF;
-  font-size: 36px;
-  font-weight: bold;
-}
-/* line 140, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text1::after {
-  content: "";
-  display: block;
-  width: 470px;
-  height: 3px;
-  background-color: #FFB500;
-  margin-top: 5PX;
-}
-/* line 148, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .text2 {
-  color: #FFFFFF;
-  font-size: 22px;
-  line-height: 27px;
-  max-width: 1110px;
-  margin-top: 16px;
-}
-/* line 156, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent .link a {
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  width: 255px;
-  background-color: #0083D1;
-  display: block;
-  padding: 14px;
-  margin-top: 15px;
-}
-/* line 170, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 .text1 {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 0.5s;
-}
-/* line 176, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 .text2 {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 1.5s;
-}
-/* line 182, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate1 .link {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 3s;
-}
-/* line 191, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate2 .text1 {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 0.5s;
-}
-/* line 197, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate2 .text2 {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 1.5s;
-}
-/* line 203, ../sass/style1.scss */
-.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active .views-field-nothing .slider_conent.animate2 .link {
-  animation: text1;
-  -webkit-animation: text1;
-  -moz-animation: text1;
-  animation-duration: 3s;
+/* line 132, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide.slick-active {
+  animation-name: FadeIn;
+  animation-duration: 1s;
 }
 
-@keyframes text1 {
+@keyframes FadeIn {
   0% {
     opacity: 0;
   }
@@ -203,7 +135,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
     opacity: 1;
   }
 }
-@-webkit-keyframes text1 {
+@-webkit-keyframes FadeIn {
   0% {
     opacity: 0;
   }
@@ -211,7 +143,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
     opacity: 1;
   }
 }
-@-moz-keyframes text1 {
+@-moz-keyframes FadeIn {
   0% {
     opacity: 0;
   }
