@@ -16,7 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i,900,900i");
 /* line 9, ../bootstrap/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -9600,43 +9600,38 @@ p:last-child,
   margin-top: 0;
 }
 
-@font-face {
-  font-family: "lato";
-  src: url("../lato/Lato-Regular.eot");
-  src: url("../lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../lato/Lato-Regular.woff2") format("woff2"), url("../lato/Lato-Regular.woff") format("woff"), url("../lato/Lato-Regular.ttf") format("truetype"), url("../lato/Lato-Regular#Lato-Regular") format("svg");
-}
-/* line 21, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 body {
   margin: 0px;
-  font-family: "lato";
+  font-family: 'Lato', sans-serif;
   color: black;
   font-size: 18px;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .help .region-help {
   background-color: inherit;
   border: 0px;
   padding: 0px;
   margin-bottom: 0px;
 }
-/* line 34, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .help .region-help span.glyphicon-question-sign {
   display: none;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .front_content_1 .view .views-row {
   position: relative;
 }
-/* line 43, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title {
   position: absolute;
   bottom: 45px;
   display: block;
   left: 85px;
 }
-/* line 48, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a {
   font-size: 36px;
   font-weight: bold;
@@ -9646,7 +9641,7 @@ body {
   display: block;
   text-transform: uppercase;
 }
-/* line 57, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:after {
   content: "";
   display: block;
@@ -9655,21 +9650,21 @@ body {
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 65, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:hover, .front_content_1 .view .views-row .views-field-title a.focus {
   text-decoration: none;
 }
-/* line 70, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content {
   background-color: black;
 }
-/* line 72, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content img {
   opacity: 0.8;
   width: 100%;
 }
 
-/* line 83, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .front_content_2 .news h2.block-title, .front_content_2 .announcement h2.block-title {
   font-size: 24px;
   color: #4A4A4A;
@@ -9678,63 +9673,63 @@ body {
   width: 61.4%;
   padding-bottom: 7px;
 }
-/* line 94, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .front_content_2 .news .view .views-row {
   clear: both;
 }
-/* line 96, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-field-image {
   float: left;
   margin-right: 15px;
 }
-/* line 99, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-field-image img {
   border: 1px solid #979797;
 }
-/* line 103, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-title {
   float: left;
   width: 63%;
 }
-/* line 106, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-title a {
   font-size: 18px;
   color: #4A4A4A;
   line-height: 22px;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 124, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 127, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 132, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 134, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 142, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 145, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;

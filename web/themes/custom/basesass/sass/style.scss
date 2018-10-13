@@ -7,20 +7,12 @@
 // Base-theme overrides.
 @import 'overrides';
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i,900,900i');
 
-@font-face {font-family: "lato";
-            src: url("../lato/Lato-Regular.eot");
-            src: url("../lato/Lato-Regular.eot?#iefix") format("embedded-opentype"),
-                url("../lato/Lato-Regular.woff2") format("woff2"),
-                url("../lato/Lato-Regular.woff") format("woff"),
-                url("../lato/Lato-Regular.ttf") format("truetype"),
-                url("../lato/Lato-Regular#Lato-Regular") format("svg");
-}
 
 body {
     margin: 0px;
-    font-family: "lato";
+   font-family: 'Lato', sans-serif;
     color: black;  
     font-size:18px;
     //display:none;
