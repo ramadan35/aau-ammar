@@ -88,6 +88,7 @@ body {
                 .views-field-field-image{
                     float: left;
                     margin-right: 15px;
+                        margin-bottom: 15px;
                     img{
                         border: 1px solid #979797;
                     }
@@ -100,6 +101,22 @@ body {
                         color: #4A4A4A;
                         line-height: 22px;
                     }
+                }
+            }
+            .view-footer{
+                clear: both;
+                a{
+                    display: block;
+    width: 166px;
+    height: 40px;
+    background-color: #0083D1;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 35px;
                 }
             }
         }
