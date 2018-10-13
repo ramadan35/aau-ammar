@@ -29,6 +29,7 @@ body {
     }
 }
 .front_content_1{
+        margin-bottom: 36px;
     .view{
         .views-row{
             position: relative;
@@ -79,6 +80,8 @@ body {
             border-bottom: solid 3px #FFB500;
             width: 61.4%;
             padding-bottom: 7px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
         }
     }
     .news{
