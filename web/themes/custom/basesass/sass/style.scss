@@ -72,6 +72,7 @@ body {
     }
 }
 .front_content_2{
+        margin-bottom: 46px;
     .news , .announcement{
         h2.block-title{
             font-size: 24px;
@@ -197,6 +198,7 @@ body {
             h2.block-title:after{
                 content:url(../images/newsletter_icon.png);
                     margin-top: 15px;
+                    display: block;
             }
             form{
                 .form-item-message{

@@ -9668,7 +9668,11 @@ body {
   width: 100%;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
+.front_content_2 {
+  margin-bottom: 46px;
+}
+/* line 77, ../sass/style.scss */
 .front_content_2 .news h2.block-title, .front_content_2 .announcement h2.block-title {
   font-size: 24px;
   color: #4A4A4A;
@@ -9679,36 +9683,36 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .front_content_2 .news .view .views-row {
   clear: both;
 }
-/* line 91, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-field-image {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-field-image img {
   border: 1px solid #979797;
 }
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-title {
   float: left;
   width: 63%;
 }
-/* line 102, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .front_content_2 .news .view .views-row .views-field-title a {
   font-size: 18px;
   color: #4A4A4A;
   line-height: 22px;
 }
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .front_content_2 .news .view .view-footer {
   clear: both;
 }
-/* line 111, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .front_content_2 .news .view .view-footer a {
   display: block;
   width: 166px;
@@ -9722,19 +9726,19 @@ body {
   text-transform: uppercase;
   line-height: 35px;
 }
-/* line 128, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .front_content_2 .announcement .views-row {
   clear: both;
   width: 100%;
   float: left;
   margin-bottom: 30px;
 }
-/* line 133, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-field-date {
   float: left;
   margin-right: 23px;
 }
-/* line 136, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-field-date .field-content {
   display: block;
   width: 60.92px;
@@ -9748,7 +9752,7 @@ body {
   line-height: 19px;
   padding-top: 5px;
 }
-/* line 150, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-title {
   float: left;
   width: 75%;
@@ -9756,21 +9760,21 @@ body {
   padding-bottom: 30px;
   min-height: 76px;
 }
-/* line 156, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-title a {
   font-size: 18px;
   color: #4A4A4A;
   line-height: 22px;
 }
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .front_content_2 .announcement .views-row:last-child .views-field-title {
   border-bottom: 0px solid #979797;
 }
-/* line 168, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .front_content_2 .announcement .view-footer {
   clear: both;
 }
-/* line 170, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .front_content_2 .announcement .view-footer a {
   display: block;
   width: 166px;
@@ -9784,12 +9788,12 @@ body {
   text-transform: uppercase;
   line-height: 35px;
 }
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form {
   background-color: #F6F6F6;
   border-radius: 5px;
 }
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form h2.block-title {
   color: #0083D1;
   font-size: 20px;
@@ -9798,12 +9802,13 @@ body {
   text-transform: uppercase;
   margin-top: 29px;
 }
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form h2.block-title:after {
   content: url(../images/newsletter_icon.png);
   margin-top: 15px;
+  display: block;
 }
-/* line 202, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-item-message {
   font-size: 16px;
   line-height: 19px;
@@ -9811,11 +9816,11 @@ body {
   color: #4A4A4A;
   font-weight: bold;
 }
-/* line 210, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email label {
   display: none;
 }
-/* line 213, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email input {
   height: 47px;
   width: 278px;
@@ -9825,13 +9830,13 @@ body {
   margin: 0px auto;
   border: 1px solid #E5E5E5;
 }
-/* line 223, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions {
   margin: 0px auto;
   display: table;
   margin-bottom: 40px;
 }
-/* line 227, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button {
   width: 275px;
   height: 47px;
@@ -9844,15 +9849,15 @@ body {
   border: 0;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 247, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 250, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
