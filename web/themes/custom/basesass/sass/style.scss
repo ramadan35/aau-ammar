@@ -192,9 +192,11 @@ body {
                 font-weight: bold;
                 text-align: center;
                 text-transform: uppercase;
+                    margin-top: 29px;
             }
             h2.block-title:after{
                 content:url(../images/newsletter_icon.png);
+                    margin-top: 15px;
             }
             form{
                 .form-item-message{

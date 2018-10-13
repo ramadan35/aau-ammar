@@ -9796,23 +9796,25 @@ body {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 29px;
 }
-/* line 196, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form h2.block-title:after {
   content: url(../images/newsletter_icon.png);
+  margin-top: 15px;
 }
-/* line 200, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-item-message {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   color: #4A4A4A;
 }
-/* line 207, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email label {
   display: none;
 }
-/* line 210, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email input {
   height: 47px;
   width: 278px;
@@ -9822,12 +9824,12 @@ body {
   margin: 0px auto;
   border: 1px solid #E5E5E5;
 }
-/* line 220, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions {
   margin: 0px auto;
   display: table;
 }
-/* line 223, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button {
   width: 275px;
   height: 47px;
@@ -9840,15 +9842,15 @@ body {
   border: 0;
 }
 
-/* line 241, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 243, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 246, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
