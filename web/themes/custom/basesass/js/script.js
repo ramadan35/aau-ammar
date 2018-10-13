@@ -25,7 +25,9 @@ jQuery(document).ready(function ($) {
             
         }else{
             var animation = $(elem).find('.slider_conent').attr('data-animation');   
-            console.log(animation);
+            $(elem).find('.text1').removeClass('animated ' + animation);
+            $(elem).find('.text2').removeClass('animated ' + animation);
+            $(elem).find('.link').removeClass('animated ' + animation);
         }
     });
 
