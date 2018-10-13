@@ -123,6 +123,7 @@
             {% endif %}
         </div>
     </div>
+{% endblock %}
     {% if page.front_content_3 %}
         <div class="front_content_3">
             <div class="{{ container }}">
@@ -132,6 +133,8 @@
             </div>
         </div>
     {% endif %}
+    
+{% block front_content %}
         {% if page.front_content_4 %}
         <div class="front_content_4">
             <div class="{{ container }}">
