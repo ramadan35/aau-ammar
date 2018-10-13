@@ -19,12 +19,12 @@ jQuery(document).ready(function ($) {
 
     });
 
-    
+
     $('.slick__slide').each(function (index, elem) {
-        if($(elem).hasClass('slick-active')){
-            
-        }else{
-            var animation = $(elem).find('.slider_conent').attr('data-animation');   
+        if ($(elem).hasClass('slick-active')) {
+
+        } else {
+            var animation = $(elem).find('.slider_conent').attr('data-animation');
             $(elem).find('.text1').removeClass('animated ' + animation);
             $(elem).find('.text2').removeClass('animated ' + animation);
             $(elem).find('.link').removeClass('animated ' + animation);
@@ -32,32 +32,46 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    
+
     $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
-        var animation = $('.slick-active .slider_conent').attr('data-animation');
         
+
+        $('.slick__slide').each(function (index, elem) {
+            if ($(elem).hasClass('slick-active')) {
+
+            } else {
+                var animation = $(elem).find('.slider_conent').attr('data-animation');
+                $(elem).find('.text1').removeClass('animated ' + animation);
+                $(elem).find('.text2').removeClass('animated ' + animation);
+                $(elem).find('.link').removeClass('animated ' + animation);
+                console.log(elem);
+            }
+        });
+        
+        var animation = $('.slick-active .slider_conent').attr('data-animation');
+
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated ' + animation);
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated ' + animation);
 
 
     });
-    
+
     // On edge hit
     $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
         var animation = $('.slick-active .slider_conent').attr('data-animation');
-        
+
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated ' + animation);
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated ' + animation);
 
 
     });
-    
-    
+
+
 
     // On edge hit
     $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
         var animation = $('.slick-active .slider_conent').attr('data-animation');
-        
+
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated ' + animation);
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated ' + animation);
 
