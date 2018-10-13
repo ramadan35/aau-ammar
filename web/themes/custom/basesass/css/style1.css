@@ -121,7 +121,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 15px;
   box-shadow: none;
 }
-/* line 116, ../sass/style1.scss */
+/* line 117, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
   background: transparent;
   font-size: 0;
@@ -132,29 +132,29 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 10px;
   top: 0;
 }
-/* line 125, ../sass/style1.scss */
+/* line 126, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button span {
   font-size: 16px;
   color: #969696;
 }
 
-/* line 146, ../sass/style1.scss */
+/* line 147, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-field-image img {
   width: 100%;
 }
-/* line 151, ../sass/style1.scss */
+/* line 152, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   position: absolute;
   top: 230px;
 }
-/* line 154, ../sass/style1.scss */
+/* line 155, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
   display: none;
 }
-/* line 160, ../sass/style1.scss */
+/* line 161, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
   content: "";
   display: block;
@@ -163,7 +163,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 168, ../sass/style1.scss */
+/* line 169, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
@@ -172,11 +172,11 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   margin-top: 16px;
   display: none;
 }
-/* line 176, ../sass/style1.scss */
+/* line 177, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link {
   display: none;
 }
-/* line 178, ../sass/style1.scss */
+/* line 179, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -188,11 +188,11 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 14px;
   margin-top: 15px;
 }
-/* line 190, ../sass/style1.scss */
+/* line 191, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link.animated {
   display: block;
 }
-/* line 202, ../sass/style1.scss */
+/* line 203, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-prev {
   background: none;
   box-shadow: none;
@@ -201,8 +201,11 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background: url(../images/slider-left.png) no-repeat;
   top: 50%;
   left: 60px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
 }
-/* line 211, ../sass/style1.scss */
+/* line 215, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-next {
   background: none;
   box-shadow: none;
@@ -211,35 +214,42 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background: url(../images/slider-right.png) no-repeat;
   top: 50%;
   right: 60px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+/* line 227, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button:focus {
+  border: 0;
 }
 
-/* line 227, ../sass/style1.scss */
+/* line 237, ../sass/style1.scss */
 .front_content_3 > .container {
   width: 100%;
   padding: 0;
 }
-/* line 230, ../sass/style1.scss */
+/* line 240, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 {
   padding: 0;
   width: 100%;
 }
-/* line 236, ../sass/style1.scss */
+/* line 246, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont {
   position: relative;
 }
-/* line 238, ../sass/style1.scss */
+/* line 248, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image {
   overflow: hidden;
   height: 515px;
   position: relative;
 }
-/* line 242, ../sass/style1.scss */
+/* line 252, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
   position: absolute;
   height: 100vh;
   min-width: 100%;
 }
-/* line 248, ../sass/style1.scss */
+/* line 258, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
   width: 50%;
   float: right;
@@ -250,14 +260,14 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   height: 100%;
   padding-top: 130px;
 }
-/* line 257, ../sass/style1.scss */
+/* line 267, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
   color: #4A4A4A;
   font-size: 36px;
   font-weight: bold;
   line-height: 44px;
 }
-/* line 263, ../sass/style1.scss */
+/* line 273, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title::after {
   content: "";
   display: block;
@@ -266,14 +276,14 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background-color: #FFB500;
   margin-top: 5px;
 }
-/* line 271, ../sass/style1.scss */
+/* line 281, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 13px;
 }
-/* line 279, ../sass/style1.scss */
+/* line 289, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -287,7 +297,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 11px;
 }
 
-/* line 301, ../sass/style1.scss */
+/* line 311, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

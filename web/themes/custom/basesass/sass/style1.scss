@@ -110,6 +110,7 @@ header{
                                 font-weight: bold;
                                 line-height: 15px;
                                 box-shadow: none;
+
                             }
                         }
                         #edit-actions{
@@ -207,6 +208,9 @@ header{
                         background: url(../images/slider-left.png) no-repeat;
                         top:50%;
                         left:60px;
+                        width: 32px;
+                        height: 32px;
+                        position: absolute;
                     }
                     button.slick-next{
                         background: none;
@@ -216,6 +220,12 @@ header{
                         background: url(../images/slider-right.png) no-repeat;
                         top:50%;
                         right:60px;
+                        width: 32px;
+                        height: 32px;
+                        position: absolute;
+                    }
+                    button:focus{
+                        border:0;
                     }
                 }
             }
@@ -272,7 +282,7 @@ header{
                                     color: #4A4A4A;
                                     font-size: 18px;
                                     line-height: 30px;
-                                    
+
                                     padding-bottom: 13px;
                                 }
                                 .link{
