@@ -158,6 +158,7 @@ header{
                 .view-content{
                     .views-field-nothing{
                         .cont{
+                            position: relative;
                             .paralax-image{
                                 overflow: hidden;
                                 height: 515px;
@@ -171,6 +172,8 @@ header{
                             .overlay-text{
                                 width:50%;
                                 float:right;
+                                position:absolute;
+                                right: 0;
                             }
                         }
                     }
