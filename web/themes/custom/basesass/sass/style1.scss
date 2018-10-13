@@ -177,6 +177,28 @@ header{
                                 top: 0;
                                 background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
                                 height: 100%;
+                                .title{
+                                    color: #4A4A4A;
+                                    font-size: 36px;
+                                    font-weight: bold;
+                                    line-height: 44px;
+                                }
+                                .body{
+                                    color: #4A4A4A;
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                }
+                                .link{
+                                    a{
+                                        color: #FFFFFF;
+                                        font-size: 16px;
+                                        font-weight: bold;
+                                        line-height: 19px;
+                                        text-align: center;
+                                        width: 166px;
+                                        display: block;
+                                    }
+                                }
                             }
                         }
                     }

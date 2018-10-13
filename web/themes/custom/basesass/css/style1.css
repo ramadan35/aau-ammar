@@ -165,8 +165,31 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   /* Standard syntax (must be last) */
   height: 100%;
 }
+/* line 180, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
+  color: #4A4A4A;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+}
+/* line 186, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
+  color: #4A4A4A;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* line 192, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+  width: 166px;
+  display: block;
+}
 
-/* line 189, ../sass/style1.scss */
+/* line 211, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
