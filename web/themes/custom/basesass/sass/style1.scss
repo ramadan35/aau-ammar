@@ -156,7 +156,7 @@ header{
                                             color: #FFFFFF;
                                             font-size: 36px;
                                             font-weight: bold;
-                                            /*display: none;*/
+                                            display: none;
                                         }
                                         .text1::after{
                                             content: "";
@@ -172,10 +172,10 @@ header{
                                             line-height: 27px;
                                             max-width: 1110px;
                                             margin-top: 16px;
-                                            /*display: none;*/
+                                            display: none;
                                         }
                                         .link{
-                                            /*display: none;*/
+                                            display: none;
                                             a{
                                                 color: #FFFFFF;
                                                 font-size: 16px;
@@ -190,7 +190,6 @@ header{
                                         }
                                         .text1.animated, .text2.animated, .link.animated{
                                             display: block;
-
                                         }
                                     }
                                 }
