@@ -152,7 +152,7 @@ body {
                 width: 75%;
                 border-bottom: 1px solid #979797;
                 padding-bottom: 30px;
-                    min-height: 76px;
+                min-height: 76px;
                 a{
                     font-size: 18px;
                     color: #4A4A4A;
@@ -184,19 +184,57 @@ body {
     }
     .simplenews{
         .simplenews-subscriber-form{
-            background-color: #EDEDED;
+            background-color: #F6F6F6;
+            border-radius: 5px;
             h2.block-title{
                 color: #0083D1;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
             }
             h2.block-title:after{
                 content:url(../images/newsletter_icon.png);
             }
+            form{
+                .form-item-message{
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    color: #4A4A4A;
+                }
+                .field--type-email{
+                    label{
+                        display: none;
+                    }
+                    input{
+                        height: 47px;
+                        width: 278px;
+                        box-shadow: none;
+                        border-radius: 5px;
+                        background-color: #FFFFFF;
+                        margin: 0px auto;
+                        border: 1px solid #E5E5E5;
+                    }
+                }
+                .form-actions{
+                    margin: 0px auto;
+                    display: table;
+                    button{
+                        width: 275px;
+                        height: 47px;
+                        border-radius: 5px;
+                        background-color: #0083D1;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        border: 0;
+                    }
+                }
+            }
         }
-        	
+
     }
 }
 ul.menu--social-media{
