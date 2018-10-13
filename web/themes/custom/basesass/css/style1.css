@@ -300,15 +300,16 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
 /* line 310, ../sass/style1.scss */
 #footer {
   background-color: #0083D1;
+  padding-top: 35px;
 }
-/* line 313, ../sass/style1.scss */
+/* line 314, ../sass/style1.scss */
 #footer .footer-left h2 {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
 }
-/* line 319, ../sass/style1.scss */
+/* line 320, ../sass/style1.scss */
 #footer .footer-left h2::after {
   content: "";
   display: block;
@@ -317,7 +318,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background-color: #FFB500;
   margin-top: 5px;
 }
-/* line 329, ../sass/style1.scss */
+/* line 330, ../sass/style1.scss */
 #footer .footer-left ul.menu li a {
   color: #FFFFFF;
   font-size: 14px;
@@ -325,7 +326,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 30px;
   padding: 0;
 }
-/* line 340, ../sass/style1.scss */
+/* line 341, ../sass/style1.scss */
 #footer .footer-left5 p {
   color: #FFFFFF;
   font-size: 14px;
@@ -333,7 +334,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 30px;
 }
 
-/* line 349, ../sass/style1.scss */
+/* line 350, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
