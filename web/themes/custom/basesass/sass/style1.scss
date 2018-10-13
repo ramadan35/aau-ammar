@@ -311,6 +311,7 @@ header{
     background-color: #0083D1;
     padding-top: 35px;
     .footer-left{
+        padding-top: 57px;
         h2{
             color: #FFFFFF;
             font-size: 16px;
@@ -338,12 +339,16 @@ header{
         }
     }
     .footer-left5{
+        padding-top:0;
         p{
             color: #FFFFFF;
             font-size: 14px;
             font-weight: bold;
             line-height: 30px;
         }
+    }
+    .footer-left1{
+        padding-top:0;
     }
 }
 
