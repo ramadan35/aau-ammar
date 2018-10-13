@@ -21,7 +21,11 @@ regions:
   simplenews_front_content_2:   'Simplenews Front content2'
   front_content_3:              'Front content 3'
   front_content_4:              'Front content 4'
-  footer_left:                  'Footer left'
+  footer_left1:                  'Footer left1'
+  footer_left2:                  'Footer left2'
+  footer_left3:                  'Footer left3'
+  footer_left4:                  'Footer left4'
+  footer_left5:                  'Footer left5'
   footer_right:                 'Footer right'
   footer_bottom:                'Footer bottom'
 

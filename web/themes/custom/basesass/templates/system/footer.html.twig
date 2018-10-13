@@ -62,19 +62,32 @@
 {% block footer %}
     <footer id="footer" role="banner">
         <div class="{{ container }}">
-            {% if page.footer_left %}
-                <div class="footer-left col-md-6">
-                    {{ page.footer_left }}
+            {% if page.footer_left1 %}
+                <div class="footer-left col-md-2">
+                    {{ page.footer_left1 }}
+                </div>
+            {% endif %}
+            {% if page.footer_left2 %}
+                <div class="footer-left col-md-2">
+                    {{ page.footer_left2 }}
+                </div>
+            {% endif %}
+            {% if page.footer_left3 %}
+                <div class="footer-left col-md-2">
+                    {{ page.footer_left3 }}
+                </div>
+            {% endif %}
+            {% if page.footer_left4 %}
+                <div class="footer-left col-md-2">
+                    {{ page.footer_left4 }}
+                </div>
+            {% endif %}
+            {% if page.footer_left5 %}
+                <div class="footer-left col-md-4">
+                    {{ page.footer_right5 }}
                 </div>
             {% endif %}
 
-            {% if (page.footer_right) %}
-                <div class="footer-right col-md-6">
-                    <div class="footer_right">
-                        {{ page.footer_right }}
-                    </div>
-                </div>
-            {% endif %}
             {% if (page.footer_bottom) %}
                 <div class="footer_bottom col-md-12">
                     <div class="footer_bottom">
