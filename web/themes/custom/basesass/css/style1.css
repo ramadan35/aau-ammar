@@ -128,17 +128,34 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   display: block;
 }
 
-/* line 150, ../sass/style1.scss */
-.front_content_3 {
-  /*    background: url(../images/default-thumbnail.jpg) no-repeat;
-      height: 515px; 
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;*/
+/* line 151, ../sass/style1.scss */
+.front_content_3 > .container {
+  width: 100%;
+  padding: 0;
+}
+/* line 154, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 {
+  padding: 0;
+  width: 100%;
+}
+/* line 160, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont {
+  height: 515px;
+}
+/* line 162, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image {
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+}
+/* line 166, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
+  position: absolute;
+  height: 100vh;
+  min-width: 100%;
 }
 
-/* line 159, ../sass/style1.scss */
+/* line 180, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

@@ -18,29 +18,41 @@ jQuery(document).ready(function ($) {
         $('.block-views-exposed-filter-blocksearch-api-page-1').hide();
 
     });
-    
+
     // On edge hit
-    $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1' ,function(event, slick, direction){
+    $(document).on('afterChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated bounceInRight');
         $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated bounceInRight');
-        
-        
+
+
     });
+
+
+    //parallax
+    var onScroll = function () {
+        var scrollTop = $(this).scrollTop();
+        $('.paralax-image').each(function (index, elem) {
+            var $elem = $(elem);
+            $elem.find('img').css('top', scrollTop - $elem.offset().top);
+        });
+    };
+    onScroll.apply(window);
+    $(window).on('scroll', onScroll);
 
 });
 (function ($, _, Drupal, drupalSettings) {
-  'use strict';
+    'use strict';
 
-  Drupal.behaviors.vartheme = {
-    attach: function (context) {
-      // Vartheme JavaScript behaviors goes here.
-    }
-  };
+    Drupal.behaviors.vartheme = {
+        attach: function (context) {
+            // Vartheme JavaScript behaviors goes here.
+        }
+    };
 
-  $.ajaxPrefilter(function( options, original_Options, jqXHR ) {
-    options.async = true;
-    
-    
-  });
-  
+    $.ajaxPrefilter(function (options, original_Options, jqXHR) {
+        options.async = true;
+
+
+    });
+
 })(window.jQuery, window._, window.Drupal, window.drupalSettings);
