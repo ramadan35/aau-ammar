@@ -152,6 +152,7 @@ body {
                 width: 75%;
                 border-bottom: 1px solid #979797;
                 padding-bottom: 30px;
+                    min-height: 76px;
                 a{
                     font-size: 18px;
                     color: #4A4A4A;
@@ -182,3 +183,15 @@ body {
         }
     }
 }
+ul.menu--social-media{
+    li{
+        float:left;
+        a{
+            font-size: 0px;
+        }
+        a::before{
+            font-family: FontAwesome !important;
+            font-size: 18px;
+        }
+    }
+}  
