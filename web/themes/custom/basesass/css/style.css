@@ -9722,39 +9722,59 @@ body {
   text-transform: uppercase;
   line-height: 35px;
 }
-
 /* line 130, ../sass/style.scss */
+.front_content_2 .announcement .views-row .views-field-field-date .field-content {
+  display: block;
+  width: 60.92px;
+  height: 53px;
+  background-color: #0083D1;
+  border: 1px solid #0083D1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 19px;
+  padding-top: 5px;
+}
+/* line 145, ../sass/style.scss */
+.front_content_2 .announcement .views-row .views-field-title a {
+  font-size: 18px;
+  color: #4A4A4A;
+  line-height: 22px;
+}
+
+/* line 155, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 136, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 139, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 144, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 146, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 154, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 157, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
