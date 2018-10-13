@@ -130,12 +130,12 @@ header{
                                         }
                                         .text1.animated, .text2.animated, .link.animated{
                                             display: block;
-                                            
+
                                         }
                                     }
                                 }
                             }
-  
+
                         }
                     }
                 }
@@ -149,7 +149,11 @@ header{
 
 .front_content_3{
     background: url(../images/default-thumbnail.jpg) no-repeat;
-    
+    height: 515px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @keyframes FadeIn {
