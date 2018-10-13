@@ -307,6 +307,36 @@ header{
     }
 }
 
+#footer{
+    .footer-left{
+        h2{
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 19px;
+        }
+        h2::after{
+            content: "";
+            display: block;
+            width: 160px;
+            height: 3px;
+            background-color: #FFB500;
+            margin-top: 5px;
+        }
+        ul.menu{
+            li{
+                a{
+                    color: #FFFFFF;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 30px;
+                    padding:0;
+                }
+            }
+        }
+    }
+}
+
 .no-padding{
     padding-left: 0;
     padding-right: 0;
