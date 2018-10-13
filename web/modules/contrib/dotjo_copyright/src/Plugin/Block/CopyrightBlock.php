@@ -22,7 +22,7 @@ class CopyrightBlock extends BlockBase {
        $config = \Drupal::config('system.site');
     return array(
       '#type' => 'markup',
-      '#markup' =>  t('Copyright © 2018 Amman Arab University. All Rights Reserved.');
+      '#markup' =>  t('Copyright © 2018 Amman Arab University. All Rights Reserved.')
     );
   }
 
