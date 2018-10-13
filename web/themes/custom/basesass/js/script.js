@@ -19,6 +19,10 @@ jQuery(document).ready(function ($) {
 
     });
 
+    
+    $('.slick__slide').each(function (index, elem) {
+        console.log(elem);
+    });
 
     var animation = $('.slick-active .slider_conent').attr('data-animation');
 
