@@ -46,10 +46,12 @@ body {
                     text-transform: uppercase;
                 } 
                 a:after{
-                    content:url('../images/2border.png');
-                    display: block;
-                    bottom: -23px;
-                    position: absolute;
+            content: "";
+    display: block;
+    width: 215px;
+    height: 3px;
+    background-color: #FFB500;
+    margin-top: 5PX;
                 }
                 a:hover, a.focus{
                     text-decoration: none;

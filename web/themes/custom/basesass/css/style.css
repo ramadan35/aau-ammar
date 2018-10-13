@@ -9643,26 +9643,28 @@ body {
 }
 /* line 48, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:after {
-  content: url("../images/2border.png");
+  content: "";
   display: block;
-  bottom: -23px;
-  position: absolute;
+  width: 215px;
+  height: 3px;
+  background-color: #FFB500;
+  margin-top: 5PX;
 }
-/* line 54, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:hover, .front_content_1 .view .views-row .views-field-title a.focus {
   text-decoration: none;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content {
   background-color: black;
 }
-/* line 61, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content img {
   opacity: 0.8;
   width: 100%;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .front_content_2 h2.block-title {
   font-size: 24px;
   color: #4A4A4A;
@@ -9672,38 +9674,38 @@ body {
   padding-bottom: 7px;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 87, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 90, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 97, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 105, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 108, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
