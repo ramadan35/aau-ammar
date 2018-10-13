@@ -173,12 +173,21 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   line-height: 44px;
 }
 /* line 186, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title::after {
+  content: "";
+  display: block;
+  width: 215px;
+  height: 3px;
+  background-color: #FFB500;
+  margin-top: 5px;
+}
+/* line 194, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
 }
-/* line 192, ../sass/style1.scss */
+/* line 200, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -187,9 +196,12 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   text-align: center;
   width: 166px;
   display: block;
+  background-color: #0083D1;
+  border-radius: 5px;
+  padding: 11px;
 }
 
-/* line 211, ../sass/style1.scss */
+/* line 222, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

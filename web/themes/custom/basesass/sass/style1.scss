@@ -183,6 +183,14 @@ header{
                                     font-weight: bold;
                                     line-height: 44px;
                                 }
+                                .title::after{
+                                    content: "";
+                                    display: block;
+                                    width: 215px;
+                                    height: 3px;
+                                    background-color: #FFB500;
+                                    margin-top: 5px;
+                                }
                                 .body{
                                     color: #4A4A4A;
                                     font-size: 18px;
@@ -197,6 +205,9 @@ header{
                                         text-align: center;
                                         width: 166px;
                                         display: block;
+                                        background-color: #0083D1;
+                                        border-radius: 5px;
+                                        padding:11px;
                                     }
                                 }
                             }
