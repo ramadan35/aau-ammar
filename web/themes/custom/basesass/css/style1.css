@@ -152,7 +152,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
-  display: none;
+  /*display: none;*/
 }
 /* line 161, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
@@ -170,11 +170,11 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 27px;
   max-width: 1110px;
   margin-top: 16px;
-  display: none;
+  /*display: none;*/
 }
 /* line 177, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link {
-  display: none;
+  /*display: none;*/
 }
 /* line 179, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
