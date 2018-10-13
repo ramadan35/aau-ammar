@@ -226,9 +226,9 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   position: absolute;
   right: 0;
   top: 0;
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #FFF);
-  /* Standard syntax (must be last) */
+  background-image: #FFF;
   height: 100%;
+  padding-top: 130px;
 }
 /* line 240, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
@@ -251,7 +251,6 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
-  padding-top: 130px;
   padding-bottom: 13px;
 }
 /* line 262, ../sass/style1.scss */
