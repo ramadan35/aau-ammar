@@ -21,7 +21,6 @@ jQuery(document).ready(function ($) {
 
     
     $('.slick__slide').each(function (index, elem) {
-        console.log(elem);
         if($(elem).hasClass('active')){
             
         }else{
