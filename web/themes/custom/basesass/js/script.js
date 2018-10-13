@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 
     
     $('.slick__slide').each(function (index, elem) {
-        if($(elem).hasClass('active')){
+        if($(elem).hasClass('slick-active')){
             
         }else{
             var animation = $(elem).find('.slider_conent').attr('data-animation');   
