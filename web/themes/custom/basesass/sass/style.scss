@@ -80,6 +80,28 @@ body {
             padding-bottom: 7px;
         }
     }
+    .news{
+        .view{
+            .views-row{
+                .views-field-field-image{
+                    float: left;
+                    margin-right: 15px;
+                    img{
+                        border: 1px solid #979797;
+                    }
+                }
+                .views-field-title{
+                    float: left;
+                    width: 63%;
+                    a{
+                        font-size: 18px;
+                        color: #4A4A4A;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
