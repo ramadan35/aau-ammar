@@ -9,9 +9,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
 
+@font-face {font-family: "lato";
+            src: url("../lato/Lato-Regular.eot");
+            src: url("../lato/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+                url("../lato/Lato-Regular.woff2") format("woff2"),
+                url("../lato/Lato-Regular.woff") format("woff"),
+                url("../lato/Lato-Regular.ttf") format("truetype"),
+                url("../lato/Lato-Regular#Lato-Regular") format("svg");
+}
+
 body {
     margin: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: "lato";
     color: black;  
     font-size:18px;
     //display:none;

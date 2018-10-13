@@ -9600,38 +9600,43 @@ p:last-child,
   margin-top: 0;
 }
 
-/* line 12, ../sass/style.scss */
+@font-face {
+  font-family: "lato";
+  src: url("../lato/Lato-Regular.eot");
+  src: url("../lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../lato/Lato-Regular.woff2") format("woff2"), url("../lato/Lato-Regular.woff") format("woff"), url("../lato/Lato-Regular.ttf") format("truetype"), url("../lato/Lato-Regular#Lato-Regular") format("svg");
+}
+/* line 21, ../sass/style.scss */
 body {
   margin: 0px;
-  font-family: 'Lato', sans-serif;
+  font-family: "lato";
   color: black;
   font-size: 18px;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .help .region-help {
   background-color: inherit;
   border: 0px;
   padding: 0px;
   margin-bottom: 0px;
 }
-/* line 25, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .help .region-help span.glyphicon-question-sign {
   display: none;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .front_content_1 .view .views-row {
   position: relative;
 }
-/* line 34, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title {
   position: absolute;
   bottom: 45px;
   display: block;
   left: 85px;
 }
-/* line 39, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a {
   font-size: 36px;
   font-weight: bold;
@@ -9641,7 +9646,7 @@ body {
   display: block;
   text-transform: uppercase;
 }
-/* line 48, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:after {
   content: "";
   display: block;
@@ -9650,21 +9655,21 @@ body {
   background-color: #FFB500;
   margin-top: 5PX;
 }
-/* line 56, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-title a:hover, .front_content_1 .view .views-row .views-field-title a.focus {
   text-decoration: none;
 }
-/* line 61, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content {
   background-color: black;
 }
-/* line 63, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .front_content_1 .view .views-row .views-field-field-image .field-content img {
   opacity: 0.8;
   width: 100%;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .front_content_2 .news h2.block-title, .front_content_2 .announcement h2.block-title {
   font-size: 24px;
   color: #4A4A4A;
@@ -9673,39 +9678,59 @@ body {
   width: 61.4%;
   padding-bottom: 7px;
 }
+/* line 95, ../sass/style.scss */
+.front_content_2 .news .view .views-row .views-field-field-image {
+  float: left;
+  margin-right: 15px;
+}
+/* line 98, ../sass/style.scss */
+.front_content_2 .news .view .views-row .views-field-field-image img {
+  border: 1px solid #979797;
+}
+/* line 102, ../sass/style.scss */
+.front_content_2 .news .view .views-row .views-field-title {
+  float: left;
+  width: 63%;
+}
+/* line 105, ../sass/style.scss */
+.front_content_2 .news .view .views-row .views-field-title a {
+  font-size: 18px;
+  color: #4A4A4A;
+  line-height: 22px;
+}
 
-/* line 86, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 footer {
   background-color: #262626;
   padding: 40px 0px;
   margin-top: 80px;
 }
-/* line 92, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 footer ul.menu li a {
   color: #fff;
 }
-/* line 95, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 footer ul.menu li a:hover, footer ul.menu li a:focus {
   background-color: transparent;
 }
-/* line 100, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 footer .footer_bottom {
   color: #fff;
 }
-/* line 102, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 footer .footer_bottom a {
   color: #fff;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 110, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 113, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
