@@ -182,6 +182,22 @@ body {
             }
         }
     }
+    .simplenews{
+        .simplenews-subscriber-form{
+            background-color: #EDEDED;
+            h2.block-title{
+                color: #0083D1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+            }
+            h2.block-title:after{
+                content:url(../images/newsletter_icon.png);
+            }
+        }
+        	
+    }
 }
 ul.menu--social-media{
     li{
