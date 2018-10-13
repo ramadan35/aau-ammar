@@ -308,6 +308,7 @@ header{
 }
 
 #footer{
+    background-color: #0083D1;
     .footer-left{
         h2{
             color: #FFFFFF;
@@ -337,7 +338,10 @@ header{
     }
     .footer-left5{
         p{
-            
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 30px;
         }
     }
 }
