@@ -70,14 +70,17 @@ body {
     }
 }
 .front_content_2{
-    h2.block-title{
-        font-size: 24px;
-    color: #4A4A4A;
-    font-weight: bold;
-    border-bottom: solid 3px #FFB500;
-    width: 61.4%;
-    padding-bottom: 7px;
+    .news , .announcement{
+        h2.block-title{
+            font-size: 24px;
+            color: #4A4A4A;
+            font-weight: bold;
+            border-bottom: solid 3px #FFB500;
+            width: 61.4%;
+            padding-bottom: 7px;
+        }
     }
+
 }
 
 footer{
