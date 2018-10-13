@@ -199,7 +199,24 @@ header{
                     }
                 }
                 .slick__arrow{
-
+                    button.slick-prev{
+                        background: none;
+                        box-shadow: none;
+                        border:0;
+                        font-size: 0;
+                        background: url(../images/slider-left.png) no-repeat;
+                        top:50%;
+                        left:60px;
+                    }
+                    button.slick-next{
+                        background: none;
+                        box-shadow: none;
+                        border:0;
+                        font-size: 0;
+                        background: url(../images/slider-right.png) no-repeat;
+                        top:50%;
+                        right:60px;
+                    }
                 }
             }
         }

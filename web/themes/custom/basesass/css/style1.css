@@ -192,34 +192,54 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link.animated {
   display: block;
 }
+/* line 202, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-prev {
+  background: none;
+  box-shadow: none;
+  border: 0;
+  font-size: 0;
+  background: url(../images/slider-left.png) no-repeat;
+  top: 50%;
+  left: 60px;
+}
+/* line 211, ../sass/style1.scss */
+.dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-next {
+  background: none;
+  box-shadow: none;
+  border: 0;
+  font-size: 0;
+  background: url(../images/slider-right.png) no-repeat;
+  top: 50%;
+  right: 60px;
+}
 
-/* line 210, ../sass/style1.scss */
+/* line 227, ../sass/style1.scss */
 .front_content_3 > .container {
   width: 100%;
   padding: 0;
 }
-/* line 213, ../sass/style1.scss */
+/* line 230, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 {
   padding: 0;
   width: 100%;
 }
-/* line 219, ../sass/style1.scss */
+/* line 236, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont {
   position: relative;
 }
-/* line 221, ../sass/style1.scss */
+/* line 238, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image {
   overflow: hidden;
   height: 515px;
   position: relative;
 }
-/* line 225, ../sass/style1.scss */
+/* line 242, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
   position: absolute;
   height: 100vh;
   min-width: 100%;
 }
-/* line 231, ../sass/style1.scss */
+/* line 248, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
   width: 50%;
   float: right;
@@ -230,14 +250,14 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   height: 100%;
   padding-top: 130px;
 }
-/* line 240, ../sass/style1.scss */
+/* line 257, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
   color: #4A4A4A;
   font-size: 36px;
   font-weight: bold;
   line-height: 44px;
 }
-/* line 246, ../sass/style1.scss */
+/* line 263, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title::after {
   content: "";
   display: block;
@@ -246,14 +266,14 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background-color: #FFB500;
   margin-top: 5px;
 }
-/* line 254, ../sass/style1.scss */
+/* line 271, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 13px;
 }
-/* line 262, ../sass/style1.scss */
+/* line 279, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -267,7 +287,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 11px;
 }
 
-/* line 284, ../sass/style1.scss */
+/* line 301, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
