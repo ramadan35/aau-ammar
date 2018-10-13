@@ -160,9 +160,13 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   float: right;
   position: absolute;
   right: 0;
+  top: 0;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), red);
+  /* Standard syntax (must be last) */
+  height: 100%;
 }
 
-/* line 186, ../sass/style1.scss */
+/* line 189, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

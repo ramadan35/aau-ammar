@@ -170,10 +170,13 @@ header{
                                 }
                             }
                             .overlay-text{
-                                width:50%;
-                                float:right;
-                                position:absolute;
+                                width: 50%;
+                                float: right;
+                                position: absolute;
                                 right: 0;
+                                top: 0;
+                                background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+                                height: 100%;
                             }
                         }
                     }
