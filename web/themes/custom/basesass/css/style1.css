@@ -106,7 +106,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 15px;
 }
 /* line 107, ../sass/style1.scss */
-header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .edit-actions button {
+header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
   background: transparent;
   font-size: 0;
   border: 0;
@@ -117,7 +117,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   top: 0;
 }
 /* line 116, ../sass/style1.scss */
-header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .edit-actions button span {
+header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button span {
   font-size: 16px;
   color: #969696;
 }
