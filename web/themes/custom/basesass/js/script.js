@@ -30,10 +30,6 @@ jQuery(document).ready(function ($) {
     });
 
     
-
-    $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated ' + animation);
-    $('.slick-active .text1 , .slick-active .text2 , .slick-active .link').addClass('animated ' + animation);
-    
     $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
         var animation = $('.slick-active .slider_conent').attr('data-animation');
         
