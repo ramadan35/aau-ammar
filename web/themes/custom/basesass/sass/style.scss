@@ -12,7 +12,7 @@
 
 body {
     margin: 0px;
-   font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: black;  
     font-size:18px;
     //display:none;
@@ -29,7 +29,7 @@ body {
     }
 }
 .front_content_1{
-        margin-bottom: 36px;
+    margin-bottom: 36px;
     .view{
         .views-row{
             position: relative;
@@ -48,12 +48,12 @@ body {
                     text-transform: uppercase;
                 } 
                 a:after{
-            content: "";
-    display: block;
-    width: 215px;
-    height: 3px;
-    background-color: #FFB500;
-    margin-top: 5PX;
+                    content: "";
+                    display: block;
+                    width: 215px;
+                    height: 3px;
+                    background-color: #FFB500;
+                    margin-top: 5PX;
                 }
                 a:hover, a.focus{
                     text-decoration: none;
@@ -91,7 +91,7 @@ body {
                 .views-field-field-image{
                     float: left;
                     margin-right: 15px;
-                        margin-bottom: 15px;
+                    margin-bottom: 15px;
                     img{
                         border: 1px solid #979797;
                     }
@@ -110,16 +110,16 @@ body {
                 clear: both;
                 a{
                     display: block;
-    width: 166px;
-    height: 40px;
-    background-color: #0083D1;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 35px;
+                    width: 166px;
+                    height: 40px;
+                    background-color: #0083D1;
+                    border-radius: 5px;
+                    text-align: center;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    line-height: 35px;
                 }
             }
         }
@@ -161,9 +161,24 @@ body {
         }
         .views-row:last-child{
             .views-field-title{
-                 border-bottom: 0px solid #979797;
+                border-bottom: 0px solid #979797;
+            }
+        }
+        .view-footer{
+            clear: both;
+            a{
+                display: block;
+                width: 166px;
+                height: 40px;
+                background-color: #0083D1;
+                border-radius: 5px;
+                text-align: center;
+                font-weight: bold;
+                color: #FFFFFF;
+                font-size: 16px;
+                text-transform: uppercase;
+                line-height: 35px;
             }
         }
     }
 }
- 

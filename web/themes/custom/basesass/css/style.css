@@ -9725,12 +9725,16 @@ body {
 /* line 128, ../sass/style.scss */
 .front_content_2 .announcement .views-row {
   clear: both;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
 }
-/* line 130, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-field-date {
   float: left;
+  margin-right: 23px;
 }
-/* line 132, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-field-date .field-content {
   display: block;
   width: 60.92px;
@@ -9744,50 +9748,38 @@ body {
   line-height: 19px;
   padding-top: 5px;
 }
-/* line 146, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-title {
   float: left;
+  width: 75%;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 30px;
 }
-/* line 148, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .front_content_2 .announcement .views-row .views-field-title a {
   font-size: 18px;
   color: #4A4A4A;
   line-height: 22px;
 }
-
-/* line 158, ../sass/style.scss */
-footer {
-  background-color: #262626;
-  padding: 40px 0px;
-  margin-top: 80px;
-}
-/* line 164, ../sass/style.scss */
-footer ul.menu li a {
-  color: #fff;
+/* line 163, ../sass/style.scss */
+.front_content_2 .announcement .views-row:last-child .views-field-title {
+  border-bottom: 0px solid #979797;
 }
 /* line 167, ../sass/style.scss */
-footer ul.menu li a:hover, footer ul.menu li a:focus {
-  background-color: transparent;
+.front_content_2 .announcement .view-footer {
+  clear: both;
 }
-/* line 172, ../sass/style.scss */
-footer .footer_bottom {
-  color: #fff;
-}
-/* line 174, ../sass/style.scss */
-footer .footer_bottom a {
-  color: #fff;
-}
-
-/* line 180, ../sass/style.scss */
-ul.menu--social-media li {
-  float: left;
-}
-/* line 182, ../sass/style.scss */
-ul.menu--social-media li a {
-  font-size: 0px;
-}
-/* line 185, ../sass/style.scss */
-ul.menu--social-media li a::before {
-  font-family: FontAwesome !important;
-  font-size: 18px;
+/* line 169, ../sass/style.scss */
+.front_content_2 .announcement .view-footer a {
+  display: block;
+  width: 166px;
+  height: 40px;
+  background-color: #0083D1;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 35px;
 }
