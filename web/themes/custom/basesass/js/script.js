@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
         if($(elem).hasClass('active')){
             
         }else{
-            var animation = $(elem).attr('data-animation');   
+            var animation = $(elem).find('.slider_conent').attr('data-animation');   
         }
     });
 
