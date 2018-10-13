@@ -28,6 +28,7 @@ jQuery(document).ready(function ($) {
             $(elem).find('.text1').removeClass('animated ' + animation);
             $(elem).find('.text2').removeClass('animated ' + animation);
             $(elem).find('.link').removeClass('animated ' + animation);
+            console.log(elem);
         }
     });
 
