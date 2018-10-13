@@ -138,24 +138,25 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 0;
   width: 100%;
 }
-/* line 160, ../sass/style1.scss */
-.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont {
-  height: 515px;
-}
-/* line 162, ../sass/style1.scss */
+/* line 161, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image {
   overflow: hidden;
-  height: 200px;
+  height: 515px;
   position: relative;
 }
-/* line 166, ../sass/style1.scss */
+/* line 165, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
   position: absolute;
   height: 100vh;
   min-width: 100%;
 }
+/* line 171, ../sass/style1.scss */
+.front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
+  width: 50%;
+  float: right;
+}
 
-/* line 180, ../sass/style1.scss */
+/* line 183, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
