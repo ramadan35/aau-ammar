@@ -335,6 +335,9 @@ header{
                     line-height: 30px;
                     padding:0;
                 }
+                a:hover , a:focus{
+                    background: transparent;
+                }
             }
         }
     }

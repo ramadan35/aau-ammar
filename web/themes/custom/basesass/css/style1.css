@@ -330,23 +330,27 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 30px;
   padding: 0;
 }
-/* line 341, ../sass/style1.scss */
+/* line 338, ../sass/style1.scss */
+#footer .footer-left ul.menu li a:hover, #footer .footer-left ul.menu li a:focus {
+  background: transparent;
+}
+/* line 344, ../sass/style1.scss */
 #footer .footer-left5 {
   padding-top: 0;
 }
-/* line 343, ../sass/style1.scss */
+/* line 346, ../sass/style1.scss */
 #footer .footer-left5 p {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   line-height: 30px;
 }
-/* line 350, ../sass/style1.scss */
+/* line 353, ../sass/style1.scss */
 #footer .footer-left1 {
   padding-top: 0;
 }
 
-/* line 355, ../sass/style1.scss */
+/* line 358, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
