@@ -164,17 +164,15 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #FFF);
   /* Standard syntax (must be last) */
   height: 100%;
-  padding-top: 130px;
-  padding-bottom: 13px;
 }
-/* line 182, ../sass/style1.scss */
+/* line 181, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
   color: #4A4A4A;
   font-size: 36px;
   font-weight: bold;
   line-height: 44px;
 }
-/* line 188, ../sass/style1.scss */
+/* line 187, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title::after {
   content: "";
   display: block;
@@ -183,13 +181,15 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   background-color: #FFB500;
   margin-top: 5px;
 }
-/* line 196, ../sass/style1.scss */
+/* line 195, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
+  padding-top: 130px;
+  padding-bottom: 13px;
 }
-/* line 202, ../sass/style1.scss */
+/* line 203, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -203,7 +203,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   padding: 11px;
 }
 
-/* line 224, ../sass/style1.scss */
+/* line 225, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

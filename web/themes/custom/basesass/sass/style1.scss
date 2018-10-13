@@ -177,8 +177,7 @@ header{
                                 top: 0;
                                 background-image: linear-gradient(to right, rgba(255,0,0,0), #FFF); /* Standard syntax (must be last) */
                                 height: 100%;
-                                padding-top: 130px;
-                                padding-bottom: 13px;
+
                                 .title{
                                     color: #4A4A4A;
                                     font-size: 36px;
@@ -197,6 +196,8 @@ header{
                                     color: #4A4A4A;
                                     font-size: 18px;
                                     line-height: 30px;
+                                    padding-top: 130px;
+                                    padding-bottom: 13px;
                                 }
                                 .link{
                                     a{
