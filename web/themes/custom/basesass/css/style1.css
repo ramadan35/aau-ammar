@@ -138,6 +138,12 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
       background-size: cover;*/
 }
 
+/* line 159, ../sass/style1.scss */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

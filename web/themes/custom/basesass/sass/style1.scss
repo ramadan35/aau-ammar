@@ -156,6 +156,11 @@ header{
     background-size: cover;*/
 }
 
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
