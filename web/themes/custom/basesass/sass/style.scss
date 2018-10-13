@@ -204,6 +204,7 @@ body {
                     line-height: 19px;
                     text-align: center;
                     color: #4A4A4A;
+                    font-weight: bold;
                 }
                 .field--type-email{
                     label{
@@ -222,6 +223,7 @@ body {
                 .form-actions{
                     margin: 0px auto;
                     display: table;
+                    margin-bottom: 40px;
                     button{
                         width: 275px;
                         height: 47px;

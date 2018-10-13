@@ -9809,12 +9809,13 @@ body {
   line-height: 19px;
   text-align: center;
   color: #4A4A4A;
+  font-weight: bold;
 }
-/* line 209, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email label {
   display: none;
 }
-/* line 212, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email input {
   height: 47px;
   width: 278px;
@@ -9824,12 +9825,13 @@ body {
   margin: 0px auto;
   border: 1px solid #E5E5E5;
 }
-/* line 222, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions {
   margin: 0px auto;
   display: table;
+  margin-bottom: 40px;
 }
-/* line 225, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button {
   width: 275px;
   height: 47px;
@@ -9842,15 +9844,15 @@ body {
   border: 0;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 245, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 248, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
