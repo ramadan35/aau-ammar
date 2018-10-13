@@ -26,6 +26,7 @@ jQuery(document).ready(function ($) {
             
         }else{
             var animation = $(elem).find('.slider_conent').attr('data-animation');   
+            console.log(animation);
         }
     });
 
