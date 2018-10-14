@@ -303,17 +303,21 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding-top: 35px;
 }
 /* line 313, ../sass/style1.scss */
+#footer > .container {
+  padding-bottom: 55px;
+}
+/* line 316, ../sass/style1.scss */
 #footer .footer-left {
   padding-top: 57px;
 }
-/* line 315, ../sass/style1.scss */
+/* line 318, ../sass/style1.scss */
 #footer .footer-left h2 {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
 }
-/* line 321, ../sass/style1.scss */
+/* line 324, ../sass/style1.scss */
 #footer .footer-left h2::after {
   content: "";
   display: block;
@@ -322,7 +326,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   background-color: #FFB500;
   margin-top: 5px;
 }
-/* line 331, ../sass/style1.scss */
+/* line 334, ../sass/style1.scss */
 #footer .footer-left ul.menu li a {
   color: #FFFFFF;
   font-size: 14px;
@@ -330,43 +334,43 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 30px;
   padding: 0;
 }
-/* line 338, ../sass/style1.scss */
+/* line 341, ../sass/style1.scss */
 #footer .footer-left ul.menu li a:hover, #footer .footer-left ul.menu li a:focus {
   background: transparent;
 }
-/* line 344, ../sass/style1.scss */
+/* line 347, ../sass/style1.scss */
 #footer .footer-left5 {
   padding-top: 0;
 }
-/* line 346, ../sass/style1.scss */
+/* line 349, ../sass/style1.scss */
 #footer .footer-left5 p {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   line-height: 30px;
 }
-/* line 353, ../sass/style1.scss */
+/* line 356, ../sass/style1.scss */
 #footer .footer-left1 {
   padding-top: 0;
 }
-/* line 356, ../sass/style1.scss */
+/* line 359, ../sass/style1.scss */
 #footer .bottom {
   background-color: #4A4A4A;
   padding-top: 14px;
   padding-bottom: 7px;
 }
-/* line 360, ../sass/style1.scss */
+/* line 363, ../sass/style1.scss */
 #footer .bottom #block-copyright {
   float: left;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 17px;
 }
-/* line 366, ../sass/style1.scss */
+/* line 369, ../sass/style1.scss */
 #footer .bottom #block-socialmedia {
   float: right;
 }
-/* line 368, ../sass/style1.scss */
+/* line 371, ../sass/style1.scss */
 #footer .bottom #block-socialmedia h2 {
   display: inline-block;
   color: #FFFFFF;
@@ -379,15 +383,15 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding-right: 10px;
   padding-left: 10px;
 }
-/* line 380, ../sass/style1.scss */
+/* line 383, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu {
   display: inline-block;
 }
-/* line 382, ../sass/style1.scss */
+/* line 385, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li {
   margin-right: 13px;
 }
-/* line 384, ../sass/style1.scss */
+/* line 387, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a {
   width: 24px;
   height: 24px;
@@ -398,13 +402,13 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding-left: 5px;
   padding-top: 1px;
 }
-/* line 394, ../sass/style1.scss */
+/* line 397, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a::before {
   color: #4A4A4A;
   font-size: 16px;
 }
 
-/* line 404, ../sass/style1.scss */
+/* line 407, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

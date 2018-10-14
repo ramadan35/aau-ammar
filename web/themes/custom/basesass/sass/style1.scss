@@ -310,6 +310,9 @@ header{
 #footer{
     background-color: #0083D1;
     padding-top: 35px;
+    > .container{
+        padding-bottom: 55px;
+    }
     .footer-left{
         padding-top: 57px;
         h2{
