@@ -371,28 +371,34 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   font-size: 14px;
   font-weight: bold;
   line-height: 17px;
+  vertical-align: super;
+  margin: 0;
 }
-/* line 373, ../sass/style1.scss */
+/* line 375, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu {
   display: inline-block;
 }
-/* line 375, ../sass/style1.scss */
+/* line 377, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li {
   margin-right: 13px;
 }
-/* line 377, ../sass/style1.scss */
+/* line 379, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #646464;
+  background: #FFF;
   padding: 0;
   color: #FFF;
-  padding-left: 5px;
+  padding-left: 4px;
   padding-top: 1px;
 }
+/* line 389, ../sass/style1.scss */
+#footer .bottom #block-socialmedia ul.menu li a::before {
+  color: #4A4A4A;
+}
 
-/* line 393, ../sass/style1.scss */
+/* line 398, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
