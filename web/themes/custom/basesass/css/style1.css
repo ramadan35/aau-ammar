@@ -372,11 +372,15 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   font-weight: bold;
   line-height: 17px;
 }
-/* line 374, ../sass/style1.scss */
+/* line 373, ../sass/style1.scss */
+#footer .bottom #block-socialmedia ul.menu {
+  display: inline-block;
+}
+/* line 375, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li {
   margin-right: 13px;
 }
-/* line 376, ../sass/style1.scss */
+/* line 377, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a {
   width: 24px;
   height: 24px;
@@ -388,7 +392,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding-top: 1px;
 }
 
-/* line 392, ../sass/style1.scss */
+/* line 393, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
