@@ -159,7 +159,11 @@ header{
                     }
                 }
                 li:first-child{
-
+                    a{
+                        font-size: 0;
+                        background: url(../home.png) no-repeat;
+                        padding:20px;
+                    }
                 }
                 li:last-child{
                     background-color: #FFB500;
