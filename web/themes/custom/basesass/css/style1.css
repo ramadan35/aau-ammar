@@ -352,19 +352,21 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
 /* line 356, ../sass/style1.scss */
 #footer .bottom {
   background-color: #4A4A4A;
+  padding-top: 14px;
+  padding-bottom: 7px;
 }
-/* line 358, ../sass/style1.scss */
+/* line 360, ../sass/style1.scss */
 #footer .bottom #block-copyright {
   float: left;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 17px;
 }
-/* line 364, ../sass/style1.scss */
+/* line 366, ../sass/style1.scss */
 #footer .bottom #block-socialmedia {
   float: right;
 }
-/* line 366, ../sass/style1.scss */
+/* line 368, ../sass/style1.scss */
 #footer .bottom #block-socialmedia h2 {
   display: inline-block;
   color: #FFFFFF;
@@ -373,16 +375,19 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 17px;
   vertical-align: super;
   margin: 0;
+  text-transform: uppercase;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-/* line 375, ../sass/style1.scss */
+/* line 380, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu {
   display: inline-block;
 }
-/* line 377, ../sass/style1.scss */
+/* line 382, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li {
   margin-right: 13px;
 }
-/* line 379, ../sass/style1.scss */
+/* line 384, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a {
   width: 24px;
   height: 24px;
@@ -393,12 +398,12 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding-left: 4px;
   padding-top: 1px;
 }
-/* line 389, ../sass/style1.scss */
+/* line 394, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a::before {
   color: #4A4A4A;
 }
 
-/* line 398, ../sass/style1.scss */
+/* line 403, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;

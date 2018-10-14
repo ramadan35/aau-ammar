@@ -355,6 +355,8 @@ header{
     }
     .bottom{
         background-color: #4A4A4A;
+        padding-top: 14px;
+        padding-bottom: 7px;
         #block-copyright{
             float:left;
             color: #FFFFFF;
@@ -371,6 +373,9 @@ header{
                 line-height: 17px;
                 vertical-align: super;
                 margin:0;
+                text-transform: uppercase;
+                padding-right: 10px;
+                padding-left:10px;
             }
             ul.menu{
                 display: inline-block;
