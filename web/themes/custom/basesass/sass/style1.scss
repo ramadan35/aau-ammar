@@ -136,19 +136,19 @@ header{
     }
     .menu-region{
         background-color: #0083D1;
-        padding-top:10px;
-        paddong-bottom:10px;
         #block-mainnavigation{
             ul.menu{
                 li{
                     width:12.5%;
-                    border-right:1px solid #FFF;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
                     a{
+                        border-right:1px solid #FFF;
                         padding:0;
                         margin:0;
                         color: #FFFFFF;
                         font-size: 16px;
-                        line-height: 19px;
+                        line-height: 25px;
                         text-align: center;
                     }
                     a.sf-with-ul{
@@ -157,6 +157,13 @@ header{
                             font-size: 10px;
                         }
                     }
+                }
+                li:first-child{
+
+                }
+                li:last-child{
+                    border:0;
+                    background-color: #FFB500;
                 }
             }
         }
