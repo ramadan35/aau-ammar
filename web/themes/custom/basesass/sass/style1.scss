@@ -162,8 +162,10 @@ header{
 
                 }
                 li:last-child{
-                    border:0;
                     background-color: #FFB500;
+                    a{
+                        border:0;
+                    }
                 }
             }
         }
