@@ -168,8 +168,7 @@ header .menu-region #block-mainnavigation ul.menu li a.sf-with-ul .sf-sub-indica
 /* line 162, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu li:first-child a {
   font-size: 0;
-  background: url(../home.png) no-repeat;
-  padding: 20px;
+  background: url(../images/home.png) no-repeat 50%;
 }
 /* line 168, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu li:last-child {
