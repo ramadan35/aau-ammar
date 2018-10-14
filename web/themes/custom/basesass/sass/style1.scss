@@ -353,6 +353,40 @@ header{
     .footer-left1{
         padding-top:0;
     }
+    .bottom{
+        background-color: #4A4A4A;
+        #block-copyright{
+            float:left;
+            color: #FFFFFF;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        #block-socialmedia{
+            float:right;
+            h2{
+                display: inline-block;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 17px;
+            }
+            ul.menu{
+                li{
+                    margin-right: 13px;
+                    a{
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 50%;
+                        background: #646464;
+                        padding: 0;
+                        color: #FFF;
+                        padding-left: 5px;
+                        padding-top: 1px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .no-padding{
