@@ -89,13 +89,15 @@
             {% endif %}
         </div>
         <div class="bottom">
-            {% if (page.footer_bottom) %}
-                <div class="footer_bottom col-md-12">
-                    <div class="footer_bottom">
-                        {{ page.footer_bottom }}
+            <div class="{{ container }}">
+                {% if (page.footer_bottom) %}
+                    <div class="footer_bottom col-md-12">
+                        <div class="footer_bottom">
+                            {{ page.footer_bottom }}
+                        </div>
                     </div>
-                </div>
-            {% endif %}
+                {% endif %}
+            </div>
         </div>
     </footer>
 {% endblock %}
