@@ -134,6 +134,28 @@ header{
             }
         }
     }
+    .menu-region{
+        background-color: #0083D1;
+        padding-top:10px;
+        paddong-bottom:10px;
+        #block-mainnavigation{
+            ul.menu{
+                li{
+                    a{
+                        padding:0;
+                        margin:0;
+                        
+                    }
+                    a.sf-with-ul{
+                        padding-right:10px;
+                        .sf-sub-indicator::after{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 .dynamic_header{
     .block-views{
