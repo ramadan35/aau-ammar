@@ -132,16 +132,20 @@
             </div>
         </div>
     {% endif %}
-    
-        {% if page.front_content_4 %}
-        <div class="front_content_4">
-            <div class="{{ container }}">
-                <div class="col-md-12"> 
-                    {{ page.front_content_4 }}
+    <div class="front_content_4">
+        <div class="{{ container }}">
+            {% if page.front_content_4_left  %}
+                <div class="left col-md-6">
+                    {{ page.front_content_4_left }}
                 </div>
-            </div>
+            {% endif %}
+            {% if page.front_content_4_right  %}
+                <div class="right col-md-6">
+                    {{ page.front_content_4_right }}
+                </div>
+            {% endif %}
         </div>
-    {% endif %}
+    </div>
 {% endblock %}
 
 {% include 'footer.html.twig' %}
