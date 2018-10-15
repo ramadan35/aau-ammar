@@ -252,6 +252,14 @@ body {
         .view{
             .views-row{
                padding:0px; 
+               .views-field-field-images{
+                   img{
+                       width:100%;
+                   }
+               }
+            }
+            .views-row:nth-child(odd){
+                margin-right:30px;
             }
         }
     }

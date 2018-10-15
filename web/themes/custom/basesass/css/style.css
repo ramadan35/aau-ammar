@@ -9853,16 +9853,24 @@ body {
 .front_content_4 .right .view .views-row {
   padding: 0px;
 }
+/* line 256, ../sass/style.scss */
+.front_content_4 .right .view .views-row .views-field-field-images img {
+  width: 100%;
+}
+/* line 261, ../sass/style.scss */
+.front_content_4 .right .view .views-row:nth-child(odd) {
+  margin-right: 30px;
+}
 
-/* line 260, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 262, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 265, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
