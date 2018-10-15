@@ -245,22 +245,25 @@ body {
 }
 
 .front_content_4{
-        padding-top: 92px;
+    padding-top: 92px;
     h1.block-title{
-font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    color: #4A4A4A;
-    text-transform: uppercase;
-    margin: 0px;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        color: #4A4A4A;
+        text-transform: uppercase;
+        margin: 0px;
+            padding-bottom: 34px;
     }
     h1:after{
-      content: "";
-    display: block;
-    width: 305px;
-    height: 3px;
-    background-color: #FFB500;
-    margin-top: 5PX;  
+        content: "";
+        display: block;
+        width: 305px;
+        height: 3px;
+        background-color: #FFB500;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 9px;
     }
     .left{
 

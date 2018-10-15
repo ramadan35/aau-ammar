@@ -9861,36 +9861,39 @@ body {
   color: #4A4A4A;
   text-transform: uppercase;
   margin: 0px;
+  padding-bottom: 34px;
 }
-/* line 257, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .front_content_4 h1:after {
   content: "";
   display: block;
   width: 305px;
   height: 3px;
   background-color: #FFB500;
-  margin-top: 5PX;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 9px;
 }
-/* line 270, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .front_content_4 .right .view .views-row {
   padding: 0px;
   width: 47.2%;
   margin-bottom: 32px;
 }
-/* line 275, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .front_content_4 .right .view .views-row:nth-child(odd) {
   margin-right: 30px;
 }
 
-/* line 282, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 284, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 287, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
