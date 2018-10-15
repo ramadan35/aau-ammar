@@ -9849,15 +9849,20 @@ body {
   border: 0;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
+.front_content_4 .right .view .views-row {
+  padding: 0px;
+}
+
+/* line 260, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 249, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 252, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
