@@ -246,17 +246,14 @@ body {
 
 .front_content_4{
     .left{
-        
+
     }
     .right{
         .view{
             .views-row{
-               padding:0px; 
-               .views-field-field-images{
-                   img{
-                       width:100%;
-                   }
-               }
+                padding: 0px;
+                width: 47.2%;
+                margin-bottom: 32px;
             }
             .views-row:nth-child(odd){
                 margin-right:30px;
