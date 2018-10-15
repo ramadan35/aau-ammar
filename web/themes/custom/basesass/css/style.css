@@ -9849,26 +9849,48 @@ body {
   border: 0;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
+.front_content_4 {
+  padding-top: 92px;
+}
+/* line 249, ../sass/style.scss */
+.front_content_4 h1.block-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #4A4A4A;
+  text-transform: uppercase;
+  margin: 0px;
+}
+/* line 257, ../sass/style.scss */
+.front_content_4 h1:after {
+  content: "";
+  display: block;
+  width: 305px;
+  height: 3px;
+  background-color: #FFB500;
+  margin-top: 5PX;
+}
+/* line 270, ../sass/style.scss */
 .front_content_4 .right .view .views-row {
   padding: 0px;
   width: 47.2%;
   margin-bottom: 32px;
 }
-/* line 258, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .front_content_4 .right .view .views-row:nth-child(odd) {
   margin-right: 30px;
 }
 
-/* line 265, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 267, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 270, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
