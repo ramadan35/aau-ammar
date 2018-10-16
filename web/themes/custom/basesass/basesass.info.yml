@@ -16,6 +16,7 @@ regions:
   image_header:                 'Header Image'
   help:                         'Help'
   content:                      'Content'
+  content_left:                 'Content left'
   front_content_1:              'Front content 1'
   news_front_content_2:         'News Front content2'
   announcement_front_content_2: 'Announcement Front content2'
