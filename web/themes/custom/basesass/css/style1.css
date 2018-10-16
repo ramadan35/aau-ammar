@@ -505,8 +505,9 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
   font-size: 18px;
   font-weight: bold;
   line-height: 50px;
+  padding: 0 40px;
 }
-/* line 514, ../sass/style1.scss */
+/* line 515, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }
