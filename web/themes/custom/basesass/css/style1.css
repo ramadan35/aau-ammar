@@ -491,21 +491,22 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
 /* line 496, ../sass/style1.scss */
 .path-notfront #content {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* line 501, ../sass/style1.scss */
+/* line 502, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
   background-color: #0083D1;
   float: left;
   width: 100%;
 }
-/* line 506, ../sass/style1.scss */
+/* line 507, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: bold;
   line-height: 50px;
 }
-/* line 513, ../sass/style1.scss */
+/* line 514, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }
