@@ -493,24 +493,32 @@ header{
 }
 
 .path-notfront{
-    .block-superfish{
-        ul.menu{
-            background-color: #0083D1;
-            float: left;
-            width: 100%;
-            li{
-                a{
-                    color: #FFFFFF;
-                    font-size: 18px;
-                    font-weight: bold;
-                    line-height: 50px;
+    #content{
+        padding-top:50px;
+        > .container{
+            > .col-md-3{
+                .block-superfish{
+                    ul.menu{
+                        background-color: #0083D1;
+                        float: left;
+                        width: 100%;
+                        li{
+                            a{
+                                color: #FFFFFF;
+                                font-size: 18px;
+                                font-weight: bold;
+                                line-height: 50px;
+                            }
+                        }
+                        li.active-trail{
+                            background-color: #FFB500;
+                        }
+                    }
                 }
-            }
-            li.active-trail{
-                background-color: #FFB500;
             }
         }
     }
+
 }
 
 @keyframes FadeIn {
