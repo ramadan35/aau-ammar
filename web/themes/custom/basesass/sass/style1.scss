@@ -162,7 +162,7 @@ header{
                     a{
                         font-size: 0;
                         background: url(../images/home.png) no-repeat 50%;
-                        
+
                     }
                 }
                 li:last-child{
@@ -462,6 +462,7 @@ header{
                                 padding:0;
                                 img{
                                     width:100%;
+                                    border: 1px solid #979797;
                                 }
                             }
                             .right{
@@ -486,6 +487,27 @@ header{
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+.path-notfront{
+    .block-superfish{
+        ul.menu{
+            background-color: #0083D1;
+            float: left;
+            width: 100%;
+            li{
+                a{
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 50px;
+                }
+            }
+            li.active-trail{
+                background-color: #FFB500;
             }
         }
     }

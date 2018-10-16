@@ -467,24 +467,43 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
 /* line 463, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left img {
   width: 100%;
+  border: 1px solid #979797;
 }
-/* line 469, ../sass/style1.scss */
+/* line 470, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-/* line 475, ../sass/style1.scss */
+/* line 476, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a:hover {
   color: #0083D1;
 }
-/* line 479, ../sass/style1.scss */
+/* line 480, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .body {
   color: #9B9B9B;
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
+}
+
+/* line 497, ../sass/style1.scss */
+.path-notfront .block-superfish ul.menu {
+  background-color: #0083D1;
+  float: left;
+  width: 100%;
+}
+/* line 502, ../sass/style1.scss */
+.path-notfront .block-superfish ul.menu li a {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+/* line 509, ../sass/style1.scss */
+.path-notfront .block-superfish ul.menu li.active-trail {
+  background-color: #FFB500;
 }
 
 @keyframes FadeIn {
