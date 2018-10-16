@@ -455,32 +455,36 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
   padding-right: 0;
 }
 
-/* line 457, ../sass/style1.scss */
+/* line 456, ../sass/style1.scss */
+.path-news-events #content .container > .col-md-9 .page-header {
+  display: none;
+}
+/* line 460, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   padding: 0;
   margin-bottom: 20px;
 }
-/* line 461, ../sass/style1.scss */
+/* line 464, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left {
   padding: 0;
 }
-/* line 463, ../sass/style1.scss */
+/* line 466, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left img {
   width: 100%;
   border: 1px solid #979797;
 }
-/* line 470, ../sass/style1.scss */
+/* line 473, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-/* line 476, ../sass/style1.scss */
+/* line 479, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a:hover {
   color: #0083D1;
 }
-/* line 480, ../sass/style1.scss */
+/* line 483, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .body {
   color: #9B9B9B;
   font-size: 16px;
@@ -488,18 +492,18 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
   line-height: 19px;
 }
 
-/* line 496, ../sass/style1.scss */
+/* line 499, ../sass/style1.scss */
 .path-notfront #content {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 502, ../sass/style1.scss */
+/* line 505, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
   background-color: #0083D1;
   float: left;
   width: 100%;
 }
-/* line 507, ../sass/style1.scss */
+/* line 510, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
   font-size: 18px;
@@ -507,7 +511,7 @@ header .menu-region #block-mainnavigation ul.menu li:last-child a {
   line-height: 50px;
   padding: 0 40px;
 }
-/* line 515, ../sass/style1.scss */
+/* line 518, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }

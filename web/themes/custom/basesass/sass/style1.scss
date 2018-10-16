@@ -453,6 +453,9 @@ header{
     #content{
         .container{
             > .col-md-9{
+                .page-header{
+                    display: none;
+                }
                 .view-content{
                     .views-row{
                         padding:0;
