@@ -512,6 +512,9 @@ header{
 
 .path-announcements{
     #content{
+        .page-header{
+            display: none;
+        }
         .col-md-12{
             .view-content{
                 .views-row{
