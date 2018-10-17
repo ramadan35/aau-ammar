@@ -515,8 +515,15 @@ header{
         .col-md-12{
             .view-content{
                 .views-row{
+                    margin-bottom:30px;
                     .views-field-field-date{
-                        float:right;
+
+                        color: #0083D1;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 19px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
                     }
                     .views-field-title{
                         a{

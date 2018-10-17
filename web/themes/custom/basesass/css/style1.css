@@ -510,18 +510,27 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   line-height: 19px;
 }
 
-/* line 518, ../sass/style1.scss */
-.path-announcements #content .col-md-12 .view-content .views-row .views-field-field-date {
-  float: right;
+/* line 517, ../sass/style1.scss */
+.path-announcements #content .col-md-12 .view-content .views-row {
+  margin-bottom: 30px;
 }
-/* line 522, ../sass/style1.scss */
+/* line 519, ../sass/style1.scss */
+.path-announcements #content .col-md-12 .view-content .views-row .views-field-field-date {
+  color: #0083D1;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 529, ../sass/style1.scss */
 .path-announcements #content .col-md-12 .view-content .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-/* line 529, ../sass/style1.scss */
+/* line 536, ../sass/style1.scss */
 .path-announcements #content .col-md-12 .view-content .views-row .views-field-body {
   color: #9B9B9B;
   font-size: 16px;
@@ -529,18 +538,18 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   line-height: 19px;
 }
 
-/* line 542, ../sass/style1.scss */
+/* line 549, ../sass/style1.scss */
 .path-notfront #content {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 548, ../sass/style1.scss */
+/* line 555, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
   background-color: #0083D1;
   float: left;
   width: 100%;
 }
-/* line 553, ../sass/style1.scss */
+/* line 560, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
   font-size: 18px;
@@ -548,7 +557,7 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   line-height: 50px;
   padding: 0 40px;
 }
-/* line 561, ../sass/style1.scss */
+/* line 568, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }
