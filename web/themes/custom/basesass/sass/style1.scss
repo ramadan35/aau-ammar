@@ -138,7 +138,7 @@ header{
         background-color: #0083D1;
         #block-mainnavigation{
             ul.menu{
-                li{
+                > li{
                     width:12.5%;
                     padding-top: 10px;
                     padding-bottom: 10px;
@@ -157,15 +157,20 @@ header{
                             font-size: 10px;
                         }
                     }
+                    ul{
+                        li{
+                            
+                        }
+                    }
                 }
-                li:first-child{
+                > li:first-child{
                     a{
                         font-size: 0;
                         background: url(../images/home.png) no-repeat 50%;
 
                     }
                 }
-                li:last-child{
+                > li:last-child{
                     background-color: #FFB500;
                     a{
                         border:0;
