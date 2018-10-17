@@ -546,6 +546,42 @@ header{
     }
 }
 
+.path-conferences{
+     #content{
+        .page-header{
+            display: none;
+        }
+        .view-content{
+            .views-row{
+                margin-bottom:30px;
+                .views-field-field-date{
+
+                    color: #0083D1;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 19px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .views-field-title{
+                    a{
+                        color: #4A4A4A;
+                        font-size: 24px;
+                        font-weight: bold;
+                        line-height: 29px;
+                    }
+                }
+                .views-field-body{
+                    color: #9B9B9B;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+}
+
 .path-notfront{
     #content{
         padding-top:50px;
