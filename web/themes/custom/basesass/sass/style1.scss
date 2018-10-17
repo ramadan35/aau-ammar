@@ -554,8 +554,9 @@ header{
         .view-content{
             .views-row{
                 margin-bottom:30px;
-                
+                text-align:center;
                 .views-field-title{
+                    padding-top: 25px;
                     text-align: center;
                     a{
                         color: #4A4A4A;
@@ -566,23 +567,23 @@ header{
                     }
                 }
                 .views-field-field-date{
-
+                    display: inline-block;
                     color: #9B9B9B;
                     font-size: 16px;
                     font-weight: bold;
                     line-height: 19px;
                     text-align: center;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
+                    
+                    padding: 5px 10px;
                 }
                 .views-field-field-end-{
+                    padding: 5px 10px;
+                    display: inline-block;
                     color: #0083D1;
                     font-size: 16px;
                     font-weight: bold;
                     line-height: 19px;
                     text-align: center;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
                 }
             }
         }
