@@ -550,42 +550,51 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 .path-conferences #content .view-content .views-row {
   margin-bottom: 30px;
 }
-/* line 557, ../sass/style1.scss */
-.path-conferences #content .view-content .views-row .views-field-field-date {
-  color: #0083D1;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 19px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+/* line 558, ../sass/style1.scss */
+.path-conferences #content .view-content .views-row .views-field-title {
+  text-align: center;
 }
-/* line 567, ../sass/style1.scss */
+/* line 560, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
+  text-align: center;
 }
-/* line 574, ../sass/style1.scss */
-.path-conferences #content .view-content .views-row .views-field-body {
+/* line 568, ../sass/style1.scss */
+.path-conferences #content .view-content .views-row .views-field-field-date {
   color: #9B9B9B;
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 578, ../sass/style1.scss */
+.path-conferences #content .view-content .views-row .views-field-field-end- {
+  color: #0083D1;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-/* line 586, ../sass/style1.scss */
+/* line 593, ../sass/style1.scss */
 .path-notfront #content {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 592, ../sass/style1.scss */
+/* line 599, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
   background-color: #0083D1;
   float: left;
   width: 100%;
 }
-/* line 597, ../sass/style1.scss */
+/* line 604, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
   font-size: 18px;
@@ -593,7 +602,7 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   line-height: 50px;
   padding: 0 40px;
 }
-/* line 605, ../sass/style1.scss */
+/* line 612, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }
