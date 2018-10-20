@@ -288,36 +288,36 @@ body {
     }
 }
 .image_header{
-        position: relative;
-        .block-custom-header-image{
-                background-color: black;
-            img{
-               opacity: 0.5;
-               width:100%;
-            }
+    position: relative;
+    .block-custom-header-image{
+        background-color: black;
+        img{
+            opacity: 0.5;
+            width:100%;
         }
-        h1.page-header{
+    }
+    h1.page-header{
         color: #FFFFFF;
         font-size: 36px;
         font-weight: bold;
         line-height: 44px;
-            text-transform: uppercase;
-                border: 0px;
-            position: absolute;
-    bottom: 85px;
-    width: 1110px;
-    margin: 0px auto;
-    left: 0;
-    right: 0px;
-    padding: 0;
+        text-transform: uppercase;
+        border: 0px;
+        position: absolute;
+        bottom: 85px;
+        width: 1110px;
+        margin: 0px auto;
+        left: 0;
+        right: 0px;
+        padding: 0;
     }
     h1.page-header:after{
         content: "";
-    display: block;
-    width: 215px;
-    height: 3px;
-    background-color: #FFB500;
-    margin-top: 5px;
+        display: block;
+        width: 215px;
+        height: 3px;
+        background-color: #FFB500;
+        margin-top: 5px;
     }
 }
 .path-media-gallery{
@@ -327,7 +327,7 @@ body {
     .view{
         .views-row{
             position: relative;
-                margin-bottom: 30px;
+            margin-bottom: 30px;
             .views-field-field-images{
                 .field-content{
                     background-color: black;
@@ -359,8 +359,8 @@ body {
         .slideshow{
             .bx-wrapper{
                 float: left;
-                    margin: 0px;
-    box-shadow: none;
+                margin: 0px;
+                box-shadow: none;
             }
             .bx-wrapper:first-of-type{
                 width: 920px;
@@ -373,7 +373,10 @@ body {
                     height: 715px !important;
                     video{
                         width: 100% !important;
-    height: auto !important;
+                        height: auto !important;
+                    }
+                    video::-webkit-media-controls {
+                        display: none;
                     }
                 }
                 .bx-controls{
