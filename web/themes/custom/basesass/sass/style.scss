@@ -340,7 +340,7 @@ body {
             .views-field-title{
 
                 a{
-                    font-size: 36px;
+                    font-size: 24px;
                     font-weight: bold;
                     color: #4A4A4A;
                     display: block;
@@ -353,6 +353,10 @@ body {
             }
         }
     }
+}
+.path-news-events #content .container > .col-md-9 .view-content .views-row{
+    clear: both;
+    float:left;
 }
 ul.menu--social-media{
     li{
