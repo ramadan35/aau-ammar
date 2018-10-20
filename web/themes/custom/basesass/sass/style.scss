@@ -370,7 +370,7 @@ body {
                 position: relative;
                 .bx-viewport {
                     //max-height: 403px !important;
-                    height: 715px !important;
+                    height: auto !important;
                     video{
                         width: 100% !important;
                         height: auto !important;
@@ -413,6 +413,8 @@ body {
                         background-position: 50%;
                         position: absolute;
                         bottom: 0;
+                            top: auto;
+                            margin-top: 0px;
                     }
                 }
             }

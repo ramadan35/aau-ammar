@@ -9981,7 +9981,7 @@ body {
 }
 /* line 371, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport {
-  height: 715px !important;
+  height: auto !important;
 }
 /* line 374, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video {
@@ -10026,29 +10026,31 @@ body {
   background-position: 50%;
   position: absolute;
   bottom: 0;
+  top: auto;
+  margin-top: 0px;
 }
 
-/* line 423, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 427, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 434, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 437, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
