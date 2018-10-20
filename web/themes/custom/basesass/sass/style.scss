@@ -72,7 +72,7 @@ body {
     }
 }
 .front_content_2{
-        margin-bottom: 46px;
+    margin-bottom: 46px;
     .news , .announcement{
         h2.block-title{
             font-size: 24px;
@@ -193,12 +193,12 @@ body {
                 font-weight: bold;
                 text-align: center;
                 text-transform: uppercase;
-                    margin-top: 29px;
+                margin-top: 29px;
             }
             h2.block-title:after{
                 content:url(../images/newsletter_icon.png);
-                    margin-top: 15px;
-                    display: block;
+                margin-top: 15px;
+                display: block;
             }
             form{
                 .form-item-message{
@@ -253,7 +253,13 @@ body {
         color: #4A4A4A;
         text-transform: uppercase;
         margin: 0px;
-            padding-bottom: 34px;
+        padding-bottom: 34px;
+        a{
+            color: #4A4A4A;
+        }
+        a:hover ,a.focus{
+            text-decoration: none;
+        }
     }
     h1:after{
         content: "";
@@ -277,6 +283,45 @@ body {
             }
             .views-row:nth-child(odd){
                 margin-right:30px;
+            }
+        }
+    }
+}
+.path-media-gallery{
+    .view{
+        .views-row{
+            position: relative;
+            .views-field-field-images{
+                .field-content{
+                    background-color: black;
+                    img{
+                        opacity: 0.8;
+                        width: 100%;
+                    }
+                }
+            }
+            .views-field-title{
+                position: absolute;
+                bottom: 45px;
+                display: block;
+                left: 85px;
+                a{
+                    font-size: 36px;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    position: relative;
+                    width: 78%;
+                    display: block;
+                    text-transform: uppercase;
+                }
+                a:after{
+                    content: "";
+                    display: block;
+                    width: 215px;
+                    height: 3px;
+                    background-color: #FFB500;
+                    margin-top: 5PX;
+                }
             }
         }
     }
