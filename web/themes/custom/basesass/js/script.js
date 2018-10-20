@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
         slideWidth: 0,
         minSlides: 1,
         responsive: true,
-        controls: true
+        controls: false
     });
     $('#bx-pager').bxSlider({
         mode: 'vertical',
