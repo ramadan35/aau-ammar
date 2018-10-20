@@ -289,12 +289,20 @@ body {
 }
 .image_header{
         position: relative;
+        .block-custom-header-image{
+                background-color: black;
+            img{
+               opacity: 0.5;
+               width:100%;
+            }
+        }
         h1.page-header{
         color: #FFFFFF;
         font-size: 36px;
         font-weight: bold;
         line-height: 44px;
             text-transform: uppercase;
+                border: 0px;
             position: absolute;
     bottom: 85px;
     width: 1110px;
@@ -313,7 +321,9 @@ body {
     }
 }
 .path-media-gallery{
-
+    .content-content{
+        padding:0px;
+    }
     .view{
         .views-row{
             position: relative;
