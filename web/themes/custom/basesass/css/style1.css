@@ -617,7 +617,7 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 }
 /* line 633, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative;
 }
 /* line 636, ../sass/style1.scss */
@@ -642,6 +642,24 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   position: absolute;
   top: 0;
   left: 0;
+}
+/* line 656, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
+  width: auto;
+}
+/* line 658, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
+  width: auto;
+  display: none;
+}
+/* line 662, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
+  width: auto;
+  border: 0;
+}
+/* line 666, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
+  display: none;
 }
 
 @keyframes FadeIn {

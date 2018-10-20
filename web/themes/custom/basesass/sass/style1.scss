@@ -631,7 +631,7 @@ header{
             }
             .view-content{
                 .views-row{
-                    margin-bottom: 30px;
+                    margin-bottom: 10px;
                     position: relative;
                     .views-field{
                         margin-bottom:30px;
@@ -650,6 +650,24 @@ header{
                         position: absolute;
                         top:0;
                         left:0;
+                    }
+                    .views-field-field-cv{
+                        .field-content{
+                            .file{
+                                width:auto;
+                                .file-link{
+                                    width:auto;
+                                    display: none;
+                                }
+                                .file-icon{
+                                    width: auto;
+                                    border:0;
+                                }
+                                .file-size{
+                                    display: none;
+                                }
+                            }
+                        }
                     }
                 }
             }
