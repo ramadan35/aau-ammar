@@ -611,6 +611,34 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   background-color: #FFB500;
 }
 
+/* line 629, ../sass/style1.scss */
+.path-presidency #content .region-content .page-header {
+  display: none;
+}
+/* line 633, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row {
+  margin-bottom: 30px;
+  position: relative;
+}
+/* line 637, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field .views-label {
+  display: inline-block;
+}
+/* line 640, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field .field-content {
+  display: inline-block;
+}
+/* line 644, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-image {
+  float: left;
+}
+/* line 647, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

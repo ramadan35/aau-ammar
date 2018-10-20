@@ -623,6 +623,39 @@ header{
 
 }
 
+.path-presidency{
+    #content{
+        .region-content{
+            .page-header{
+                display: none;
+            }
+            .view-content{
+                .views-row{
+                    margin-bottom: 30px;
+                    position: relative;
+                    .views-field{
+                        .views-label{
+                            display: inline-block;
+                            width:200px;
+                        }
+                        .field-content{
+                            display: inline-block;
+                        }
+                    }
+                    .views-field-field-image{
+                        float:left;
+                    }
+                    .views-field-title{
+                        position: absolute;
+                        top:0;
+                        left:0;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
