@@ -620,19 +620,24 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 637, ../sass/style1.scss */
+/* line 636, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field {
+  margin-bottom: 30px;
+}
+/* line 638, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
+  width: 200px;
 }
-/* line 640, ../sass/style1.scss */
+/* line 642, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
 }
-/* line 644, ../sass/style1.scss */
+/* line 646, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
 }
-/* line 647, ../sass/style1.scss */
+/* line 649, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
