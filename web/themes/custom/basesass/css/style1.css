@@ -617,47 +617,48 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 }
 /* line 633, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row {
+  padding-top: 20px;
   margin-bottom: 10px;
   position: relative;
 }
-/* line 636, ../sass/style1.scss */
+/* line 637, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field {
   margin-bottom: 30px;
 }
-/* line 638, ../sass/style1.scss */
+/* line 639, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
   width: 200px;
 }
-/* line 642, ../sass/style1.scss */
+/* line 643, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
 }
-/* line 646, ../sass/style1.scss */
+/* line 647, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
 }
-/* line 649, ../sass/style1.scss */
+/* line 650, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 656, ../sass/style1.scss */
+/* line 657, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
   width: auto;
 }
-/* line 658, ../sass/style1.scss */
+/* line 659, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
   width: auto;
   display: none;
 }
-/* line 662, ../sass/style1.scss */
+/* line 663, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
   width: auto;
   border: 0;
 }
-/* line 666, ../sass/style1.scss */
+/* line 667, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
   display: none;
 }
