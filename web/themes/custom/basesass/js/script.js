@@ -33,7 +33,7 @@ jQuery(document).ready(function ($) {
 
 
     $(document).on('beforeChange', '#slick-views-dynamic-header-block-1-1', function (event, slick, direction) {
-        
+
 
         $('.slick__slide').each(function (index, elem) {
             if ($(elem).hasClass('slick-active')) {
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
                 $(elem).find('.link').removeClass('animated ' + animation);
             }
         });
-        
+
         var animation = $('.slick-active .slider_conent').attr('data-animation');
 
         $('.slick__slide .text1 , .slick__slide .text2 , .slick__slide .link').removeClass('animated ' + animation);
@@ -87,7 +87,26 @@ jQuery(document).ready(function ($) {
     };
     onScroll.apply(window);
     $(window).on('scroll', onScroll);
+//Media Gallery
+    $('.page-node-type-media-gallery .bxslider').bxSlider({
+        pagerCustom: '.page-node-type-media-gallery .bx-pager',
+        slideWidth: 0,
+        minSlides: 1,
+        responsive: true,
+        controls: true
+    });
+    $('.page-node-type-media-gallery .bx-pager').bxSlider({
+        mode: 'vertical',
+        slideWidth: 160,
+        minSlides: 5,
+        maxSlides: 5,
+        slideMargin: 10,
+        responsive: true,
+        controls: true,
+        infiniteLoop: false,
+        pager: false
 
+    });
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
