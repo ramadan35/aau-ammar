@@ -9893,27 +9893,57 @@ body {
   margin-right: 30px;
 }
 
-/* line 292, ../sass/style.scss */
-.path-media-gallery .view .views-row {
+/* line 290, ../sass/style.scss */
+.image_header {
   position: relative;
 }
-/* line 295, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
+.image_header h1.page-header {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 85px;
+  width: 1110px;
+  margin: 0px auto;
+  left: 0;
+  right: 0px;
+  padding: 0;
+}
+/* line 306, ../sass/style.scss */
+.image_header h1.page-header:after {
+  content: "";
+  display: block;
+  width: 215px;
+  height: 3px;
+  background-color: #FFB500;
+  margin-top: 5px;
+}
+
+/* line 318, ../sass/style.scss */
+.path-media-gallery .view .views-row {
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 322, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-field-images .field-content {
   background-color: black;
 }
-/* line 297, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-field-images .field-content img {
   opacity: 0.8;
   width: 100%;
 }
-/* line 303, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-title {
   position: absolute;
   bottom: 45px;
   display: block;
   left: 85px;
 }
-/* line 308, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-title a {
   font-size: 36px;
   font-weight: bold;
@@ -9923,7 +9953,11 @@ body {
   display: block;
   text-transform: uppercase;
 }
-/* line 317, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
+.path-media-gallery .view .views-row .views-field-title a:hover, .path-media-gallery .view .views-row .views-field-title a.focus {
+  text-decoration: none;
+}
+/* line 347, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-title a:after {
   content: "";
   display: block;
@@ -9933,15 +9967,15 @@ body {
   margin-top: 5PX;
 }
 
-/* line 330, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 332, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 335, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
