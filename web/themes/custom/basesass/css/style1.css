@@ -623,42 +623,54 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 }
 /* line 637, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 /* line 639, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
-  width: 200px;
+  width: 215px;
+  font-size: 16px;
 }
-/* line 643, ../sass/style1.scss */
+/* line 644, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
+  font-size: 16px;
 }
-/* line 647, ../sass/style1.scss */
+/* line 649, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
+  padding-right: 20px;
 }
-/* line 650, ../sass/style1.scss */
+/* line 652, ../sass/style1.scss */
+.path-presidency #content .region-content .view-content .views-row .views-field-field-image img {
+  width: 100%;
+}
+/* line 656, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
+  background: #0083d1;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
 }
-/* line 657, ../sass/style1.scss */
+/* line 668, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
   width: auto;
 }
-/* line 659, ../sass/style1.scss */
+/* line 670, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 663, ../sass/style1.scss */
+/* line 674, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 668, ../sass/style1.scss */
+/* line 678, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
   display: none;
 }
