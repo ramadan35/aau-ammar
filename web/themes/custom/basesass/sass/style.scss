@@ -367,7 +367,12 @@ body {
             .bx-wrapper:nth-of-type(2){
                 position: relative;
                 .bx-viewport {
-                    max-height: 403px !important;
+                    //max-height: 403px !important;
+                    height: 715px !important;
+                    video{
+                        width: 100% !important;
+    height: auto !important;
+                    }
                 }
                 .bx-controls{
                     a.bx-prev {

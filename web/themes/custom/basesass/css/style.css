@@ -9979,9 +9979,14 @@ body {
 }
 /* line 369, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport {
-  max-height: 403px !important;
+  height: 715px !important;
 }
-/* line 373, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video {
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 378, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
   top: 0;
@@ -9995,7 +10000,7 @@ body {
   height: 20px;
   background-position: 50%;
 }
-/* line 386, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next {
   width: 100%;
   background-color: black;
@@ -10011,27 +10016,27 @@ body {
   bottom: 0;
 }
 
-/* line 406, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 410, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 415, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 417, ../sass/style.scss */
+/* line 422, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 420, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
