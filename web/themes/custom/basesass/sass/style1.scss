@@ -631,7 +631,6 @@ header{
             }
             .view-content{
                 .views-row{
-                    padding-top:20px;
                     margin-bottom: 10px;
                     position: relative;
                     .views-field{
@@ -655,7 +654,7 @@ header{
                     }
                     .views-field-title{
                         position: absolute;
-                        top:20px;
+                        top:0px;
                         left:0;
                         background: #0083d1;
                         color: #FFF;

@@ -617,38 +617,37 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 }
 /* line 633, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row {
-  padding-top: 20px;
   margin-bottom: 10px;
   position: relative;
 }
-/* line 637, ../sass/style1.scss */
+/* line 636, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field {
   margin-bottom: 15px;
 }
-/* line 639, ../sass/style1.scss */
+/* line 638, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-/* line 644, ../sass/style1.scss */
+/* line 643, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-/* line 649, ../sass/style1.scss */
+/* line 648, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-/* line 652, ../sass/style1.scss */
+/* line 651, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image img {
   width: 100%;
 }
-/* line 656, ../sass/style1.scss */
+/* line 655, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 0;
   background: #0083d1;
   color: #FFF;
@@ -656,21 +655,21 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   font-size: 16px;
   padding: 5px;
 }
-/* line 668, ../sass/style1.scss */
+/* line 667, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
   width: auto;
 }
-/* line 670, ../sass/style1.scss */
+/* line 669, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 674, ../sass/style1.scss */
+/* line 673, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 678, ../sass/style1.scss */
+/* line 677, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
   display: none;
 }
