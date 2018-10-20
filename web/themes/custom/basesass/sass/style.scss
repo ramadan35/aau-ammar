@@ -359,6 +359,8 @@ body {
         .slideshow{
             .bx-wrapper{
                 float: left;
+                    margin: 0px;
+    box-shadow: none;
             }
             .bx-wrapper:first-of-type{
                 width: 920px;
@@ -387,12 +389,13 @@ body {
                         display: block;
                         height: 20px;
                         background-position: 50%;
+                        left: 0;
                     }
                     a.bx-next {
                         width: 100%;
                         background-color: black;
                         opacity: 0.4;
-                        border-radius: 0px 0px 15px 15px;
+                        right: 0;
                         font-size: 0px;
                         background-image: url(../images/arrow-down.png);
                         background-repeat: no-repeat;
