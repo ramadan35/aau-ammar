@@ -9981,7 +9981,7 @@ body {
 }
 /* line 371, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport {
-  height: auto !important;
+  height: 506px !important;
 }
 /* line 374, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video {
@@ -10000,7 +10000,7 @@ body {
 /* line 389, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
-  top: 0;
+  top: 16px;
   width: 100%;
   background-color: black;
   opacity: 0.4;

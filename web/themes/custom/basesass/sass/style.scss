@@ -370,7 +370,7 @@ body {
                 position: relative;
                 .bx-viewport {
                     //max-height: 403px !important;
-                    height: auto !important;
+                    height: 506px !important;
                     video{
                         width: 100% !important;
                         height: auto !important;
@@ -388,7 +388,7 @@ body {
                 .bx-controls{
                     a.bx-prev {
                         position: absolute;
-                        top: 0;
+                        top: 16px;
                         width: 100%;
                         background-color: black;
                         opacity: 0.4;
