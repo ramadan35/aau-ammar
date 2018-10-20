@@ -9992,7 +9992,12 @@ body {
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video::-webkit-media-controls {
   display: none;
 }
-/* line 383, ../sass/style.scss */
+/* line 382, ../sass/style.scss */
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a {
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 389, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
   top: 0;
@@ -10007,7 +10012,7 @@ body {
   background-position: 50%;
   left: 0;
 }
-/* line 397, ../sass/style.scss */
+/* line 403, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next {
   width: 100%;
   background-color: black;
@@ -10023,27 +10028,27 @@ body {
   bottom: 0;
 }
 
-/* line 417, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 421, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 426, ../sass/style.scss */
+/* line 432, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 428, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 431, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;

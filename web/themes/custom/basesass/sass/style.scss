@@ -378,6 +378,12 @@ body {
                     video::-webkit-media-controls {
                         display: none;
                     }
+                    #bx-pager{
+                        a{
+                            display: block;
+                                margin-bottom: 20px;
+                        }
+                    }
                 }
                 .bx-controls{
                     a.bx-prev {
