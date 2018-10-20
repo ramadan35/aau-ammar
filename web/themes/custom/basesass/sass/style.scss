@@ -338,29 +338,17 @@ body {
                 }
             }
             .views-field-title{
-                position: absolute;
-                bottom: 45px;
-                display: block;
-                left: 85px;
+
                 a{
                     font-size: 36px;
                     font-weight: bold;
-                    color: #FFFFFF;
-                    position: relative;
-                    width: 78%;
+                    color: #4A4A4A;
                     display: block;
                     text-transform: uppercase;
+                    text-align: center;
                 }
                 a:hover, a.focus{
                     text-decoration: none;
-                }
-                a:after{
-                    content: "";
-                    display: block;
-                    width: 215px;
-                    height: 3px;
-                    background-color: #FFB500;
-                    margin-top: 5PX;
                 }
             }
         }
