@@ -674,6 +674,53 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   display: none;
 }
 
+/* line 692, ../sass/style1.scss */
+.path-regulations #content .region-content .page-header {
+  display: none;
+}
+/* line 698, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-sorting {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 702, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 706, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv {
+  text-align: right;
+}
+/* line 708, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file {
+  margin: 0;
+}
+/* line 710, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-icon {
+  display: none;
+}
+/* line 713, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-link {
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  width: auto;
+}
+/* line 723, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-size {
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  width: auto;
+}
+/* line 730, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

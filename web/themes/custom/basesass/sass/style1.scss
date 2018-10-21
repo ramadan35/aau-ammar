@@ -686,6 +686,59 @@ header{
     }
 }
 
+.path-regulations{
+    #content{
+        .region-content{
+            .page-header{
+                display: none;
+            }
+            .view-content{
+                .table-responsive{
+                    caption{
+                        .views-field-field-sorting{
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                        .views-field-title{
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                        .views-field-field-cv{  
+                            text-align:right;
+                            .file{
+                                margin:0;
+                                .file-icon{
+                                    display: none;
+                                }
+                                .file-link{
+                                    display: inline-block;
+                                    border:0;
+                                    background: transparent;
+                                    padding:0;
+                                    width:auto;
+                                    a{
+
+                                    }
+                                }
+                                .file-size{
+                                    display: inline-block;
+                                    border:0;
+                                    background: transparent;
+                                    width:auto;
+                                }
+                            }
+                            a{
+                                font-size: 16px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
