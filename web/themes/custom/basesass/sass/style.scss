@@ -383,10 +383,9 @@ body {
                             display: block;
                                 margin-bottom: 20px;
                                 .field--name-field-or-youtube{
+                                        background: red;
                                     iframe{
-                                        body{
-                                                position: relative !important;
-                                        }
+                                       display:none;
                                     }
                                 }
                         }
