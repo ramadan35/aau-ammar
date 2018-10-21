@@ -32,3 +32,4 @@ global-scripts:
   js:
     jquery.bxslider/jquery.bxslider.min.js: {}
     js/script.js: {}
+    js/script1.js: {}
