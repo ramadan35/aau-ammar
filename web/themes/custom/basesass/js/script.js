@@ -108,7 +108,7 @@ jQuery(document).ready(function ($) {
 
     });
     $('#bx-pager a .field--name-field-or-youtube').append('<div id="youtube-thumbnail"></div>');
-     var thumbnail = $('#bx-pager a iframe .ytp-cued-thumbnail-overlay').html();
+     var thumbnail = $('#bx-pager a iframe .ytp-cued-thumbnail-overlay .ytp-cued-thumbnail-overlay-image').html();
      console.log(thumbnail);
      $('#youtube-thumbnail').html(thumbnail);
 });
