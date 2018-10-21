@@ -7,7 +7,7 @@
 
 jQuery(document).ready(function ($) {
 
-    $('#block-dotjo-discount-code-discount-cars .discount-cars-cont').bxSlider({
+    $('.path-successive-presidents .view-id-about_aau .view-content').bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 1,
