@@ -701,13 +701,19 @@ header{
                     .views-field-field-sorting{
                         font-size: 16px;
                         font-weight: bold;
+                        border: 0;
                     }
                     .views-field-title{
                         font-size: 16px;
                         font-weight: bold;
+                        border: 0;
                     }
                     .views-field-field-cv{  
                         text-align:right;
+                        border: 0;
+                        background: #0083d1;
+                        text-align: center;
+                        color: #FFF;
                         .file{
                             margin:0;
                             .file-icon{
@@ -728,6 +734,7 @@ header{
                                 border:0;
                                 background: transparent;
                                 width:auto;
+                                color:#000;
                             }
                         }
                         a{

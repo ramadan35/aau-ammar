@@ -687,25 +687,31 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-sorting {
   font-size: 16px;
   font-weight: bold;
+  border: 0;
 }
-/* line 705, ../sass/style1.scss */
+/* line 706, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-title {
   font-size: 16px;
   font-weight: bold;
-}
-/* line 709, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
-  text-align: right;
+  border: 0;
 }
 /* line 711, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
+  text-align: right;
+  border: 0;
+  background: #0083d1;
+  text-align: center;
+  color: #FFF;
+}
+/* line 717, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file {
   margin: 0;
 }
-/* line 713, ../sass/style1.scss */
+/* line 719, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-icon {
   display: none;
 }
-/* line 716, ../sass/style1.scss */
+/* line 722, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-link {
   display: inline-block;
   border: 0;
@@ -713,14 +719,15 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   padding: 0;
   width: auto;
 }
-/* line 726, ../sass/style1.scss */
+/* line 732, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-size {
   display: inline-block;
   border: 0;
   background: transparent;
   width: auto;
+  color: #000;
 }
-/* line 733, ../sass/style1.scss */
+/* line 740, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a {
   font-size: 16px;
   font-weight: bold;
