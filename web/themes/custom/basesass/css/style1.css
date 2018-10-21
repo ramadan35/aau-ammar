@@ -678,45 +678,50 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
 .path-regulations #content .region-content .page-header {
   display: none;
 }
-/* line 698, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-sorting {
+/* line 697, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive caption {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 701, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-sorting {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 702, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-title {
+/* line 705, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-title {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 706, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv {
+/* line 709, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
   text-align: right;
 }
-/* line 708, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file {
+/* line 711, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file {
   margin: 0;
 }
-/* line 710, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-icon {
+/* line 713, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-icon {
   display: none;
 }
-/* line 713, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-link {
+/* line 716, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-link {
   display: inline-block;
   border: 0;
   background: transparent;
   padding: 0;
   width: auto;
 }
-/* line 723, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv .file .file-size {
+/* line 726, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-size {
   display: inline-block;
   border: 0;
   background: transparent;
   width: auto;
 }
-/* line 730, ../sass/style1.scss */
-.path-regulations #content .region-content .view-content .table-responsive caption .views-field-field-cv a {
+/* line 733, ../sass/style1.scss */
+.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a {
   font-size: 16px;
   font-weight: bold;
 }
