@@ -108,7 +108,8 @@ jQuery(document).ready(function ($) {
 
     });
     $('#bx-pager a .field--name-field-or-youtube').append('<div id="youtube-thumbnail"></div>');
-     var thumbnail = $('#bx-pager a iframe .html5-video-player .ytp-cued-thumbnail-overlay').html();
+     var thumbnail = $('#bx-pager a iframe .ytp-cued-thumbnail-overlay').html();
+     console.log(thumbnail);
      $('#youtube-thumbnail').html(thumbnail);
 });
 (function ($, _, Drupal, drupalSettings) {
