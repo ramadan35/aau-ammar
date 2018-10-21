@@ -748,6 +748,36 @@ header{
     }
 }
 
+.path-successive-presidents{
+    #content{
+        .region-content{
+            .page-header{
+                display: none;
+            }
+            .bx-wrapper{
+                margin: 0 auto;
+                box-shadow: none;
+                .view-content{
+                    .views-row{
+                        text-align: center;
+                        .views-field-title{
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                        .views-field-field-date{
+                            
+                        }
+                        .views-field-field-end-{
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;

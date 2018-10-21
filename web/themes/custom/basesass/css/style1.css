@@ -733,6 +733,25 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   font-weight: bold;
 }
 
+/* line 754, ../sass/style1.scss */
+.path-successive-presidents #content .region-content .page-header {
+  display: none;
+}
+/* line 757, ../sass/style1.scss */
+.path-successive-presidents #content .region-content .bx-wrapper {
+  margin: 0 auto;
+  box-shadow: none;
+}
+/* line 761, ../sass/style1.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row {
+  text-align: center;
+}
+/* line 763, ../sass/style1.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .views-field-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;
