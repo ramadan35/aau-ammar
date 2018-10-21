@@ -7,12 +7,16 @@
 
 jQuery(document).ready(function ($) {
 
-    $('.page-node-type-media-gallery .bxslider').bxSlider({
-        pagerCustom: '#bx-pager',
-        slideWidth: 0,
+    $('#block-dotjo-discount-code-discount-cars .discount-cars-cont').bxSlider({
+        slideWidth: 300,
         minSlides: 1,
+        maxSlides: 1,
         responsive: true,
-        controls: false
+        infiniteLoop: true,
+        controls: true,
+        speed: 500,
+        auto: true,
+        autoStart: true,
     });
 
 });
