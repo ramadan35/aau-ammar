@@ -751,6 +751,12 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   font-weight: bold;
   font-size: 16px;
 }
+/* line 767, ../sass/style1.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .date {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 @keyframes FadeIn {
   0% {
