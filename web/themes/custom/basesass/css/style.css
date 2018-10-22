@@ -10015,7 +10015,19 @@ body {
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-media-video-file .field--item video {
   opacity: 0.4;
 }
-/* line 412, ../sass/style.scss */
+/* line 410, ../sass/style.scss */
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-or-youtube {
+  opacity: 1;
+}
+/* line 413, ../sass/style.scss */
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-video-file {
+  opacity: 1;
+}
+/* line 416, ../sass/style.scss */
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-video-file {
+  opacity: 1;
+}
+/* line 423, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
   top: 16px;
@@ -10030,7 +10042,7 @@ body {
   background-position: 50%;
   left: 0;
 }
-/* line 426, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next {
   width: 100%;
   background-color: black;
@@ -10048,27 +10060,27 @@ body {
   margin-top: 0px;
 }
 
-/* line 448, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 452, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 457, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 459, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 462, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
