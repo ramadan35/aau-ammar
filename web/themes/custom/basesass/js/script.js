@@ -107,7 +107,7 @@ jQuery(document).ready(function ($) {
         pager: false
 
     });
-    $('.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev ,.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next').click(function () {
+    $('.page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a').click(function () {
         $("video").each(function () {
             $(this).get(0).pause();
         });
