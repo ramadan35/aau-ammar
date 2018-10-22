@@ -408,13 +408,21 @@ body {
                         }
                         a:hover{
                             .field--name-field-or-youtube{
-                               opacity: 1; 
+                                opacity: 1; 
                             }
-                            .field--name-field-media-video-file{
-                                opacity: 1;
+                            .field--name-field-media-image{
+                                //background: black;
+                                img{
+                                    opacity: 1; 
+                                }
                             }
-                            .field--name-field-media-video-file{
-                                opacity: 1;
+                           .field--name-field-media-video-file{
+                                .field--item{
+                                    //background: black;
+                                    video{
+                                        opacity: 1;
+                                    }
+                                }
                             }
                         }
                     }
