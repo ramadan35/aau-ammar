@@ -10007,27 +10007,27 @@ body {
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-or-youtube iframe {
   display: none;
 }
-/* line 396, ../sass/style.scss */
+/* line 395, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-media-image img {
   opacity: 0.4;
 }
-/* line 403, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-media-video-file .field--item video {
   opacity: 0.4;
 }
-/* line 410, ../sass/style.scss */
+/* line 408, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-or-youtube {
   opacity: 1;
 }
-/* line 415, ../sass/style.scss */
+/* line 412, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-image img {
   opacity: 1;
 }
-/* line 422, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-video-file .field--item video {
   opacity: 1;
 }
-/* line 431, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
   top: 16px;
@@ -10042,7 +10042,7 @@ body {
   background-position: 50%;
   left: 0;
 }
-/* line 445, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next {
   width: 100%;
   background-color: black;
@@ -10060,27 +10060,27 @@ body {
   margin-top: 0px;
 }
 
-/* line 467, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 471, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 476, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 478, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 481, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
