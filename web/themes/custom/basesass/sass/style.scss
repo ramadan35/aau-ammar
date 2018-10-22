@@ -382,10 +382,11 @@ body {
                         a{
                             display: block;
                             margin-bottom: 20px;
-                            background: black;
+                            background: black !important;
                             .field--name-field-or-youtube{
                                 background: url(../images/youtube-logo2.jpg);
                                 border: solid 1px darkgrey;
+                                 opacity: 0.4;
                                 iframe{
                                     display:none;
                                 }
@@ -403,9 +404,6 @@ body {
                                         opacity: 0.4;
                                     }
                                 }
-                            }
-                            .field--name-field-or-youtube{
-                                opacity: 0.4;
                             }
                         }
                     }
