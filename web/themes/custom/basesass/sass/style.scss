@@ -381,32 +381,32 @@ body {
                     #bx-pager{
                         a{
                             display: block;
-                                margin-bottom: 20px;
-                                    background: black;
-                                .field--name-field-or-youtube{
-                                        background: url(../images/youtube-logo2.jpg);
-                                            border: solid 1px darkgrey;
-                                    iframe{
-                                       display:none;
-                                    }
+                            margin-bottom: 20px;
+                            background: black;
+                            .field--name-field-or-youtube{
+                                background: url(../images/youtube-logo2.jpg);
+                                border: solid 1px darkgrey;
+                                iframe{
+                                    display:none;
                                 }
-                                .field--name-field-media-image{
+                            }
+                            .field--name-field-media-image{
+                                //background: black;
+                                img{
+                                    opacity: 0.4; 
+                                }
+                            }
+                            .field--name-field-media-video-file{
+                                .field--item{
                                     //background: black;
-                                    img{
-                                          opacity: 0.4; 
+                                    video{
+                                        opacity: 0.4;
                                     }
                                 }
-                                .field--name-field-media-video-file{
-                                    .field--item{
-                                        //background: black;
-                                        video{
-                                                opacity: 0.4;
-                                        }
-                                    }
-                                }
-                                .field--name-field-or-youtube{
-                                       opacity: 0.4;
-                                }
+                            }
+                            .field--name-field-or-youtube{
+                                opacity: 0.4;
+                            }
                         }
                     }
                 }
@@ -438,8 +438,8 @@ body {
                         background-position: 50%;
                         position: absolute;
                         bottom: 0;
-                            top: auto;
-                            margin-top: 0px;
+                        top: auto;
+                        margin-top: 0px;
                     }
                 }
             }
