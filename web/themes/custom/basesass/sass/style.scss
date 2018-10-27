@@ -30,7 +30,7 @@ body {
 }
 .front_content_1{
     margin-bottom: 36px;
-    
+
     padding-top: 50px;     
     .view{
         .views-row{
@@ -388,7 +388,7 @@ body {
                             .field--name-field-or-youtube{
                                 background: url(../images/youtube-logo2.jpg);
                                 border: solid 1px darkgrey;
-                                 opacity: 0.4;
+                                opacity: 0.4;
                                 iframe{
                                     display:none;
                                 }
@@ -415,7 +415,7 @@ body {
                                     opacity: 1; 
                                 }
                             }
-                           .field--name-field-media-video-file{
+                            .field--name-field-media-video-file{
                                 .field--item{
                                     video{
                                         opacity: 1;
@@ -475,7 +475,7 @@ body {
                 color: #4A4A4A;
                 font-size: 24px;
                 font-weight: bold;
-                    margin-bottom: 15px;
+                margin-bottom: 15px;
             }
             .field--name-field-body ,.field--name-field-breif{
                 color: #9B9B9B;
@@ -483,35 +483,58 @@ body {
                 font-weight: bold;
                 line-height: 30px;
             }
-    
-            }
-                    form{
-                margin-top: 20px;
-                .form-item{
-                    label{
-                        color: #4A4A4A;
-                        font-size: 16px;
-                        font-weight: bold;
-                        margin-bottom: 15px;
-                    }
-                    input , textarea{
-                        box-shadow: none;
-                        border-radius: 0px;
-                    }
-                    .form-number{
-                        box-shadow: none;
-                        border-radius: 0px;  
-                        display: block;
-    width: 100%;
-                    }
+
+        }
+        form{
+            margin-top: 20px;
+            .form-item{
+                label{
+                    color: #4A4A4A;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                input , textarea{
+                    box-shadow: none;
+                    border-radius: 0px;
+                }
+                .form-number{
+                    box-shadow: none;
+                    border-radius: 0px;  
+                    display: block;
+                    width: 100%;
                 }
             }
-            .field--name-field-pdf{
+        }
+        .field--name-field-pdf{
             .field--item{
                 iframe{
                     margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+                    margin-right: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .block-webform{
+                form{
+            margin-top: 20px;
+            .form-item{
+                label{
+                    color: #4A4A4A;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                input , textarea{
+                    box-shadow: none;
+                    border-radius: 0px;
+                }
+                .form-number{
+                    box-shadow: none;
+                    border-radius: 0px;  
+                    display: block;
+                    width: 100%;
                 }
             }
         }

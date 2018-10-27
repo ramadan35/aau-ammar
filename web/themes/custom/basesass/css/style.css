@@ -10112,33 +10112,56 @@ body {
   margin-right: 0;
   width: 100%;
 }
+/* line 520, ../sass/style.scss */
+.page-node-type-admission .block-webform form {
+  margin-top: 20px;
+}
+/* line 523, ../sass/style.scss */
+.page-node-type-admission .block-webform form .form-item label {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 529, ../sass/style.scss */
+.page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea {
+  box-shadow: none;
+  border-radius: 0px;
+}
+/* line 533, ../sass/style.scss */
+.page-node-type-admission .block-webform form .form-item .form-number {
+  box-shadow: none;
+  border-radius: 0px;
+  display: block;
+  width: 100%;
+}
 
-/* line 521, ../sass/style.scss */
+/* line 544, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 525, ../sass/style.scss */
+/* line 548, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 529, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 533, ../sass/style.scss */
+/* line 556, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 535, ../sass/style.scss */
+/* line 558, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 538, ../sass/style.scss */
+/* line 561, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
