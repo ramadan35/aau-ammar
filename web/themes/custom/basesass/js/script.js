@@ -123,8 +123,8 @@ jQuery(document).ready(function ($) {
         maxSlides: 1,
         responsive: true,
         infiniteLoop: true,
-        controls: false,
-        pager: true
+        controls: true,
+        pager: false
 
     });
 });

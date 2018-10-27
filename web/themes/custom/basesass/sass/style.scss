@@ -461,6 +461,19 @@ body {
         }
     }
 }
+.page-node-type-admission{
+    .field--name-field-admission{
+        .field--item{
+            .bx-wrapper{
+                box-shadow: none;
+                border: 5px solid #fff;
+                background: #fff;
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+}
 //styles for ammar
 .path-news-events #content .container > .col-md-9 .view-content .views-row{
     clear: both;

@@ -10061,32 +10061,41 @@ body {
   margin-top: 0px;
 }
 
-/* line 465, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
+.page-node-type-admission .field--name-field-admission .field--item .bx-wrapper {
+  box-shadow: none;
+  border: 5px solid #fff;
+  background: #fff;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 478, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 469, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 473, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 477, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 479, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 482, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
