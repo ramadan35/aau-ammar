@@ -116,6 +116,17 @@ jQuery(document).ready(function ($) {
             return false;
         });
     });
+    //Admission
+        $('.page-node-type-admission .field--name-field-pdf.field--items').bxSlider({
+        slideWidth: 0,
+        minSlides: 1,
+        maxSlides: 1,
+        responsive: true,
+        infiniteLoop: true,
+        controls: false,
+        pager: true
+
+    });
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
