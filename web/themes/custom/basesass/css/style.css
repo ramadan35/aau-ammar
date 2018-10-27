@@ -10069,39 +10069,52 @@ body {
   margin: 0;
   width: 100%;
 }
-/* line 477, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
+.page-node-type-admission .field--name-field-admission .field--item .field--name-field-title {
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 479, ../sass/style.scss */
+.page-node-type-admission .field--name-field-admission .field--item .field--name-field-body {
+  color: #9B9B9B;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* line 488, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
 
-/* line 487, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 491, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 495, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 499, ../sass/style.scss */
+/* line 510, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 501, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 504, ../sass/style.scss */
+/* line 515, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
