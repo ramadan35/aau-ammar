@@ -472,6 +472,15 @@ body {
                 width: 100%;
             }
         }
+        .field--name-field-pdf{
+            .field--item{
+                iframe{
+                    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+                }
+            }
+        }
     }
 }
 //styles for ammar
