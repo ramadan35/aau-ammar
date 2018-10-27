@@ -470,6 +470,9 @@ header.row{
     margin-left: 0px;
     margin-right: 0px;
 }
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li{
+    width:100%;
+}
 ul.menu--social-media{
     li{
         float:left;

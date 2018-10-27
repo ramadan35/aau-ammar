@@ -10073,15 +10073,20 @@ header.row {
   margin-right: 0px;
 }
 
-/* line 474, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
+  width: 100%;
+}
+
+/* line 477, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 476, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 479, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
