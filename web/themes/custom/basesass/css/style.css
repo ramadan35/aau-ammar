@@ -10135,33 +10135,44 @@ body {
   display: block;
   width: 100%;
 }
+/* line 541, ../sass/style.scss */
+.page-node-type-admission .block-webform form .form-actions button {
+  background-color: #FFB500;
+  border: 0px;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: bold;
+  width: 175px;
+  height: 38px;
+  font-size: 17px;
+}
 
-/* line 544, ../sass/style.scss */
+/* line 556, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 548, ../sass/style.scss */
+/* line 560, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 552, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 556, ../sass/style.scss */
+/* line 568, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 558, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 561, ../sass/style.scss */
+/* line 573, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
