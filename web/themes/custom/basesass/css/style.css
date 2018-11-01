@@ -10063,7 +10063,7 @@ body {
 }
 
 /* line 469, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission .field--item .bx-wrapper {
+.page-node-type-admission .field--name-field-admission .field--item .bx-wrapper, .page-node-type-academics .field--name-field-admission .field--item .bx-wrapper {
   box-shadow: none;
   border: 5px solid #fff;
   background: #fff;
@@ -10071,77 +10071,77 @@ body {
   width: 100%;
 }
 /* line 476, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission .field--item .field--name-field-title {
+.page-node-type-admission .field--name-field-admission .field--item .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .field--name-field-title {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 /* line 482, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission .field--item .field--name-field-body, .page-node-type-admission .field--name-field-admission .field--item .field--name-field-breif {
+.page-node-type-admission .field--name-field-admission .field--item .field--name-field-body, .page-node-type-admission .field--name-field-admission .field--item .field--name-field-breif, .page-node-type-academics .field--name-field-admission .field--item .field--name-field-body, .page-node-type-academics .field--name-field-admission .field--item .field--name-field-breif {
   color: #9B9B9B;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
 }
 /* line 490, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission form {
+.page-node-type-admission .field--name-field-admission form, .page-node-type-academics .field--name-field-admission form {
   margin-top: 20px;
 }
 /* line 493, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission form .form-item label {
+.page-node-type-admission .field--name-field-admission form .form-item label, .page-node-type-academics .field--name-field-admission form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 /* line 499, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission form .form-item input, .page-node-type-admission .field--name-field-admission form .form-item textarea {
+.page-node-type-admission .field--name-field-admission form .form-item input, .page-node-type-admission .field--name-field-admission form .form-item textarea, .page-node-type-academics .field--name-field-admission form .form-item input, .page-node-type-academics .field--name-field-admission form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
 /* line 503, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission form .form-item .form-number {
+.page-node-type-admission .field--name-field-admission form .form-item .form-number, .page-node-type-academics .field--name-field-admission form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
 /* line 513, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe {
+.page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-academics .field--name-field-admission .field--name-field-pdf .field--item iframe {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
 /* line 522, ../sass/style.scss */
-.page-node-type-admission .block-webform form {
+.page-node-type-admission .block-webform form, .page-node-type-academics .block-webform form {
   margin-top: 20px;
 }
 /* line 524, ../sass/style.scss */
-.page-node-type-admission .block-webform form .form-item {
+.page-node-type-admission .block-webform form .form-item, .page-node-type-academics .block-webform form .form-item {
   margin-bottom: 20px;
 }
 /* line 526, ../sass/style.scss */
-.page-node-type-admission .block-webform form .form-item label {
+.page-node-type-admission .block-webform form .form-item label, .page-node-type-academics .block-webform form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 /* line 532, ../sass/style.scss */
-.page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea {
+.page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea, .page-node-type-academics .block-webform form .form-item input, .page-node-type-academics .block-webform form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
 /* line 536, ../sass/style.scss */
-.page-node-type-admission .block-webform form .form-item .form-number {
+.page-node-type-admission .block-webform form .form-item .form-number, .page-node-type-academics .block-webform form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
 /* line 544, ../sass/style.scss */
-.page-node-type-admission .block-webform form .form-actions button {
+.page-node-type-admission .block-webform form .form-actions button, .page-node-type-academics .block-webform form .form-actions button {
   background-color: #FFB500;
   border: 0px;
   box-shadow: none;
