@@ -10153,31 +10153,90 @@ body {
 }
 
 /* line 559, ../sass/style.scss */
+.view-employees .views-row {
+  margin-bottom: 30px;
+  position: relative;
+}
+/* line 562, ../sass/style.scss */
+.view-employees .views-row .views-field {
+  margin-bottom: 20px;
+}
+/* line 564, ../sass/style.scss */
+.view-employees .views-row .views-field .field-content {
+  display: inline-block;
+  font-size: 16px;
+}
+/* line 568, ../sass/style.scss */
+.view-employees .views-row .views-field .views-label {
+  display: inline-block;
+  width: 215px;
+  font-size: 16px;
+}
+/* line 574, ../sass/style.scss */
+.view-employees .views-row .views-field-field-image {
+  float: left;
+  padding-right: 20px;
+}
+/* line 577, ../sass/style.scss */
+.view-employees .views-row .views-field-field-image img {
+  width: 100%;
+}
+/* line 581, ../sass/style.scss */
+.view-employees .views-row .views-field-title {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: #0083d1;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+}
+/* line 592, ../sass/style.scss */
+.view-employees .views-row .views-field-field-cv .file {
+  width: auto;
+}
+/* line 594, ../sass/style.scss */
+.view-employees .views-row .views-field-field-cv .file .file-icon {
+  width: auto;
+  display: none;
+}
+/* line 598, ../sass/style.scss */
+.view-employees .views-row .views-field-field-cv .file .file-link {
+  width: auto;
+  border: 0;
+}
+/* line 602, ../sass/style.scss */
+.view-employees .views-row .views-field-field-cv .file .file-size {
+  display: none;
+}
+
+/* line 611, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 563, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 567, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 571, ../sass/style.scss */
+/* line 623, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 573, ../sass/style.scss */
+/* line 625, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 576, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
