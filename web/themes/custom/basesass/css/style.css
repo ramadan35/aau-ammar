@@ -9959,76 +9959,77 @@ body {
   display: block;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 18px;
 }
-/* line 352, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .path-media-gallery .view .views-row .views-field-title a:hover, .path-media-gallery .view .views-row .views-field-title a.focus {
   text-decoration: none;
 }
 
-/* line 362, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper {
   float: left;
   margin: 0px;
   box-shadow: none;
 }
-/* line 367, ../sass/style.scss */
+/* line 368, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type {
   width: 920px;
 }
-/* line 371, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) {
   position: relative;
 }
-/* line 373, ../sass/style.scss */
+/* line 374, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport {
   height: 512px !important;
 }
-/* line 376, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video {
   width: 100% !important;
   height: auto !important;
 }
-/* line 380, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport video::-webkit-media-controls {
   display: none;
 }
-/* line 384, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a {
   display: block;
   margin-bottom: 20px;
   background: black !important;
 }
-/* line 388, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-or-youtube {
   background: url(../images/youtube-logo2.jpg);
   border: solid 1px darkgrey;
   opacity: 0.4;
 }
-/* line 392, ../sass/style.scss */
+/* line 393, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-or-youtube iframe {
   display: none;
 }
-/* line 397, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-media-image img {
   opacity: 0.4;
 }
-/* line 403, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a .field--name-field-media-video-file .field--item video {
   opacity: 0.4;
 }
-/* line 410, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-or-youtube {
   opacity: 1;
 }
-/* line 414, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-image img {
   opacity: 1;
 }
-/* line 420, ../sass/style.scss */
+/* line 421, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-viewport #bx-pager a:hover .field--name-field-media-video-file .field--item video {
   opacity: 1;
 }
-/* line 429, ../sass/style.scss */
+/* line 430, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-prev {
   position: absolute;
   top: 16px;
@@ -10043,7 +10044,7 @@ body {
   background-position: 50%;
   left: 0;
 }
-/* line 443, ../sass/style.scss */
+/* line 444, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) .bx-controls a.bx-next {
   width: 100%;
   background-color: black;
@@ -10061,7 +10062,7 @@ body {
   margin-top: 0px;
 }
 
-/* line 467, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .bx-wrapper {
   box-shadow: none;
   border: 5px solid #fff;
@@ -10069,77 +10070,77 @@ body {
   margin: 0;
   width: 100%;
 }
-/* line 474, ../sass/style.scss */
+/* line 475, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .field--name-field-title {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 480, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .field--name-field-body, .page-node-type-admission .field--name-field-admission .field--item .field--name-field-breif {
   color: #9B9B9B;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
 }
-/* line 488, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form {
   margin-top: 20px;
 }
-/* line 491, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 497, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item input, .page-node-type-admission .field--name-field-admission form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 501, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 511, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
-/* line 520, ../sass/style.scss */
+/* line 521, ../sass/style.scss */
 .page-node-type-admission .block-webform form {
   margin-top: 20px;
 }
-/* line 522, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item {
   margin-bottom: 20px;
 }
-/* line 524, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 530, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 534, ../sass/style.scss */
+/* line 535, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 542, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-actions button {
   background-color: #FFB500;
   border: 0px;
@@ -10151,32 +10152,32 @@ body {
   font-size: 17px;
 }
 
-/* line 557, ../sass/style.scss */
+/* line 558, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 561, ../sass/style.scss */
+/* line 562, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 565, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 569, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 571, ../sass/style.scss */
+/* line 572, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 574, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
