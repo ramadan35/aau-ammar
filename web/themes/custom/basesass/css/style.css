@@ -10256,34 +10256,50 @@ body {
 /* line 651, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a {
   background-image: url(../images/pager-right.png);
+  background-repeat: no-repeat;
+  margin-top: 2px;
+}
+/* line 655, ../sass/style.scss */
+.pager-nav ul li.pager__item--next a span {
+  font-size: 0px;
+}
+/* line 661, ../sass/style.scss */
+.pager-nav ul li.pager__item--previous a {
+  background-image: url(../images/pager-left.png);
+  background-repeat: no-repeat;
+  margin-top: 2px;
+}
+/* line 665, ../sass/style.scss */
+.pager-nav ul li.pager__item--previous a span {
+  font-size: 0px;
 }
 
-/* line 658, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 662, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 666, ../sass/style.scss */
+/* line 681, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 670, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 672, ../sass/style.scss */
+/* line 687, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 675, ../sass/style.scss */
+/* line 690, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;

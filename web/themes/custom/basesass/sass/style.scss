@@ -642,7 +642,7 @@ body {
                color: #fff;  
                background-color: #0083D1;
     border-color: #0083D1;
-            }
+                        }
         }
         li.pager__item--last ,li.pager__item--first{
             display: none;
@@ -650,6 +650,21 @@ body {
         li.pager__item--next{
             a{
                 background-image: url(../images/pager-right.png); 
+                background-repeat: no-repeat;
+                margin-top: 2px;
+                span{
+                    font-size: 0px; 
+                }
+            }  
+        }
+        li.pager__item--previous{
+            a{
+                background-image: url(../images/pager-left.png); 
+                background-repeat: no-repeat;
+                margin-top: 2px;
+                span{
+                    font-size: 0px; 
+                }
             }  
         }
     } 
