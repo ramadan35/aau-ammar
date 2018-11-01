@@ -10229,7 +10229,7 @@ body {
   line-height: 18px;
 }
 /* line 626, ../sass/style.scss */
-.pager-nav ul li a:hover, .pager-nav ul li a.focus {
+.pager-nav ul li a:hover, .pager-nav ul li a:focus, .pager-nav ul li span:hover, .pager-nav ul li span:focus {
   color: #4A4A4A;
   background-color: #fff;
   border-color: #fff;
@@ -10244,7 +10244,7 @@ body {
   padding: 0px;
 }
 /* line 641, ../sass/style.scss */
-.pager-nav ul li.active a:hover, .pager-nav ul li.active a.focus {
+.pager-nav ul li.active a:hover, .pager-nav ul li.active a:focus, .pager-nav ul li.active span:hover, .pager-nav ul li.active span:focus {
   color: #fff;
   background-color: #0083D1;
   border-color: #0083D1;

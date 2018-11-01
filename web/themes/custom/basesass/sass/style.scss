@@ -623,7 +623,7 @@ body {
                 text-align: center;
                 line-height: 18px;
             }
-            a:hover , a.focus{
+            a:hover , a:focus ,span:hover , span:focus{
                color: #4A4A4A;  
                background-color: #fff;
     border-color: #fff;
@@ -638,11 +638,11 @@ body {
                 border:0px;
                 padding:0px;  
             }
-                        a:hover , a.focus{
-               color: #fff;  
-               background-color: #0083D1;
-    border-color: #0083D1;
-                        }
+            a:hover , a:focus ,span:hover , span:focus{
+                color: #fff;  
+                background-color: #0083D1;
+                border-color: #0083D1;
+            }
         }
         li.pager__item--last ,li.pager__item--first{
             display: none;
