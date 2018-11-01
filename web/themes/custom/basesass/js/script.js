@@ -117,7 +117,7 @@ jQuery(document).ready(function ($) {
         });
     });
     //Admission
-        $('.page-node-type-admission .field--name-field-pdf.field--items').bxSlider({
+        $('.field--name-field-pdf.field--items').bxSlider({
         slideWidth: 0,
         minSlides: 1,
         maxSlides: 1,
