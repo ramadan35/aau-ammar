@@ -608,14 +608,19 @@ body {
     }
 }
 .pager-nav{
+           text-align: right;
     ul{
-        text-align: right;
         li{
             a{
                 color: #4A4A4A; 
                 font-size: 16px;
                 border:0px;
                 padding:0px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                line-height: 18px;
             }
         }
         li.active{
@@ -627,6 +632,9 @@ body {
                 border:0px;
                 padding:0px;  
             }
+        }
+        li.pager__item--last ,li.pager__item--first{
+            display: none;
         }
     } 
 }

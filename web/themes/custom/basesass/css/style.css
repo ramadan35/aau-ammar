@@ -10211,8 +10211,8 @@ body {
   display: none;
 }
 
-/* line 611, ../sass/style.scss */
-.pager-nav ul {
+/* line 610, ../sass/style.scss */
+.pager-nav {
   text-align: right;
 }
 /* line 614, ../sass/style.scss */
@@ -10221,8 +10221,13 @@ body {
   font-size: 16px;
   border: 0px;
   padding: 0px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 18px;
 }
-/* line 622, ../sass/style.scss */
+/* line 627, ../sass/style.scss */
 .pager-nav ul li.active a {
   color: #fff;
   background: #0083D1;
@@ -10231,33 +10236,37 @@ body {
   border: 0px;
   padding: 0px;
 }
+/* line 636, ../sass/style.scss */
+.pager-nav ul li.pager__item--last, .pager-nav ul li.pager__item--first {
+  display: none;
+}
 
-/* line 634, ../sass/style.scss */
+/* line 642, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 638, ../sass/style.scss */
+/* line 646, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 642, ../sass/style.scss */
+/* line 650, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 646, ../sass/style.scss */
+/* line 654, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 648, ../sass/style.scss */
+/* line 656, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 651, ../sass/style.scss */
+/* line 659, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
