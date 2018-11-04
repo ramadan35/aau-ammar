@@ -512,7 +512,12 @@ body {
                 }
                 .field--name-field-title:after{
                     content: url(../images/right-arrow-collapses.png); 
-                                        display: inline-block;
+                    display: inline-block;
+                    float: right;
+                }
+                .field--name-field-title.opened-content:after{
+                    content: url(../images/up-arrow.png); 
+                    display: inline-block;
                     float: right;
                 }
                 .field--name-field-content{
