@@ -131,12 +131,13 @@ jQuery(document).ready(function ($) {
     //$('.field--item .paragraph--type--collapses .field--name-field-title').addClass("closed-content");
     $('.field--item .paragraph--type--collapses .field--name-field-title').click(function (e) {
         if ($(this).hasClass("opened-content")) {
-
+            $(this).removeClass("opened-content");
         } else {
             $('.field--item .paragraph--type--collapses .field--name-field-title').removeClass("opened-content");
              $(this).addClass("opened-content");
         }
     });
+    $(".field--item .paragraph--type--collapses .field--name-field-title.opened-content").siblings(".field--name-field-content").addClass("opened");
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
