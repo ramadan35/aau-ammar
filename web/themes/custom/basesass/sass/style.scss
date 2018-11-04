@@ -499,7 +499,14 @@ body {
                 }
             }
 
-
+            .paragraph--type--collapses{
+                .field--name-field-title:after{
+                   content: url(../images/right-arrow-collapses.png); 
+                }
+                .field--name-field-content{
+                    display:none;
+                }
+            }
             }
             form{
             margin-top: 20px;
