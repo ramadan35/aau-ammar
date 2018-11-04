@@ -133,10 +133,12 @@ jQuery(document).ready(function ($) {
             $(this).removeClass("opened-content");
         } else {
             $('.field--item .paragraph--type--collapses .field--name-field-title').removeClass("opened-content");
-             $(this).addClass("opened-content");
+            $(this).addClass("opened-content");
         }
     });
-    $(".field--item .paragraph--type--collapses .field--name-field-title.opened-content").parents(".paragraph--type--collapses").siblings(".field--name-field-content").addClass("opened");
+    if ($(".field--item .paragraph--type--collapses .field--name-field-title").hasClass("opened-content")) {
+        $(".field--item .paragraph--type--collapses .field--name-field-title.opened-content").parents(".paragraph--type--collapses").siblings(".field--name-field-content").addClass("opened");
+    }
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
