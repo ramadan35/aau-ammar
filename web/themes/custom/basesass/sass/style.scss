@@ -522,9 +522,19 @@ body {
                 }
                 .field--name-field-content{
                     display:none;
+                    .field--name-field-title{
+                        background: inherit;
+                        padding: 0;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        color: #4A4A4A;
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
                 }
                 .field--name-field-content.opened{
-                   display:block; 
+                    display:block; 
                 }
             }
         }
