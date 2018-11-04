@@ -135,9 +135,10 @@ jQuery(document).ready(function ($) {
         } else {
             $('.field--item .paragraph--type--collapses .field--name-field-title').removeClass("opened-content");
              $(this).addClass("opened-content");
+                 $(".field--item .paragraph--type--collapses .field--name-field-title.opened-content").siblings(".field--name-field-content").addClass("opened");
         }
     });
-    $(".field--item .paragraph--type--collapses .field--name-field-title.opened-content").siblings(".field--name-field-content").addClass("opened");
+
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
