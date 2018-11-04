@@ -500,15 +500,27 @@ body {
             }
 
             .paragraph--type--collapses{
+                .field--name-field-title{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                    background: #4A4A4A;
+                    padding: 10px 20px;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                }
                 .field--name-field-title:after{
-                   content: url(../images/right-arrow-collapses.png); 
+                    content: url(../images/right-arrow-collapses.png); 
                 }
                 .field--name-field-content{
                     display:none;
+                    display: inline-block;
+                    float: right;
                 }
             }
-            }
-            form{
+        }
+        form{
             margin-top: 20px;
             .form-item{
                 label{

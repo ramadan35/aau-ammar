@@ -127,6 +127,16 @@ jQuery(document).ready(function ($) {
         pager: false
 
     });
+    //Collapses
+    //$('.field--item .paragraph--type--collapses .field--name-field-title').addClass("closed-content");
+    $('.field--item .paragraph--type--collapses .field--name-field-title').click(function (e) {
+        if ($(this).hasClass("opened-content")) {
+
+        } else {
+            $('.field--item .paragraph--type--collapses .field--name-field-title').removeClass("opened-content");
+             $(this).addClass("opened-content");
+        }
+    });
 });
 (function ($, _, Drupal, drupalSettings) {
     'use strict';
