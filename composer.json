@@ -380,6 +380,7 @@
         "drupal/metatag": "^1.4",
         "drupal/paragraphs": "^1.2",
         "drupal/pathauto": "^1.0",
+        "drupal/popup_dialog": "^2.0",
         "drupal/recaptcha": "^2.2",
         "drupal/responsive_preview": "^1.0@alpha",
         "drupal/scheduler": "^1.0",

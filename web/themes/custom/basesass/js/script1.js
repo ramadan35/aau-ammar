@@ -20,6 +20,5 @@ jQuery(document).ready(function ($) {
     });
     
     var ss = $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
-    console.log(ss);
 
 });

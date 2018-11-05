@@ -1,0 +1,12 @@
+name: Popup Dialog
+type: module
+description: Popup dialog box based on user browser cookie.
+# core: 8.x
+package: Other
+configure: popup_dialog.popup_settings
+
+# Information added by Drupal.org packaging script on 2018-03-07
+version: '8.x-2.0'
+core: '8.x'
+project: 'popup_dialog'
+datestamp: 1520425986
