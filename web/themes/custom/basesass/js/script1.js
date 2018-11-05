@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
         autoStart: true,
     });
     
-    var ss = $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2);
+    var ss = $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("boder" , "0");
     console.log(ss);
 
 });
