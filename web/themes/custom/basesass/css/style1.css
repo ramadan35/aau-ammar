@@ -25,7 +25,7 @@ header .top-header #block-topmenu ul.nav li {
   padding: 0 8px;
 }
 /* line 23, ../sass/style1.scss */
-header .top-header #block-topmenu ul.nav li a {
+header .top-header #block-topmenu ul.nav li a, header .top-header #block-topmenu ul.nav li spans {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
