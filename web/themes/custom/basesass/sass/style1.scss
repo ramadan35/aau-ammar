@@ -20,12 +20,11 @@ header{
                     border-right: 1px solid #FFF;
                     line-height: 14px;
                     padding: 0 8px;
-                    a , span{
+                    a{
                         color: #FFFFFF;
                         font-size: 14px;
                         text-transform: uppercase;
                         padding:0;
-                        display: block;
                     }
                     a:hover , a:focus{
                         background: transparent;
@@ -143,7 +142,7 @@ header{
                     width:12.5%;
                     padding-top: 10px;
                     padding-bottom: 10px;
-                    > a{
+                    > a , span{
                         border-right:1px solid #FFF;
                         padding:0;
                         margin:0;
@@ -151,6 +150,7 @@ header{
                         font-size: 16px;
                         line-height: 25px;
                         text-align: center;
+                        display: block;
                     }
                     a.sf-with-ul{
                         padding-right:10px;

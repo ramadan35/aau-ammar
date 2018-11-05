@@ -25,47 +25,46 @@ header .top-header #block-topmenu ul.nav li {
   padding: 0 8px;
 }
 /* line 23, ../sass/style1.scss */
-header .top-header #block-topmenu ul.nav li a, header .top-header #block-topmenu ul.nav li span {
+header .top-header #block-topmenu ul.nav li a {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
-  display: block;
 }
-/* line 30, ../sass/style1.scss */
+/* line 29, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li a:hover, header .top-header #block-topmenu ul.nav li a:focus {
   background: transparent;
 }
-/* line 34, ../sass/style1.scss */
+/* line 33, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li:last-child {
   border: 0;
 }
-/* line 39, ../sass/style1.scss */
+/* line 38, ../sass/style1.scss */
 header .top-header .language-switcher-language-url {
   display: inline-block;
 }
-/* line 41, ../sass/style1.scss */
+/* line 40, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 46, ../sass/style1.scss */
+/* line 45, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li a {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   padding: 0;
 }
-/* line 54, ../sass/style1.scss */
+/* line 53, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li.is-active {
   display: none;
 }
-/* line 61, ../sass/style1.scss */
+/* line 60, ../sass/style1.scss */
 header .bottom-header {
   padding: 15px 70px;
 }
-/* line 66, ../sass/style1.scss */
+/* line 65, ../sass/style1.scss */
 header .bottom-header .header_center {
   text-align: center;
   color: #9B9B9B;
@@ -74,21 +73,21 @@ header .bottom-header .header_center {
   font-weight: 300;
   padding-top: 40px;
 }
-/* line 74, ../sass/style1.scss */
+/* line 73, ../sass/style1.scss */
 header .bottom-header .header_right {
   padding-top: 40px;
 }
-/* line 76, ../sass/style1.scss */
+/* line 75, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 {
   display: inline-block;
   float: right;
   padding-top: 6px;
 }
-/* line 81, ../sass/style1.scss */
+/* line 80, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li {
   margin-right: 13px;
 }
-/* line 83, ../sass/style1.scss */
+/* line 82, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li a {
   width: 24px;
   height: 24px;
@@ -99,20 +98,20 @@ header .bottom-header .header_right #block-socialmedia-2 ul.menu li a {
   padding-left: 5px;
   padding-top: 1px;
 }
-/* line 93, ../sass/style1.scss */
+/* line 92, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li a::before {
   font-size: 15px;
 }
-/* line 99, ../sass/style1.scss */
+/* line 98, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   display: inline-block;
   float: right;
 }
-/* line 103, ../sass/style1.scss */
+/* line 102, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline {
   position: relative;
 }
-/* line 106, ../sass/style1.scss */
+/* line 105, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
   width: 256px;
   border: 1px solid #C8C8C8;
@@ -122,7 +121,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 15px;
   box-shadow: none;
 }
-/* line 118, ../sass/style1.scss */
+/* line 117, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
   background: transparent;
   font-size: 0;
@@ -133,23 +132,23 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 10px;
   top: 0;
 }
-/* line 127, ../sass/style1.scss */
+/* line 126, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button span {
   font-size: 16px;
   color: #969696;
 }
-/* line 138, ../sass/style1.scss */
+/* line 137, ../sass/style1.scss */
 header .menu-region {
   background-color: #0083D1;
 }
-/* line 142, ../sass/style1.scss */
+/* line 141, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li {
   width: 12.5%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 146, ../sass/style1.scss */
-header .menu-region #block-mainnavigation ul.menu > li > a {
+/* line 145, ../sass/style1.scss */
+header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span {
   border-right: 1px solid #FFF;
   padding: 0;
   margin: 0;
@@ -157,6 +156,7 @@ header .menu-region #block-mainnavigation ul.menu > li > a {
   font-size: 16px;
   line-height: 25px;
   text-align: center;
+  display: block;
 }
 /* line 155, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li a.sf-with-ul {
