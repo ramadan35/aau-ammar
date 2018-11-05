@@ -18,5 +18,8 @@ jQuery(document).ready(function ($) {
         auto: true,
         autoStart: true,
     });
+    
+    var ss = $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2);
+    console.log(ss);
 
 });
