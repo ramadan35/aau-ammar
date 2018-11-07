@@ -188,10 +188,9 @@ header{
                     }
                 }
                 > li.menuparent{
-                    a::after , span::after{
+                    > a::after , > span::after{
                         content: "\f0d7";
-                        font-family: FontAwesone;   
-                       
+                        font-family: fontAwesome; 
                     }
                 }
             }
