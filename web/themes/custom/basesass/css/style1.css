@@ -611,10 +611,10 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 618, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 50px;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 /* line 626, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
