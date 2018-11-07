@@ -191,6 +191,10 @@ header{
                     > a::after , > span::after{
                         content: "\f0d7";
                         font-family: fontAwesome; 
+                        position: absolute;
+                        right: 22px;
+                        font-size: 12px;
+                        top: 12px;
                     }
                 }
             }
