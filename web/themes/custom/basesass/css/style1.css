@@ -198,7 +198,7 @@ header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   border: 0;
 }
 /* line 191, ../sass/style1.scss */
-header .menu-region #block-mainnavigation ul.menu > li.menuparent a::after {
+header .menu-region #block-mainnavigation ul.menu > li.menuparent a::after, header .menu-region #block-mainnavigation ul.menu > li.menuparent span::after {
   content: "\f0d7";
   font-family: FontAwesone;
 }
