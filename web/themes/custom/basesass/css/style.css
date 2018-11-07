@@ -10066,7 +10066,6 @@ body {
 .page-node-type-page .field--name-body, .page-node-type-announcement .field--name-body, .page-node-type-news .field--name-body {
   color: #9B9B9B;
   font-size: 18px;
-  font-weight: bold;
   line-height: 30px;
 }
 /* line 472, ../sass/style.scss */
@@ -10080,7 +10079,6 @@ body {
 .page-node-type-page .field--name-field-date, .page-node-type-announcement .field--name-field-date, .page-node-type-news .field--name-field-date {
   color: #4A4A4A;
   font-size: 24px;
-  font-weight: bold;
   margin-bottom: 15px;
 }
 
@@ -10103,7 +10101,6 @@ body {
 .page-node-type-admission .field--name-field-admission .field--item .field--name-field-body, .page-node-type-admission .field--name-field-admission .field--item .field--name-field-breif, .page-node-type-academics .field--name-field-admission .field--item .field--name-field-body, .page-node-type-academics .field--name-field-admission .field--item .field--name-field-breif {
   color: #9B9B9B;
   font-size: 18px;
-  font-weight: bold;
   line-height: 30px;
 }
 /* line 508, ../sass/style.scss */
