@@ -771,18 +771,22 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-partnerships #content .region-content .page-header {
   display: none;
 }
-/* line 799, ../sass/style1.scss */
+/* line 797, ../sass/style1.scss */
+.path-partnerships #content .region-content .view-content .views-row {
+  margin-bottom: 30px;
+}
+/* line 800, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-field-image img {
   margin: 0 auto;
 }
-/* line 803, ../sass/style1.scss */
+/* line 804, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
   padding: 15px 0;
 }
-/* line 809, ../sass/style1.scss */
+/* line 810, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-body {
   text-align: center;
   color: #9B9B9B;
