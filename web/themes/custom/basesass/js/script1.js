@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
         autoStart: true,
     });
     
-    $('.path-successive-presidents .view-id-about_aau .view-content').bxSlider({
+    $('#block-views-block-about-aau-block-1 .view-content').bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
