@@ -750,6 +750,40 @@ body {
     .bs-region--bottom{
         clear: both;
     }
+    form{
+        margin-top: 20px;
+        .form-item{
+            margin-bottom: 20px;
+            label{
+                color: #4A4A4A;
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+            input , textarea{
+                box-shadow: none;
+                border-radius: 0px;
+            }
+            .form-number{
+                box-shadow: none;
+                border-radius: 0px;  
+                display: block;
+                width: 100%;
+            }
+        }
+        .form-actions{
+            button{
+                background-color: #FFB500;
+                border: 0px;
+                box-shadow: none;
+                border-radius: 0;
+                font-weight: bold;
+                width: 175px;
+                height: 38px;
+                font-size: 17px;
+            }
+        }
+    }
 }
 .pager-nav{
     text-align: right;
