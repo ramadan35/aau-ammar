@@ -658,6 +658,16 @@ body {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 15px;
+
+        }
+        .field--name-field-title{
+
+        }
+        .field--name-field-body{
+            display:none;
+        }
+        .field--name-field-body.opened{
+            display:block; 
         }
     }
     .field--name-field-content.opened{

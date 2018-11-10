@@ -140,14 +140,14 @@ jQuery(document).ready(function ($) {
     });
 
 //Collapses  FAQ
-    $('.paragraph--type--faq-collapses .field--name-field-title ').click(function (e) {
+    $('.paragraph--type--faq-collapses .field--name-field-content .field--name-field-title').click(function (e) {
         if ($(this).hasClass("opened-content")) {
             $(this).removeClass("opened-content");
-            $(this).siblings(".field--name-field-content").removeClass("opened");
+            $(this).siblings(".field--name-field-content .field--name-field-body").removeClass("opened");
         } else {
-            $('.paragraph--type--faq-collapses .field--name-field-title').removeClass("opened-content");
+            $('.paragraph--type--faq-collapses .field--name-field-content .field--name-field-title').removeClass("opened-content");
             $(this).addClass("opened-content");
-            $(this).siblings(".field--name-field-content").addClass("opened");
+            $(this).siblings(".field--name-field-content .field--name-field-body").addClass("opened");
         }
     });
 });
