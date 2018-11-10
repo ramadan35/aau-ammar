@@ -653,7 +653,7 @@ body {
     .field--name-field-content{
         display:none;
         border: solid 1px grey;
-    padding: 20px;
+        padding: 20px;
         .field--name-field-title{
             background: inherit;
             padding: 0;
@@ -663,13 +663,14 @@ body {
             font-size: 16px;
             font-weight: bold;
             margin-bottom: 5px;
+            padding-bottom: 10px;
 
         }
         .field--name-field-body{
             display:none;
             font-size: 16px;
-    line-height: 20px;
-        color: #9B9B9B;
+            line-height: 20px;
+            color: #9B9B9B;
         }
         .field--name-field-body.opened{
             display:block; 
