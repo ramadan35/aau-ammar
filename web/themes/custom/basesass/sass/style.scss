@@ -348,7 +348,7 @@ body {
                     display: block;
                     text-transform: uppercase;
                     text-align: center;
-                    
+
                     padding-top: 18px;
                 }
                 a:hover, a.focus{
@@ -477,10 +477,10 @@ body {
         }
     }
     .field--name-field-date{
-                    color: #4A4A4A;
-            font-size: 24px;
-            //font-weight: bold;
-            margin-bottom: 15px;
+        color: #4A4A4A;
+        font-size: 24px;
+        //font-weight: bold;
+        margin-bottom: 15px;
     }
 }
 .page-node-type-admission , .page-node-type-academics{
@@ -590,10 +590,10 @@ body {
         }
     }
     .block-webform{
-                form{
+        form{
             margin-top: 20px;
             .form-item{
-                    margin-bottom: 20px;
+                margin-bottom: 20px;
                 label{
                     color: #4A4A4A;
                     font-size: 16px;
@@ -614,18 +614,57 @@ body {
             .form-actions{
                 button{
                     background-color: #FFB500;
-    border: 0px;
-    box-shadow: none;
-    border-radius: 0;
-    font-weight: bold;
-    width: 175px;
-    height: 38px;
-    font-size: 17px;
+                    border: 0px;
+                    box-shadow: none;
+                    border-radius: 0;
+                    font-weight: bold;
+                    width: 175px;
+                    height: 38px;
+                    font-size: 17px;
                 }
             }
         }
     }
 }
+.paragraph--type--faq-collapses{
+    .field--name-field-title{
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        background: #4A4A4A;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    .field--name-field-title:after{
+        content: url(../images/right-arrow-collapses.png); 
+        display: inline-block;
+        float: right;
+    }
+    .field--name-field-title.opened-content:after{
+        content: url(../images/up-arrow.png); 
+        display: inline-block;
+        float: right;
+    }
+    .field--name-field-content{
+        display:none;
+        .field--name-field-title{
+            background: inherit;
+            padding: 0;
+            text-transform: capitalize;
+            cursor: pointer;
+            color: #4A4A4A;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    }
+    .field--name-field-content.opened{
+        display:block; 
+    }
+}
+
 .view-employees{
     .views-row{
         margin-bottom: 30px;
@@ -639,8 +678,8 @@ body {
             }
             .views-label{
                 display: inline-block;
-    width: 215px;
-    font-size: 16px;
+                width: 215px;
+                font-size: 16px;
             }
         }
         .views-field-field-image{
@@ -680,7 +719,7 @@ body {
     }
 }
 .pager-nav{
-           text-align: right;
+    text-align: right;
     ul{
         li{
             a{
@@ -696,9 +735,9 @@ body {
                 line-height: 18px;
             }
             a:hover , a:focus ,span:hover , span:focus{
-               color: #4A4A4A;  
-               background-color: #fff;
-    border-color: #fff;
+                color: #4A4A4A;  
+                background-color: #fff;
+                border-color: #fff;
             }
         }
         li.active{
