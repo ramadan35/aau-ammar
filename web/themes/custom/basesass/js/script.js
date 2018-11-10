@@ -128,28 +128,28 @@ jQuery(document).ready(function ($) {
 
     });
     //Collapses      
-    $('.field--item .paragraph--type--collapses .field--name-field-title').click(function (e) {
+    $('.field--item .paragraph--type--collapses .field--name-field-title , .paragraph--type--faq-collapses .field--name-field-title').click(function (e) {
         if ($(this).hasClass("opened-content")) {
             $(this).removeClass("opened-content");
             $(this).siblings(".field--name-field-content").removeClass("opened");
         } else {
-            $('.field--item .paragraph--type--collapses .field--name-field-title').removeClass("opened-content");
+            $('.field--item .paragraph--type--collapses .field--name-field-title ,.paragraph--type--faq-collapses .field--name-field-title').removeClass("opened-content");
             $(this).addClass("opened-content");
             $(this).siblings(".field--name-field-content").addClass("opened");
         }
     });
 
 //Collapses  FAQ
-    $('.paragraph--type--faq-collapses .field--name-field-title').click(function (e) {
-        if ($(this).hasClass("opened-content")) {
-            $(this).removeClass("opened-content");
-            $(this).siblings(".field--name-field-content").removeClass("opened");
-        } else {
-            $('.paragraph--type--faq-collapses .field--name-field-title').removeClass("opened-content");
-            $(this).addClass("opened-content");
-            $(this).siblings(".field--name-field-content").addClass("opened");
-        }
-    });
+//    $('.paragraph--type--faq-collapses .field--name-field-title').click(function (e) {
+//        if ($(this).hasClass("opened-content")) {
+//            $(this).removeClass("opened-content");
+//            $(this).siblings(".field--name-field-content").removeClass("opened");
+//        } else {
+//            $('.paragraph--type--faq-collapses .field--name-field-title').removeClass("opened-content");
+//            $(this).addClass("opened-content");
+//            $(this).siblings(".field--name-field-content").addClass("opened");
+//        }
+//    });
 });
 
 (function ($, _, Drupal, drupalSettings) {
