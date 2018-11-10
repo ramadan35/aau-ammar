@@ -366,6 +366,7 @@
         "drupal/ds": "^3.1",
         "drupal/empty_fields": "^1.0@alpha",
         "drupal/entity_browser": "2.*",
+        "drupal/entity_clone": "^1.0@alpha",
         "drupal/entity_reference_revisions": "^1.4",
         "drupal/fb_instant_articles": "^2.0",
         "drupal/features": "^3.5",

@@ -709,7 +709,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
   text-align: right;
   border: 0;
-  text-align: left;
+  text-align: right;
   color: #FFF;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003727}}
