@@ -794,11 +794,16 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 30px;
 }
 
-/* line 827, ../sass/style1.scss */
+/* line 822, ../sass/style1.scss */
+#block-views-blockabout-aau-block-1 {
+  float: left;
+  width: 100%;
+}
+/* line 829, ../sass/style1.scss */
 #block-views-blockabout-aau-block-1 .form-group .view-content .views-row .views-field-field-image img {
   margin: 0 auto;
 }
-/* line 831, ../sass/style1.scss */
+/* line 833, ../sass/style1.scss */
 #block-views-blockabout-aau-block-1 .form-group .view-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;

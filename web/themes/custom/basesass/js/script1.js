@@ -19,6 +19,18 @@ jQuery(document).ready(function ($) {
         autoStart: true,
     });
     
-    var ss = $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
+    $('.path-successive-presidents .view-id-about_aau .view-content').bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        responsive: true,
+        infiniteLoop: true,
+        controls: true,
+        speed: 500,
+        auto: true,
+        autoStart: true,
+    });
+    
+    $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
 
 });
