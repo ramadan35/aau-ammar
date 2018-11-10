@@ -627,9 +627,7 @@ body {
     }
 }
 .paragraph--type--faq-collapses{
-    .field--item{
-        margin-bottom: 20px;
-    }
+
     .field--name-field-title{
         color: #fff;
         font-size: 18px;
@@ -639,6 +637,7 @@ body {
         padding: 10px 20px;
         text-transform: capitalize;
         cursor: pointer;
+        margin-bottom: 20px;
     }
     .field--name-field-title:after{
         content: url(../images/right-arrow-collapses.png); 

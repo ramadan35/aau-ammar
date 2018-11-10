@@ -10228,11 +10228,7 @@ body {
   font-size: 17px;
 }
 
-/* line 630, ../sass/style.scss */
-.paragraph--type--faq-collapses .field--item {
-  margin-bottom: 20px;
-}
-/* line 633, ../sass/style.scss */
+/* line 631, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title {
   color: #fff;
   font-size: 18px;
@@ -10242,26 +10238,27 @@ body {
   padding: 10px 20px;
   text-transform: capitalize;
   cursor: pointer;
+  margin-bottom: 20px;
 }
-/* line 643, ../sass/style.scss */
+/* line 642, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title:after {
   content: url(../images/right-arrow-collapses.png);
   display: inline-block;
   float: right;
 }
-/* line 648, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
   display: inline-block;
   float: right;
 }
-/* line 653, ../sass/style.scss */
+/* line 652, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content {
   display: none;
   border: solid 1px grey;
   padding: 20px;
 }
-/* line 657, ../sass/style.scss */
+/* line 656, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10272,53 +10269,53 @@ body {
   font-weight: bold;
   margin-bottom: 5px;
 }
-/* line 668, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body {
   display: none;
   font-size: 16px;
   line-height: 20px;
   color: #9B9B9B;
 }
-/* line 674, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body.opened {
   display: block;
 }
-/* line 679, ../sass/style.scss */
+/* line 678, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content.opened {
   display: block;
 }
 
-/* line 685, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 .view-employees .views-row {
   margin-bottom: 30px;
   position: relative;
   clear: both;
 }
-/* line 689, ../sass/style.scss */
+/* line 688, ../sass/style.scss */
 .view-employees .views-row .views-field {
   margin-bottom: 20px;
 }
-/* line 691, ../sass/style.scss */
+/* line 690, ../sass/style.scss */
 .view-employees .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-/* line 695, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 .view-employees .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-/* line 701, ../sass/style.scss */
+/* line 700, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-/* line 704, ../sass/style.scss */
+/* line 703, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image img {
   width: 100%;
 }
-/* line 708, ../sass/style.scss */
+/* line 707, ../sass/style.scss */
 .view-employees .views-row .views-field-title {
   position: absolute;
   top: 0px;
@@ -10329,30 +10326,30 @@ body {
   font-size: 16px;
   padding: 5px;
 }
-/* line 719, ../sass/style.scss */
+/* line 718, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file {
   width: auto;
 }
-/* line 721, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 725, ../sass/style.scss */
+/* line 724, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 729, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-size {
   display: none;
 }
 
-/* line 737, ../sass/style.scss */
+/* line 736, ../sass/style.scss */
 .pager-nav {
   text-align: right;
 }
-/* line 741, ../sass/style.scss */
+/* line 740, ../sass/style.scss */
 .pager-nav ul li a {
   color: #4A4A4A;
   font-size: 16px;
@@ -10365,13 +10362,13 @@ body {
   text-align: center;
   line-height: 18px;
 }
-/* line 753, ../sass/style.scss */
+/* line 752, ../sass/style.scss */
 .pager-nav ul li a:hover, .pager-nav ul li a:focus, .pager-nav ul li span:hover, .pager-nav ul li span:focus {
   color: #4A4A4A;
   background-color: #fff;
   border-color: #fff;
 }
-/* line 760, ../sass/style.scss */
+/* line 759, ../sass/style.scss */
 .pager-nav ul li.active a {
   color: #fff;
   background: #0083D1;
@@ -10380,63 +10377,63 @@ body {
   border: 0px;
   padding: 0px;
 }
-/* line 768, ../sass/style.scss */
+/* line 767, ../sass/style.scss */
 .pager-nav ul li.active a:hover, .pager-nav ul li.active a:focus, .pager-nav ul li.active span:hover, .pager-nav ul li.active span:focus {
   color: #fff;
   background-color: #0083D1;
   border-color: #0083D1;
 }
-/* line 774, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 .pager-nav ul li.pager__item--last, .pager-nav ul li.pager__item--first {
   display: none;
 }
-/* line 778, ../sass/style.scss */
+/* line 777, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a {
   background-image: url(../images/pager-right.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 782, ../sass/style.scss */
+/* line 781, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a span {
   font-size: 0px;
 }
-/* line 788, ../sass/style.scss */
+/* line 787, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a {
   background-image: url(../images/pager-left.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 792, ../sass/style.scss */
+/* line 791, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a span {
   font-size: 0px;
 }
 
-/* line 800, ../sass/style.scss */
+/* line 799, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 804, ../sass/style.scss */
+/* line 803, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 808, ../sass/style.scss */
+/* line 807, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 812, ../sass/style.scss */
+/* line 811, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 814, ../sass/style.scss */
+/* line 813, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 817, ../sass/style.scss */
+/* line 816, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
