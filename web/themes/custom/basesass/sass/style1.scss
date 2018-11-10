@@ -787,6 +787,37 @@ header{
     }
 }
 
+.path-partnerships{
+    #content{
+        .region-content{
+            .page-header{
+                display: none;
+            }
+            .view-content{
+                .views-row{
+                    .views-field-field-image{
+                        img{
+                            margin:0 auto;
+                        }
+                    }
+                    .views-field-title{
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 18px;
+                        padding:15px 0;
+                    }
+                    .views-field-body{
+                        text-align: center;
+                        color: #9B9B9B;
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;

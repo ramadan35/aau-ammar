@@ -7,64 +7,64 @@ and open the template in the editor.
     Created on : Oct 6, 2018, 5:47:10 PM
     Author     : aqasem
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000311}}
+/* line 11, ../sass/style1.scss */
 header .top-header {
   background-color: #4A4A4A;
   text-align: right;
   padding: 13px 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000315}}
+/* line 15, ../sass/style1.scss */
 header .top-header #block-topmenu {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000318}}
+/* line 18, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li {
   display: inline-block;
   border-right: 1px solid #FFF;
   line-height: 14px;
   padding: 0 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000323}}
+/* line 23, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li a {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000329}}
+/* line 29, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li a:hover, header .top-header #block-topmenu ul.nav li a:focus {
   background: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000333}}
+/* line 33, ../sass/style1.scss */
 header .top-header #block-topmenu ul.nav li:last-child {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000338}}
+/* line 38, ../sass/style1.scss */
 header .top-header .language-switcher-language-url {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000340}}
+/* line 40, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000345}}
+/* line 45, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li a {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000353}}
+/* line 53, ../sass/style1.scss */
 header .top-header .language-switcher-language-url ul.links li.is-active {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000360}}
+/* line 60, ../sass/style1.scss */
 header .bottom-header {
   padding: 15px 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000365}}
+/* line 65, ../sass/style1.scss */
 header .bottom-header .header_center {
   text-align: center;
   color: #9B9B9B;
@@ -73,21 +73,21 @@ header .bottom-header .header_center {
   font-weight: 300;
   padding-top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000373}}
+/* line 73, ../sass/style1.scss */
 header .bottom-header .header_right {
   padding-top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000375}}
+/* line 75, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 {
   display: inline-block;
   float: right;
   padding-top: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000380}}
+/* line 80, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li {
   margin-right: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000382}}
+/* line 82, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li a {
   width: 24px;
   height: 24px;
@@ -98,20 +98,20 @@ header .bottom-header .header_right #block-socialmedia-2 ul.menu li a {
   padding-left: 5px;
   padding-top: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000392}}
+/* line 92, ../sass/style1.scss */
 header .bottom-header .header_right #block-socialmedia-2 ul.menu li a::before {
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\0000398}}
+/* line 98, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   display: inline-block;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003102}}
+/* line 102, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003105}}
+/* line 105, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
   width: 256px;
   border: 1px solid #C8C8C8;
@@ -121,7 +121,7 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   line-height: 15px;
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003117}}
+/* line 117, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
   background: transparent;
   font-size: 0;
@@ -132,22 +132,22 @@ header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .for
   padding: 10px;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003126}}
+/* line 126, ../sass/style1.scss */
 header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button span {
   font-size: 16px;
   color: #969696;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003137}}
+/* line 137, ../sass/style1.scss */
 header .menu-region {
   background-color: #0083D1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003141}}
+/* line 141, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li {
   width: 12.5%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003145}}
+/* line 145, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span {
   border-right: 1px solid #FFF;
   padding: 0;
@@ -158,24 +158,24 @@ header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region 
   text-align: center;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003155}}
+/* line 155, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li a.sf-with-ul {
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003157}}
+/* line 157, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li a.sf-with-ul .sf-sub-indicator::after {
   font-size: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003161}}
+/* line 161, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul {
   background: #0083D1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003163}}
+/* line 163, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003166}}
+/* line 166, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li a {
   padding: 0;
   margin: 0;
@@ -184,20 +184,20 @@ header .menu-region #block-mainnavigation ul.menu > li ul li a {
   line-height: 25px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003178}}
+/* line 178, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li:first-child a {
   font-size: 0;
   background: url(../images/home.png) no-repeat 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003184}}
+/* line 184, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li:last-child {
   background-color: #FFB500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003186}}
+/* line 186, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003191}}
+/* line 191, ../sass/style1.scss */
 header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after {
   content: "\f0d7";
   font-family: fontAwesome;
@@ -207,23 +207,23 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   top: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003213}}
+/* line 213, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-field-image img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003218}}
+/* line 218, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   position: absolute;
   top: 230px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003221}}
+/* line 221, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
   color: #FFFFFF;
   font-size: 36px;
   font-weight: bold;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003227}}
+/* line 227, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
   content: "";
   display: block;
@@ -232,7 +232,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   background-color: #FFB500;
   margin-top: 5PX;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003235}}
+/* line 235, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
   color: #FFFFFF;
   font-size: 22px;
@@ -241,11 +241,11 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   margin-top: 16px;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003243}}
+/* line 243, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003245}}
+/* line 245, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -257,11 +257,11 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 14px;
   margin-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003257}}
+/* line 257, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2.animated, .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link.animated {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003268}}
+/* line 268, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-prev {
   background: none;
   box-shadow: none;
@@ -274,7 +274,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   height: 32px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003280}}
+/* line 280, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button.slick-next {
   background: none;
   box-shadow: none;
@@ -287,38 +287,38 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   height: 32px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003292}}
+/* line 292, ../sass/style1.scss */
 .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow button:focus {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003302}}
+/* line 302, ../sass/style1.scss */
 .front_content_3 > .container {
   width: 100%;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003305}}
+/* line 305, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 {
   padding: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003311}}
+/* line 311, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003313}}
+/* line 313, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image {
   overflow: hidden;
   height: 515px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003317}}
+/* line 317, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
   position: absolute;
   height: 100vh;
   min-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003323}}
+/* line 323, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
   width: 50%;
   float: right;
@@ -329,14 +329,14 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   height: 100%;
   padding-top: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003332}}
+/* line 332, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
   color: #4A4A4A;
   font-size: 36px;
   font-weight: bold;
   line-height: 44px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003338}}
+/* line 338, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title::after {
   content: "";
   display: block;
@@ -345,14 +345,14 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   background-color: #FFB500;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003346}}
+/* line 346, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
   padding-bottom: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003354}}
+/* line 354, ../sass/style1.scss */
 .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .link a {
   color: #FFFFFF;
   font-size: 16px;
@@ -366,27 +366,27 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 11px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003376}}
+/* line 376, ../sass/style1.scss */
 #footer {
   background-color: #0083D1;
   padding-top: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003379}}
+/* line 379, ../sass/style1.scss */
 #footer > .container {
   padding-bottom: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003382}}
+/* line 382, ../sass/style1.scss */
 #footer .footer-left {
   padding-top: 57px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003384}}
+/* line 384, ../sass/style1.scss */
 #footer .footer-left h2 {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
   line-height: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003390}}
+/* line 390, ../sass/style1.scss */
 #footer .footer-left h2::after {
   content: "";
   display: block;
@@ -395,7 +395,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   background-color: #FFB500;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003400}}
+/* line 400, ../sass/style1.scss */
 #footer .footer-left ul.menu li a {
   color: #FFFFFF;
   font-size: 14px;
@@ -403,43 +403,43 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 30px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003407}}
+/* line 407, ../sass/style1.scss */
 #footer .footer-left ul.menu li a:hover, #footer .footer-left ul.menu li a:focus {
   background: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003413}}
+/* line 413, ../sass/style1.scss */
 #footer .footer-left5 {
   padding-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003415}}
+/* line 415, ../sass/style1.scss */
 #footer .footer-left5 p {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003422}}
+/* line 422, ../sass/style1.scss */
 #footer .footer-left1 {
   padding-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003425}}
+/* line 425, ../sass/style1.scss */
 #footer .bottom {
   background-color: #4A4A4A;
   padding-top: 14px;
   padding-bottom: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003429}}
+/* line 429, ../sass/style1.scss */
 #footer .bottom #block-copyright {
   float: left;
   color: #FFFFFF;
   font-size: 14px;
   line-height: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003435}}
+/* line 435, ../sass/style1.scss */
 #footer .bottom #block-socialmedia {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003437}}
+/* line 437, ../sass/style1.scss */
 #footer .bottom #block-socialmedia h2 {
   display: inline-block;
   color: #FFFFFF;
@@ -452,15 +452,15 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding-right: 10px;
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003449}}
+/* line 449, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003451}}
+/* line 451, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li {
   margin-right: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003453}}
+/* line 453, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a {
   width: 24px;
   height: 24px;
@@ -471,48 +471,48 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding-left: 5px;
   padding-top: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003463}}
+/* line 463, ../sass/style1.scss */
 #footer .bottom #block-socialmedia ul.menu li a::before {
   color: #4A4A4A;
   font-size: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003473}}
+/* line 473, ../sass/style1.scss */
 .no-padding {
   padding-left: 0;
   padding-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003482}}
+/* line 482, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003486}}
+/* line 486, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   padding: 0;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003490}}
+/* line 490, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003492}}
+/* line 492, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left img {
   width: 100%;
   border: 1px solid #979797;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003499}}
+/* line 499, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003505}}
+/* line 505, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .title a:hover {
   color: #0083D1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003509}}
+/* line 509, ../sass/style1.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .right .body {
   color: #9B9B9B;
   font-size: 16px;
@@ -520,15 +520,15 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 19px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003526}}
+/* line 526, ../sass/style1.scss */
 .path-announcements #content .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003530}}
+/* line 530, ../sass/style1.scss */
 .path-announcements #content .view-content .views-row {
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003532}}
+/* line 532, ../sass/style1.scss */
 .path-announcements #content .view-content .views-row .views-field-field-date {
   color: #0083D1;
   font-size: 16px;
@@ -537,14 +537,14 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003542}}
+/* line 542, ../sass/style1.scss */
 .path-announcements #content .view-content .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003549}}
+/* line 549, ../sass/style1.scss */
 .path-announcements #content .view-content .views-row .views-field-body {
   color: #9B9B9B;
   font-size: 16px;
@@ -552,21 +552,21 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 19px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003562}}
+/* line 562, ../sass/style1.scss */
 .path-conferences #content .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003566}}
+/* line 566, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row {
   margin-bottom: 30px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003569}}
+/* line 569, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row .views-field-title {
   padding-top: 25px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003572}}
+/* line 572, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
@@ -574,7 +574,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 29px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003580}}
+/* line 580, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row .views-field-field-date {
   display: inline-block;
   color: #9B9B9B;
@@ -585,7 +585,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 5px 10px;
   padding-top: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003591}}
+/* line 591, ../sass/style1.scss */
 .path-conferences #content .view-content .views-row .views-field-field-end- {
   padding: 5px 10px;
   display: inline-block;
@@ -597,18 +597,18 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding-top: 7px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003607}}
+/* line 607, ../sass/style1.scss */
 .path-notfront #content {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003613}}
+/* line 613, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
   background-color: #0083D1;
   float: left;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003618}}
+/* line 618, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a {
   color: #FFFFFF;
   font-size: 16px;
@@ -616,45 +616,45 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 50px;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003626}}
+/* line 626, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003640}}
+/* line 640, ../sass/style1.scss */
 .path-presidency #content .region-content .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003644}}
+/* line 644, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row {
   margin-bottom: 30px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003647}}
+/* line 647, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003649}}
+/* line 649, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003654}}
+/* line 654, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003659}}
+/* line 659, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003662}}
+/* line 662, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003666}}
+/* line 666, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
   top: 0px;
@@ -665,62 +665,62 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   font-size: 16px;
   padding: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003678}}
+/* line 678, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003680}}
+/* line 680, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
   width: auto;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003684}}
+/* line 684, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
   width: auto;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003688}}
+/* line 688, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003703}}
+/* line 703, ../sass/style1.scss */
 .path-regulations #content .region-content .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003708}}
+/* line 708, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive caption {
   font-weight: bold;
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003712}}
+/* line 712, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-sorting {
   font-size: 16px;
   font-weight: bold;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003717}}
+/* line 717, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-title {
   font-size: 16px;
   font-weight: bold;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003722}}
+/* line 722, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
   text-align: right;
   border: 0;
   text-align: right;
   color: #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003727}}
+/* line 727, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003729}}
+/* line 729, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-icon {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003732}}
+/* line 732, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-link {
   display: inline-block;
   border: 0;
@@ -728,7 +728,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 0;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003742}}
+/* line 742, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-size {
   display: inline-block;
   border: 0;
@@ -736,35 +736,58 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   width: auto;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003750}}
+/* line 750, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a {
   font-size: 16px;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003764}}
+/* line 764, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .page-header {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003767}}
+/* line 767, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper {
   margin: 0 auto;
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003771}}
+/* line 771, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003773}}
+/* line 773, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .views-field-title {
   font-weight: bold;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/AAU\/web\/themes\/custom\/basesass\/sass\/style1\.scss}line{font-family:\00003777}}
+/* line 777, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .date {
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/* line 793, ../sass/style1.scss */
+.path-partnerships #content .region-content .page-header {
+  display: none;
+}
+/* line 799, ../sass/style1.scss */
+.path-partnerships #content .region-content .view-content .views-row .views-field-field-image img {
+  margin: 0 auto;
+}
+/* line 803, ../sass/style1.scss */
+.path-partnerships #content .region-content .view-content .views-row .views-field-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 0;
+}
+/* line 809, ../sass/style1.scss */
+.path-partnerships #content .region-content .view-content .views-row .views-field-body {
+  text-align: center;
+  color: #9B9B9B;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @keyframes FadeIn {
