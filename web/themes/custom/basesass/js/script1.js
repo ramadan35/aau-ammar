@@ -29,6 +29,7 @@ jQuery(document).ready(function ($) {
         speed: 500,
         auto: true,
         autoStart: true,
+        slideMargin: 30,
     });
     
     $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
