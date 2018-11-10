@@ -819,6 +819,26 @@ header{
     }
 }
 
+#block-views-blockabout-aau-block-1{
+    .form-group{
+        .view-content{
+            .views-row{
+                .views-field-field-image{
+                    img{
+                        margin:0 auto;
+                    }
+                }
+                .views-field-title{
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 18px;
+                    padding:15px 0;
+                }
+            }
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;

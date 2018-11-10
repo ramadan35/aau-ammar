@@ -794,6 +794,18 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 30px;
 }
 
+/* line 827, ../sass/style1.scss */
+#block-views-blockabout-aau-block-1 .form-group .view-content .views-row .views-field-field-image img {
+  margin: 0 auto;
+}
+/* line 831, ../sass/style1.scss */
+#block-views-blockabout-aau-block-1 .form-group .view-content .views-row .views-field-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;
