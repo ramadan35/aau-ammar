@@ -813,8 +813,8 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 
 /* line 843, ../sass/style1.scss */
 .bx-wrapper {
-  margin: 0 auto;
-  box-shadow: none;
+  margin: 0 auto !important;
+  box-shadow: none !important;
 }
 
 @keyframes FadeIn {
