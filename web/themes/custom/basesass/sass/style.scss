@@ -627,6 +627,9 @@ body {
     }
 }
 .paragraph--type--faq-collapses{
+    .field--item{
+        margin-bottom: 20px;
+    }
     .field--name-field-title{
         color: #fff;
         font-size: 18px;
@@ -662,9 +665,6 @@ body {
             margin-bottom: 5px;
 
         }
-        .field--name-field-title{
-
-        }
         .field--name-field-body{
             display:none;
             font-size: 16px;
@@ -674,9 +674,7 @@ body {
         .field--name-field-body.opened{
             display:block; 
         }
-        .field--item{
-                margin-bottom: 20px;
-        }
+
     }
     .field--name-field-content.opened{
         display:block; 
