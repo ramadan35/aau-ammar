@@ -10498,11 +10498,15 @@ ul.menu--social-media li a::before {
   font-size: 18px;
 }
 
-/* line 878, ../sass/style.scss */
+/* line 876, ../sass/style.scss */
+.path-awards-certificates .content-content .views-row {
+  margin-bottom: 20px;
+}
+/* line 879, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-field-image img {
   margin: 0px auto;
 }
-/* line 882, ../sass/style.scss */
+/* line 883, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
@@ -10510,11 +10514,11 @@ ul.menu--social-media li a::before {
   padding: 15px 0;
   color: black;
 }
-/* line 888, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title a {
   color: black;
 }
-/* line 892, ../sass/style.scss */
+/* line 893, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-body {
   text-align: center;
   color: #9B9B9B;
