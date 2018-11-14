@@ -871,3 +871,30 @@ ul.menu--social-media{
         }
     }
 }  
+.path-awards-certificates{
+    .content-content{
+        .views-row{
+            .views-field-field-image{
+                img{
+                    margin: 0px auto;
+                }
+            }
+            .views-field-title{
+                text-align: center;
+                font-weight: bold;
+                font-size: 18px;
+                padding: 15px 0;
+                color: black;
+                a{
+                    color: black;
+                }
+            }
+            .views-field-body{
+                text-align: center;
+    color: #9B9B9B;
+    font-size: 18px;
+    line-height: 30px;
+            }
+        }
+    }
+}
