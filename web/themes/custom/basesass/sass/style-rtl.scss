@@ -9,16 +9,18 @@ and open the template in the editor.
 */
 
 [dir="rtl"] {
-    .header_left{
-        float: right;
-    }
-    .block-search{
-         float: left;
-    }
-    .block-language{
-    float: left;
-    }
-    .search_open{
-    float: left;
-    }
+    header {
+        .top-header{
+            #block-topmenu{
+                float: left;
+                ul.nav li{
+                    border-right: 0px solid #FFF;
+                    border-left: 1px solid #FFF;
+                }
+            }
+            .language-switcher-language-url{
+                float: left; 
+            }
+        }
+    } 
 }

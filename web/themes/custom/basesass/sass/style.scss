@@ -871,6 +871,9 @@ ul.menu--social-media{
         }
     }
 }  
+header .top-header .language-switcher-language-url{
+    float: right;
+}
 .path-awards-certificates{
     .content-content{
         .views-row{
@@ -892,9 +895,9 @@ ul.menu--social-media{
             }
             .views-field-body{
                 text-align: center;
-    color: #9B9B9B;
-    font-size: 18px;
-    line-height: 30px;
+                color: #9B9B9B;
+                font-size: 18px;
+                line-height: 30px;
             }
         }
     }
