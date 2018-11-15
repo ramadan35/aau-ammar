@@ -1,43 +1,46 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Error: Invalid CSS after "    }": expected "}", was ""
+        on line 60 of /var/www/html/aau-ammar/web/themes/custom/basesass/sass/style-rtl.scss
+
+55:                     padding-right: 5px;
+56:                     padding-left: 0px;
+57:                 }
+58:             }
+59:         } 
+60:     }
+
+Backtrace:
+/var/www/html/aau-ammar/web/themes/custom/basesass/sass/style-rtl.scss:60
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1179:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1115:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1110:in `tok!'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:656:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:647:in `ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:673:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:123:in `stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:39:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:403:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:278:in `render'
+/usr/lib/ruby/vendor_ruby/compass/import-once/engine.rb:17:in `block in render'
+/usr/lib/ruby/vendor_ruby/compass/import-once/engine.rb:29:in `with_import_scope'
+/usr/lib/ruby/vendor_ruby/compass/import-once/engine.rb:16:in `render'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:471:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:328:in `block in watch'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/config.rb:23:in `call'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/internals/thread_pool.rb:6:in `block in add'
 */
-/* 
-    Created on : 12-Feb-2018, 12:47:56
-    Author     : lhmeid
-*/
-@import url("https://fonts.googleapis.com/css?family=Cairo:600,700");
-/* line 13, ../sass/style-rtl.scss */
-[dir="rtl"] body {
-  font-family: 'Cairo', sans-serif;
-}
-/* line 19, ../sass/style-rtl.scss */
-[dir="rtl"] header .top-header #block-topmenu {
-  float: left;
-}
-/* line 23, ../sass/style-rtl.scss */
-[dir="rtl"] header .top-header #block-topmenu ul.nav li {
-  border-right: 0px solid #FFF;
-  border-left: 1px solid #FFF;
-}
-/* line 27, ../sass/style-rtl.scss */
-[dir="rtl"] header .top-header #block-topmenu ul.nav li:last-child {
-  border-left: 0px solid #FFF;
-}
-/* line 32, ../sass/style-rtl.scss */
-[dir="rtl"] header .top-header .language-switcher-language-url {
-  float: left;
-}
-/* line 37, ../sass/style-rtl.scss */
-[dir="rtl"] header .bottom-header .header_left {
-  float: right;
-}
-/* line 40, ../sass/style-rtl.scss */
-[dir="rtl"] header .bottom-header .header_center {
-  float: right;
-}
-/* line 43, ../sass/style-rtl.scss */
-[dir="rtl"] header .bottom-header .header_right {
-  float: left;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    }\": expected \"}\", was \"\"\A         on line 60 of /var/www/html/aau-ammar/web/themes/custom/basesass/sass/style-rtl.scss\A \A 55:                     padding-right: 5px;\A 56:                     padding-left: 0px;\A 57:                 }\A 58:             }\A 59:         } \A 60:     }"; }

@@ -36,13 +36,25 @@ and open the template in the editor.
         .bottom-header{
             .header_left{
                 float: right;
+                .pull-left {
+                    float: right !important;
+                } 
             }
             .header_center{
                 float: right;
             }
             .header_right{
                 float: left;
+                #block-exposedformsearch-apipage-1 {
+                    float: left;
+                }
+                ul.menu--social-media{
+                    padding: 0;
+                }
+                #block-socialmedia-2 ul.menu li a {
+                    padding-right: 5px;
+                    padding-left: 0px;
+                }
             }
-        }
-    } 
-}
+        } 
+    }
