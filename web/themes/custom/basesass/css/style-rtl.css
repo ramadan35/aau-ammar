@@ -72,3 +72,8 @@ and open the template in the editor.
   border-left: 1px solid #FFF;
   border-right: 0px solid #FFF;
 }
+/* line 72, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li a {
+  border-left: 1px solid #FFF;
+  border-right: 0px solid #FFF;
+}
