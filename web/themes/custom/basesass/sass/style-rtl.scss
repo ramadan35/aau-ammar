@@ -115,6 +115,14 @@ and open the template in the editor.
                         margin-left: 15px;
                     }
                 } 
+                .view-footer{
+                    a.ar{
+                        display:block;
+                    }
+                    a.en{
+                      display:none;  
+                    }
+                }
             }
         }
         .announcement{
