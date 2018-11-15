@@ -89,3 +89,7 @@ and open the template in the editor.
 [dir="rtl"] .slick-slide {
   float: left;
 }
+/* line 93, ../sass/style-rtl.scss */
+[dir="rtl"] .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
+  direction: rtl;
+}
