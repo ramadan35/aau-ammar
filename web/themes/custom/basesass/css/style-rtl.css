@@ -93,48 +93,54 @@ and open the template in the editor.
 [dir="rtl"] .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   direction: rtl;
 }
-/* line 100, ../sass/style-rtl.scss */
+/* line 97, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
+  float: right;
+  right: inherit;
+  left: 0;
+}
+/* line 106, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_1 .view .views-row .views-field-title {
   left: inherit;
   right: 85px;
 }
-/* line 108, ../sass/style-rtl.scss */
+/* line 114, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news {
   float: right;
 }
-/* line 112, ../sass/style-rtl.scss */
+/* line 118, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .views-row .views-field-field-image {
   float: right;
   margin-right: 0px;
   margin-left: 15px;
 }
-/* line 119, ../sass/style-rtl.scss */
+/* line 125, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .view-footer a.ar {
   display: block;
 }
-/* line 122, ../sass/style-rtl.scss */
+/* line 128, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .view-footer a.en {
   display: none;
 }
-/* line 128, ../sass/style-rtl.scss */
+/* line 134, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement {
   float: right;
 }
-/* line 131, ../sass/style-rtl.scss */
+/* line 137, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .views-row .views-field-field-date {
   float: right;
   margin-right: 0px;
   margin-left: 23px;
 }
-/* line 138, ../sass/style-rtl.scss */
+/* line 144, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .view-footer a.ar {
   display: block;
 }
-/* line 141, ../sass/style-rtl.scss */
+/* line 147, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .view-footer a.en {
   display: none;
 }
-/* line 146, ../sass/style-rtl.scss */
+/* line 152, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .simplenews {
   float: left;
 }

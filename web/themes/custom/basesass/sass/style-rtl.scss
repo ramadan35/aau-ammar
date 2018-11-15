@@ -93,6 +93,12 @@ and open the template in the editor.
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
         direction: rtl;  
     }
+
+    .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text{
+        float: right;  
+        right: inherit;
+        left: 0;
+    }
     //End of ammar
     .front_content_1 {
         .view{
