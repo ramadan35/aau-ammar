@@ -153,4 +153,20 @@ and open the template in the editor.
             float: left; 
         }
     }
+    .front_content_4{
+        .left{
+               float: right; 
+        }
+        .right{
+           float: left; 
+        }
+        h1.block-title{   
+        a.ar{
+            display:block;
+        }
+        a.en{
+            display:none;
+        }
+    }
+    }
 }
