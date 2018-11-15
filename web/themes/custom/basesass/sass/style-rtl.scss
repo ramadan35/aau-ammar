@@ -57,5 +57,20 @@ and open the template in the editor.
                 }
             }
         } 
+        .menu-region {
+            #block-mainnavigation{
+                ul.sf-menu{
+                    float: left;
+                    width: 100%;  
+                }
+                ul.menu > li{
+                    float: right;
+                    span{
+                        border-left: 1px solid #FFF;
+                        border-right: 0px solid #FFF;
+                    }
+                } 
+            }
+        }  
     }
 }

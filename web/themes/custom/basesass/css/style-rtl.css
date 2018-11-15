@@ -58,3 +58,17 @@ and open the template in the editor.
   padding-right: 5px;
   padding-left: 0px;
 }
+/* line 62, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.sf-menu {
+  float: left;
+  width: 100%;
+}
+/* line 66, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li {
+  float: right;
+}
+/* line 68, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li span {
+  border-left: 1px solid #FFF;
+  border-right: 0px solid #FFF;
+}
