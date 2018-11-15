@@ -29,3 +29,15 @@ and open the template in the editor.
 [dir="rtl"] header .top-header .language-switcher-language-url {
   float: left;
 }
+/* line 37, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_left {
+  float: right;
+}
+/* line 40, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_center {
+  float: right;
+}
+/* line 43, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_right {
+  float: left;
+}
