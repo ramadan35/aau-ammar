@@ -73,6 +73,13 @@ and open the template in the editor.
                         border-left: 1px solid #FFF;
                         border-right: 0px solid #FFF;  
                     }
+                    ul{
+                        li{
+                            a,span{
+                                 border-left: 0px solid #FFF;
+                            }
+                        }
+                    }
                 } 
             }
         }  
