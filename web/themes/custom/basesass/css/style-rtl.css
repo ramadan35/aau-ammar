@@ -127,6 +127,14 @@ and open the template in the editor.
   margin-left: 23px;
 }
 /* line 138, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .announcement .view-footer a.ar {
+  display: block;
+}
+/* line 141, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .announcement .view-footer a.en {
+  display: none;
+}
+/* line 146, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .simplenews {
   float: left;
 }

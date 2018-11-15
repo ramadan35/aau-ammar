@@ -120,7 +120,7 @@ and open the template in the editor.
                         display:block;
                     }
                     a.en{
-                      display:none;  
+                        display:none;  
                     }
                 }
             }
@@ -132,6 +132,14 @@ and open the template in the editor.
                     float: right;
                     margin-right: 0px;
                     margin-left: 23px;
+                }
+            }
+            .view-footer{
+                a.ar{
+                    display:block;
+                }
+                a.en{
+                    display:none;  
                 }
             }
         }
