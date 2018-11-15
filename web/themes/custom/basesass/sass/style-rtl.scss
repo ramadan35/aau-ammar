@@ -11,22 +11,22 @@ and open the template in the editor.
 
 [dir="rtl"] {
     body {
-    font-family: 'Cairo', sans-serif;
+        font-family: 'Cairo', sans-serif;
     }
-    
+
     header {
         .top-header{
             #block-topmenu{
                 float: left;
                 ul.nav 
                 {
-                   li{
-                    border-right: 0px solid #FFF;
-                    border-left: 1px solid #FFF;
-                }
-                li:last-child{
-                    border-left: 1px solid #FFF;
-                } 
+                    li{
+                        border-right: 0px solid #FFF;
+                        border-left: 1px solid #FFF;
+                    }
+                    li:last-child{
+                        border-left: 0px solid #FFF;
+                    } 
                 }
             }
             .language-switcher-language-url{
