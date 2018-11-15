@@ -13,7 +13,7 @@ and open the template in the editor.
     body {
         font-family: 'Cairo', sans-serif;
     }
-//Ammar
+    //Ammar
     header {
         .top-header{
             #block-topmenu{
@@ -76,7 +76,7 @@ and open the template in the editor.
                     ul{
                         li{
                             a,span{
-                                 border-left: 0px solid #FFF;
+                                border-left: 0px solid #FFF;
                             }
                         }
                     }
@@ -85,7 +85,7 @@ and open the template in the editor.
         }  
     }
     #slick-views-dynamic-header-block-1-1-slider{
-           direction: ltr; 
+        direction: ltr; 
     }
     .slick-slide {
         float: left;
@@ -103,5 +103,32 @@ and open the template in the editor.
                 }
             } 
         }
-    }  
+    } 
+    .front_content_2{
+        .news{
+            float: right;  
+            .view{
+                .views-row {
+                    .views-field-field-image{
+                        float: right;
+                        margin-right: 0px;
+                        margin-left: 15px;
+                    }
+                } 
+            }
+        }
+        .announcement{
+            float: right;
+            .views-row{
+                .views-field-field-date{
+                    float: right;
+                    margin-right: 0px;
+                    margin-left: 23px;
+                }
+            }
+        }
+        .simplenews{
+            float: left; 
+        }
+    }
 }

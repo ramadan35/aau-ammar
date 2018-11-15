@@ -98,3 +98,27 @@ and open the template in the editor.
   left: inherit;
   right: 85px;
 }
+/* line 108, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .news {
+  float: right;
+}
+/* line 112, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .news .view .views-row .views-field-field-image {
+  float: right;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+/* line 120, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .announcement {
+  float: right;
+}
+/* line 123, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .announcement .views-row .views-field-field-date {
+  float: right;
+  margin-right: 0px;
+  margin-left: 23px;
+}
+/* line 130, ../sass/style-rtl.scss */
+[dir="rtl"] .front_content_2 .simplenews {
+  float: left;
+}
