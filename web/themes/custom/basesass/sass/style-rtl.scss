@@ -13,9 +13,15 @@ and open the template in the editor.
         .top-header{
             #block-topmenu{
                 float: left;
-                ul.nav li{
+                ul.nav 
+                {
+                   li{
                     border-right: 0px solid #FFF;
                     border-left: 1px solid #FFF;
+                }
+                li:last-child{
+                    border-left: 1px solid #FFF;
+                } 
                 }
             }
             .language-switcher-language-url{

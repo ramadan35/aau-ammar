@@ -11,12 +11,16 @@ and open the template in the editor.
 [dir="rtl"] header .top-header #block-topmenu {
   float: left;
 }
-/* line 16, ../sass/style-rtl.scss */
+/* line 18, ../sass/style-rtl.scss */
 [dir="rtl"] header .top-header #block-topmenu ul.nav li {
   border-right: 0px solid #FFF;
   border-left: 1px solid #FFF;
 }
-/* line 21, ../sass/style-rtl.scss */
+/* line 22, ../sass/style-rtl.scss */
+[dir="rtl"] header .top-header #block-topmenu ul.nav li:last-child {
+  border-left: 1px solid #FFF;
+}
+/* line 27, ../sass/style-rtl.scss */
 [dir="rtl"] header .top-header .language-switcher-language-url {
   float: left;
 }
