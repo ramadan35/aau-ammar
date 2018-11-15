@@ -13,7 +13,7 @@ and open the template in the editor.
     body {
         font-family: 'Cairo', sans-serif;
     }
-
+//Ammar
     header {
         .top-header{
             #block-topmenu{
@@ -88,9 +88,20 @@ and open the template in the editor.
            direction: ltr; 
     }
     .slick-slide {
-            float: left;
+        float: left;
     }
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
-          direction: rtl;  
+        direction: rtl;  
     }
+    //End of ammar
+    .front_content_1 {
+        .view{
+            .views-row{
+                .views-field-title{
+                    left: inherit;
+                    right: 85px;
+                }
+            } 
+        }
+    }  
 }
