@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 12-Feb-2018, 12:47:56
     Author     : lhmeid
 */
-@import url("https://fonts.googleapis.com/css?family=Cairo:600,700");
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700');
 
 [dir="rtl"] {
     body {
@@ -42,6 +42,10 @@ and open the template in the editor.
             }
             .header_center{
                 float: right;
+                    font-weight: 200;
+                p{
+                        font-weight: 200;
+                }
             }
             .header_right{
                 float: left;

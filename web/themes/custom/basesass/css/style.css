@@ -17,7 +17,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i,900,900i");
-@import url("https://fonts.googleapis.com/css?family=Cairo:600,700");
+@import url("https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700");
 /* line 9, ../bootstrap/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;

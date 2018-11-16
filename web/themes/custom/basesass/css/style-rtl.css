@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 12-Feb-2018, 12:47:56
     Author     : lhmeid
 */
-@import url("https://fonts.googleapis.com/css?family=Cairo:600,700");
+@import url("https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700");
 /* line 13, ../sass/style-rtl.scss */
 [dir="rtl"] body {
   font-family: 'Cairo', sans-serif;
@@ -40,147 +40,152 @@ and open the template in the editor.
 /* line 43, ../sass/style-rtl.scss */
 [dir="rtl"] header .bottom-header .header_center {
   float: right;
+  font-weight: 200;
 }
 /* line 46, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_center p {
+  font-weight: 200;
+}
+/* line 50, ../sass/style-rtl.scss */
 [dir="rtl"] header .bottom-header .header_right {
   float: left;
 }
-/* line 48, ../sass/style-rtl.scss */
+/* line 52, ../sass/style-rtl.scss */
 [dir="rtl"] header .bottom-header .header_right #block-exposedformsearch-apipage-1 {
   float: left;
 }
-/* line 51, ../sass/style-rtl.scss */
+/* line 55, ../sass/style-rtl.scss */
 [dir="rtl"] header .bottom-header .header_right ul.menu--social-media {
   padding: 0;
 }
-/* line 54, ../sass/style-rtl.scss */
+/* line 58, ../sass/style-rtl.scss */
 [dir="rtl"] header .bottom-header .header_right #block-socialmedia-2 ul.menu li a {
   padding-right: 5px;
   padding-left: 0px;
 }
-/* line 62, ../sass/style-rtl.scss */
+/* line 66, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.sf-menu {
   float: left;
   width: 100%;
 }
-/* line 66, ../sass/style-rtl.scss */
+/* line 70, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li {
   float: right;
 }
-/* line 68, ../sass/style-rtl.scss */
+/* line 72, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li span {
   border-left: 1px solid #FFF;
   border-right: 0px solid #FFF;
 }
-/* line 72, ../sass/style-rtl.scss */
+/* line 76, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li a {
   border-left: 1px solid #FFF;
   border-right: 0px solid #FFF;
 }
-/* line 78, ../sass/style-rtl.scss */
+/* line 82, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li ul li a, [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li ul li span {
   border-left: 0px solid #FFF;
 }
-/* line 87, ../sass/style-rtl.scss */
+/* line 91, ../sass/style-rtl.scss */
 [dir="rtl"] #slick-views-dynamic-header-block-1-1-slider {
   direction: ltr;
 }
-/* line 90, ../sass/style-rtl.scss */
+/* line 94, ../sass/style-rtl.scss */
 [dir="rtl"] .slick-slide {
   float: left;
 }
-/* line 93, ../sass/style-rtl.scss */
+/* line 97, ../sass/style-rtl.scss */
 [dir="rtl"] .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
   direction: rtl;
 }
-/* line 97, ../sass/style-rtl.scss */
+/* line 101, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
   float: right;
   right: inherit;
   left: 0;
 }
-/* line 106, ../sass/style-rtl.scss */
+/* line 110, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_1 .view .views-row .views-field-title {
   left: inherit;
   right: 85px;
 }
-/* line 114, ../sass/style-rtl.scss */
+/* line 118, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news {
   float: right;
 }
-/* line 118, ../sass/style-rtl.scss */
+/* line 122, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .views-row .views-field-field-image {
   float: right;
   margin-right: 0px;
   margin-left: 15px;
 }
-/* line 125, ../sass/style-rtl.scss */
+/* line 129, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .view-footer a.ar {
   display: block;
 }
-/* line 128, ../sass/style-rtl.scss */
+/* line 132, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .news .view .view-footer a.en {
   display: none;
 }
-/* line 134, ../sass/style-rtl.scss */
+/* line 138, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement {
   float: right;
 }
-/* line 137, ../sass/style-rtl.scss */
+/* line 141, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .views-row .views-field-field-date {
   float: right;
   margin-right: 0px;
   margin-left: 23px;
 }
-/* line 144, ../sass/style-rtl.scss */
+/* line 148, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .view-footer a.ar {
   display: block;
 }
-/* line 147, ../sass/style-rtl.scss */
+/* line 151, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement .view-footer a.en {
   display: none;
 }
-/* line 152, ../sass/style-rtl.scss */
+/* line 156, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .simplenews {
   float: left;
 }
-/* line 157, ../sass/style-rtl.scss */
+/* line 161, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_4 .left {
   float: right;
 }
-/* line 160, ../sass/style-rtl.scss */
+/* line 164, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_4 .right {
   float: left;
 }
-/* line 164, ../sass/style-rtl.scss */
+/* line 168, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_4 h1.block-title a.ar {
   display: block;
 }
-/* line 167, ../sass/style-rtl.scss */
+/* line 171, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_4 h1.block-title a.en {
   display: none;
 }
-/* line 172, ../sass/style-rtl.scss */
+/* line 176, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .footer-left {
   float: right;
 }
-/* line 175, ../sass/style-rtl.scss */
+/* line 179, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .footer-left nav ul {
   padding: 0px;
 }
-/* line 180, ../sass/style-rtl.scss */
+/* line 184, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .bottom #block-socialmedia {
   float: left;
 }
-/* line 183, ../sass/style-rtl.scss */
+/* line 187, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .bottom #block-copyright {
   float: right;
 }
-/* line 186, ../sass/style-rtl.scss */
+/* line 190, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .bottom #block-socialmedia ul.menu {
   padding: 0;
 }
-/* line 189, ../sass/style-rtl.scss */
+/* line 193, ../sass/style-rtl.scss */
 [dir="rtl"] #footer .bottom #block-socialmedia ul.menu li a {
   padding-right: 5px;
   padding-left: 0px;
