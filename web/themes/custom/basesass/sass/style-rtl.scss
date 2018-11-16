@@ -155,18 +155,21 @@ and open the template in the editor.
     }
     .front_content_4{
         .left{
-               float: right; 
+            float: right; 
         }
         .right{
-           float: left; 
+            float: left; 
         }
         h1.block-title{   
-        a.ar{
-            display:block;
-        }
-        a.en{
-            display:none;
+            a.ar{
+                display:block;
+            }
+            a.en{
+                display:none;
+            }
         }
     }
+    #footer .footer-left{
+        float: right;
     }
 }
