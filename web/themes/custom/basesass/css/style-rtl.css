@@ -210,3 +210,7 @@ and open the template in the editor.
 [dir="rtl"] #content .right-content {
   float: left;
 }
+/* line 215, ../sass/style-rtl.scss */
+[dir="rtl"] .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left {
+  float: right;
+}
