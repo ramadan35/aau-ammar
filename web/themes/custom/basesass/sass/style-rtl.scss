@@ -177,4 +177,17 @@ and open the template in the editor.
             }
         }
     }
+    #footer .bottom #block-socialmedia{
+        float: left;
+    }
+    #footer .bottom #block-copyright{
+        float: right;
+    }
+    #footer .bottom #block-socialmedia ul.menu{
+        padding: 0;
+    }
+    #footer .bottom #block-socialmedia ul.menu li a{
+        padding-right: 5px;
+        padding-left: 0px;
+    }
 }

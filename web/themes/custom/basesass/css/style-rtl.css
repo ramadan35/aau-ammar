@@ -168,3 +168,20 @@ and open the template in the editor.
 [dir="rtl"] #footer .footer-left nav ul {
   padding: 0px;
 }
+/* line 180, ../sass/style-rtl.scss */
+[dir="rtl"] #footer .bottom #block-socialmedia {
+  float: left;
+}
+/* line 183, ../sass/style-rtl.scss */
+[dir="rtl"] #footer .bottom #block-copyright {
+  float: right;
+}
+/* line 186, ../sass/style-rtl.scss */
+[dir="rtl"] #footer .bottom #block-socialmedia ul.menu {
+  padding: 0;
+}
+/* line 189, ../sass/style-rtl.scss */
+[dir="rtl"] #footer .bottom #block-socialmedia ul.menu li a {
+  padding-right: 5px;
+  padding-left: 0px;
+}
