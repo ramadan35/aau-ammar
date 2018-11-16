@@ -194,4 +194,14 @@ and open the template in the editor.
         padding-right: 5px;
         padding-left: 0px;
     }
+    .page-node-type-page,
+    .page-node-type-announcement,
+    .page-node-type-news{
+        .bs-region--left{
+            float: right;
+        }
+        .bs-region--right{
+            float: left;
+        }
+    }
 }
