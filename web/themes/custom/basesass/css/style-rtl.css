@@ -164,3 +164,7 @@ and open the template in the editor.
 [dir="rtl"] #footer .footer-left {
   float: right;
 }
+/* line 175, ../sass/style-rtl.scss */
+[dir="rtl"] #footer .footer-left nav ul {
+  padding: 0px;
+}
