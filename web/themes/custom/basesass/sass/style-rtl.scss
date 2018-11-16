@@ -204,4 +204,12 @@ and open the template in the editor.
             float: left;
         }
     }
+    #content{
+        .left-content{
+            float: right;
+        }
+        .right-content{
+            float: left;
+        }
+    }
 }

@@ -202,3 +202,11 @@ and open the template in the editor.
 [dir="rtl"] .page-node-type-news .bs-region--right {
   float: left;
 }
+/* line 208, ../sass/style-rtl.scss */
+[dir="rtl"] #content .left-content {
+  float: right;
+}
+/* line 211, ../sass/style-rtl.scss */
+[dir="rtl"] #content .right-content {
+  float: left;
+}
