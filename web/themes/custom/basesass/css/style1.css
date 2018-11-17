@@ -846,6 +846,10 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
 }
+/* line 879, ../sass/style1.scss */
+.path-boards #content .view-content .views-row h3 {
+  display: none;
+}
 
 @keyframes FadeIn {
   0% {
