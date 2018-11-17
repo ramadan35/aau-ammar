@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
     
     $('.path-boards .view-content .group').bxSlider({
         slideWidth: 300,
-        minSlides: 1,
+        minSlides: 3,
         maxSlides: 3,
         responsive: true,
         infiniteLoop: true,
