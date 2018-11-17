@@ -855,11 +855,16 @@ header{
     .bx-controls{
         .bx-prev{
             background: url(../images/right-arrow.svg) no-repeat;
-            -webkit-transform: rotate(30deg);
-            transform: rotate(30deg);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            font-size: 0;
         }
         .bx-next{
             background: url(../images/right-arrow.svg) no-repeat;
+            font-size: 0;
+        }
+        .bx-next:focus , bx-next:hover , .bx-prev:focus , .bx-prev:hover{
+            background-position: none;
         }
     }
 }
@@ -869,6 +874,12 @@ header{
         .view-content{
             h3{
                 display: none;
+            }
+            .group{
+                margin-bottom:30px;
+            }
+            .bx-wrapper{
+                margin-bottom:30px;
             }
             .views-row{
                 clear: initial;

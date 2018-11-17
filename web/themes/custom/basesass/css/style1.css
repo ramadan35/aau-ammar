@@ -829,34 +829,48 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 856, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-prev {
   background: url(../images/right-arrow.svg) no-repeat;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  font-size: 0;
 }
-/* line 861, ../sass/style1.scss */
+/* line 862, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-next {
   background: url(../images/right-arrow.svg) no-repeat;
+  font-size: 0;
+}
+/* line 866, ../sass/style1.scss */
+.bx-wrapper .bx-controls .bx-next:focus, .bx-wrapper .bx-controls bx-next:hover, .bx-wrapper .bx-controls .bx-prev:focus, .bx-wrapper .bx-controls .bx-prev:hover {
+  background-position: none;
 }
 
-/* line 870, ../sass/style1.scss */
+/* line 875, ../sass/style1.scss */
 .path-boards #content .view-content h3 {
   display: none;
 }
-/* line 873, ../sass/style1.scss */
+/* line 878, ../sass/style1.scss */
+.path-boards #content .view-content .group {
+  margin-bottom: 30px;
+}
+/* line 881, ../sass/style1.scss */
+.path-boards #content .view-content .bx-wrapper {
+  margin-bottom: 30px;
+}
+/* line 884, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
   clear: initial;
   text-align: center;
 }
-/* line 876, ../sass/style1.scss */
+/* line 887, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-image {
   float: none;
 }
-/* line 879, ../sass/style1.scss */
+/* line 890, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-title {
   position: initial;
   background: transparent;
   color: #000;
 }
-/* line 885, ../sass/style1.scss */
+/* line 896, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
 }
