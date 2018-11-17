@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
         slideMargin: 30,
     });
     
-    ('.path-boards .view-content .group').bxSlider({
+    $('.path-boards .view-content .group').bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
