@@ -224,3 +224,7 @@ and open the template in the editor.
 [dir="rtl"] .page-node-type-media-gallery #content .slideshow .bx-wrapper .bx-viewport {
   direction: ltr;
 }
+/* line 232, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-media-gallery #content .slideshow .bx-wrapper {
+  float: right;
+}
