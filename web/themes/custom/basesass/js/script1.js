@@ -34,14 +34,14 @@ jQuery(document).ready(function ($) {
     
     $('.path-boards .view-content .group').bxSlider({
         slideWidth: 300,
-        minSlides: 3,
+        minSlides: 1,
         maxSlides: 3,
         responsive: true,
         infiniteLoop: false,
         controls: true,
         speed: 500,
-        auto: true,
-        autoStart: true,
+        auto: false,
+        autoStart: false,
         slideMargin: 30,
     });
     
