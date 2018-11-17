@@ -224,4 +224,9 @@ and open the template in the editor.
             }
         }
     }
+    .page-node-type-media-gallery #content .slideshow .bx-wrapper{
+        .bx-viewport{
+                direction: ltr;
+        }
+    }
 }
