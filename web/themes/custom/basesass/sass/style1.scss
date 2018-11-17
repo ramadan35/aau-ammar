@@ -918,7 +918,6 @@ header{
                     }
                 }
                 .views-field-created{
-                    padding: 5px 10px;
                     display: inline-block;
                     color: #0083D1;
                     font-size: 16px;
@@ -942,6 +941,11 @@ header{
                         line-height: 35px;
                     }
                 }
+            }
+            .views-row:last-child{
+                border:0;
+                margin:0;
+                padding:0;
             }
         }
     }
