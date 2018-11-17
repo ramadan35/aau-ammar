@@ -853,7 +853,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 }
 /* line 881, ../sass/style1.scss */
 .path-boards #content .view-content .bx-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 /* line 884, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
@@ -873,6 +873,32 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 896, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
+}
+
+/* line 908, ../sass/style1.scss */
+.path-careers #content .view .views-row {
+  margin-bottom: 30px;
+}
+/* line 911, ../sass/style1.scss */
+.path-careers #content .view .views-row .views-field-title a {
+  color: #4A4A4A;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+}
+/* line 919, ../sass/style1.scss */
+.path-careers #content .view .views-row .views-field-view-node a {
+  display: block;
+  width: 166px;
+  height: 40px;
+  background-color: #0083D1;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 35px;
 }
 
 @keyframes FadeIn {

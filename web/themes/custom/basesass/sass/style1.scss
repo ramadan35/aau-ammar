@@ -879,7 +879,7 @@ header{
                 margin-bottom:30px;
             }
             .bx-wrapper{
-                margin-bottom:30px;
+                margin-bottom:50px;
             }
             .views-row{
                 clear: initial;
@@ -902,6 +902,38 @@ header{
     }
 }
 
+.path-careers{
+    #content{
+        .view{
+            .views-row{
+                margin-bottom: 30px;
+                .views-field-title{
+                    a{
+                        color: #4A4A4A;
+                        font-size: 24px;
+                        font-weight: bold;
+                        line-height: 29px;
+                    }
+                }
+                .views-field-view-node{
+                    a{
+                        display: block;
+                        width: 166px;
+                        height: 40px;
+                        background-color: #0083D1;
+                        border-radius: 5px;
+                        text-align: center;
+                        font-weight: bold;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        line-height: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @keyframes FadeIn {
     0% {
