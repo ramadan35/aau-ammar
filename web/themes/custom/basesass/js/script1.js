@@ -32,12 +32,24 @@ jQuery(document).ready(function ($) {
         slideMargin: 30,
     });
     
-    $('.path-boards .view-content .group').bxSlider({
+    $('.path-boards .view-content .group').eq(2).bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
         responsive: true,
-        infiniteLoop: false,
+        infiniteLoop: true,
+        controls: true,
+        speed: 500,
+        auto: false,
+        autoStart: false,
+        slideMargin: 30,
+    });
+    $('.path-boards .view-content .group').eq(3).bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        responsive: true,
+        infiniteLoop: true,
         controls: true,
         speed: 500,
         auto: false,
