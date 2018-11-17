@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
         slideMargin: 30,
     });
     
-    $('.path-boards .view-content .group').eq(2).bxSlider({
+    $('.path-boards .view-content .group').eq(1).bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
@@ -44,7 +44,7 @@ jQuery(document).ready(function ($) {
         autoStart: false,
         slideMargin: 30,
     });
-    $('.path-boards .view-content .group').eq(3).bxSlider({
+    $('.path-boards .view-content .group').eq(2).bxSlider({
         slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
