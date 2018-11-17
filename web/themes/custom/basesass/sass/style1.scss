@@ -907,6 +907,8 @@ header{
         .view{
             .views-row{
                 margin-bottom: 30px;
+                padding-bottom: 30px;
+                border-bottom: 1px solid #ccc;
                 .views-field-title{
                     a{
                         color: #4A4A4A;
@@ -915,7 +917,17 @@ header{
                         line-height: 29px;
                     }
                 }
+                .views-field-created{
+                    padding: 5px 10px;
+                    display: inline-block;
+                    color: #0083D1;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 19px;
+                    margin: 15px 0px;
+                }
                 .views-field-view-node{
+                    margin-top:10px;
                     a{
                         display: block;
                         width: 166px;

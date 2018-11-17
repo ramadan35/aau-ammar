@@ -878,15 +878,31 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 908, ../sass/style1.scss */
 .path-careers #content .view .views-row {
   margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
 }
-/* line 911, ../sass/style1.scss */
+/* line 913, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-/* line 919, ../sass/style1.scss */
+/* line 920, ../sass/style1.scss */
+.path-careers #content .view .views-row .views-field-created {
+  padding: 5px 10px;
+  display: inline-block;
+  color: #0083D1;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin: 15px 0px;
+}
+/* line 929, ../sass/style1.scss */
+.path-careers #content .view .views-row .views-field-view-node {
+  margin-top: 10px;
+}
+/* line 931, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-view-node a {
   display: block;
   width: 166px;
