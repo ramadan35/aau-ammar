@@ -626,7 +626,7 @@ header{
                                     padding:0;
                                 }
                             }
-                            
+
                         }
                         li.active-trail{
                             background-color: #FFB500;
@@ -855,6 +855,8 @@ header{
     .bx-controls{
         .bx-prev{
             background: url(../images/right-arrow.svg) no-repeat;
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
         }
         .bx-next{
             background: url(../images/right-arrow.svg) no-repeat;
@@ -866,7 +868,7 @@ header{
     #content{
         .view-content{
             h3{
-                
+                display: none;
             }
             .views-row{
                 clear: initial;
@@ -883,9 +885,6 @@ header{
                     .views-label{
                         width:auto;
                     }
-                }
-                h3{
-                    display: none;
                 }
             }
         }
