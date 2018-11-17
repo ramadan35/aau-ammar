@@ -852,6 +852,14 @@ header{
 .bx-wrapper{
     margin: 0 auto !important;
     box-shadow: none !important;
+    .bx-controls{
+        .bx-prev{
+            background: url(../images/right-arrow.svg) no-repeat;
+        }
+        .bx-next{
+            background: url(../images/right-arrow.svg) no-repeat;
+        }
+    }
 }
 
 .path-boards{

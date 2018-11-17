@@ -826,27 +826,35 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   margin: 0 auto !important;
   box-shadow: none !important;
 }
+/* line 856, ../sass/style1.scss */
+.bx-wrapper .bx-controls .bx-prev {
+  background: url(../images/right-arrow.svg) no-repeat;
+}
+/* line 859, ../sass/style1.scss */
+.bx-wrapper .bx-controls .bx-next {
+  background: url(../images/right-arrow.svg) no-repeat;
+}
 
-/* line 863, ../sass/style1.scss */
+/* line 871, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
   clear: initial;
   text-align: center;
 }
-/* line 866, ../sass/style1.scss */
+/* line 874, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-image {
   float: none;
 }
-/* line 869, ../sass/style1.scss */
+/* line 877, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-title {
   position: initial;
   background: transparent;
   color: #000;
 }
-/* line 875, ../sass/style1.scss */
+/* line 883, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
 }
-/* line 879, ../sass/style1.scss */
+/* line 887, ../sass/style1.scss */
 .path-boards #content .view-content .views-row h3 {
   display: none;
 }
