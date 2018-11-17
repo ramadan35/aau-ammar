@@ -827,6 +827,15 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   box-shadow: none !important;
 }
 
+/* line 863, ../sass/style1.scss */
+.path-boards #content .view-content .views-row {
+  text-align: center;
+}
+/* line 865, ../sass/style1.scss */
+.path-boards #content .view-content .views-row .views-field-field-image {
+  float: none;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

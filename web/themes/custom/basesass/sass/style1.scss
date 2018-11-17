@@ -854,6 +854,22 @@ header{
     box-shadow: none !important;
 }
 
+.path-boards{
+    #content{
+        .view-content{
+            h3{
+                
+            }
+            .views-row{
+                text-align: center;
+                .views-field-field-image{
+                    float: none;
+                }
+            }
+        }
+    }
+}
+
 
 @keyframes FadeIn {
     0% {
