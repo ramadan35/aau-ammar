@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
         minSlides: 3,
         maxSlides: 3,
         responsive: true,
-        infiniteLoop: true,
+        infiniteLoop: false,
         controls: true,
         speed: 500,
         auto: true,

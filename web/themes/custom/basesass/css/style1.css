@@ -829,19 +829,20 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 
 /* line 863, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
+  clear: initial;
   text-align: center;
 }
-/* line 865, ../sass/style1.scss */
+/* line 866, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-image {
   float: none;
 }
-/* line 868, ../sass/style1.scss */
+/* line 869, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-title {
   position: initial;
   background: transparent;
   color: #000;
 }
-/* line 874, ../sass/style1.scss */
+/* line 875, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
 }
