@@ -835,6 +835,16 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-boards #content .view-content .views-row .views-field-field-image {
   float: none;
 }
+/* line 868, ../sass/style1.scss */
+.path-boards #content .view-content .views-row .views-field-title {
+  position: initial;
+  background: transparent;
+  color: #000;
+}
+/* line 874, ../sass/style1.scss */
+.path-boards #content .view-content .views-row .views-field-field-position .views-label {
+  width: auto;
+}
 
 @keyframes FadeIn {
   0% {

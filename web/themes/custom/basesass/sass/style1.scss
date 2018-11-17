@@ -865,6 +865,16 @@ header{
                 .views-field-field-image{
                     float: none;
                 }
+                .views-field-title{
+                    position: initial;
+                    background: transparent;
+                    color: #000;
+                }
+                .views-field-field-position{
+                    .views-label{
+                        width:auto;
+                    }
+                }
             }
         }
     }
