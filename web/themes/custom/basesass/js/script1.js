@@ -32,6 +32,19 @@ jQuery(document).ready(function ($) {
         slideMargin: 30,
     });
     
+    ('#block-views-block-about-aau-block-1 .view-content').bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        responsive: true,
+        infiniteLoop: true,
+        controls: true,
+        speed: 500,
+        auto: true,
+        autoStart: true,
+        slideMargin: 30,
+    });
+    
     $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
 
 });
