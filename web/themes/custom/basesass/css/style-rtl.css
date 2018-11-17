@@ -214,3 +214,9 @@ and open the template in the editor.
 [dir="rtl"] .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left {
   float: right;
 }
+/* line 222, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-admission .field--name-field-admission .field--item .bx-wrapper .bx-viewport,
+[dir="rtl"] .page-node-type-academics .field--name-field-admission .field--item .bx-wrapper .bx-viewport,
+[dir="rtl"] .page-node-type-academics-name .field--name-field-admission .field--item .bx-wrapper .bx-viewport {
+  direction: ltr;
+}

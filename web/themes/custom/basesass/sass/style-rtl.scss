@@ -215,4 +215,13 @@ and open the template in the editor.
     .path-news-events #content .container > .col-md-9 .view-content .views-row .views-field-nothing .left{
         float: right;
     }
+    .page-node-type-admission .field--name-field-admission .field--item,
+    .page-node-type-academics .field--name-field-admission .field--item,
+    .page-node-type-academics-name .field--name-field-admission .field--item{
+        .bx-wrapper{
+            .bx-viewport{
+                    direction: ltr;
+            }
+        }
+    }
 }
