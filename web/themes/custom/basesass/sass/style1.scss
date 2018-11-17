@@ -615,16 +615,24 @@ header{
                         float: left;
                         width: 100%;
                         li{
-                            a{
+                            a , span{
                                 color: #FFFFFF;
                                 font-size: 16px;
                                 font-weight: bold;
                                 line-height: 50px;
                                 padding: 0 20px;
+                                .caret{
+                                    height: 15px;
+                                }
                             }
+                            
                         }
                         li.active-trail{
                             background-color: #FFB500;
+                        }
+                        ul{
+                            left: 100%;
+                            background-color: #0083D1;
                         }
                     }
                 }
