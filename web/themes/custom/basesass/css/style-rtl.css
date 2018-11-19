@@ -228,3 +228,9 @@ and open the template in the editor.
 [dir="rtl"] .page-node-type-media-gallery #content .slideshow .bx-wrapper {
   float: right;
 }
+/* line 236, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button:before {
+  content: "\e003";
+  font-size: 16px;
+  color: #969696;
+}
