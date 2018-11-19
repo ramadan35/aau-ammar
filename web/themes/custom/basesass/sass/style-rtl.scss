@@ -42,9 +42,9 @@ and open the template in the editor.
             }
             .header_center{
                 float: right;
-                    font-weight: 200;
+                font-weight: 200;
                 p{
-                        font-weight: 200;
+                    font-weight: 200;
                 }
             }
             .header_right{
@@ -220,13 +220,13 @@ and open the template in the editor.
     .page-node-type-academics-name .field--name-field-admission .field--item{
         .bx-wrapper{
             .bx-viewport{
-                    direction: ltr;
+                direction: ltr;
             }
         }
     }
     .page-node-type-media-gallery #content .slideshow .bx-wrapper{
         .bx-viewport{
-                direction: ltr;
+            direction: ltr;
         }
     }
     .page-node-type-media-gallery #content .slideshow .bx-wrapper{
@@ -234,8 +234,13 @@ and open the template in the editor.
 
     }
     header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button:before{
-            content: "\e003";
-            font-size: 16px;
-    color: #969696;
+        content: "\e003";
+        font-size: 16px;
+        color: #969696;
+        font-family: 'Glyphicons Halflings';
+    }
+    header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button{
+        top: -4px;
+        left: 0; 
     }
 }

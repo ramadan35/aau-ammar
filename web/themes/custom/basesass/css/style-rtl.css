@@ -233,4 +233,10 @@ and open the template in the editor.
   content: "\e003";
   font-size: 16px;
   color: #969696;
+  font-family: 'Glyphicons Halflings';
+}
+/* line 242, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
+  top: -4px;
+  left: 0;
 }
