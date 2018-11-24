@@ -32,8 +32,13 @@ and open the template in the editor.
     }
 }
 @media screen and (max-width: 1025px){
+    .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
+        top:20px;                
+    }
     .sf-accordion-toggle{
             text-align: right;
     }
 }
-
+@media screen and (max-width: 768px){
+    
+}

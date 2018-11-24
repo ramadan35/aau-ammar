@@ -46,6 +46,11 @@ and open the template in the editor.
 }
 @media screen and (max-width: 1025px) {
   /* line 35, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
+    top: 20px;
+  }
+
+  /* line 38, ../sass/responsive.scss */
   .sf-accordion-toggle {
     text-align: right;
   }
