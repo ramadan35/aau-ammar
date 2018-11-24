@@ -248,6 +248,10 @@ and open the template in the editor.
     .header_right{
         form{
             .form-actions{
+                button{
+                        top: -4px;
+                            left: 0;
+                }
                 button:before{
                     content: "\e003";
                     font-size: 16px;

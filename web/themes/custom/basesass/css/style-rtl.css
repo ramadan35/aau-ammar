@@ -242,6 +242,11 @@ and open the template in the editor.
 }
 
 /* line 251, ../sass/style-rtl.scss */
+.page-node-type-webform .header_right form .form-actions button {
+  top: -4px;
+  left: 0;
+}
+/* line 255, ../sass/style-rtl.scss */
 .page-node-type-webform .header_right form .form-actions button:before {
   content: "\e003";
   font-size: 16px;
