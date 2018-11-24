@@ -7,8 +7,35 @@ and open the template in the editor.
     Created on : Oct 6, 2018, 5:47:37 PM
     Author     : aqasem
 */
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1199px) {
   /* line 11, ../sass/responsive.scss */
+  .front_content_1 .view .views-row .views-field-title a {
+    font-size: 24px;
+  }
+
+  /* line 14, ../sass/responsive.scss */
+  .front_content_2 .announcement .views-row .views-field-field-date {
+    margin-right: 8px;
+  }
+
+  /* line 17, ../sass/responsive.scss */
+  .front_content_2 .announcement .views-row .views-field-title a {
+    font-size: 14px;
+  }
+
+  /* line 20, ../sass/responsive.scss */
+  .front_content_2 .simplenews .simplenews-subscriber-form {
+    padding: 0px 20px;
+  }
+
+  /* line 23, ../sass/responsive.scss */
+  .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email input,
+  .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 29, ../sass/responsive.scss */
   .sf-accordion-toggle {
     text-align: right;
   }
