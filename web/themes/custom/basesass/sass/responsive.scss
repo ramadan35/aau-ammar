@@ -24,6 +24,12 @@ and open the template in the editor.
     .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button{
             width: 88%;
     }
+    .front_content_4 .right .view .views-row{
+            width: 46.2%;
+    }
+    .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2{
+        max-width:650px;
+    }
 }
 @media screen and (max-width: 1025px){
     .sf-accordion-toggle{

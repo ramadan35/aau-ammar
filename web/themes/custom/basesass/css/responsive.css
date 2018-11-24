@@ -33,9 +33,19 @@ and open the template in the editor.
   .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button {
     width: 88%;
   }
+
+  /* line 27, ../sass/responsive.scss */
+  .front_content_4 .right .view .views-row {
+    width: 46.2%;
+  }
+
+  /* line 30, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
+    max-width: 650px;
+  }
 }
 @media screen and (max-width: 1025px) {
-  /* line 29, ../sass/responsive.scss */
+  /* line 35, ../sass/responsive.scss */
   .sf-accordion-toggle {
     text-align: right;
   }
