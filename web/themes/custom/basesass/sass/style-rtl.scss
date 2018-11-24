@@ -126,11 +126,11 @@ and open the template in the editor.
                     }
                 } 
                 .view-footer{
+                    a, a.en{
+                        display:none;  
+                    }
                     a.ar{
                         display:block;
-                    }
-                    a.en{
-                        display:none;  
                     }
                 }
             }

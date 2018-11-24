@@ -120,12 +120,12 @@ and open the template in the editor.
   margin-left: 15px;
 }
 /* line 129, ../sass/style-rtl.scss */
-[dir="rtl"] .front_content_2 .news .view .view-footer a.ar {
-  display: block;
+[dir="rtl"] .front_content_2 .news .view .view-footer a, [dir="rtl"] .front_content_2 .news .view .view-footer a.en {
+  display: none;
 }
 /* line 132, ../sass/style-rtl.scss */
-[dir="rtl"] .front_content_2 .news .view .view-footer a.en {
-  display: none;
+[dir="rtl"] .front_content_2 .news .view .view-footer a.ar {
+  display: block;
 }
 /* line 138, ../sass/style-rtl.scss */
 [dir="rtl"] .front_content_2 .announcement {
