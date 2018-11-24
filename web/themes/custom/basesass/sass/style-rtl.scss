@@ -244,3 +244,17 @@ and open the template in the editor.
         left: 0; 
     }
 }
+.page-node-type-webform{
+    .header_right{
+        form{
+            .form-actions{
+                button:before{
+                    content: "\e003";
+                    font-size: 16px;
+                    color: #969696;
+                    font-family: 'Glyphicons Halflings';
+                }
+            }
+        }
+    }
+}
