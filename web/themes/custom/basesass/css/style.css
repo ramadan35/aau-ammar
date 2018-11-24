@@ -10548,3 +10548,20 @@ header .top-header .language-switcher-language-url ul li a {
   font-size: 18px;
   line-height: 30px;
 }
+
+/* line 927, ../sass/style.scss */
+.page-node-type-webform .header_right form .form-actions button {
+  background: transparent;
+  font-size: 0;
+  border: 0;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding: 10px;
+  top: 0;
+}
+/* line 936, ../sass/style.scss */
+.page-node-type-webform .header_right form .form-actions button span {
+  font-size: 16px;
+  color: #969696;
+}
