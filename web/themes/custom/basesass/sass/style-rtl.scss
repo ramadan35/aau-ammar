@@ -266,5 +266,13 @@ and open the template in the editor.
     .bx-viewport{
             direction: ltr;
     }
-    
+    .path-presidency #content .region-content .view-content .views-row .views-field-field-image{
+        float: right;
+    padding-left: 20px;
+    padding-right: 0px;
+    }
+    .path-presidency #content .region-content .view-content .views-row .views-field-title{
+            left: inherit;
+    right: 0;
+    }
 }

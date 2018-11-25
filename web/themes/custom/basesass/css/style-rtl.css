@@ -258,3 +258,14 @@ and open the template in the editor.
 .path-successive-presidents #content .region-content .bx-wrapper .bx-viewport {
   direction: ltr;
 }
+/* line 269, ../sass/style-rtl.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
+  float: right;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+/* line 274, ../sass/style-rtl.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .path-presidency #content .region-content .view-content .views-row .views-field-title {
+  left: inherit;
+  right: 0;
+}
