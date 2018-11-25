@@ -243,28 +243,28 @@ and open the template in the editor.
         top: -4px;
         left: 0; 
     }
-}
-.page-node-type-webform{
-    .header_right{
-        form{
-            .form-actions{
-                button{
-                    top: -4px;
-                    left: 0;
-                }
-                button:before{
-                    content: "\e003";
-                    font-size: 16px;
-                    color: #969696;
-                    font-family: 'Glyphicons Halflings';
+    .page-node-type-webform{
+        .header_right{
+            form{
+                .form-actions{
+                    button{
+                        top: -4px;
+                        left: 0;
+                    }
+                    button:before{
+                        content: "\e003";
+                        font-size: 16px;
+                        color: #969696;
+                        font-family: 'Glyphicons Halflings';
+                    }
                 }
             }
         }
     }
-}
-.path-successive-presidents #content .region-content .bx-wrapper{
-    .bx-viewport{
-        direction: ltr;
+    .path-successive-presidents #content .region-content .bx-wrapper{
+        .bx-viewport{
+            direction: ltr;
+        }
     }
     .path-presidency #content .region-content .view-content .views-row .views-field-field-image{
         float: right;
@@ -276,3 +276,4 @@ and open the template in the editor.
         right: 0;
     }
 }
+

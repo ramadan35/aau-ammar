@@ -240,32 +240,30 @@ and open the template in the editor.
   top: -4px;
   left: 0;
 }
-
-/* line 251, ../sass/style-rtl.scss */
-.page-node-type-webform .header_right form .form-actions button {
+/* line 250, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-webform .header_right form .form-actions button {
   top: -4px;
   left: 0;
 }
-/* line 255, ../sass/style-rtl.scss */
-.page-node-type-webform .header_right form .form-actions button:before {
+/* line 254, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-webform .header_right form .form-actions button:before {
   content: "\e003";
   font-size: 16px;
   color: #969696;
   font-family: 'Glyphicons Halflings';
 }
-
-/* line 266, ../sass/style-rtl.scss */
-.path-successive-presidents #content .region-content .bx-wrapper .bx-viewport {
+/* line 265, ../sass/style-rtl.scss */
+[dir="rtl"] .path-successive-presidents #content .region-content .bx-wrapper .bx-viewport {
   direction: ltr;
 }
 /* line 269, ../sass/style-rtl.scss */
-.path-successive-presidents #content .region-content .bx-wrapper .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
+[dir="rtl"] .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: right;
   padding-left: 20px;
   padding-right: 0px;
 }
 /* line 274, ../sass/style-rtl.scss */
-.path-successive-presidents #content .region-content .bx-wrapper .path-presidency #content .region-content .view-content .views-row .views-field-title {
+[dir="rtl"] .path-presidency #content .region-content .view-content .views-row .views-field-title {
   left: inherit;
   right: 0;
 }
