@@ -10565,3 +10565,14 @@ header .top-header .language-switcher-language-url ul li a {
   font-size: 16px;
   color: #969696;
 }
+
+/* line 945, ../sass/style.scss */
+.path-partnerships #content .region-content .view-content .views-row {
+  min-height: 500px;
+}
+
+/* line 949, ../sass/style.scss */
+.path-partnerships #content .region-content .view-content .views-row .views-field-body a {
+  display: block;
+  word-wrap: break-word;
+}
