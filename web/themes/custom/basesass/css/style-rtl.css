@@ -253,3 +253,8 @@ and open the template in the editor.
   color: #969696;
   font-family: 'Glyphicons Halflings';
 }
+
+/* line 266, ../sass/style-rtl.scss */
+.path-successive-presidents #content .region-content .bx-wrapper .bx-viewport {
+  direction: ltr;
+}
