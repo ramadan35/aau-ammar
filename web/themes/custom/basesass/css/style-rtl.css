@@ -267,3 +267,7 @@ and open the template in the editor.
   left: inherit;
   right: 0;
 }
+/* line 278, ../sass/style-rtl.scss */
+[dir="rtl"] #block-views-block-about-aau-block-1 .bx-wrapper .bx-viewport {
+  direction: ltr;
+}
