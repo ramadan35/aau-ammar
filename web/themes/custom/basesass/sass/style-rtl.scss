@@ -249,8 +249,8 @@ and open the template in the editor.
         form{
             .form-actions{
                 button{
-                        top: -4px;
-                            left: 0;
+                    top: -4px;
+                    left: 0;
                 }
                 button:before{
                     content: "\e003";
@@ -264,15 +264,15 @@ and open the template in the editor.
 }
 .path-successive-presidents #content .region-content .bx-wrapper{
     .bx-viewport{
-            direction: ltr;
+        direction: ltr;
     }
     .path-presidency #content .region-content .view-content .views-row .views-field-field-image{
         float: right;
-    padding-left: 20px;
-    padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 0px;
     }
     .path-presidency #content .region-content .view-content .views-row .views-field-title{
-            left: inherit;
-    right: 0;
+        left: inherit;
+        right: 0;
     }
 }
