@@ -278,5 +278,14 @@ and open the template in the editor.
     #block-views-block-about-aau-block-1 .bx-wrapper .bx-viewport{
         direction: ltr;
     }
+    .view-employees .views-row .views-field-field-image{
+        float: right;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .view-employees .views-row .views-field-title{
+        left: inherit;
+    right: 0;
+    }
 }
 

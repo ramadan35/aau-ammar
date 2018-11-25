@@ -271,3 +271,14 @@ and open the template in the editor.
 [dir="rtl"] #block-views-block-about-aau-block-1 .bx-wrapper .bx-viewport {
   direction: ltr;
 }
+/* line 281, ../sass/style-rtl.scss */
+[dir="rtl"] .view-employees .views-row .views-field-field-image {
+  float: right;
+  padding-left: 20px;
+  padding-right: 0;
+}
+/* line 286, ../sass/style-rtl.scss */
+[dir="rtl"] .view-employees .views-row .views-field-title {
+  left: inherit;
+  right: 0;
+}
