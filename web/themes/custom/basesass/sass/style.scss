@@ -952,3 +952,13 @@ header .top-header .language-switcher-language-url{
     }
 
 }
+header .menu-region #block-mainnavigation ul.menu > li ul{
+    min-width: 535px;
+    
+}
+header .menu-region #block-mainnavigation ul.menu > li ul li{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
