@@ -295,3 +295,7 @@ and open the template in the editor.
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   border-left: 0px solid #FFF;
 }
+/* line 300, ../sass/style-rtl.scss */
+[dir="rtl"] .path-awards-certificates .content-content .views-row {
+  float: right;
+}
