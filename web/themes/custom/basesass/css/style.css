@@ -10588,3 +10588,8 @@ header .menu-region #block-mainnavigation ul.menu > li ul li {
   width: 50%;
   padding: 10px;
 }
+
+/* line 964, ../sass/style.scss */
+header .menu-region #block-mainnavigation ul.menu > li ul li a {
+  text-align: left;
+}
