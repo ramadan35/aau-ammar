@@ -282,14 +282,16 @@ and open the template in the editor.
   left: inherit;
   right: 0;
 }
-
-/* line 291, ../sass/style-rtl.scss */
-header .menu-region #block-mainnavigation ul.menu > li ul li a {
+/* line 290, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li ul li a {
   text-align: right;
 }
-
-/* line 294, ../sass/style-rtl.scss */
-header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after {
+/* line 293, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after {
   right: inherit;
   left: 22px;
+}
+/* line 297, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li:last-child a {
+  border-left: 0px solid #FFF;
 }

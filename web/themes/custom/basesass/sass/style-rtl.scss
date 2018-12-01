@@ -285,13 +285,17 @@ and open the template in the editor.
     }
     .view-employees .views-row .views-field-title{
         left: inherit;
-    right: 0;
+        right: 0;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li ul li a{
+        text-align: right;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after{
+        right: inherit;
+        left: 22px;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li:last-child a{
+            border-left: 0px solid #FFF;
     }
 }
-header .menu-region #block-mainnavigation ul.menu > li ul li a{
-    text-align: right;
-}
-header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after{
-    right: inherit;
-    left: 22px;
-}
+
