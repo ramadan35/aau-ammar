@@ -300,5 +300,9 @@ and open the template in the editor.
     .path-awards-certificates .content-content .views-row{
         float:right;
     }
+    .paragraph--type--faq-collapses .field--name-field-title:after{
+            float: left;
+            content: url(../images/right-arrow-collapses-ar.png);
+    }
 }
 

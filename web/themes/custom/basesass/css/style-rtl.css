@@ -299,3 +299,8 @@ and open the template in the editor.
 [dir="rtl"] .path-awards-certificates .content-content .views-row {
   float: right;
 }
+/* line 303, ../sass/style-rtl.scss */
+[dir="rtl"] .paragraph--type--faq-collapses .field--name-field-title:after {
+  float: left;
+  content: url(../images/right-arrow-collapses-ar.png);
+}
