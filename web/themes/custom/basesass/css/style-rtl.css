@@ -304,3 +304,7 @@ and open the template in the editor.
   float: left;
   content: url(../images/right-arrow-collapses-ar.png);
 }
+/* line 307, ../sass/style-rtl.scss */
+[dir="rtl"] .paragraph--type--faq-collapses .field--name-field-title.opened-content:after {
+  content: url(../images/up-arrow.png);
+}

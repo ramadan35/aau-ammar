@@ -304,5 +304,8 @@ and open the template in the editor.
             float: left;
             content: url(../images/right-arrow-collapses-ar.png);
     }
+    .paragraph--type--faq-collapses .field--name-field-title.opened-content:after{
+        content: url(../images/up-arrow.png);
+    }
 }
 
