@@ -311,8 +311,9 @@ and open the template in the editor.
 /* line 310, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, [dir="rtl"] .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, [dir="rtl"] .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after {
   content: url(../images/right-arrow-collapses-ar.png);
+  float: left;
 }
-/* line 313, ../sass/style-rtl.scss */
+/* line 314, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, [dir="rtl"] .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, [dir="rtl"] .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
 }
