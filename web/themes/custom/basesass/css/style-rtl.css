@@ -282,3 +282,8 @@ and open the template in the editor.
   left: inherit;
   right: 0;
 }
+
+/* line 291, ../sass/style-rtl.scss */
+header .menu-region #block-mainnavigation ul.menu > li ul li a {
+  text-align: right;
+}
