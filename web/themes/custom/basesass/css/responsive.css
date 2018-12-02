@@ -52,10 +52,18 @@ and open the template in the editor.
 
   /* line 38, ../sass/responsive.scss */
   .sf-accordion-toggle {
-    text-align: right;
+    text-align: center;
   }
 
   /* line 41, ../sass/responsive.scss */
+  .sf-accordion-toggle a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* line 47, ../sass/responsive.scss */
   .responsive-menus.responsified span.toggler {
     background: #4A4A4A;
     box-shadow: none;
@@ -65,30 +73,30 @@ and open the template in the editor.
     right: 45px;
   }
 
-  /* line 49, ../sass/responsive.scss */
+  /* line 55, ../sass/responsive.scss */
   .responsive-menus.responsified .responsive-menus-simple {
     background: #4A4A4A;
     box-shadow: none;
   }
 
-  /* line 53, ../sass/responsive.scss */
+  /* line 59, ../sass/responsive.scss */
   .responsive-menus.responsified .responsive-menus-simple li a {
     padding: 10px;
     font-size: 14px;
     text-align: center;
   }
 
-  /* line 58, ../sass/responsive.scss */
+  /* line 64, ../sass/responsive.scss */
   .responsive-menus.responsified {
     position: relative;
   }
 
-  /* line 61, ../sass/responsive.scss */
+  /* line 67, ../sass/responsive.scss */
   header .menu-region #block-mainnavigation ul.menu > li {
     width: 100%;
   }
 
-  /* line 64, ../sass/responsive.scss */
+  /* line 70, ../sass/responsive.scss */
   header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span {
     border-left: 0px;
     border-right: 0px;

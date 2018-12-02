@@ -36,7 +36,13 @@ and open the template in the editor.
         top:20px;                
     }
     .sf-accordion-toggle{
-            text-align: right;
+            text-align: center;
+    }
+    .sf-accordion-toggle a{
+        color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
     }
     .responsive-menus.responsified span.toggler{
         background: #4A4A4A;
