@@ -54,4 +54,23 @@ and open the template in the editor.
   .sf-accordion-toggle {
     text-align: right;
   }
+
+  /* line 41, ../sass/responsive.scss */
+  .responsive-menus.responsified span.toggler {
+    background: #4A4A4A;
+    box-shadow: none;
+    font-size: 18px;
+  }
+
+  /* line 46, ../sass/responsive.scss */
+  .responsive-menus.responsified .responsive-menus-simple {
+    background: #4A4A4A;
+    box-shadow: none;
+  }
+
+  /* line 50, ../sass/responsive.scss */
+  .responsive-menus.responsified .responsive-menus-simple li a {
+    padding: 10px;
+    font-size: 14px;
+  }
 }

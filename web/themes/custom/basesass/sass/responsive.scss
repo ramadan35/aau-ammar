@@ -38,6 +38,19 @@ and open the template in the editor.
     .sf-accordion-toggle{
             text-align: right;
     }
+    .responsive-menus.responsified span.toggler{
+        background: #4A4A4A;
+        box-shadow: none;
+            font-size: 18px;
+    }
+    .responsive-menus.responsified .responsive-menus-simple{
+            background: #4A4A4A;
+    box-shadow: none;
+    }
+    .responsive-menus.responsified .responsive-menus-simple li a{
+        padding: 10px;
+    font-size: 14px;
+    }
 }
 @media screen and (max-width: 768px){
     
