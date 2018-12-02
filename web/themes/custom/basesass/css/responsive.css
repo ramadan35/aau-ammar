@@ -60,17 +60,25 @@ and open the template in the editor.
     background: #4A4A4A;
     box-shadow: none;
     font-size: 18px;
+    position: absolute;
+    top: -23px;
+    right: 45px;
   }
 
-  /* line 46, ../sass/responsive.scss */
+  /* line 49, ../sass/responsive.scss */
   .responsive-menus.responsified .responsive-menus-simple {
     background: #4A4A4A;
     box-shadow: none;
   }
 
-  /* line 50, ../sass/responsive.scss */
+  /* line 53, ../sass/responsive.scss */
   .responsive-menus.responsified .responsive-menus-simple li a {
     padding: 10px;
     font-size: 14px;
+  }
+
+  /* line 57, ../sass/responsive.scss */
+  .responsive-menus.responsified {
+    position: relative;
   }
 }

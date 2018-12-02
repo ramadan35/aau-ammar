@@ -42,6 +42,9 @@ and open the template in the editor.
         background: #4A4A4A;
         box-shadow: none;
             font-size: 18px;
+            position: absolute;
+    top: -23px;
+    right: 45px;
     }
     .responsive-menus.responsified .responsive-menus-simple{
             background: #4A4A4A;
@@ -50,6 +53,9 @@ and open the template in the editor.
     .responsive-menus.responsified .responsive-menus-simple li a{
         padding: 10px;
     font-size: 14px;
+    }
+    .responsive-menus.responsified{
+            position: relative;
     }
 }
 @media screen and (max-width: 768px){
