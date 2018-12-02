@@ -75,10 +75,22 @@ and open the template in the editor.
   .responsive-menus.responsified .responsive-menus-simple li a {
     padding: 10px;
     font-size: 14px;
+    text-align: center;
   }
 
-  /* line 57, ../sass/responsive.scss */
+  /* line 58, ../sass/responsive.scss */
   .responsive-menus.responsified {
     position: relative;
+  }
+
+  /* line 61, ../sass/responsive.scss */
+  header .menu-region #block-mainnavigation ul.menu > li {
+    width: 100%;
+  }
+
+  /* line 64, ../sass/responsive.scss */
+  header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span {
+    border-left: 0px;
+    border-right: 0px;
   }
 }

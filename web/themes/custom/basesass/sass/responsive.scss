@@ -53,11 +53,20 @@ and open the template in the editor.
     .responsive-menus.responsified .responsive-menus-simple li a{
         padding: 10px;
     font-size: 14px;
+        text-align: center;
     }
     .responsive-menus.responsified{
             position: relative;
     }
+    header .menu-region #block-mainnavigation ul.menu > li{
+            width: 100%;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span{
+        border-left:0px;
+        border-right:0px;
+    }
 }
 @media screen and (max-width: 768px){
+    
     
 }
