@@ -10606,17 +10606,12 @@ table tr td strong {
   color: #0083D1;
 }
 
-/* line 975, ../sass/style.scss */
-.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
-  font-size: 15.5px !important;
-}
-
-/* line 978, ../sass/style.scss */
+/* line 976, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li span {
   cursor: pointer;
 }
 
-/* line 981, ../sass/style.scss */
+/* line 979, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span.first {
   font-size: 18px !important;
 }

@@ -610,7 +610,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 617, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: bold;
   line-height: 50px;
   padding: 0 20px;
