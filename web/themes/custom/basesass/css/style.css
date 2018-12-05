@@ -10593,3 +10593,10 @@ header .menu-region #block-mainnavigation ul.menu > li ul li {
 header .menu-region #block-mainnavigation ul.menu > li ul li a {
   text-align: left;
 }
+
+/* line 967, ../sass/style.scss */
+tabel tr td strong {
+  text-align: center;
+  display: block;
+  color: #0083D1;
+}
