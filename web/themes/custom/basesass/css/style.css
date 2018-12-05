@@ -10618,5 +10618,5 @@ header .menu-region #block-mainnavigation ul.menu > li span {
 
 /* line 981, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span.first {
-  font-size: 18px;
+  font-size: 18px !important;
 }
