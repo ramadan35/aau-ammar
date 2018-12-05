@@ -10608,7 +10608,7 @@ table tr td strong {
 
 /* line 975, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
-  font-size: 15.5px;
+  font-size: 15.5px !important;
 }
 
 /* line 978, ../sass/style.scss */
