@@ -10595,6 +10595,11 @@ header .menu-region #block-mainnavigation ul.menu > li ul li a {
 }
 
 /* line 967, ../sass/style.scss */
+table tr td {
+  padding: 10px;
+}
+
+/* line 970, ../sass/style.scss */
 table tr td strong {
   text-align: center;
   display: block;
