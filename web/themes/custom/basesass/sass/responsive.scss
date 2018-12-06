@@ -12,20 +12,20 @@ and open the template in the editor.
         font-size: 24px;
     }
     .front_content_2 .announcement .views-row .views-field-field-date{
-            margin-right: 8px;
+        margin-right: 8px;
     }
     .front_content_2 .announcement .views-row .views-field-title a{
-            font-size: 14px;
+        font-size: 14px;
     }
     .front_content_2 .simplenews .simplenews-subscriber-form{
         padding: 0px 20px;
     }
     .front_content_2 .simplenews .simplenews-subscriber-form form .field--type-email input,
     .front_content_2 .simplenews .simplenews-subscriber-form form .form-actions button{
-            width: 88%;
+        width: 88%;
     }
     .front_content_4 .right .view .views-row{
-            width: 46.2%;
+        width: 46.2%;
     }
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2{
         max-width:650px;
@@ -36,43 +36,68 @@ and open the template in the editor.
         top:20px;                
     }
     .sf-accordion-toggle{
-            text-align: center;
+        text-align: center;
+        padding: 7px 0px;
+
     }
     .sf-accordion-toggle a{
         color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
     }
     .responsive-menus.responsified span.toggler{
         background: #4A4A4A;
         box-shadow: none;
-            font-size: 18px;
-            position: absolute;
-    top: -23px;
-    right: 45px;
+        font-size: 18px;
+        position: absolute;
+        top: -23px;
+        right: 45px;
     }
     .responsive-menus.responsified .responsive-menus-simple{
-            background: #4A4A4A;
-    box-shadow: none;
+        background: #4A4A4A;
+        box-shadow: none;
     }
     .responsive-menus.responsified .responsive-menus-simple li a{
         padding: 10px;
-    font-size: 14px;
+        font-size: 14px;
         text-align: center;
     }
     .responsive-menus.responsified{
-            position: relative;
+        position: relative;
     }
     header .menu-region #block-mainnavigation ul.menu > li{
-            width: 100%;
+        width: 100%;
     }
     header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span{
         border-left:0px;
         border-right:0px;
     }
+    header .menu-region{
+        clear: both;
+    }
+    .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
+        position: relative;
+    }
 }
 @media screen and (max-width: 768px){
-    
-    
+    header .bottom-header .header_center{
+        display: none; 
+    }
+    header .bottom-header .header_right #block-socialmedia-2{
+        display: none; 
+    }
+    header .bottom-header .header_right{
+        width: 50%;  
+        padding-top: 80px;
+
+    }
+    header .bottom-header .header_left{
+        width: 50%;  
+    }
+    header .bottom-header{
+        padding: 15px 20px;
+        float: left;
+        width: 100%;
+    }
 }
