@@ -117,31 +117,53 @@ and open the template in the editor.
   /* line 83, ../sass/responsive.scss */
   .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
     color: #0083D1;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /* line 88, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1::after {
+    margin: 0px auto;
+    margin-top: 5PX;
+  }
+
+  /* line 92, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2 {
+    color: #0083D1;
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /* line 98, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .link a {
+    margin: 0px auto;
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 88, ../sass/responsive.scss */
+  /* line 104, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 91, ../sass/responsive.scss */
+  /* line 107, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 94, ../sass/responsive.scss */
+  /* line 110, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 99, ../sass/responsive.scss */
+  /* line 115, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 102, ../sass/responsive.scss */
+  /* line 118, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
