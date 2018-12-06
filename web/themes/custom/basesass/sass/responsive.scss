@@ -78,6 +78,10 @@ and open the template in the editor.
     }
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
         position: relative;
+        top: 0;
+    }
+    .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1{
+        color:#0083D1;
     }
 }
 @media screen and (max-width: 768px){

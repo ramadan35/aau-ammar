@@ -111,31 +111,37 @@ and open the template in the editor.
   /* line 79, ../sass/responsive.scss */
   .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent {
     position: relative;
+    top: 0;
+  }
+
+  /* line 83, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text1 {
+    color: #0083D1;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 84, ../sass/responsive.scss */
+  /* line 88, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 87, ../sass/responsive.scss */
+  /* line 91, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 90, ../sass/responsive.scss */
+  /* line 94, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 95, ../sass/responsive.scss */
+  /* line 99, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 98, ../sass/responsive.scss */
+  /* line 102, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
