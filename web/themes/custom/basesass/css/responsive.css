@@ -149,42 +149,75 @@ and open the template in the editor.
 
   /* line 106, ../sass/responsive.scss */
   .block-views-blockmedia-gallery-block-1 {
-    margin: 0px auto;
-    display: table;
+    margin-bottom: 30px;
   }
 
-  /* line 110, ../sass/responsive.scss */
+  /* line 109, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 37%;
     float: left;
   }
+
+  /* line 113, ../sass/responsive.scss */
+  .front_content_4 h1:after {
+    text-align: left;
+    margin: 0;
+  }
+
+  /* line 117, ../sass/responsive.scss */
+  .front_content_4 h1.block-title {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 122, ../sass/responsive.scss */
+  .front_content_4 {
+    padding-top: 33px;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 116, ../sass/responsive.scss */
+  /* line 128, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 119, ../sass/responsive.scss */
+  /* line 131, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 122, ../sass/responsive.scss */
+  /* line 134, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 127, ../sass/responsive.scss */
+  /* line 139, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 130, ../sass/responsive.scss */
+  /* line 142, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
+  }
+
+  /* line 146, ../sass/responsive.scss */
+  #footer {
+    text-align: center;
+  }
+
+  /* line 149, ../sass/responsive.scss */
+  #footer .footer-left h2::after {
+    margin: 0px auto;
+    margin-top: 5px;
+  }
+
+  /* line 153, ../sass/responsive.scss */
+  #footer .footer-left {
+    padding-top: 20px;
   }
 }
