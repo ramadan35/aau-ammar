@@ -12,6 +12,7 @@ rtl-styling:
   css:
     theme:
       css/style-rtl.css: {}
+      css/responsive-rtl.css: {}
       
 bootstrap-scripts:
   js:
