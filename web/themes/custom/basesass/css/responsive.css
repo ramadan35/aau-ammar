@@ -185,83 +185,84 @@ and open the template in the editor.
     right: 70px;
     top: 40px;
     margin-bottom: 39px;
+    color: #FFB500;
   }
 
-  /* line 134, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 {
     float: none;
     width: 100%;
     margin-bottom: 25px;
   }
 
-  /* line 139, ../sass/responsive.scss */
+  /* line 140, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-9 {
     float: none;
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 145, ../sass/responsive.scss */
+  /* line 146, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 148, ../sass/responsive.scss */
+  /* line 149, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 151, ../sass/responsive.scss */
+  /* line 152, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 156, ../sass/responsive.scss */
+  /* line 157, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 159, ../sass/responsive.scss */
+  /* line 160, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
   }
 
-  /* line 163, ../sass/responsive.scss */
+  /* line 164, ../sass/responsive.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 166, ../sass/responsive.scss */
+  /* line 167, ../sass/responsive.scss */
   #footer .footer-left h2::after {
     margin: 0px auto;
     margin-top: 5px;
   }
 
-  /* line 170, ../sass/responsive.scss */
+  /* line 171, ../sass/responsive.scss */
   #footer .footer-left {
     padding-top: 20px;
   }
 
-  /* line 173, ../sass/responsive.scss */
+  /* line 174, ../sass/responsive.scss */
   .front_content_2 .simplenews .simplenews-subscriber-form {
     margin-top: 28px;
   }
 
-  /* line 176, ../sass/responsive.scss */
+  /* line 177, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
     top: 0px !important;
   }
 
-  /* line 181, ../sass/responsive.scss */
+  /* line 182, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
 
-  /* line 184, ../sass/responsive.scss */
+  /* line 185, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
     width: 100%;
     right: 0;
@@ -271,7 +272,7 @@ and open the template in the editor.
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 194, ../sass/responsive.scss */
+  /* line 195, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -281,36 +282,36 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 202, ../sass/responsive.scss */
+  /* line 203, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 206, ../sass/responsive.scss */
+  /* line 207, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 211, ../sass/responsive.scss */
+  /* line 212, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 216, ../sass/responsive.scss */
+  /* line 217, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 219, ../sass/responsive.scss */
+  /* line 220, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 100%;
     float: none;
   }
 
-  /* line 223, ../sass/responsive.scss */
+  /* line 224, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 100%;
     padding-top: 20px;
