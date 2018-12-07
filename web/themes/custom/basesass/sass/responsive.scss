@@ -30,6 +30,9 @@ and open the template in the editor.
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent .text2{
         max-width:650px;
     }
+    .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type{
+        width: 743px;
+    }
 }
 @media screen and (max-width: 1025px){
     .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 #slick-views-dynamic-header-block-1-1-slider .slick-list .slick-track .slick__slide .views-field-nothing .slider_conent{
@@ -140,6 +143,12 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-9{
                 float: none;
     width: 100%;
+    }
+    .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2){
+            display: none;
+    }
+    .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls{
+            display: block;
     }
 }
 @media screen and (max-width: 768px){
