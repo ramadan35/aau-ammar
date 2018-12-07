@@ -262,10 +262,34 @@ and open the template in the editor.
     float: none;
     margin-bottom: 20px;
   }
+
+  /* line 188, ../sass/responsive.scss */
+  #footer .bottom #block-socialmedia {
+    float: none;
+  }
 }
 @media screen and (max-width: 667px) {
-  /* line 190, ../sass/responsive.scss */
+  /* line 193, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
+  }
+}
+@media screen and (max-width: 555px) {
+  /* line 198, ../sass/responsive.scss */
+  header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
+    width: 100%;
+  }
+
+  /* line 201, ../sass/responsive.scss */
+  header .bottom-header .header_left {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 205, ../sass/responsive.scss */
+  header .bottom-header .header_right {
+    width: 100%;
+    padding-top: 20px;
+    float: left;
   }
 }
