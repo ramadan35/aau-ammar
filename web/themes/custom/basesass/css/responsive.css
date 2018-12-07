@@ -229,15 +229,25 @@ and open the template in the editor.
   /* line 159, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
+    top: 0px !important;
   }
 
-  /* line 162, ../sass/responsive.scss */
+  /* line 164, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
+
+  /* line 167, ../sass/responsive.scss */
+  .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
+    width: 100%;
+    right: 0;
+    padding-left: 38px;
+    padding-right: 38px;
+    float: none;
+  }
 }
 @media screen and (max-width: 736px) {
-  /* line 167, ../sass/responsive.scss */
+  /* line 176, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -247,9 +257,15 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 175, ../sass/responsive.scss */
+  /* line 184, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 667px) {
+  /* line 190, ../sass/responsive.scss */
+  .front_content_4 .right .view .views-row {
+    width: 42%;
   }
 }

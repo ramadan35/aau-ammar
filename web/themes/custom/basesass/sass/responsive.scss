@@ -158,9 +158,18 @@ and open the template in the editor.
     }
     .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img{
             height: auto;
+                top: 0px !important;
+            
     }
     .front_content_1 .view .views-row .views-field-title a{
         width:100%;
+    }
+    .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text{
+            width: 100%;
+            right: 0;
+    padding-left: 38px;
+    padding-right: 38px;
+    float:none;
     }
 }
 @media screen and (max-width: 736px){
@@ -176,4 +185,9 @@ and open the template in the editor.
             float: none;
                 margin-bottom: 20px;
     }
+}
+@media screen and (max-width: 667px){
+.front_content_4 .right .view .views-row{
+        width: 42%;
+}
 }
