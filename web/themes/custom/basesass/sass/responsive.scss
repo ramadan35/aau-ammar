@@ -122,7 +122,24 @@ and open the template in the editor.
     .front_content_4{
         padding-top: 33px;
     }
-
+    .image_header h1.page-header{
+            position: relative;
+            bottom: 0;
+    width: 100%;
+    left: 70px;
+    right: 70px;
+    top: 40px;
+    margin-bottom: 39px;
+    }
+    .path-notfront #content > .container > .col-md-3{
+        float: none;
+    width: 100%;
+    margin-bottom: 25px;
+    }
+    .path-notfront #content > .container > .col-md-9{
+                float: none;
+    width: 100%;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{
@@ -171,6 +188,7 @@ and open the template in the editor.
         padding-right: 38px;
         float:none;
     }
+
 }
 @media screen and (max-width: 736px){
     .front_content_1 .view .views-row{
