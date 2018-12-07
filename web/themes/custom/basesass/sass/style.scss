@@ -983,3 +983,6 @@ header .menu-region #block-mainnavigation ul.menu > li span{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls{
+    display: none;
+}
