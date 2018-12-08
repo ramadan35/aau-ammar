@@ -852,7 +852,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 }
 /* line 880, ../sass/style1.scss */
 .path-boards #content .view-content .bx-wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 77px !important;
 }
 /* line 883, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
