@@ -186,98 +186,99 @@ and open the template in the editor.
     position: relative;
     bottom: 0;
     width: 100%;
-    left: 70px;
-    right: 70px;
+    left: 0;
+    right: 0;
+    padding: 0px 30px;
     top: 40px;
     margin-bottom: 39px;
     color: #FFB500;
   }
 
-  /* line 138, ../sass/responsive.scss */
+  /* line 139, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 {
     float: none;
     width: 100%;
     margin-bottom: 25px;
   }
 
-  /* line 143, ../sass/responsive.scss */
+  /* line 144, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-9 {
     float: none;
     width: 100%;
   }
 
-  /* line 147, ../sass/responsive.scss */
+  /* line 148, ../sass/responsive.scss */
   .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) {
     display: none;
   }
 
-  /* line 150, ../sass/responsive.scss */
+  /* line 151, ../sass/responsive.scss */
   .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls {
     display: block;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 155, ../sass/responsive.scss */
+  /* line 156, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 158, ../sass/responsive.scss */
+  /* line 159, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 161, ../sass/responsive.scss */
+  /* line 162, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 166, ../sass/responsive.scss */
+  /* line 167, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 169, ../sass/responsive.scss */
+  /* line 170, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
   }
 
-  /* line 173, ../sass/responsive.scss */
+  /* line 174, ../sass/responsive.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 176, ../sass/responsive.scss */
+  /* line 177, ../sass/responsive.scss */
   #footer .footer-left h2::after {
     margin: 0px auto;
     margin-top: 5px;
   }
 
-  /* line 180, ../sass/responsive.scss */
+  /* line 181, ../sass/responsive.scss */
   #footer .footer-left {
     padding-top: 20px;
   }
 
-  /* line 183, ../sass/responsive.scss */
+  /* line 184, ../sass/responsive.scss */
   .front_content_2 .simplenews .simplenews-subscriber-form {
     margin-top: 28px;
   }
 
-  /* line 186, ../sass/responsive.scss */
+  /* line 187, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
     top: 0px !important;
   }
 
-  /* line 191, ../sass/responsive.scss */
+  /* line 192, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
 
-  /* line 194, ../sass/responsive.scss */
+  /* line 195, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
     width: 100%;
     right: 0;
@@ -287,7 +288,7 @@ and open the template in the editor.
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 204, ../sass/responsive.scss */
+  /* line 205, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -297,36 +298,36 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 212, ../sass/responsive.scss */
+  /* line 213, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 216, ../sass/responsive.scss */
+  /* line 217, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 221, ../sass/responsive.scss */
+  /* line 222, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 226, ../sass/responsive.scss */
+  /* line 227, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 229, ../sass/responsive.scss */
+  /* line 230, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 100%;
     float: none;
   }
 
-  /* line 233, ../sass/responsive.scss */
+  /* line 234, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 100%;
     padding-top: 20px;
