@@ -192,93 +192,94 @@ and open the template in the editor.
     top: 40px;
     margin-bottom: 39px;
     color: #FFB500;
+    font-size: 23px;
   }
 
-  /* line 139, ../sass/responsive.scss */
+  /* line 140, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 {
     float: none;
     width: 100%;
     margin-bottom: 25px;
   }
 
-  /* line 144, ../sass/responsive.scss */
+  /* line 145, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-9 {
     float: none;
     width: 100%;
   }
 
-  /* line 148, ../sass/responsive.scss */
+  /* line 149, ../sass/responsive.scss */
   .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2) {
     display: none;
   }
 
-  /* line 151, ../sass/responsive.scss */
+  /* line 152, ../sass/responsive.scss */
   .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls {
     display: block;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 156, ../sass/responsive.scss */
+  /* line 157, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 159, ../sass/responsive.scss */
+  /* line 160, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 162, ../sass/responsive.scss */
+  /* line 163, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 167, ../sass/responsive.scss */
+  /* line 168, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 170, ../sass/responsive.scss */
+  /* line 171, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
   }
 
-  /* line 174, ../sass/responsive.scss */
+  /* line 175, ../sass/responsive.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 177, ../sass/responsive.scss */
+  /* line 178, ../sass/responsive.scss */
   #footer .footer-left h2::after {
     margin: 0px auto;
     margin-top: 5px;
   }
 
-  /* line 181, ../sass/responsive.scss */
+  /* line 182, ../sass/responsive.scss */
   #footer .footer-left {
     padding-top: 20px;
   }
 
-  /* line 184, ../sass/responsive.scss */
+  /* line 185, ../sass/responsive.scss */
   .front_content_2 .simplenews .simplenews-subscriber-form {
     margin-top: 28px;
   }
 
-  /* line 187, ../sass/responsive.scss */
+  /* line 188, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
     top: 0px !important;
   }
 
-  /* line 192, ../sass/responsive.scss */
+  /* line 193, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
 
-  /* line 195, ../sass/responsive.scss */
+  /* line 196, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
     width: 100%;
     right: 0;
@@ -286,9 +287,14 @@ and open the template in the editor.
     padding-right: 38px;
     float: none;
   }
+
+  /* line 203, ../sass/responsive.scss */
+  .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
+    display: block !important;
+  }
 }
 @media screen and (max-width: 736px) {
-  /* line 205, ../sass/responsive.scss */
+  /* line 208, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -298,36 +304,36 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 213, ../sass/responsive.scss */
+  /* line 216, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 217, ../sass/responsive.scss */
+  /* line 220, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 222, ../sass/responsive.scss */
+  /* line 225, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 227, ../sass/responsive.scss */
+  /* line 230, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 230, ../sass/responsive.scss */
+  /* line 233, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 100%;
     float: none;
   }
 
-  /* line 234, ../sass/responsive.scss */
+  /* line 237, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 100%;
     padding-top: 20px;

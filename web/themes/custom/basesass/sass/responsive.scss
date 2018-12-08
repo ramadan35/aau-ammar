@@ -135,6 +135,7 @@ and open the template in the editor.
     top: 40px;
     margin-bottom: 39px;
         color: #FFB500;
+            font-size: 23px;
     }
     .path-notfront #content > .container > .col-md-3{
         float: none;
@@ -199,7 +200,9 @@ and open the template in the editor.
         padding-right: 38px;
         float:none;
     }
-
+    .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu{
+        display:block !important;
+    }
 }
 @media screen and (max-width: 736px){
     .front_content_1 .view .views-row{
