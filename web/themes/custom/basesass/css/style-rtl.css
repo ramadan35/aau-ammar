@@ -321,3 +321,7 @@ and open the template in the editor.
 [dir="rtl"] .path-boards #content .view-content .bx-wrapper {
   direction: ltr;
 }
+/* line 320, ../sass/style-rtl.scss */
+[dir="rtl"] .path-regulations #content .region-content .view-content .table-responsive caption {
+  text-align: right;
+}
