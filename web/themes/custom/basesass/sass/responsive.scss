@@ -152,6 +152,9 @@ and open the template in the editor.
     .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls{
             display: block;
     }
+    .path-notfront #content{
+        padding-top: 0px;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{
