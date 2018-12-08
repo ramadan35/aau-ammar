@@ -126,21 +126,22 @@ and open the template in the editor.
         padding-top: 33px;
     }
     .image_header h1.page-header{
-            position: relative;
-            bottom: 0;
+ position: relative;
+    bottom: 0;
     width: 100%;
     left: 0;
     right: 0;
-    padding: 0px 30px;
-    top: 40px;
-    margin-bottom: 39px;
-        color: #FFB500;
-            font-size: 23px;
+    padding: 45px 45px;
+    top: 0;
+    color: #FFB500;
+    font-size: 23px;
+    display: block;
     }
     .path-notfront #content > .container > .col-md-3{
         float: none;
     width: 100%;
     margin-bottom: 25px;
+        padding: 0;
     }
     .path-notfront #content > .container > .col-md-9{
                 float: none;
