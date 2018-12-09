@@ -213,7 +213,9 @@ and open the template in the editor.
     .image_header h1.page-header{
             padding: 5% 2%;
     }
-    
+    header .top-header{
+           padding: 6px 10px; 
+    }
 }
 @media screen and (max-width: 736px){
     .front_content_1 .view .views-row{
@@ -245,11 +247,11 @@ and open the template in the editor.
         width: 100%;
         float: none;
     }
-    header .bottom-header .header_right{
-        width: 100%;
-    padding-top: 20px;
-    float: left;
-    }*/
+*/    header .bottom-header .header_right{
+  
+   padding-top: 43px;
+
+    }
     header .bottom-header .header_left img{
            width: 75%; 
     }
@@ -263,5 +265,8 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span{
        font-size: 10.5px;
            line-height: 29px;
+    }
+       header .bottom-header .header_left img{
+           width: 100%; 
     }
 }

@@ -308,9 +308,14 @@ and open the template in the editor.
   .image_header h1.page-header {
     padding: 5% 2%;
   }
+
+  /* line 216, ../sass/responsive.scss */
+  header .top-header {
+    padding: 6px 10px;
+  }
 }
 @media screen and (max-width: 736px) {
-  /* line 219, ../sass/responsive.scss */
+  /* line 221, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -320,25 +325,25 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 227, ../sass/responsive.scss */
+  /* line 229, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 231, ../sass/responsive.scss */
+  /* line 233, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 236, ../sass/responsive.scss */
+  /* line 238, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 241, ../sass/responsive.scss */
+  /* line 243, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
@@ -347,27 +352,33 @@ and open the template in the editor.
           width: 100%;
           float: none;
       }
-      header .bottom-header .header_right{
-          width: 100%;
-      padding-top: 20px;
-      float: left;
-      }*/
-  /* line 253, ../sass/responsive.scss */
+  */
+  /* line 250, ../sass/responsive.scss */
+  header .bottom-header .header_right {
+    padding-top: 43px;
+  }
+
+  /* line 255, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 75%;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 258, ../sass/responsive.scss */
+  /* line 260, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 4%;
     line-height: 25px;
     font-size: 16px;
   }
 
-  /* line 263, ../sass/responsive.scss */
+  /* line 265, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
     font-size: 10.5px;
     line-height: 29px;
+  }
+
+  /* line 269, ../sass/responsive.scss */
+  header .bottom-header .header_left img {
+    width: 100%;
   }
 }
