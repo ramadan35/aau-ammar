@@ -190,6 +190,16 @@ and open the template in the editor.
     .sf-accordion-toggle a:focus{
             text-decoration: none;
     }
+    .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul{
+        left: 0;
+        right: 0;
+        position: relative !important;
+    width: 100% !important;
+    top: 0px;
+    }
+    .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li{
+            padding: 0 30px;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{
