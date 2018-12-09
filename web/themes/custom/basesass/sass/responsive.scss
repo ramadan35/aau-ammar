@@ -200,6 +200,9 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li{
             padding: 0 30px;
     }
+    .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li a{
+            line-height: 25px;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{
