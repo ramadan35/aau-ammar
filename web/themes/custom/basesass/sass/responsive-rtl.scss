@@ -53,3 +53,9 @@ and open the template in the editor.
         float: none;
     }
 }
+@media screen and (max-width: 555px){
+[dir="rtl"] .front_content_1 .view .views-row .views-field-title{
+    left: inherit;
+    right: inherit;
+}
+}
