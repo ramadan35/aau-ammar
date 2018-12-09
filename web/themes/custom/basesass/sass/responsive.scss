@@ -126,32 +126,32 @@ and open the template in the editor.
         padding-top: 33px;
     }
     .image_header h1.page-header{
- position: relative;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding: 5% 4%;
-    top: 0;
-    color: #FFB500;
-    font-size: 23px;
-    display: block;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 5% 4%;
+        top: 0;
+        color: #FFB500;
+        font-size: 23px;
+        display: block;
     }
     .path-notfront #content > .container > .col-md-3{
         float: none;
-    width: 100%;
-    margin-bottom: 25px;
+        width: 100%;
+        margin-bottom: 25px;
         padding: 0;
     }
     .path-notfront #content > .container > .col-md-9{
-                float: none;
-    width: 100%;
+        float: none;
+        width: 100%;
     }
     .page-node-type-media-gallery #content .slideshow .bx-wrapper:nth-of-type(2){
-            display: none;
+        display: none;
     }
     .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls{
-            display: block;
+        display: block;
     }
     .path-notfront #content{
         padding-top: 0px;
@@ -211,10 +211,16 @@ and open the template in the editor.
         display:block !important;
     }
     .image_header h1.page-header{
-            padding: 5% 2%;
+        padding: 5% 2%;
     }
     header .top-header{
-           padding: 6px 10px; 
+        padding: 6px 10px; 
+    }
+    .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title{
+            color: #fff;
+    }
+    .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body{
+         color: #fff;
     }
 }
 @media screen and (max-width: 736px){
@@ -243,30 +249,46 @@ and open the template in the editor.
     header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input{
         width: 100%;
     }
-/*    header .bottom-header .header_left{
-        width: 100%;
-        float: none;
-    }
-*/    header .bottom-header .header_right{
-  
-   padding-top: 43px;
-
+    header .bottom-header .header_right{
+        padding-top: 43px;
     }
     header .bottom-header .header_left img{
-           width: 75%; 
+        width: 75%; 
+    }
+    .front_content_1 .view .views-row .views-field-title{
+        position: relative;
+        bottom: 0;
+        display: block;
+        left: 0;
+        right: 0;
+    }
+    .front_content_1 .view .views-row .views-field-title a{
+        color: #0083D1;
+        text-align: center;
+        font-size: 19px;    
+        padding-top: 11px;
+    }
+    .front_content_1 .view .views-row .views-field-title a:after{
+        margin: 0px auto;
+        margin-top: 9px;
     }
 }
 @media screen and (max-width: 414px){
     .image_header h1.page-header{
-          padding: 5% 4%;
-              line-height: 25px;
-              font-size: 16px;
+        padding: 5% 4%;
+        line-height: 25px;
+        font-size: 16px;
     }  
     .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span{
-       font-size: 10.5px;
-           line-height: 29px;
+        font-size: 10.5px;
+        line-height: 29px;
     }
-       header .bottom-header .header_left img{
-           width: 100%; 
+    header .bottom-header .header_left img{
+        width: 100%; 
     }
+}
+@media screen and (max-width: 315px){
+    header .bottom-header{
+        padding: 15px 0px;
+    } 
 }
