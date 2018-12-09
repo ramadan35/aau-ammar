@@ -75,6 +75,7 @@ and open the template in the editor.
     header .menu-region #block-mainnavigation ul.menu > li > a, header .menu-region #block-mainnavigation ul.menu > li span{
         border-left:0px;
         border-right:0px;
+        font-weight: 600;
     }
     header .menu-region{
         clear: both;
@@ -162,15 +163,17 @@ and open the template in the editor.
     header .menu-region #block-mainnavigation ul.menu > li ul{
         min-width: 100%;
     position: relative;
+        top: 4px;
     }
     header .menu-region #block-mainnavigation ul.menu > li ul li{
         float: none;
     text-align: center;
     width: 100%;
+        padding-top: 0px;
     }
     header .menu-region #block-mainnavigation ul.menu > li ul li a{
         text-align: center;
-        color: #FFB500;
+        color: #decea6;
     }
 }
 @media screen and (max-width: 768px){
