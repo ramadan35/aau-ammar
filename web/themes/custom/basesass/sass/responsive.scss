@@ -160,10 +160,14 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .sf-accordion-toggle{
         display:none;
     }
+    header .menu-region #block-mainnavigation ul.menu{
+            border-top: solid 1px #fff;
+    }
     header .menu-region #block-mainnavigation ul.menu > li ul{
         min-width: 100%;
     position: relative;
         top: 4px;
+            border-top: solid 0px #fff;
     }
     header .menu-region #block-mainnavigation ul.menu > li ul li{
         float: none;
@@ -173,7 +177,14 @@ and open the template in the editor.
     }
     header .menu-region #block-mainnavigation ul.menu > li ul li a{
         text-align: center;
-        color: #decea6;
+        color: #f0eadc;
+            font-size: 14px;
+    }
+    .sf-accordion-toggle a span:before{
+       content:url(../images/menu.png);
+    }
+        .sf-accordion-toggle a.sf-expanded span:before{
+       content:url(../images/close-button.png);
     }
 }
 @media screen and (max-width: 768px){
