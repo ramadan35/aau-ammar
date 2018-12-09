@@ -188,7 +188,7 @@ and open the template in the editor.
     width: 100%;
     left: 0;
     right: 0;
-    padding: 45px 45px;
+    padding: 5% 4%;
     top: 0;
     color: #FFB500;
     font-size: 23px;
@@ -303,9 +303,14 @@ and open the template in the editor.
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
     display: block !important;
   }
+
+  /* line 213, ../sass/responsive.scss */
+  .image_header h1.page-header {
+    padding: 5% 2%;
+  }
 }
 @media screen and (max-width: 736px) {
-  /* line 215, ../sass/responsive.scss */
+  /* line 219, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -315,39 +320,54 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 223, ../sass/responsive.scss */
+  /* line 227, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 227, ../sass/responsive.scss */
+  /* line 231, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 232, ../sass/responsive.scss */
+  /* line 236, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 237, ../sass/responsive.scss */
+  /* line 241, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 240, ../sass/responsive.scss */
-  header .bottom-header .header_left {
-    width: 100%;
-    float: none;
+  /*    header .bottom-header .header_left{
+          width: 100%;
+          float: none;
+      }
+      header .bottom-header .header_right{
+          width: 100%;
+      padding-top: 20px;
+      float: left;
+      }*/
+  /* line 253, ../sass/responsive.scss */
+  header .bottom-header .header_left img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 258, ../sass/responsive.scss */
+  .image_header h1.page-header {
+    padding: 5% 4%;
+    line-height: 25px;
+    font-size: 16px;
   }
 
-  /* line 244, ../sass/responsive.scss */
-  header .bottom-header .header_right {
-    width: 100%;
-    padding-top: 20px;
-    float: left;
+  /* line 263, ../sass/responsive.scss */
+  .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
+    font-size: 10.5px;
+    line-height: 29px;
   }
 }

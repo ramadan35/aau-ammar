@@ -131,7 +131,7 @@ and open the template in the editor.
     width: 100%;
     left: 0;
     right: 0;
-    padding: 45px 45px;
+    padding: 5% 4%;
     top: 0;
     color: #FFB500;
     font-size: 23px;
@@ -210,6 +210,10 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu{
         display:block !important;
     }
+    .image_header h1.page-header{
+            padding: 5% 2%;
+    }
+    
 }
 @media screen and (max-width: 736px){
     .front_content_1 .view .views-row{
@@ -237,7 +241,7 @@ and open the template in the editor.
     header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input{
         width: 100%;
     }
-    header .bottom-header .header_left{
+/*    header .bottom-header .header_left{
         width: 100%;
         float: none;
     }
@@ -245,5 +249,19 @@ and open the template in the editor.
         width: 100%;
     padding-top: 20px;
     float: left;
+    }*/
+    header .bottom-header .header_left img{
+           width: 75%; 
+    }
+}
+@media screen and (max-width: 414px){
+    .image_header h1.page-header{
+          padding: 5% 4%;
+              line-height: 25px;
+              font-size: 16px;
+    }  
+    .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span{
+       font-size: 10.5px;
+           line-height: 29px;
     }
 }
