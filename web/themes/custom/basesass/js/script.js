@@ -26,6 +26,7 @@ jQuery(document).ready(function ($) {
           $(this).siblings("ul").addClass("sf-hidden");
         }
     });
+    $('.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul').removeClass("sf-hidden");
 
     $('.slick__slide').each(function (index, elem) {
         if ($(elem).hasClass('slick-active')) {
