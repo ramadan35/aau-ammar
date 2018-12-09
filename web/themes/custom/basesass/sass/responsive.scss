@@ -159,6 +159,19 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .sf-accordion-toggle{
         display:none;
     }
+    header .menu-region #block-mainnavigation ul.menu > li ul{
+        min-width: 100%;
+    position: relative;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li ul li{
+        float: none;
+    text-align: center;
+    width: 100%;
+    }
+    header .menu-region #block-mainnavigation ul.menu > li ul li a{
+        text-align: center;
+        color: #FFB500;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{

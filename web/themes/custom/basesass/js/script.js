@@ -18,7 +18,14 @@ jQuery(document).ready(function ($) {
         $('.block-views-exposed-filter-blocksearch-api-page-1').hide();
 
     });
-
+//Responsive
+    $('header .menu-region #block-mainnavigation ul.menu > li span').click(function (e) {
+        if ($(this).siblings("ul").hasClass("sf-hidden")) {
+            $(this).siblings("ul").removeClass("sf-hidden");
+        } else {
+          $(this).siblings("ul").addClass("sf-hidden");
+        }
+    });
 
     $('.slick__slide').each(function (index, elem) {
         if ($(elem).hasClass('slick-active')) {
