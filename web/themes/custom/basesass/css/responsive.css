@@ -261,75 +261,81 @@ and open the template in the editor.
   /* line 183, ../sass/responsive.scss */
   .sf-accordion-toggle a span:before {
     content: url(../images/menu.png);
+    padding: 0px 10px;
   }
 
-  /* line 186, ../sass/responsive.scss */
+  /* line 187, ../sass/responsive.scss */
   .sf-accordion-toggle a.sf-expanded span:before {
     content: url(../images/close-button.png);
   }
+
+  /* line 190, ../sass/responsive.scss */
+  .sf-accordion-toggle a:focus {
+    text-decoration: none;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 191, ../sass/responsive.scss */
+  /* line 195, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 194, ../sass/responsive.scss */
+  /* line 198, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 197, ../sass/responsive.scss */
+  /* line 201, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 202, ../sass/responsive.scss */
+  /* line 206, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 205, ../sass/responsive.scss */
+  /* line 209, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
   }
 
-  /* line 209, ../sass/responsive.scss */
+  /* line 213, ../sass/responsive.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 212, ../sass/responsive.scss */
+  /* line 216, ../sass/responsive.scss */
   #footer .footer-left h2::after {
     margin: 0px auto;
     margin-top: 5px;
   }
 
-  /* line 216, ../sass/responsive.scss */
+  /* line 220, ../sass/responsive.scss */
   #footer .footer-left {
     padding-top: 20px;
   }
 
-  /* line 219, ../sass/responsive.scss */
+  /* line 223, ../sass/responsive.scss */
   .front_content_2 .simplenews .simplenews-subscriber-form {
     margin-top: 28px;
   }
 
-  /* line 222, ../sass/responsive.scss */
+  /* line 226, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
     top: 0px !important;
   }
 
-  /* line 227, ../sass/responsive.scss */
+  /* line 231, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
 
-  /* line 230, ../sass/responsive.scss */
+  /* line 234, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
     width: 100%;
     right: 0;
@@ -338,33 +344,33 @@ and open the template in the editor.
     float: none;
   }
 
-  /* line 237, ../sass/responsive.scss */
+  /* line 241, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
     display: block !important;
   }
 
-  /* line 240, ../sass/responsive.scss */
+  /* line 244, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 2%;
   }
 
-  /* line 243, ../sass/responsive.scss */
+  /* line 247, ../sass/responsive.scss */
   header .top-header {
     padding: 6px 10px;
   }
 
-  /* line 246, ../sass/responsive.scss */
+  /* line 250, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
     color: #fff;
   }
 
-  /* line 249, ../sass/responsive.scss */
+  /* line 253, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
     color: #fff;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 254, ../sass/responsive.scss */
+  /* line 258, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -374,40 +380,40 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 262, ../sass/responsive.scss */
+  /* line 266, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 266, ../sass/responsive.scss */
+  /* line 270, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 271, ../sass/responsive.scss */
+  /* line 275, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 276, ../sass/responsive.scss */
+  /* line 280, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 279, ../sass/responsive.scss */
+  /* line 283, ../sass/responsive.scss */
   header .bottom-header .header_right {
     padding-top: 43px;
   }
 
-  /* line 282, ../sass/responsive.scss */
+  /* line 286, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 75%;
   }
 
-  /* line 285, ../sass/responsive.scss */
+  /* line 289, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title {
     position: relative;
     bottom: 0;
@@ -416,7 +422,7 @@ and open the template in the editor.
     right: 0;
   }
 
-  /* line 292, ../sass/responsive.scss */
+  /* line 296, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     color: #0083D1;
     text-align: center;
@@ -424,33 +430,33 @@ and open the template in the editor.
     padding-top: 11px;
   }
 
-  /* line 298, ../sass/responsive.scss */
+  /* line 302, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a:after {
     margin: 0px auto;
     margin-top: 9px;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 304, ../sass/responsive.scss */
+  /* line 308, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 4%;
     line-height: 25px;
     font-size: 16px;
   }
 
-  /* line 309, ../sass/responsive.scss */
+  /* line 313, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
     font-size: 10.5px;
     line-height: 29px;
   }
 
-  /* line 313, ../sass/responsive.scss */
+  /* line 317, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 100%;
   }
 }
 @media screen and (max-width: 315px) {
-  /* line 318, ../sass/responsive.scss */
+  /* line 322, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 0px;
   }

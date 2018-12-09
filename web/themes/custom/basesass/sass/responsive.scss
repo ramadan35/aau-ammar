@@ -182,9 +182,13 @@ and open the template in the editor.
     }
     .sf-accordion-toggle a span:before{
        content:url(../images/menu.png);
+       padding: 0px 10px;
     }
         .sf-accordion-toggle a.sf-expanded span:before{
        content:url(../images/close-button.png);
+    }
+    .sf-accordion-toggle a:focus{
+            text-decoration: none;
     }
 }
 @media screen and (max-width: 768px){
