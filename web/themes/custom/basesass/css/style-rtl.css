@@ -334,3 +334,8 @@ and open the template in the editor.
   right: 0;
   left: inherit;
 }
+/* line 331, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-page .field--name-field-image-and-name .field--name-field-name {
+  left: inherit;
+  right: 0;
+}

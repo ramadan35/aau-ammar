@@ -1038,3 +1038,16 @@ header .menu-region #block-mainnavigation ul.menu > li span{
     }
 
 }
+.page-node-type-page .field--name-field-image-and-name{
+    position: relative;
+    .field--name-field-name{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        background: #0083d1;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 5px;
+    }
+}

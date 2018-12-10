@@ -10682,3 +10682,19 @@ header .menu-region #block-mainnavigation ul.menu > li span {
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
+
+/* line 1041, ../sass/style.scss */
+.page-node-type-page .field--name-field-image-and-name {
+  position: relative;
+}
+/* line 1043, ../sass/style.scss */
+.page-node-type-page .field--name-field-image-and-name .field--name-field-name {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: #0083d1;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+}
