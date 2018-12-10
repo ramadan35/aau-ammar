@@ -12,10 +12,10 @@ jQuery(document).ready(function ($) {
         minSlides: 1,
         maxSlides: 1,
         responsive: true,
-        infiniteLoop: true,
+        infiniteLoop: false,
         controls: true,
         speed: 500,
-        auto: true,
+        auto: false,
         autoStart: true,
     });
     
