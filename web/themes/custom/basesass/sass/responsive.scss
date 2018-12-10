@@ -204,6 +204,9 @@ and open the template in the editor.
     .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li a{
             line-height: 25px;
     }
+    .field--name-field-admission .paragraph--type-employees .bs-region--left{
+            margin: 0px 0px;
+    }
 }
 @media screen and (max-width: 768px){
     header .bottom-header .header_center{
@@ -283,6 +286,12 @@ and open the template in the editor.
     }
     #footer .bottom #block-socialmedia{
         float: none;
+    }
+    .field--name-field-admission .paragraph--type-employees .bs-region--left{
+            width: 100%;
+    }
+    .field--name-field-admission .paragraph--type-employees .bs-region--right{
+         width: 100%;
     }
 }
 @media screen and (max-width: 667px){
