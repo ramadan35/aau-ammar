@@ -27,8 +27,8 @@ jQuery(document).ready(function ($) {
         }
     });
     $('.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul').removeClass("sf-hidden");
-     $(".responsive-menus.responsified span.toggler").html('☰ قائمة');
-     $(".sf-accordion-toggle a span").html('القائمة الرئيسية');
+     $(".lang-ar .responsive-menus.responsified span.toggler").html('☰ قائمة');
+     $(".lang-ar .sf-accordion-toggle a span").html('القائمة الرئيسية');
 
     $('.slick__slide').each(function (index, elem) {
         if ($(elem).hasClass('slick-active')) {
