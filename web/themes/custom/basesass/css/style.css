@@ -10124,7 +10124,7 @@ body {
 /* line 521, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--image-body .field--name-field-name, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--image-body .field--name-field-name, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--image-body .field--name-field-name {
   position: absolute;
-  top: 49px;
+  top: 0px;
   left: 0;
   background: #0083d1;
   color: #FFF;
