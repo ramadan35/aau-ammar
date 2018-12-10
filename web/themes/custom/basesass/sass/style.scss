@@ -987,3 +987,52 @@ header .menu-region #block-mainnavigation ul.menu > li span{
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls{
     display: none;
 }
+.field--name-field-admission .paragraph--type-employees{
+    .bs-region--left{
+        width: 35%;
+        position: relative;
+        padding: 0;
+        margin: 0px 15px;
+        margin-bottom: 30px;
+        .field--name-field-full-name{
+            position: absolute;
+            top: 0px;
+            left: 0;
+            background: #0083d1;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 5px;
+        }
+    }
+    .bs-region--right{
+        .field{
+            margin-bottom: 20px;
+            .field--label{
+                display: inline-block;
+                width: 215px;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            .field--item{
+                font-size: 16px;
+            }
+        }
+        .field--name-field-cv{
+            .file {
+                width: auto;
+            }
+            .file-icon {
+                width: auto;
+                display: none;
+            }
+            .file-link {
+                width: auto;
+                border: 0;
+            }
+            .file-size {
+                display: none;
+            }
+        }
+    }
+}
