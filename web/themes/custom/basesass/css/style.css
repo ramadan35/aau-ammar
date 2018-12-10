@@ -10645,36 +10645,40 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   padding: 5px;
 }
-/* line 1009, ../sass/style.scss */
+/* line 1008, ../sass/style.scss */
+.field--name-field-admission .paragraph--type-employees .bs-region--right {
+  width: 61%;
+}
+/* line 1010, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field {
   margin-bottom: 20px;
 }
-/* line 1011, ../sass/style.scss */
+/* line 1012, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
   font-weight: normal;
 }
-/* line 1017, ../sass/style.scss */
+/* line 1018, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--item {
   font-size: 16px;
 }
-/* line 1022, ../sass/style.scss */
+/* line 1023, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
   width: auto;
 }
-/* line 1025, ../sass/style.scss */
+/* line 1026, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-icon {
   width: auto;
   display: none;
 }
-/* line 1029, ../sass/style.scss */
+/* line 1030, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link {
   width: auto;
   border: 0;
 }
-/* line 1033, ../sass/style.scss */
+/* line 1034, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
