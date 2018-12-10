@@ -320,4 +320,11 @@ and open the template in the editor.
     .path-regulations #content .region-content .view-content .table-responsive caption{
             text-align: right;
     }
+    .field--name-field-admission .paragraph--type-employees .bs-region--left{
+        float: right;
+    }
+    .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name{
+        right: 0;
+    left: inherit;
+    }
 }
