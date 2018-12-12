@@ -217,7 +217,8 @@ and open the template in the editor.
     }
     .page-node-type-admission .field--name-field-admission .field--item,
     .page-node-type-academics .field--name-field-admission .field--item,
-    .page-node-type-academics-name .field--name-field-admission .field--item{
+    .page-node-type-academics-name .field--name-field-admission .field--item,
+    .page-node-type-administrative .field--name-field-admission .field--item{
         .bx-wrapper{
             .bx-viewport{
                 direction: ltr;
@@ -307,11 +308,11 @@ and open the template in the editor.
     .paragraph--type--faq-collapses .field--name-field-title.opened-content:after{
         content: url(../images/up-arrow.png);
     }
-    .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after{
+    .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after,.page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after{
          content: url(../images/right-arrow-collapses-ar.png);
          float: left;
     }
-    .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after{
+    .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after,.page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after{
           content: url(../images/up-arrow.png);
     }
     .path-boards #content .view-content .bx-wrapper{
