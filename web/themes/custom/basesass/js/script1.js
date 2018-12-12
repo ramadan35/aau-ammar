@@ -58,5 +58,8 @@ jQuery(document).ready(function ($) {
     });
     
     $("header .menu-region #block-mainnavigation ul.menu > li").eq(-2).find('a').css("border" , "0");
+    
+    $('.lang-en.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a').html('Download');
+    $('.lang-ar.path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a').html('تحميل');
 
 });
