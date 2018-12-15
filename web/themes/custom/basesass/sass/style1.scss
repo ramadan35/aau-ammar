@@ -632,8 +632,14 @@ header{
                             background-color: #FFB500;
                         }
                         ul{
-                            left: 100%;
+                            left: 0;
                             background-color: #0083D1;
+                            float:left;
+                            width: 100%;
+                            position: relative;
+                            box-shadow: none;
+                            top: 0;
+                            background: rgb(111, 174, 212);
                         }
                     }
                 }
