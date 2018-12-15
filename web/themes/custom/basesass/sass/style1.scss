@@ -633,9 +633,8 @@ header{
                         }
                         ul{
                             left: 0;
-                            background-color: #0083D1;
-                            float:left;
-                            width: 100%;
+                            float:left !important;
+                            width: 100% !important;
                             position: relative;
                             box-shadow: none;
                             top: 0;
