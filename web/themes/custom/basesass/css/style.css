@@ -10577,11 +10577,10 @@ header .top-header .language-switcher-language-url ul li a {
   word-wrap: break-word;
 }
 
-/* line 955, ../sass/style.scss */
-header .menu-region #block-mainnavigation ul.menu > li ul {
-  min-width: 535px;
-}
+/*header .menu-region #block-mainnavigation ul.menu > li ul{
+    min-width: 535px;
 
+}*/
 /* line 959, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li {
   float: left;
