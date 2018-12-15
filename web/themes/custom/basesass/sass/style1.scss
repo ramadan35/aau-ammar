@@ -631,14 +631,11 @@ header{
                         li.active-trail{
                             background-color: #FFB500;
                         }
-                        ul{
-/*                            left: 0;
-                            float:left !important;
-                            width: 100% !important;
-                            position: relative;
-                            box-shadow: none;
-                            top: 0;
-                            background: rgb(111, 174, 212);*/
+                        li.sfHover {
+                            ul:not(.sf-hidden) {
+                                top: 0;
+                                position: relative;
+                            }
                         }
                     }
                 }
