@@ -608,7 +608,11 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   float: left;
   width: 100%;
 }
-/* line 618, ../sass/style1.scss */
+/* line 617, ../sass/style1.scss */
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
+  position: relative;
+}
+/* line 619, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
   color: #FFFFFF;
   font-size: 15px;
@@ -616,18 +620,14 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 50px;
   padding: 0 15px;
 }
-/* line 624, ../sass/style1.scss */
+/* line 625, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a .sf-sub-indicator, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span .sf-sub-indicator {
   height: 15px;
   padding: 0;
 }
-/* line 631, ../sass/style1.scss */
+/* line 632, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
   background-color: #FFB500;
-}
-/* line 634, ../sass/style1.scss */
-.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.sfHover {
-  position: relative;
 }
 /* line 636, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.sfHover ul:not(.sf-hidden) {

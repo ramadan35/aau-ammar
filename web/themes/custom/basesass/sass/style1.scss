@@ -615,6 +615,7 @@ header{
                         float: left;
                         width: 100%;
                         li{
+                            position: relative;
                             a , span{
                                 color: #FFFFFF;
                                 font-size: 15px;
@@ -631,8 +632,7 @@ header{
                         li.active-trail{
                             background-color: #FFB500;
                         }
-                        li.sfHover {
-                            position: relative;
+                        li.sfHover {                           
                             ul:not(.sf-hidden) {
                                 top: 0;
                                 position: relative;
