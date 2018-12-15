@@ -627,13 +627,13 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 }
 /* line 634, ../sass/style1.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul {
-  left: 0;
-  float: left !important;
-  width: 100% !important;
-  position: relative;
-  box-shadow: none;
-  top: 0;
-  background: #6faed4;
+  /*                            left: 0;
+                              float:left !important;
+                              width: 100% !important;
+                              position: relative;
+                              box-shadow: none;
+                              top: 0;
+                              background: rgb(111, 174, 212);*/
 }
 
 /* line 654, ../sass/style1.scss */
