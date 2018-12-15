@@ -632,6 +632,7 @@ header{
                             background-color: #FFB500;
                         }
                         li.sfHover {
+                            position: relative;
                             ul:not(.sf-hidden) {
                                 top: 0;
                                 position: relative;
