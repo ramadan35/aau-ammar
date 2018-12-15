@@ -840,7 +840,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 }
 /* line 866, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-next:focus, .bx-wrapper .bx-controls .bx-next:hover, .bx-wrapper .bx-controls .bx-prev:focus, .bx-wrapper .bx-controls .bx-prev:hover {
-  background-position: none;
+  background-position: 50%;
 }
 
 /* line 875, ../sass/style1.scss */
