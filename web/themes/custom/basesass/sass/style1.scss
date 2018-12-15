@@ -159,6 +159,7 @@ header{
                         }
                     }
                     ul{
+                        min-width: 535px;
                         background: #0083D1;
                         li{
                             padding-top: 10px;
@@ -194,6 +195,11 @@ header{
                         right: 22px;
                         font-size: 12px;
                         top: 12px;
+                    }
+                }
+                > li:nth-child(4){
+                    ul{
+                        min-width: 735px;
                     }
                 }
             }
