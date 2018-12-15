@@ -240,102 +240,103 @@ and open the template in the editor.
 [dir="rtl"] header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline #edit-actions button {
   top: -4px;
   left: 0;
+  right: auto;
 }
-/* line 251, ../sass/style-rtl.scss */
+/* line 252, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-webform .header_right form .form-actions button {
   top: -4px;
   left: 0;
 }
-/* line 255, ../sass/style-rtl.scss */
+/* line 256, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-webform .header_right form .form-actions button:before {
   content: "\e003";
   font-size: 16px;
   color: #969696;
   font-family: 'Glyphicons Halflings';
 }
-/* line 266, ../sass/style-rtl.scss */
+/* line 267, ../sass/style-rtl.scss */
 [dir="rtl"] .path-successive-presidents #content .region-content .bx-wrapper .bx-viewport {
   direction: ltr;
 }
-/* line 270, ../sass/style-rtl.scss */
+/* line 271, ../sass/style-rtl.scss */
 [dir="rtl"] .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: right;
   padding-left: 20px;
   padding-right: 0px;
 }
-/* line 275, ../sass/style-rtl.scss */
+/* line 276, ../sass/style-rtl.scss */
 [dir="rtl"] .path-presidency #content .region-content .view-content .views-row .views-field-title {
   left: inherit;
   right: 0;
 }
-/* line 279, ../sass/style-rtl.scss */
+/* line 280, ../sass/style-rtl.scss */
 [dir="rtl"] #block-views-block-about-aau-block-1 .bx-wrapper .bx-viewport {
   direction: ltr;
 }
-/* line 282, ../sass/style-rtl.scss */
+/* line 283, ../sass/style-rtl.scss */
 [dir="rtl"] .view-employees .views-row .views-field-field-image {
   float: right;
   padding-left: 20px;
   padding-right: 0;
 }
-/* line 287, ../sass/style-rtl.scss */
+/* line 288, ../sass/style-rtl.scss */
 [dir="rtl"] .view-employees .views-row .views-field-title {
   left: inherit;
   right: 0;
 }
-/* line 291, ../sass/style-rtl.scss */
+/* line 292, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li ul li a {
   text-align: right;
 }
-/* line 294, ../sass/style-rtl.scss */
+/* line 295, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li.menuparent > span::after {
   right: inherit;
   left: 22px;
 }
-/* line 298, ../sass/style-rtl.scss */
+/* line 299, ../sass/style-rtl.scss */
 [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li:last-child a {
   border-left: 0px solid #FFF;
 }
-/* line 301, ../sass/style-rtl.scss */
+/* line 302, ../sass/style-rtl.scss */
 [dir="rtl"] .path-awards-certificates .content-content .views-row {
   float: right;
 }
-/* line 304, ../sass/style-rtl.scss */
+/* line 305, ../sass/style-rtl.scss */
 [dir="rtl"] .paragraph--type--faq-collapses .field--name-field-title:after {
   float: left;
   content: url(../images/right-arrow-collapses-ar.png);
 }
-/* line 308, ../sass/style-rtl.scss */
+/* line 309, ../sass/style-rtl.scss */
 [dir="rtl"] .paragraph--type--faq-collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
 }
-/* line 311, ../sass/style-rtl.scss */
+/* line 312, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, [dir="rtl"] .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, [dir="rtl"] .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, [dir="rtl"] .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after {
   content: url(../images/right-arrow-collapses-ar.png);
   float: left;
 }
-/* line 315, ../sass/style-rtl.scss */
+/* line 316, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, [dir="rtl"] .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, [dir="rtl"] .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, [dir="rtl"] .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
 }
-/* line 318, ../sass/style-rtl.scss */
+/* line 319, ../sass/style-rtl.scss */
 [dir="rtl"] .path-boards #content .view-content .bx-wrapper {
   direction: ltr;
 }
-/* line 321, ../sass/style-rtl.scss */
+/* line 322, ../sass/style-rtl.scss */
 [dir="rtl"] .path-regulations #content .region-content .view-content .table-responsive caption {
   text-align: right;
 }
-/* line 324, ../sass/style-rtl.scss */
+/* line 325, ../sass/style-rtl.scss */
 [dir="rtl"] .field--name-field-admission .paragraph--type-employees .bs-region--left {
   float: right;
 }
-/* line 327, ../sass/style-rtl.scss */
+/* line 328, ../sass/style-rtl.scss */
 [dir="rtl"] .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name {
   right: 0;
   left: inherit;
 }
-/* line 332, ../sass/style-rtl.scss */
+/* line 333, ../sass/style-rtl.scss */
 [dir="rtl"] .page-node-type-page .field--name-field-image-and-name .field--name-field-name {
   left: inherit;
   right: 0;
