@@ -964,7 +964,9 @@ header{
         .views-row {
             min-height: 150px;
             .views-field-field-image {
-                margin: 0 auto;
+                img {
+                    margin: 0 auto;
+                }
             }
             .views-field-title {
                 text-align: center;

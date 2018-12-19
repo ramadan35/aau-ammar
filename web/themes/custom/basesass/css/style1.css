@@ -935,16 +935,16 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-e-gate #content .views-row {
   min-height: 150px;
 }
-/* line 966, ../sass/style1.scss */
-.path-e-gate #content .views-row .views-field-field-image {
+/* line 967, ../sass/style1.scss */
+.path-e-gate #content .views-row .views-field-field-image img {
   margin: 0 auto;
 }
-/* line 969, ../sass/style1.scss */
+/* line 971, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-title {
   text-align: center;
   margin-top: 10px;
 }
-/* line 972, ../sass/style1.scss */
+/* line 974, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-title a {
   color: #333;
 }
