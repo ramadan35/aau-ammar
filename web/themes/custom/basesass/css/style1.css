@@ -931,15 +931,12 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 0;
 }
 
-/* line 964, ../sass/style1.scss */
-.path-e-gate #content .views-row {
-  min-height: 150px;
-}
-/* line 966, ../sass/style1.scss */
+/* line 965, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing {
   background-color: #F6F6F6;
   border-radius: 5px;
   padding: 10px;
+  min-height: 150px;
 }
 /* line 971, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .img img {
