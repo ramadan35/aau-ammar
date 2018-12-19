@@ -931,23 +931,27 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 0;
 }
 
-/* line 965, ../sass/style1.scss */
+/* line 964, ../sass/style1.scss */
+.path-e-gate #content .views-row {
+  margin-bottom: 30px;
+}
+/* line 966, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing {
   background-color: #F6F6F6;
   border-radius: 5px;
   padding: 10px;
   min-height: 150px;
 }
-/* line 971, ../sass/style1.scss */
+/* line 972, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .img img {
   margin: 0 auto;
 }
-/* line 975, ../sass/style1.scss */
+/* line 976, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title {
   text-align: center;
   margin-top: 10px;
 }
-/* line 978, ../sass/style1.scss */
+/* line 979, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title a {
   color: #333;
 }
