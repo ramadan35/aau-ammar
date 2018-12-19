@@ -963,16 +963,21 @@ header{
     #content {
         .views-row {
             min-height: 150px;
-            .views-field-field-image {
-                img {
-                    margin: 0 auto;
+            .views-field-nothing {
+                background-color: #F6F6F6;
+                border-radius: 5px;
+                padding: 10px;
+                .img {
+                    img {
+                        margin: 0 auto;
+                    }
                 }
-            }
-            .views-field-title {
-                text-align: center;
-                margin-top: 10px;
-                a {
-                    color: #333;
+                .title {
+                    text-align: center;
+                    margin-top: 10px;
+                    a {
+                        color: #333;
+                    }
                 }
             }
         }
