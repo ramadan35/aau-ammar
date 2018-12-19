@@ -940,7 +940,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   background-color: #F6F6F6;
   border-radius: 5px;
   padding: 10px;
-  min-height: 150px;
+  min-height: 170px;
 }
 /* line 972, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .img img {
