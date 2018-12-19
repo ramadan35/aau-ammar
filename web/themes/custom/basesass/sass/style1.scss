@@ -175,10 +175,15 @@ header{
                     }
                 }
                 > li:first-child{
-                    a{
+                    > a{
                         font-size: 0;
                         background: url(../images/home.png) no-repeat 50%;
-
+                        .sf-sub-indicator{
+                            display: none;
+                        }
+                    }
+                    > a::after , > span::after{
+                        top: 4px;
                     }
                 }
                 > li:last-child{
