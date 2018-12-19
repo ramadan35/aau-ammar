@@ -955,6 +955,10 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 .path-e-gate #content .views-row .views-field-nothing .title a {
   color: #333;
 }
+/* line 982, ../sass/style1.scss */
+.path-e-gate #content .views-row .views-field-nothing .title a:hover {
+  color: #0083D1;
+}
 
 @keyframes FadeIn {
   0% {
