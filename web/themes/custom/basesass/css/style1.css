@@ -931,6 +931,24 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 0;
 }
 
+/* line 964, ../sass/style1.scss */
+.path-e-gate #content .views-row {
+  min-height: 150px;
+}
+/* line 966, ../sass/style1.scss */
+.path-e-gate #content .views-row .views-field-field-image {
+  margin: 0 auto;
+}
+/* line 969, ../sass/style1.scss */
+.path-e-gate #content .views-row .views-field-title {
+  text-align: center;
+  margin-top: 10px;
+}
+/* line 972, ../sass/style1.scss */
+.path-e-gate #content .views-row .views-field-title a {
+  color: #333;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

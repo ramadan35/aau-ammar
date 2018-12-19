@@ -959,6 +959,24 @@ header{
     }
 }
 
+.path-e-gate{
+    #content {
+        .views-row {
+            min-height: 150px;
+            .views-field-field-image {
+                margin: 0 auto;
+            }
+            .views-field-title {
+                text-align: center;
+                margin-top: 10px;
+                a {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
