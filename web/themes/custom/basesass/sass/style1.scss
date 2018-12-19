@@ -175,21 +175,21 @@ header{
                     }
                 }
                 > li:first-child{
-                    > a{
+                    a{
                         font-size: 0;
                         background: url(../images/home.png) no-repeat 50%;
-                        .sf-sub-indicator{
-                            display: none;
-                        }
-                    }
-                    > a::after , > span::after{
-                        top: 4px;
                     }
                 }
                 > li:last-child{
                     background-color: #FFB500;
                     a{
                         border:0;
+                        .sf-sub-indicator{
+                            display: none;
+                        }
+                    }
+                    > a::after {
+                        top: 4px;
                     }
                 }
                 > li.menuparent{
