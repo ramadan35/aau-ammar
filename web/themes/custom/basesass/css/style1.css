@@ -633,8 +633,12 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   height: 15px;
   padding: 0;
 }
-/* line 635, ../sass/style1.scss */
-.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li ul:not(.sf-hidden) {
+/* line 637, ../sass/style1.scss */
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
+  background-color: #FFB500;
+}
+/* line 641, ../sass/style1.scss */
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.sfHover ul:not(.sf-hidden) {
   position: relative;
   left: 0 !important;
   max-width: 100%;
@@ -642,45 +646,41 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   float: left !important;
   width: 100% !important;
 }
-/* line 647, ../sass/style1.scss */
-.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.active-trail {
-  background-color: #FFB500;
-}
 
-/* line 666, ../sass/style1.scss */
+/* line 661, ../sass/style1.scss */
 .path-presidency #content .region-content .page-header {
   display: none;
 }
-/* line 670, ../sass/style1.scss */
+/* line 665, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row {
   margin-bottom: 30px;
   position: relative;
 }
-/* line 673, ../sass/style1.scss */
+/* line 668, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field {
   margin-bottom: 20px;
 }
-/* line 675, ../sass/style1.scss */
+/* line 670, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-/* line 680, ../sass/style1.scss */
+/* line 675, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-/* line 685, ../sass/style1.scss */
+/* line 680, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-/* line 688, ../sass/style1.scss */
+/* line 683, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-image img {
   width: 100%;
 }
-/* line 692, ../sass/style1.scss */
+/* line 687, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-title {
   position: absolute;
   top: 0px;
@@ -691,47 +691,47 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   font-size: 16px;
   padding: 5px;
 }
-/* line 704, ../sass/style1.scss */
+/* line 699, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file {
   width: auto;
 }
-/* line 706, ../sass/style1.scss */
+/* line 701, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 710, ../sass/style1.scss */
+/* line 705, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 714, ../sass/style1.scss */
+/* line 709, ../sass/style1.scss */
 .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-size {
   display: none;
 }
 
-/* line 729, ../sass/style1.scss */
+/* line 724, ../sass/style1.scss */
 .path-regulations #content .region-content .page-header {
   display: none;
 }
-/* line 734, ../sass/style1.scss */
+/* line 729, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive caption {
   font-weight: bold;
   font-size: 18px;
 }
-/* line 738, ../sass/style1.scss */
+/* line 733, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-sorting {
   font-size: 16px;
   font-weight: bold;
   border: 0;
 }
-/* line 743, ../sass/style1.scss */
+/* line 738, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-title {
   font-size: 16px;
   font-weight: bold;
   border: 0;
 }
-/* line 748, ../sass/style1.scss */
+/* line 743, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv {
   text-align: right;
   border: 0;
@@ -740,15 +740,15 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   min-width: 220px;
   text-align: left;
 }
-/* line 755, ../sass/style1.scss */
+/* line 750, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file {
   margin: 0;
 }
-/* line 757, ../sass/style1.scss */
+/* line 752, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-icon {
   display: none;
 }
-/* line 760, ../sass/style1.scss */
+/* line 755, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-link {
   display: inline-block;
   border: 0;
@@ -756,7 +756,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 0;
   width: auto;
 }
-/* line 770, ../sass/style1.scss */
+/* line 765, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv .file .file-size {
   display: inline-block;
   border: 0;
@@ -764,57 +764,57 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   width: auto;
   color: #000;
 }
-/* line 778, ../sass/style1.scss */
+/* line 773, ../sass/style1.scss */
 .path-regulations #content .region-content .view-content .table-responsive .views-field-field-cv a {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 792, ../sass/style1.scss */
+/* line 787, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .page-header {
   display: none;
 }
-/* line 795, ../sass/style1.scss */
+/* line 790, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper {
   margin: 0 auto;
   box-shadow: none;
 }
-/* line 799, ../sass/style1.scss */
+/* line 794, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row {
   text-align: center;
 }
-/* line 801, ../sass/style1.scss */
+/* line 796, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .views-field-title {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 805, ../sass/style1.scss */
+/* line 800, ../sass/style1.scss */
 .path-successive-presidents #content .region-content .bx-wrapper .view-content .views-row .date {
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 821, ../sass/style1.scss */
+/* line 816, ../sass/style1.scss */
 .path-partnerships #content .region-content .page-header {
   display: none;
 }
-/* line 825, ../sass/style1.scss */
+/* line 820, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row {
   margin-bottom: 30px;
 }
-/* line 828, ../sass/style1.scss */
+/* line 823, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-field-image img {
   margin: 0 auto;
 }
-/* line 832, ../sass/style1.scss */
+/* line 827, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
   padding: 15px 0;
 }
-/* line 838, ../sass/style1.scss */
+/* line 833, ../sass/style1.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-body {
   text-align: center;
   color: #9B9B9B;
@@ -822,16 +822,16 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 30px;
 }
 
-/* line 850, ../sass/style1.scss */
+/* line 845, ../sass/style1.scss */
 #block-views-block-about-aau-block-1 {
   float: left;
   width: 100%;
 }
-/* line 857, ../sass/style1.scss */
+/* line 852, ../sass/style1.scss */
 #block-views-block-about-aau-block-1 .form-group .view-content .views-row .views-field-field-image img {
   margin: 0 auto;
 }
-/* line 861, ../sass/style1.scss */
+/* line 856, ../sass/style1.scss */
 #block-views-block-about-aau-block-1 .form-group .view-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
@@ -839,74 +839,74 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   padding: 15px 0;
 }
 
-/* line 871, ../sass/style1.scss */
+/* line 866, ../sass/style1.scss */
 .bx-wrapper {
   margin: 0 auto !important;
   box-shadow: none !important;
 }
-/* line 875, ../sass/style1.scss */
+/* line 870, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-prev {
   background: url(../images/right-arrow.svg) no-repeat;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   font-size: 0;
 }
-/* line 881, ../sass/style1.scss */
+/* line 876, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-next {
   background: url(../images/right-arrow.svg) no-repeat;
   font-size: 0;
 }
-/* line 885, ../sass/style1.scss */
+/* line 880, ../sass/style1.scss */
 .bx-wrapper .bx-controls .bx-next:focus, .bx-wrapper .bx-controls .bx-next:hover, .bx-wrapper .bx-controls .bx-prev:focus, .bx-wrapper .bx-controls .bx-prev:hover {
   background-position: 50%;
 }
 
-/* line 894, ../sass/style1.scss */
+/* line 889, ../sass/style1.scss */
 .path-boards #content .view-content h3 {
   display: none;
 }
-/* line 897, ../sass/style1.scss */
+/* line 892, ../sass/style1.scss */
 .path-boards #content .view-content .group {
   margin-bottom: 30px;
 }
-/* line 900, ../sass/style1.scss */
+/* line 895, ../sass/style1.scss */
 .path-boards #content .view-content .bx-wrapper {
   margin-bottom: 77px !important;
 }
-/* line 903, ../sass/style1.scss */
+/* line 898, ../sass/style1.scss */
 .path-boards #content .view-content .views-row {
   clear: initial;
   text-align: center;
 }
-/* line 906, ../sass/style1.scss */
+/* line 901, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-image {
   float: none;
 }
-/* line 909, ../sass/style1.scss */
+/* line 904, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-title {
   position: initial;
   background: transparent;
   color: #000;
 }
-/* line 915, ../sass/style1.scss */
+/* line 910, ../sass/style1.scss */
 .path-boards #content .view-content .views-row .views-field-field-position .views-label {
   width: auto;
 }
 
-/* line 927, ../sass/style1.scss */
+/* line 922, ../sass/style1.scss */
 .path-careers #content .view .views-row {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #ccc;
 }
-/* line 932, ../sass/style1.scss */
+/* line 927, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-title a {
   color: #4A4A4A;
   font-size: 24px;
   font-weight: bold;
   line-height: 29px;
 }
-/* line 939, ../sass/style1.scss */
+/* line 934, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-created {
   display: inline-block;
   color: #0083D1;
@@ -915,11 +915,11 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   line-height: 19px;
   margin: 15px 0px;
 }
-/* line 947, ../sass/style1.scss */
+/* line 942, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-view-node {
   margin-top: 10px;
 }
-/* line 949, ../sass/style1.scss */
+/* line 944, ../sass/style1.scss */
 .path-careers #content .view .views-row .views-field-view-node a {
   display: block;
   width: 166px;
@@ -933,38 +933,38 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   text-transform: uppercase;
   line-height: 35px;
 }
-/* line 964, ../sass/style1.scss */
+/* line 959, ../sass/style1.scss */
 .path-careers #content .view .views-row:last-child {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 975, ../sass/style1.scss */
+/* line 970, ../sass/style1.scss */
 .path-e-gate #content .views-row {
   margin-bottom: 30px;
 }
-/* line 977, ../sass/style1.scss */
+/* line 972, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing {
   background-color: #F6F6F6;
   border-radius: 5px;
   padding: 10px;
   min-height: 170px;
 }
-/* line 983, ../sass/style1.scss */
+/* line 978, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .img img {
   margin: 0 auto;
 }
-/* line 987, ../sass/style1.scss */
+/* line 982, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title {
   text-align: center;
   margin-top: 10px;
 }
-/* line 990, ../sass/style1.scss */
+/* line 985, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title a {
   color: #333;
 }
-/* line 993, ../sass/style1.scss */
+/* line 988, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title a:hover {
   color: #0083D1;
 }

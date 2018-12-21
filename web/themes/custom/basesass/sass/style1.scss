@@ -632,6 +632,12 @@ header{
                                     padding:0;
                                 }
                             }
+
+                        }
+                        li.active-trail{
+                            background-color: #FFB500;
+                        }
+                        li.sfHover {                           
                             ul:not(.sf-hidden) {
                                 position: relative;
                                 left: 0 !important;
@@ -639,17 +645,6 @@ header{
                                 box-shadow: none;
                                 float: left !important;
                                 width: 100% !important;
-                            }
-                            ul {
-                                
-                            }
-                        }
-                        li.active-trail{
-                            background-color: #FFB500;
-                        }
-                        li.sfHover {                           
-                            ul:not(.sf-hidden) {
-                                
                             }
                         }
                     }
