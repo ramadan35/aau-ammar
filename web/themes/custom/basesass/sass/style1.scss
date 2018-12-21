@@ -632,7 +632,7 @@ header{
                                     padding:0;
                                 }
                             }
-                            ul {
+                            ul:not(.sf-hidden) {
                                 position: relative;
                                 left: 0 !important;
                                 max-width: 100%;
@@ -640,17 +640,16 @@ header{
                                 float: left !important;
                                 width: 100% !important;
                             }
+                            ul {
+                                
+                            }
                         }
                         li.active-trail{
                             background-color: #FFB500;
                         }
                         li.sfHover {                           
                             ul:not(.sf-hidden) {
-                                top: 0;
-                                position: relative;
-                                background: red;
-                                float: left !important;
-                                background: #79abca;
+                                
                             }
                         }
                     }
