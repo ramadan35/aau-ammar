@@ -627,6 +627,8 @@ header{
                                 font-size: 15px;
                                 font-weight: bold;
                                 padding: 0 15px;
+                                display: block;
+                                width: 100%;
                                 .sf-sub-indicator{
                                     height: 15px;
                                     padding:0;
@@ -645,6 +647,8 @@ header{
                                 box-shadow: none;
                                 float: left !important;
                                 width: 100% !important;
+                                top: 7px;
+                                background: #3799d4;
                             }
                         }
                     }
