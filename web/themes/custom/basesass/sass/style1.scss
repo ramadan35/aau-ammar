@@ -632,7 +632,14 @@ header{
                                     padding:0;
                                 }
                             }
-
+                            ul {
+                                position: relative;
+                                left: 0 !important;
+                                max-width: 100%;
+                                box-shadow: none;
+                                float: left !important;
+                                width: 100% !important;
+                            }
                         }
                         li.active-trail{
                             background-color: #FFB500;
