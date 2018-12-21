@@ -637,7 +637,7 @@ header{
                         li.active-trail{
                             background-color: #FFB500;
                         }
-                        li.sfHover {                           
+                        li.sfHover, li:hover {                           
                             ul:not(.sf-hidden) {
                                 position: relative;
                                 left: 0 !important;

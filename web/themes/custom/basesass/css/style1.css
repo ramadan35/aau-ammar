@@ -638,7 +638,7 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   background-color: #FFB500;
 }
 /* line 641, ../sass/style1.scss */
-.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.sfHover ul:not(.sf-hidden) {
+.path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li.sfHover ul:not(.sf-hidden), .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li:hover ul:not(.sf-hidden) {
   position: relative;
   left: 0 !important;
   max-width: 100%;
