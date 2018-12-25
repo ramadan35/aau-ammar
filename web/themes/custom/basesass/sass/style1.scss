@@ -191,6 +191,9 @@ header{
                     > a::after {
                         top: 4px !important;
                     }
+                    ul {
+                        min-width: auto;
+                    }
                 }
                 > li.menuparent{
                     > a::after , > span::after{
