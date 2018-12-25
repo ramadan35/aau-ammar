@@ -646,11 +646,12 @@ header{
                             ul:not(.sf-hidden) {
                                 position: relative;
                                 left: 0 !important;
+                                right: 0 !important;
                                 max-width: 100%;
                                 box-shadow: none;
                                 float: left !important;
                                 width: 100% !important;
-                                top: 7px;
+                                top: 7px !important;
                                 background: #3799d4;
                             }
                         }
