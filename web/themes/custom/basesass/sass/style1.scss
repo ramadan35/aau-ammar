@@ -193,6 +193,9 @@ header{
                     }
                     ul {
                         min-width: auto;
+                        li {
+                            width: 100%;
+                        }
                     }
                 }
                 > li.menuparent{
