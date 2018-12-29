@@ -160,7 +160,6 @@ jQuery(document).ready(function ($) {
             $(this).siblings(".field--name-field-body").addClass("opened");
         }
     });
-
 });
 
 (function ($, _, Drupal, drupalSettings) {
