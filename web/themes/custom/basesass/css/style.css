@@ -10728,19 +10728,13 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   padding: 5px;
 }
 
-/* line 1080, ../sass/style.scss */
-header .menu-region #block-mainnavigation ul.menu > li ul li a.first {
-  font-size: 17px;
-  font-weight: 600;
-}
-
-/* line 1084, ../sass/style.scss */
+/* line 1081, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
   float: none;
   width: auto;
 }
 
-/* line 1088, ../sass/style.scss */
+/* line 1085, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
-  width: auto !important;
+  min-width: auto !important;
 }
