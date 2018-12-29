@@ -10742,5 +10742,5 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
 
 /* line 1088, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
-  width: auto;
+  width: auto !important;
 }
