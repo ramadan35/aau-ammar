@@ -293,6 +293,17 @@ body {
                 padding: 0px;
                 width: 47.2%;
                 margin-bottom: 32px;
+                position: relative;
+                .views-field-title {
+                    position: absolute;
+                    bottom: 0;
+                    text-align: center;
+                    width: 100%;
+                    background: #0083d1;
+                    a {
+                        color: #FFF;
+                    }
+                }
             }
             .views-row:nth-child(odd){
                 margin-right:30px;
@@ -943,7 +954,7 @@ header .top-header .language-switcher-language-url{
     }
 }
 .path-partnerships #content .region-content .view-content .views-row{
-    min-height: 500px;
+    min-height: 285px;
 }
 .path-partnerships #content .region-content .view-content .views-row .views-field-body{
     a{
@@ -964,7 +975,7 @@ header .menu-region #block-mainnavigation ul.menu > li ul li{
 header .menu-region #block-mainnavigation ul.menu > li ul li a{
     text-align: left;
 }
-table tr td{
+table tr td , table tr th{
     padding: 10px;
 }
 table tr td strong{
