@@ -160,6 +160,8 @@ jQuery(document).ready(function ($) {
             $(this).siblings(".field--name-field-body").addClass("opened");
         }
     });
+    $('header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul ul').removeClass("sf-hidden");
+    
 });
 
 (function ($, _, Drupal, drupalSettings) {
