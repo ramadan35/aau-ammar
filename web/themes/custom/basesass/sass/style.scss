@@ -1081,3 +1081,7 @@ header .menu-region #block-mainnavigation ul.menu > li ul li a.first{
     font-size: 17px;
     font-weight: 600;
 }
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li{
+    float:none;
+    width: auto;
+}
