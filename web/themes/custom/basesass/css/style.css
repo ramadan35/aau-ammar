@@ -10727,3 +10727,9 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   padding: 5px;
 }
+
+/* line 1080, ../sass/style.scss */
+header .menu-region #block-mainnavigation ul.menu > li ul li a.first {
+  font-size: 17px;
+  font-weight: 600;
+}
