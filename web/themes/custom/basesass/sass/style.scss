@@ -285,7 +285,24 @@ body {
         margin-top: 9px;
     }
     .left{
-
+        .view{
+            .views-row{
+                position: relative;
+                .views-field-title {
+                    position: absolute;
+                    bottom: 0;
+                    text-align: center;
+                    width: 100%;
+                    background: #0083d1;
+                    a {
+                        color: #FFF;
+                    }
+                }
+            }
+            .views-row:nth-child(odd){
+                margin-right:30px;
+            }
+        }
     }
     .right{
         .view{
