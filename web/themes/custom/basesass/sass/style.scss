@@ -1082,8 +1082,8 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li{
     float:none;
     width: auto;
 }
-header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) > a,
-header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) span{
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span{
     border-left: 0px !important;
     border-right: 0px !important;  
 }
