@@ -10735,11 +10735,18 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
 }
 
 /* line 1085, ../sass/style.scss */
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) > a,
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) span {
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+
+/* line 1090, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
   min-width: auto !important;
 }
 
-/* line 1088, ../sass/style.scss */
+/* line 1093, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;

@@ -1084,8 +1084,8 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li{
 }
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) > a,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) span{
-    border-left: 0px;
-    border-right: 0px;
+    border-left: 0px !important;
+    border-right: 0px !important;  
 }
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul{
     min-width: auto !important;
