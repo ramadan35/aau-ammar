@@ -986,6 +986,24 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
   color: #0083D1;
 }
 
+/* line 1010, ../sass/style1.scss */
+.path-administrative #content .view-header {
+  padding-bottom: 30px;
+}
+/* line 1014, ../sass/style1.scss */
+.path-administrative #content .views-field-field-image img {
+  width: 100%;
+}
+/* line 1018, ../sass/style1.scss */
+.path-administrative #content .views-field-title {
+  text-align: center;
+  padding-top: 15px;
+}
+/* line 1025, ../sass/style1.scss */
+.path-administrative #content .views-row {
+  margin-bottom: 30px;
+}
+
 @keyframes FadeIn {
   0% {
     opacity: 0;

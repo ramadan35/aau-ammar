@@ -1005,6 +1005,30 @@ header{
     }
 }
 
+.path-administrative {
+    #content {
+        .view-header {
+            padding-bottom: 30px;
+        }
+        .views-field-field-image {
+            img {
+                width: 100%;
+            }
+        }
+        .views-field-title {
+            text-align: center;
+            padding-top: 15px;
+            a {
+                
+            }
+        }
+        .views-row {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
