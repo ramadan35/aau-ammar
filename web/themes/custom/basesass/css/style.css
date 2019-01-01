@@ -10738,3 +10738,12 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
   min-width: auto !important;
 }
+
+/* line 1088, ../sass/style.scss */
+#footer .footer-left ul.menu li span {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0;
+}
