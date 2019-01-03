@@ -160,6 +160,9 @@ jQuery(document).ready(function ($) {
             $(this).siblings(".field--name-field-body").addClass("opened");
         }
     });
+
+    $( ".field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link a" ).html("Download File");
+    $( ".lang-ar .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link a" ).html("تحميل الملف");
 });
 
 (function ($, _, Drupal, drupalSettings) {
