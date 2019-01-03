@@ -341,3 +341,7 @@ and open the template in the editor.
   left: inherit;
   right: 0;
 }
+/* line 338, ../sass/style-rtl.scss */
+[dir="rtl"] header .bottom-header .header_right #block-socialmedia-2 {
+  float: left;
+}
