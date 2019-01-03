@@ -345,3 +345,12 @@ and open the template in the editor.
 [dir="rtl"] header .bottom-header .header_right #block-socialmedia-2 {
   float: left;
 }
+/* line 341, ../sass/style-rtl.scss */
+[dir="rtl"] .field--name-field-image-and-name .field--name-field-name, [dir="rtl"] .paragraph--type--name-body .field--name-field-name {
+  left: inherit;
+  right: 0;
+}
+/* line 345, ../sass/style-rtl.scss */
+[dir="rtl"] ul.sf-menu .sf-sub-indicator:after {
+  content: '';
+}
