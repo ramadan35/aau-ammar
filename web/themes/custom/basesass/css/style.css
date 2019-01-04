@@ -10186,10 +10186,10 @@ body {
   float: right;
 }
 /* line 581, ../sass/style.scss */
-.page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses {
+.page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content {
   display: none;
 }
-/* line 584, ../sass/style.scss */
+/* line 586, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10200,66 +10200,66 @@ body {
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 597, ../sass/style.scss */
+/* line 600, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened {
   display: block;
 }
-/* line 602, ../sass/style.scss */
+/* line 605, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form, .page-node-type-academics .field--name-field-admission form, .page-node-type-academics-name .field--name-field-admission form, .page-node-type-administrative .field--name-field-admission form {
   margin-top: 20px;
 }
-/* line 605, ../sass/style.scss */
+/* line 608, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item label, .page-node-type-academics .field--name-field-admission form .form-item label, .page-node-type-academics-name .field--name-field-admission form .form-item label, .page-node-type-administrative .field--name-field-admission form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 611, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item input, .page-node-type-admission .field--name-field-admission form .form-item textarea, .page-node-type-academics .field--name-field-admission form .form-item input, .page-node-type-academics .field--name-field-admission form .form-item textarea, .page-node-type-academics-name .field--name-field-admission form .form-item input, .page-node-type-academics-name .field--name-field-admission form .form-item textarea, .page-node-type-administrative .field--name-field-admission form .form-item input, .page-node-type-administrative .field--name-field-admission form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 615, ../sass/style.scss */
+/* line 618, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item .form-number, .page-node-type-academics .field--name-field-admission form .form-item .form-number, .page-node-type-academics-name .field--name-field-admission form .form-item .form-number, .page-node-type-administrative .field--name-field-admission form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 625, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-academics .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-academics-name .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-administrative .field--name-field-admission .field--name-field-pdf .field--item iframe {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
-/* line 634, ../sass/style.scss */
+/* line 637, ../sass/style.scss */
 .page-node-type-admission .block-webform form, .page-node-type-academics .block-webform form, .page-node-type-academics-name .block-webform form, .page-node-type-administrative .block-webform form {
   margin-top: 20px;
 }
-/* line 636, ../sass/style.scss */
+/* line 639, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item, .page-node-type-academics .block-webform form .form-item, .page-node-type-academics-name .block-webform form .form-item, .page-node-type-administrative .block-webform form .form-item {
   margin-bottom: 20px;
 }
-/* line 638, ../sass/style.scss */
+/* line 641, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item label, .page-node-type-academics .block-webform form .form-item label, .page-node-type-academics-name .block-webform form .form-item label, .page-node-type-administrative .block-webform form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 643, ../sass/style.scss */
+/* line 646, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea, .page-node-type-academics .block-webform form .form-item input, .page-node-type-academics .block-webform form .form-item textarea, .page-node-type-academics-name .block-webform form .form-item input, .page-node-type-academics-name .block-webform form .form-item textarea, .page-node-type-administrative .block-webform form .form-item input, .page-node-type-administrative .block-webform form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 647, ../sass/style.scss */
+/* line 650, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item .form-number, .page-node-type-academics .block-webform form .form-item .form-number, .page-node-type-academics-name .block-webform form .form-item .form-number, .page-node-type-administrative .block-webform form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 655, ../sass/style.scss */
+/* line 658, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-actions button, .page-node-type-academics .block-webform form .form-actions button, .page-node-type-academics-name .block-webform form .form-actions button, .page-node-type-administrative .block-webform form .form-actions button {
   background-color: #FFB500;
   border: 0px;
@@ -10271,7 +10271,7 @@ body {
   font-size: 17px;
 }
 
-/* line 674, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 .page-node-type-faq .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10283,12 +10283,12 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 689, ../sass/style.scss */
+/* line 692, ../sass/style.scss */
 .page-node-type-faq .field--name-field-admission .field--item {
   margin-bottom: 20px;
 }
 
-/* line 693, ../sass/style.scss */
+/* line 696, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title {
   color: #fff;
   font-size: 18px;
@@ -10299,25 +10299,25 @@ body {
   text-transform: capitalize;
   cursor: pointer;
 }
-/* line 703, ../sass/style.scss */
+/* line 706, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title:after {
   content: url(../images/right-arrow-collapses.png);
   display: inline-block;
   float: right;
 }
-/* line 708, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
   display: inline-block;
   float: right;
 }
-/* line 713, ../sass/style.scss */
+/* line 716, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content {
   display: none;
   border: solid 1px grey;
   padding: 20px;
 }
-/* line 717, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10329,53 +10329,53 @@ body {
   margin-bottom: 5px;
   padding-bottom: 10px;
 }
-/* line 729, ../sass/style.scss */
+/* line 732, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body {
   display: none;
   font-size: 16px;
   line-height: 20px;
   color: #9B9B9B;
 }
-/* line 735, ../sass/style.scss */
+/* line 738, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body.opened {
   display: block;
 }
-/* line 740, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content.opened {
   display: block;
 }
 
-/* line 746, ../sass/style.scss */
+/* line 749, ../sass/style.scss */
 .view-employees .views-row {
   margin-bottom: 30px;
   position: relative;
   clear: both;
 }
-/* line 750, ../sass/style.scss */
+/* line 753, ../sass/style.scss */
 .view-employees .views-row .views-field {
   margin-bottom: 20px;
 }
-/* line 752, ../sass/style.scss */
+/* line 755, ../sass/style.scss */
 .view-employees .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-/* line 756, ../sass/style.scss */
+/* line 759, ../sass/style.scss */
 .view-employees .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-/* line 762, ../sass/style.scss */
+/* line 765, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-/* line 765, ../sass/style.scss */
+/* line 768, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image img {
   width: 100%;
 }
-/* line 769, ../sass/style.scss */
+/* line 772, ../sass/style.scss */
 .view-employees .views-row .views-field-title {
   position: absolute;
   top: 0px;
@@ -10386,69 +10386,69 @@ body {
   font-size: 16px;
   padding: 5px;
 }
-/* line 780, ../sass/style.scss */
+/* line 783, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file {
   width: auto;
 }
-/* line 782, ../sass/style.scss */
+/* line 785, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 786, ../sass/style.scss */
+/* line 789, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 790, ../sass/style.scss */
+/* line 793, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-size {
   display: none;
 }
 
-/* line 800, ../sass/style.scss */
+/* line 803, ../sass/style.scss */
 .page-node-type-webform .field--name-body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
 }
-/* line 805, ../sass/style.scss */
+/* line 808, ../sass/style.scss */
 .page-node-type-webform .field--name-field-brief {
   color: #4A4A4A;
   font-size: 20px;
   line-height: 30px;
 }
-/* line 810, ../sass/style.scss */
+/* line 813, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom {
   clear: both;
   margin-top: 20px;
 }
-/* line 813, ../sass/style.scss */
+/* line 816, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form {
   margin-top: 20px;
 }
-/* line 815, ../sass/style.scss */
+/* line 818, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item {
   margin-bottom: 20px;
 }
-/* line 817, ../sass/style.scss */
+/* line 820, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 822, ../sass/style.scss */
+/* line 825, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item input, .page-node-type-webform .bs-region--bottom form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 826, ../sass/style.scss */
+/* line 829, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 834, ../sass/style.scss */
+/* line 837, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-actions button {
   background-color: #FFB500;
   border: 0px;
@@ -10460,11 +10460,11 @@ body {
   font-size: 17px;
 }
 
-/* line 849, ../sass/style.scss */
+/* line 852, ../sass/style.scss */
 .pager-nav {
   text-align: right;
 }
-/* line 853, ../sass/style.scss */
+/* line 856, ../sass/style.scss */
 .pager-nav ul li a {
   color: #4A4A4A;
   font-size: 16px;
@@ -10477,13 +10477,13 @@ body {
   text-align: center;
   line-height: 18px;
 }
-/* line 865, ../sass/style.scss */
+/* line 868, ../sass/style.scss */
 .pager-nav ul li a:hover, .pager-nav ul li a:focus, .pager-nav ul li span:hover, .pager-nav ul li span:focus {
   color: #4A4A4A;
   background-color: #fff;
   border-color: #fff;
 }
-/* line 872, ../sass/style.scss */
+/* line 875, ../sass/style.scss */
 .pager-nav ul li.active a {
   color: #fff;
   background: #0083D1;
@@ -10492,86 +10492,86 @@ body {
   border: 0px;
   padding: 0px;
 }
-/* line 880, ../sass/style.scss */
+/* line 883, ../sass/style.scss */
 .pager-nav ul li.active a:hover, .pager-nav ul li.active a:focus, .pager-nav ul li.active span:hover, .pager-nav ul li.active span:focus {
   color: #fff;
   background-color: #0083D1;
   border-color: #0083D1;
 }
-/* line 886, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .pager-nav ul li.pager__item--last, .pager-nav ul li.pager__item--first {
   display: none;
 }
-/* line 890, ../sass/style.scss */
+/* line 893, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a {
   background-image: url(../images/pager-right.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 894, ../sass/style.scss */
+/* line 897, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a span {
   font-size: 0px;
 }
-/* line 900, ../sass/style.scss */
+/* line 903, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a {
   background-image: url(../images/pager-left.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 904, ../sass/style.scss */
+/* line 907, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a span {
   font-size: 0px;
 }
 
-/* line 912, ../sass/style.scss */
+/* line 915, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 916, ../sass/style.scss */
+/* line 919, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 920, ../sass/style.scss */
+/* line 923, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 924, ../sass/style.scss */
+/* line 927, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 926, ../sass/style.scss */
+/* line 929, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 929, ../sass/style.scss */
+/* line 932, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
 }
 
-/* line 935, ../sass/style.scss */
+/* line 938, ../sass/style.scss */
 header .top-header .language-switcher-language-url {
   float: right;
 }
-/* line 939, ../sass/style.scss */
+/* line 942, ../sass/style.scss */
 header .top-header .language-switcher-language-url ul li a {
   font-family: 'Cairo', sans-serif;
 }
 
-/* line 947, ../sass/style.scss */
+/* line 950, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row {
   margin-bottom: 20px;
 }
-/* line 950, ../sass/style.scss */
+/* line 953, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-field-image img {
   margin: 0px auto;
 }
-/* line 954, ../sass/style.scss */
+/* line 957, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
@@ -10579,11 +10579,11 @@ header .top-header .language-switcher-language-url ul li a {
   padding: 15px 0;
   color: black;
 }
-/* line 960, ../sass/style.scss */
+/* line 963, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title a {
   color: black;
 }
-/* line 964, ../sass/style.scss */
+/* line 967, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-body {
   text-align: center;
   color: #9B9B9B;
@@ -10591,7 +10591,7 @@ header .top-header .language-switcher-language-url ul li a {
   line-height: 30px;
 }
 
-/* line 977, ../sass/style.scss */
+/* line 980, ../sass/style.scss */
 .page-node-type-webform .header_right form .form-actions button {
   background: transparent;
   font-size: 0;
@@ -10602,18 +10602,18 @@ header .top-header .language-switcher-language-url ul li a {
   padding: 10px;
   top: 0;
 }
-/* line 986, ../sass/style.scss */
+/* line 989, ../sass/style.scss */
 .page-node-type-webform .header_right form .form-actions button span {
   font-size: 16px;
   color: #969696;
 }
 
-/* line 995, ../sass/style.scss */
+/* line 998, ../sass/style.scss */
 .path-partnerships #content .region-content .view-content .views-row {
   min-height: 285px;
 }
 
-/* line 999, ../sass/style.scss */
+/* line 1002, ../sass/style.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-body a {
   display: block;
   word-wrap: break-word;
@@ -10623,36 +10623,36 @@ header .top-header .language-switcher-language-url ul li a {
     min-width: 535px;
 
 }*/
-/* line 1009, ../sass/style.scss */
+/* line 1012, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li {
   float: left;
   width: 50%;
   padding: 10px;
 }
 
-/* line 1014, ../sass/style.scss */
+/* line 1017, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li a {
   text-align: left;
 }
 
-/* line 1017, ../sass/style.scss */
+/* line 1020, ../sass/style.scss */
 table tr td, table tr th {
   padding: 10px;
 }
 
-/* line 1020, ../sass/style.scss */
+/* line 1023, ../sass/style.scss */
 table tr td strong {
   text-align: center;
   display: block;
   color: #0083D1;
 }
 
-/* line 1026, ../sass/style.scss */
+/* line 1029, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li span {
   cursor: pointer;
 }
 
-/* line 1029, ../sass/style.scss */
+/* line 1032, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span.first {
   font-size: 18px !important;
   line-height: 26px;
@@ -10662,12 +10662,12 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   border-bottom: solid 1px;
 }
 
-/* line 1037, ../sass/style.scss */
+/* line 1040, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls {
   display: none;
 }
 
-/* line 1041, ../sass/style.scss */
+/* line 1044, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left {
   width: 35%;
   position: relative;
@@ -10675,7 +10675,7 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   margin: 0px 15px;
   margin-bottom: 30px;
 }
-/* line 1047, ../sass/style.scss */
+/* line 1050, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name {
   position: absolute;
   top: 0px;
@@ -10686,49 +10686,49 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   padding: 5px;
 }
-/* line 1058, ../sass/style.scss */
+/* line 1061, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right {
   width: 61%;
 }
-/* line 1060, ../sass/style.scss */
+/* line 1063, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field {
   margin-bottom: 20px;
 }
-/* line 1062, ../sass/style.scss */
+/* line 1065, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
   font-weight: normal;
 }
-/* line 1068, ../sass/style.scss */
+/* line 1071, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--item {
   font-size: 16px;
 }
-/* line 1073, ../sass/style.scss */
+/* line 1076, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
   width: auto;
 }
-/* line 1076, ../sass/style.scss */
+/* line 1079, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-icon {
   width: auto;
   display: none;
 }
-/* line 1080, ../sass/style.scss */
+/* line 1083, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link {
   width: auto;
   border: 0;
 }
-/* line 1084, ../sass/style.scss */
+/* line 1087, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
 
-/* line 1091, ../sass/style.scss */
+/* line 1094, ../sass/style.scss */
 .field--name-field-image-and-name, .paragraph--type--name-body {
   position: relative;
 }
-/* line 1093, ../sass/style.scss */
+/* line 1096, ../sass/style.scss */
 .field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name {
   position: absolute;
   top: 0px;
@@ -10740,25 +10740,25 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   padding: 5px;
 }
 
-/* line 1105, ../sass/style.scss */
+/* line 1108, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
   float: none;
   width: auto;
 }
 
-/* line 1109, ../sass/style.scss */
+/* line 1112, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span {
   border-left: 0px !important;
   border-right: 0px !important;
 }
 
-/* line 1114, ../sass/style.scss */
+/* line 1117, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
   min-width: auto !important;
 }
 
-/* line 1117, ../sass/style.scss */
+/* line 1120, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;

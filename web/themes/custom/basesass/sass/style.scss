@@ -578,28 +578,31 @@ body {
                     display: inline-block;
                     float: right;
                 }
-                .field--name-field-content .paragraph--type--collapses{
+                .field--name-field-content{
                     display:none;
-                    .field--name-field-content .paragraph--type--body{
-                          .field--name-field-title{
-                        background: inherit;
-                        padding: 0;
-                        text-transform: capitalize;
-                        cursor: pointer;
-                        color: #4A4A4A;
-                        font-size: 18px;
-                        font-weight: bold;
-                        margin-bottom: 15px;
+                    .paragraph--type--collapses{
+                    .field--name-field-content {
+                        .paragraph--type--body{
+                            .field--name-field-title{
+                                background: inherit;
+                                padding: 0;
+                                text-transform: capitalize;
+                                cursor: pointer;
+                                color: #4A4A4A;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin-bottom: 15px;
+                            }
+                        }
                     }
-                    }
-                  
                 }
+                } 
                 .field--name-field-content.opened{
                     display:block; 
                 }
             }
-        }
-        form{
+            }
+            form{
             margin-top: 20px;
             .form-item{
                 label{
