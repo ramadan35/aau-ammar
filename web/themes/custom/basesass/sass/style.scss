@@ -578,18 +578,21 @@ body {
                     display: inline-block;
                     float: right;
                 }
-                .field--name-field-content{
+                .field--name-field-content .paragraph--type--collapses{
                     display:none;
-                    .field--name-field-title{
-/*                        background: inherit;
+                    .field--name-field-content .paragraph--type--body{
+                          .field--name-field-title{
+                        background: inherit;
                         padding: 0;
                         text-transform: capitalize;
                         cursor: pointer;
                         color: #4A4A4A;
                         font-size: 18px;
                         font-weight: bold;
-                        margin-bottom: 15px;*/
+                        margin-bottom: 15px;
                     }
+                    }
+                  
                 }
                 .field--name-field-content.opened{
                     display:block; 
