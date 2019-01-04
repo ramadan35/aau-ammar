@@ -10719,7 +10719,7 @@ header .menu-region #block-mainnavigation ul.menu > li span {
 /* line 1085, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--item {
   font-size: 16px;
-  overflow: auto;
+  overflow: hidden;
 }
 /* line 1091, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
