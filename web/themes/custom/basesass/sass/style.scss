@@ -520,6 +520,7 @@ body {
         margin-bottom: 15px;
     }
 }
+
 .page-node-type-admission , .page-node-type-academics ,.page-node-type-academics-name ,.page-node-type-administrative{
     .field--name-field-admission{
         .field--item{
@@ -580,14 +581,14 @@ body {
                 .field--name-field-content{
                     display:none;
                     .field--name-field-title{
-                        background: inherit;
+/*                        background: inherit;
                         padding: 0;
                         text-transform: capitalize;
                         cursor: pointer;
                         color: #4A4A4A;
                         font-size: 18px;
                         font-weight: bold;
-                        margin-bottom: 15px;
+                        margin-bottom: 15px;*/
                     }
                 }
                 .field--name-field-content.opened{
@@ -661,6 +662,26 @@ body {
             }
         }
     }
+}
+.page-node-type-faq{
+      .field--name-field-admission{
+        .field--item{
+               .paragraph--type--collapses{
+                .field--name-field-content{
+                    .field--name-field-title{
+                        background: inherit;
+                        padding: 0;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        color: #4A4A4A;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+      }
 }
 .page-node-type-faq .field--name-field-admission .field--item{
     margin-bottom: 20px;
