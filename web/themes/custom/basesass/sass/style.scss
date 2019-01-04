@@ -580,6 +580,18 @@ body {
                 }
                 .field--name-field-content{
                     display:none;
+                    .paragraph--type--body{
+                        .field--name-field-title{
+                              background: inherit;
+                                padding: 0;
+                                text-transform: capitalize;
+                                cursor: pointer;
+                                color: #4A4A4A;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin-bottom: 15px;
+                        }
+                    }
                     .paragraph--type--collapses{
                             padding: 0px 25px;
                     .field--name-field-content {
@@ -597,6 +609,7 @@ body {
                         }
                     }
                 }
+                
                 } 
                 .field--name-field-content.opened{
                     display:block; 

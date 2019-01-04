@@ -10189,11 +10189,22 @@ body {
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content {
   display: none;
 }
-/* line 583, ../sass/style.scss */
+/* line 584, ../sass/style.scss */
+.page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title {
+  background: inherit;
+  padding: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #4A4A4A;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 595, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses {
   padding: 0px 25px;
 }
-/* line 587, ../sass/style.scss */
+/* line 599, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10204,66 +10215,66 @@ body {
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 601, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content.opened {
   display: block;
 }
-/* line 606, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form, .page-node-type-academics .field--name-field-admission form, .page-node-type-academics-name .field--name-field-admission form, .page-node-type-administrative .field--name-field-admission form {
   margin-top: 20px;
 }
-/* line 609, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item label, .page-node-type-academics .field--name-field-admission form .form-item label, .page-node-type-academics-name .field--name-field-admission form .form-item label, .page-node-type-administrative .field--name-field-admission form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 615, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item input, .page-node-type-admission .field--name-field-admission form .form-item textarea, .page-node-type-academics .field--name-field-admission form .form-item input, .page-node-type-academics .field--name-field-admission form .form-item textarea, .page-node-type-academics-name .field--name-field-admission form .form-item input, .page-node-type-academics-name .field--name-field-admission form .form-item textarea, .page-node-type-administrative .field--name-field-admission form .form-item input, .page-node-type-administrative .field--name-field-admission form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 619, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission form .form-item .form-number, .page-node-type-academics .field--name-field-admission form .form-item .form-number, .page-node-type-academics-name .field--name-field-admission form .form-item .form-number, .page-node-type-administrative .field--name-field-admission form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 629, ../sass/style.scss */
+/* line 642, ../sass/style.scss */
 .page-node-type-admission .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-academics .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-academics-name .field--name-field-admission .field--name-field-pdf .field--item iframe, .page-node-type-administrative .field--name-field-admission .field--name-field-pdf .field--item iframe {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
-/* line 638, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 .page-node-type-admission .block-webform form, .page-node-type-academics .block-webform form, .page-node-type-academics-name .block-webform form, .page-node-type-administrative .block-webform form {
   margin-top: 20px;
 }
-/* line 640, ../sass/style.scss */
+/* line 653, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item, .page-node-type-academics .block-webform form .form-item, .page-node-type-academics-name .block-webform form .form-item, .page-node-type-administrative .block-webform form .form-item {
   margin-bottom: 20px;
 }
-/* line 642, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item label, .page-node-type-academics .block-webform form .form-item label, .page-node-type-academics-name .block-webform form .form-item label, .page-node-type-administrative .block-webform form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 647, ../sass/style.scss */
+/* line 660, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item input, .page-node-type-admission .block-webform form .form-item textarea, .page-node-type-academics .block-webform form .form-item input, .page-node-type-academics .block-webform form .form-item textarea, .page-node-type-academics-name .block-webform form .form-item input, .page-node-type-academics-name .block-webform form .form-item textarea, .page-node-type-administrative .block-webform form .form-item input, .page-node-type-administrative .block-webform form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 651, ../sass/style.scss */
+/* line 664, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-item .form-number, .page-node-type-academics .block-webform form .form-item .form-number, .page-node-type-academics-name .block-webform form .form-item .form-number, .page-node-type-administrative .block-webform form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 659, ../sass/style.scss */
+/* line 672, ../sass/style.scss */
 .page-node-type-admission .block-webform form .form-actions button, .page-node-type-academics .block-webform form .form-actions button, .page-node-type-academics-name .block-webform form .form-actions button, .page-node-type-administrative .block-webform form .form-actions button {
   background-color: #FFB500;
   border: 0px;
@@ -10275,7 +10286,7 @@ body {
   font-size: 17px;
 }
 
-/* line 678, ../sass/style.scss */
+/* line 691, ../sass/style.scss */
 .page-node-type-faq .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10287,12 +10298,12 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 693, ../sass/style.scss */
+/* line 706, ../sass/style.scss */
 .page-node-type-faq .field--name-field-admission .field--item {
   margin-bottom: 20px;
 }
 
-/* line 697, ../sass/style.scss */
+/* line 710, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title {
   color: #fff;
   font-size: 18px;
@@ -10303,25 +10314,25 @@ body {
   text-transform: capitalize;
   cursor: pointer;
 }
-/* line 707, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title:after {
   content: url(../images/right-arrow-collapses.png);
   display: inline-block;
   float: right;
 }
-/* line 712, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-title.opened-content:after {
   content: url(../images/up-arrow.png);
   display: inline-block;
   float: right;
 }
-/* line 717, ../sass/style.scss */
+/* line 730, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content {
   display: none;
   border: solid 1px grey;
   padding: 20px;
 }
-/* line 721, ../sass/style.scss */
+/* line 734, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
@@ -10333,53 +10344,53 @@ body {
   margin-bottom: 5px;
   padding-bottom: 10px;
 }
-/* line 733, ../sass/style.scss */
+/* line 746, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body {
   display: none;
   font-size: 16px;
   line-height: 20px;
   color: #9B9B9B;
 }
-/* line 739, ../sass/style.scss */
+/* line 752, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-body.opened {
   display: block;
 }
-/* line 744, ../sass/style.scss */
+/* line 757, ../sass/style.scss */
 .paragraph--type--faq-collapses .field--name-field-content.opened {
   display: block;
 }
 
-/* line 750, ../sass/style.scss */
+/* line 763, ../sass/style.scss */
 .view-employees .views-row {
   margin-bottom: 30px;
   position: relative;
   clear: both;
 }
-/* line 754, ../sass/style.scss */
+/* line 767, ../sass/style.scss */
 .view-employees .views-row .views-field {
   margin-bottom: 20px;
 }
-/* line 756, ../sass/style.scss */
+/* line 769, ../sass/style.scss */
 .view-employees .views-row .views-field .field-content {
   display: inline-block;
   font-size: 16px;
 }
-/* line 760, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 .view-employees .views-row .views-field .views-label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
 }
-/* line 766, ../sass/style.scss */
+/* line 779, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image {
   float: left;
   padding-right: 20px;
 }
-/* line 769, ../sass/style.scss */
+/* line 782, ../sass/style.scss */
 .view-employees .views-row .views-field-field-image img {
   width: 100%;
 }
-/* line 773, ../sass/style.scss */
+/* line 786, ../sass/style.scss */
 .view-employees .views-row .views-field-title {
   position: absolute;
   top: 0px;
@@ -10390,69 +10401,69 @@ body {
   font-size: 16px;
   padding: 5px;
 }
-/* line 784, ../sass/style.scss */
+/* line 797, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file {
   width: auto;
 }
-/* line 786, ../sass/style.scss */
+/* line 799, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-icon {
   width: auto;
   display: none;
 }
-/* line 790, ../sass/style.scss */
+/* line 803, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-link {
   width: auto;
   border: 0;
 }
-/* line 794, ../sass/style.scss */
+/* line 807, ../sass/style.scss */
 .view-employees .views-row .views-field-field-cv .file .file-size {
   display: none;
 }
 
-/* line 804, ../sass/style.scss */
+/* line 817, ../sass/style.scss */
 .page-node-type-webform .field--name-body {
   color: #4A4A4A;
   font-size: 18px;
   line-height: 30px;
 }
-/* line 809, ../sass/style.scss */
+/* line 822, ../sass/style.scss */
 .page-node-type-webform .field--name-field-brief {
   color: #4A4A4A;
   font-size: 20px;
   line-height: 30px;
 }
-/* line 814, ../sass/style.scss */
+/* line 827, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom {
   clear: both;
   margin-top: 20px;
 }
-/* line 817, ../sass/style.scss */
+/* line 830, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form {
   margin-top: 20px;
 }
-/* line 819, ../sass/style.scss */
+/* line 832, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item {
   margin-bottom: 20px;
 }
-/* line 821, ../sass/style.scss */
+/* line 834, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item label {
   color: #4A4A4A;
   font-size: 16px;
   font-weight: bold;
 }
-/* line 826, ../sass/style.scss */
+/* line 839, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item input, .page-node-type-webform .bs-region--bottom form .form-item textarea {
   box-shadow: none;
   border-radius: 0px;
 }
-/* line 830, ../sass/style.scss */
+/* line 843, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-item .form-number {
   box-shadow: none;
   border-radius: 0px;
   display: block;
   width: 100%;
 }
-/* line 838, ../sass/style.scss */
+/* line 851, ../sass/style.scss */
 .page-node-type-webform .bs-region--bottom form .form-actions button {
   background-color: #FFB500;
   border: 0px;
@@ -10464,11 +10475,11 @@ body {
   font-size: 17px;
 }
 
-/* line 853, ../sass/style.scss */
+/* line 866, ../sass/style.scss */
 .pager-nav {
   text-align: right;
 }
-/* line 857, ../sass/style.scss */
+/* line 870, ../sass/style.scss */
 .pager-nav ul li a {
   color: #4A4A4A;
   font-size: 16px;
@@ -10481,13 +10492,13 @@ body {
   text-align: center;
   line-height: 18px;
 }
-/* line 869, ../sass/style.scss */
+/* line 882, ../sass/style.scss */
 .pager-nav ul li a:hover, .pager-nav ul li a:focus, .pager-nav ul li span:hover, .pager-nav ul li span:focus {
   color: #4A4A4A;
   background-color: #fff;
   border-color: #fff;
 }
-/* line 876, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .pager-nav ul li.active a {
   color: #fff;
   background: #0083D1;
@@ -10496,86 +10507,86 @@ body {
   border: 0px;
   padding: 0px;
 }
-/* line 884, ../sass/style.scss */
+/* line 897, ../sass/style.scss */
 .pager-nav ul li.active a:hover, .pager-nav ul li.active a:focus, .pager-nav ul li.active span:hover, .pager-nav ul li.active span:focus {
   color: #fff;
   background-color: #0083D1;
   border-color: #0083D1;
 }
-/* line 890, ../sass/style.scss */
+/* line 903, ../sass/style.scss */
 .pager-nav ul li.pager__item--last, .pager-nav ul li.pager__item--first {
   display: none;
 }
-/* line 894, ../sass/style.scss */
+/* line 907, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a {
   background-image: url(../images/pager-right.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 898, ../sass/style.scss */
+/* line 911, ../sass/style.scss */
 .pager-nav ul li.pager__item--next a span {
   font-size: 0px;
 }
-/* line 904, ../sass/style.scss */
+/* line 917, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a {
   background-image: url(../images/pager-left.png);
   background-repeat: no-repeat;
   margin-top: 2px;
 }
-/* line 908, ../sass/style.scss */
+/* line 921, ../sass/style.scss */
 .pager-nav ul li.pager__item--previous a span {
   font-size: 0px;
 }
 
-/* line 916, ../sass/style.scss */
+/* line 929, ../sass/style.scss */
 .path-news-events #content .container > .col-md-9 .view-content .views-row {
   clear: both;
   float: left;
 }
 
-/* line 920, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 header.row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 924, ../sass/style.scss */
+/* line 937, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li {
   width: 100%;
 }
 
-/* line 928, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 ul.menu--social-media li {
   float: left;
 }
-/* line 930, ../sass/style.scss */
+/* line 943, ../sass/style.scss */
 ul.menu--social-media li a {
   font-size: 0px;
 }
-/* line 933, ../sass/style.scss */
+/* line 946, ../sass/style.scss */
 ul.menu--social-media li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
 }
 
-/* line 939, ../sass/style.scss */
+/* line 952, ../sass/style.scss */
 header .top-header .language-switcher-language-url {
   float: right;
 }
-/* line 943, ../sass/style.scss */
+/* line 956, ../sass/style.scss */
 header .top-header .language-switcher-language-url ul li a {
   font-family: 'Cairo', sans-serif;
 }
 
-/* line 951, ../sass/style.scss */
+/* line 964, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row {
   margin-bottom: 20px;
 }
-/* line 954, ../sass/style.scss */
+/* line 967, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-field-image img {
   margin: 0px auto;
 }
-/* line 958, ../sass/style.scss */
+/* line 971, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title {
   text-align: center;
   font-weight: bold;
@@ -10583,11 +10594,11 @@ header .top-header .language-switcher-language-url ul li a {
   padding: 15px 0;
   color: black;
 }
-/* line 964, ../sass/style.scss */
+/* line 977, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-title a {
   color: black;
 }
-/* line 968, ../sass/style.scss */
+/* line 981, ../sass/style.scss */
 .path-awards-certificates .content-content .views-row .views-field-body {
   text-align: center;
   color: #9B9B9B;
@@ -10595,7 +10606,7 @@ header .top-header .language-switcher-language-url ul li a {
   line-height: 30px;
 }
 
-/* line 981, ../sass/style.scss */
+/* line 994, ../sass/style.scss */
 .page-node-type-webform .header_right form .form-actions button {
   background: transparent;
   font-size: 0;
@@ -10606,18 +10617,18 @@ header .top-header .language-switcher-language-url ul li a {
   padding: 10px;
   top: 0;
 }
-/* line 990, ../sass/style.scss */
+/* line 1003, ../sass/style.scss */
 .page-node-type-webform .header_right form .form-actions button span {
   font-size: 16px;
   color: #969696;
 }
 
-/* line 999, ../sass/style.scss */
+/* line 1012, ../sass/style.scss */
 .path-partnerships #content .region-content .view-content .views-row {
   min-height: 285px;
 }
 
-/* line 1003, ../sass/style.scss */
+/* line 1016, ../sass/style.scss */
 .path-partnerships #content .region-content .view-content .views-row .views-field-body a {
   display: block;
   word-wrap: break-word;
@@ -10627,36 +10638,36 @@ header .top-header .language-switcher-language-url ul li a {
     min-width: 535px;
 
 }*/
-/* line 1013, ../sass/style.scss */
+/* line 1026, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li {
   float: left;
   width: 50%;
   padding: 10px;
 }
 
-/* line 1018, ../sass/style.scss */
+/* line 1031, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li ul li a {
   text-align: left;
 }
 
-/* line 1021, ../sass/style.scss */
+/* line 1034, ../sass/style.scss */
 table tr td, table tr th {
   padding: 10px;
 }
 
-/* line 1024, ../sass/style.scss */
+/* line 1037, ../sass/style.scss */
 table tr td strong {
   text-align: center;
   display: block;
   color: #0083D1;
 }
 
-/* line 1030, ../sass/style.scss */
+/* line 1043, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li span {
   cursor: pointer;
 }
 
-/* line 1033, ../sass/style.scss */
+/* line 1046, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span.first {
   font-size: 18px !important;
   line-height: 26px;
@@ -10666,12 +10677,12 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   border-bottom: solid 1px;
 }
 
-/* line 1041, ../sass/style.scss */
+/* line 1054, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls {
   display: none;
 }
 
-/* line 1045, ../sass/style.scss */
+/* line 1058, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left {
   width: 35%;
   position: relative;
@@ -10679,7 +10690,7 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   margin: 0px 15px;
   margin-bottom: 30px;
 }
-/* line 1051, ../sass/style.scss */
+/* line 1064, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name {
   position: absolute;
   top: 0px;
@@ -10690,50 +10701,50 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   padding: 5px;
 }
-/* line 1062, ../sass/style.scss */
+/* line 1075, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right {
   width: 61%;
 }
-/* line 1064, ../sass/style.scss */
+/* line 1077, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field {
   margin-bottom: 20px;
 }
-/* line 1066, ../sass/style.scss */
+/* line 1079, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
   font-weight: normal;
 }
-/* line 1072, ../sass/style.scss */
+/* line 1085, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--item {
   font-size: 16px;
   overflow: auto;
 }
-/* line 1078, ../sass/style.scss */
+/* line 1091, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
   width: auto;
 }
-/* line 1081, ../sass/style.scss */
+/* line 1094, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-icon {
   width: auto;
   display: none;
 }
-/* line 1085, ../sass/style.scss */
+/* line 1098, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link {
   width: auto;
   border: 0;
 }
-/* line 1089, ../sass/style.scss */
+/* line 1102, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
 
-/* line 1096, ../sass/style.scss */
+/* line 1109, ../sass/style.scss */
 .field--name-field-image-and-name, .paragraph--type--name-body {
   position: relative;
 }
-/* line 1098, ../sass/style.scss */
+/* line 1111, ../sass/style.scss */
 .field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name {
   position: absolute;
   top: 0px;
@@ -10745,25 +10756,25 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   padding: 5px;
 }
 
-/* line 1110, ../sass/style.scss */
+/* line 1123, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
   float: none;
   width: auto;
 }
 
-/* line 1114, ../sass/style.scss */
+/* line 1127, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span {
   border-left: 0px !important;
   border-right: 0px !important;
 }
 
-/* line 1119, ../sass/style.scss */
+/* line 1132, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
   min-width: auto !important;
 }
 
-/* line 1122, ../sass/style.scss */
+/* line 1135, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;
