@@ -10669,7 +10669,7 @@ table tr th {
 }
 /* line 1046, ../sass/style.scss */
 table tr th strong {
-  color: #FFF;
+  color: #FFF !important;
 }
 
 /* line 1051, ../sass/style.scss */
