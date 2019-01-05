@@ -10787,13 +10787,18 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li span {
   border-right: 0px !important;
 }
 
-/* line 1150, ../sass/style.scss */
+/* line 1149, ../sass/style.scss */
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) a.sf-with-ul .sf-sub-indicator::after {
+  font-size: 0px;
+}
+
+/* line 1152, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
   min-width: auto !important;
 }
 
-/* line 1154, ../sass/style.scss */
+/* line 1156, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;

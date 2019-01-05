@@ -1146,7 +1146,9 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li span{
     border-left: 0px !important;
     border-right: 0px !important;  
 }
-
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) a.sf-with-ul .sf-sub-indicator::after{
+    font-size: 0px;
+}
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul{
     min-width: auto !important;
