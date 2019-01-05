@@ -10663,11 +10663,17 @@ table tr td strong {
 }
 
 /* line 1043, ../sass/style.scss */
+table tr th {
+  background: #0083d1;
+  color: #FFF;
+}
+
+/* line 1048, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li span {
   cursor: pointer;
 }
 
-/* line 1046, ../sass/style.scss */
+/* line 1051, ../sass/style.scss */
 .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span.first {
   font-size: 18px !important;
   line-height: 26px;
@@ -10677,12 +10683,12 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   border-bottom: solid 1px;
 }
 
-/* line 1054, ../sass/style.scss */
+/* line 1059, ../sass/style.scss */
 .page-node-type-media-gallery #content .slideshow .bx-wrapper:first-of-type .bx-controls {
   display: none;
 }
 
-/* line 1058, ../sass/style.scss */
+/* line 1063, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left {
   width: 35%;
   position: relative;
@@ -10690,7 +10696,7 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   margin: 0px 15px;
   margin-bottom: 30px;
 }
-/* line 1064, ../sass/style.scss */
+/* line 1069, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name {
   position: absolute;
   top: 0px;
@@ -10701,50 +10707,50 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   padding: 5px;
 }
-/* line 1075, ../sass/style.scss */
+/* line 1080, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right {
   width: 61%;
 }
-/* line 1077, ../sass/style.scss */
+/* line 1082, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field {
   margin-bottom: 20px;
 }
-/* line 1079, ../sass/style.scss */
+/* line 1084, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--label {
   display: inline-block;
   width: 215px;
   font-size: 16px;
   font-weight: normal;
 }
-/* line 1085, ../sass/style.scss */
+/* line 1090, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field .field--item {
   font-size: 16px;
   overflow: hidden;
 }
-/* line 1091, ../sass/style.scss */
+/* line 1096, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
   width: auto;
 }
-/* line 1094, ../sass/style.scss */
+/* line 1099, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-icon {
   width: auto;
   display: none;
 }
-/* line 1098, ../sass/style.scss */
+/* line 1103, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link {
   width: auto;
   border: 0;
 }
-/* line 1102, ../sass/style.scss */
+/* line 1107, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
 
-/* line 1109, ../sass/style.scss */
+/* line 1114, ../sass/style.scss */
 .field--name-field-image-and-name, .paragraph--type--name-body {
   position: relative;
 }
-/* line 1111, ../sass/style.scss */
+/* line 1116, ../sass/style.scss */
 .field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name {
   position: absolute;
   top: 0px;
@@ -10756,25 +10762,25 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   padding: 5px;
 }
 
-/* line 1123, ../sass/style.scss */
+/* line 1128, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
   float: none;
   width: auto;
 }
 
-/* line 1127, ../sass/style.scss */
+/* line 1132, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span {
   border-left: 0px !important;
   border-right: 0px !important;
 }
 
-/* line 1132, ../sass/style.scss */
+/* line 1137, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
   min-width: auto !important;
 }
 
-/* line 1135, ../sass/style.scss */
+/* line 1140, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;
