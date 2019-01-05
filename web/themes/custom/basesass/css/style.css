@@ -10773,24 +10773,27 @@ header .menu-region #block-mainnavigation ul.menu > li span {
 }
 
 /* line 1138, ../sass/style.scss */
-header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li {
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li, header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li {
   float: none;
   width: auto;
 }
 
 /* line 1142, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
-header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span {
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span,
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li > a,
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li span {
   border-left: 0px !important;
   border-right: 0px !important;
 }
 
-/* line 1147, ../sass/style.scss */
-header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul {
+/* line 1150, ../sass/style.scss */
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul,
+header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
   min-width: auto !important;
 }
 
-/* line 1150, ../sass/style.scss */
+/* line 1154, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;
