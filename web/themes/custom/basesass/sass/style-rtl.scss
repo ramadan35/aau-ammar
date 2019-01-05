@@ -297,52 +297,59 @@ and open the template in the editor.
         left: 22px;
     }
     header .menu-region #block-mainnavigation ul.menu > li:last-child a{
-            border-left: 0px solid #FFF;
+        border-left: 0px solid #FFF;
     }
     .path-awards-certificates .content-content .views-row{
         float:right;
     }
     .paragraph--type--faq-collapses .field--name-field-title:after{
-            float: left;
-            content: url(../images/right-arrow-collapses-ar.png);
+        float: left;
+        content: url(../images/right-arrow-collapses-ar.png);
     }
     .paragraph--type--faq-collapses .field--name-field-title.opened-content:after{
         content: url(../images/up-arrow.png);
     }
     .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after,.page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title:after{
-         content: url(../images/right-arrow-collapses-ar.png);
-         float: left;
+        content: url(../images/right-arrow-collapses-ar.png);
+        float: left;
     }
     .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after,.page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-title.opened-content:after{
-          content: url(../images/up-arrow.png);
+        content: url(../images/up-arrow.png);
     }
     .path-boards #content .view-content .bx-wrapper{
         direction: ltr;
     }
     .path-regulations #content .region-content .view-content .table-responsive caption{
-            text-align: right;
+        text-align: right;
     }
     .field--name-field-admission .paragraph--type-employees .bs-region--left{
         float: right;
     }
     .field--name-field-admission .paragraph--type-employees .bs-region--left .field--name-field-full-name{
         right: 0;
-    left: inherit;
+        left: inherit;
     }
     .page-node-type-page .field--name-field-image-and-name{
-    .field--name-field-name{
+        .field--name-field-name{
+            left: inherit;
+            right: 0;
+        }
+    }
+    header .bottom-header .header_right #block-socialmedia-2{
+        float: left;
+    }
+    .field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name{
         left: inherit;
         right: 0;
     }
-}
-header .bottom-header .header_right #block-socialmedia-2{
-        float: left;
-}
-.field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name{
-    left: inherit;
-    right: 0;
-}
-ul.sf-menu .sf-sub-indicator:after{
-    content: '';
-}
+    ul.sf-menu .sf-sub-indicator:after{
+        content: '';
+    }
+
+    .page-node-type-news {
+        .field--name-field-image {
+            float: left;
+        }
+    }
+
 }

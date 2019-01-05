@@ -521,6 +521,13 @@ body {
     }
 }
 
+.page-node-type-news {
+    .field--name-field-image {
+        float: right;
+        padding: 10px;
+    }
+}
+
 .page-node-type-admission , .page-node-type-academics ,.page-node-type-academics-name ,.page-node-type-administrative{
     .field--name-field-admission{
         .field--item{

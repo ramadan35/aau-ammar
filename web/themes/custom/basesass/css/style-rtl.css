@@ -354,3 +354,7 @@ and open the template in the editor.
 [dir="rtl"] ul.sf-menu .sf-sub-indicator:after {
   content: '';
 }
+/* line 350, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-news .field--name-field-image {
+  float: left;
+}
