@@ -165,7 +165,7 @@ jQuery(document).ready(function ($) {
     $( ".lang-ar .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link a" ).html("تحميل الملف");
     
     $( ".path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link a" ).html("Download File");
-    $( ".lang-ar .path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link a" ).html("تحميل الملف");
+    $( ".lang-ar.path-presidency #content .region-content .view-content .views-row .views-field-field-cv .field-content .file .file-link a" ).html("تحميل الملف");
 });
 
 (function ($, _, Drupal, drupalSettings) {
