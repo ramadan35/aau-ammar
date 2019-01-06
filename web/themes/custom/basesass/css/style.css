@@ -10738,30 +10738,34 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   font-size: 16px;
   overflow: hidden;
 }
-/* line 1107, ../sass/style.scss */
+/* line 1108, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file {
   width: auto;
 }
-/* line 1110, ../sass/style.scss */
+/* line 1111, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-icon {
   width: auto;
   display: none;
 }
-/* line 1114, ../sass/style.scss */
+/* line 1115, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-link {
   width: auto;
   border: 0;
 }
-/* line 1118, ../sass/style.scss */
+/* line 1119, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
 }
+/* line 1124, ../sass/style.scss */
+.field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-link .field--item {
+  text-transform: capitalize;
+}
 
-/* line 1125, ../sass/style.scss */
+/* line 1131, ../sass/style.scss */
 .field--name-field-image-and-name, .paragraph--type--name-body {
   position: relative;
 }
-/* line 1127, ../sass/style.scss */
+/* line 1133, ../sass/style.scss */
 .field--name-field-image-and-name .field--name-field-name, .paragraph--type--name-body .field--name-field-name {
   position: absolute;
   top: 0px;
@@ -10773,13 +10777,13 @@ header .menu-region #block-mainnavigation ul.menu > li span {
   padding: 5px;
 }
 
-/* line 1139, ../sass/style.scss */
+/* line 1145, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li, header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li {
   float: none;
   width: auto;
 }
 
-/* line 1143, ../sass/style.scss */
+/* line 1149, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li > a,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul li span,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li > a,
@@ -10788,18 +10792,18 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul li span {
   border-right: 0px !important;
 }
 
-/* line 1150, ../sass/style.scss */
+/* line 1156, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) a.sf-with-ul .sf-sub-indicator::after {
   font-size: 0px;
 }
 
-/* line 1153, ../sass/style.scss */
+/* line 1159, ../sass/style.scss */
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(3) ul,
 header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
   min-width: auto !important;
 }
 
-/* line 1157, ../sass/style.scss */
+/* line 1163, ../sass/style.scss */
 #footer .footer-left ul.menu li span {
   color: #FFFFFF;
   font-size: 14px;
