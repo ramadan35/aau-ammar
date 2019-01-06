@@ -358,3 +358,8 @@ and open the template in the editor.
 [dir="rtl"] .page-node-type-news .field--name-field-image {
   float: left;
 }
+/* line 354, ../sass/style-rtl.scss */
+[dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li:nth-child(4) ul {
+  left: 0 !important;
+  right: 0 !important;
+}

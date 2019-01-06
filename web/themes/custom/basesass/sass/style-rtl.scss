@@ -351,5 +351,8 @@ and open the template in the editor.
             float: left;
         }
     }
-
+    header .menu-region #block-mainnavigation ul.menu > li:nth-child(4) ul{
+        left: 0 !important;
+    right: 0 !important;
+    }
 }
