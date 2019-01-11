@@ -363,3 +363,7 @@ and open the template in the editor.
   left: 0 !important;
   right: 0 !important;
 }
+/* line 358, ../sass/style-rtl.scss */
+[dir="rtl"] .page-node-type-page .paragraph--type--pdf .bx-viewport {
+  direction: ltr;
+}

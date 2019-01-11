@@ -355,4 +355,7 @@ and open the template in the editor.
         left: 0 !important;
     right: 0 !important;
     }
+    .page-node-type-page .paragraph--type--pdf .bx-viewport{
+            direction: ltr;
+    }
 }
