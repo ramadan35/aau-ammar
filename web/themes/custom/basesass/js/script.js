@@ -137,6 +137,16 @@ jQuery(document).ready(function ($) {
         pager: false
 
     });
+        $('.paragraph--type--slideshow .field--name-field-slider').bxSlider({
+        slideWidth: 0,
+        minSlides: 1,
+        maxSlides: 1,
+        responsive: true,
+        infiniteLoop: true,
+        controls: true,
+        pager: false
+
+    });
     //Collapses      
     $('.field--item .paragraph--type--collapses .field--name-field-title , .paragraph--type--faq-collapses .field--name-field-title').click(function (e) {
         if ($(this).hasClass("opened-content")) {
