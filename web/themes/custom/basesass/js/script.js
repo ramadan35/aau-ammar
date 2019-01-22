@@ -147,7 +147,7 @@ jQuery(document).ready(function ($) {
         pager: false
 
     });
-        $('.paragraph--type--slideshow .bx-viewport .bx-controls-direction a').click(function () {
+        $('.paragraph--type--slideshow .bx-wrapper .bx-controls-direction a').click(function () {
         $("video").each(function () {
             $(this).get(0).pause();
         });
