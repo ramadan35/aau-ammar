@@ -10177,7 +10177,6 @@ body {
   margin-bottom: 15px;
   background: #4A4A4A;
   padding: 10px 20px;
-  text-transform: capitalize;
   cursor: pointer;
 }
 /* line 579, ../sass/style.scss */
@@ -10200,7 +10199,6 @@ body {
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--pdf .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--pdf .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--pdf .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--pdf .field--name-field-title {
   background: inherit;
   padding: 0;
-  text-transform: capitalize;
   cursor: pointer;
   color: #4A4A4A;
   font-size: 18px;
@@ -10215,7 +10213,6 @@ body {
 .page-node-type-admission .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-academics-name .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title, .page-node-type-administrative .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .paragraph--type--collapses .field--name-field-content .paragraph--type--body .field--name-field-title {
   background: inherit;
   padding: 0;
-  text-transform: capitalize;
   cursor: pointer;
   color: #4A4A4A;
   font-size: 18px;
@@ -10297,7 +10294,6 @@ body {
 .page-node-type-faq .field--name-field-admission .field--item .paragraph--type--collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
-  text-transform: capitalize;
   cursor: pointer;
   color: #4A4A4A;
   font-size: 18px;
@@ -10318,7 +10314,6 @@ body {
   margin-bottom: 0px !important;
   background: #4A4A4A;
   padding: 10px 20px;
-  text-transform: capitalize;
   cursor: pointer;
 }
 /* line 728, ../sass/style.scss */
@@ -10343,7 +10338,6 @@ body {
 .paragraph--type--faq-collapses .field--name-field-content .field--name-field-title {
   background: inherit;
   padding: 0;
-  text-transform: capitalize;
   cursor: pointer;
   color: #4A4A4A;
   font-size: 16px;
@@ -10755,10 +10749,6 @@ header .menu-region #block-mainnavigation ul.menu > li span {
 /* line 1119, ../sass/style.scss */
 .field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-cv .file-size {
   display: none;
-}
-/* line 1124, ../sass/style.scss */
-.field--name-field-admission .paragraph--type-employees .bs-region--right .field--name-field-link .field--item {
-  text-transform: capitalize;
 }
 
 /* line 1131, ../sass/style.scss */
