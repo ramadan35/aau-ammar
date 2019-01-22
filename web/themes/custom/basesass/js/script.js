@@ -147,6 +147,15 @@ jQuery(document).ready(function ($) {
         pager: false
 
     });
+        $('.paragraph--type--slideshow .bx-viewport .bx-controls-direction a').click(function () {
+        $("video").each(function () {
+            $(this).get(0).pause();
+        });
+        $('.field--name-field-or-youtube iframe').each(function (index) {
+            $('.field--name-field-or-youtube iframe').attr('src', $(this).attr('src'));
+            return false;
+        });
+    });
     //Collapses      
     $('.field--item .paragraph--type--collapses .field--name-field-title , .paragraph--type--faq-collapses .field--name-field-title').click(function (e) {
         if ($(this).hasClass("opened-content")) {
