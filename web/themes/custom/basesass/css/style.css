@@ -10801,3 +10801,8 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
   line-height: 30px;
   padding: 0;
 }
+
+/* line 1170, ../sass/style.scss */
+.paragraph--type--slideshow video {
+  width: 100%;
+}
