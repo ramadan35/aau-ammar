@@ -388,6 +388,7 @@
         "drupal/responsive_preview": "^1.0@alpha",
         "drupal/scheduler": "^1.0",
         "drupal/search_api": "^1.6",
+        "drupal/sitemap": "^1.5",
         "drupal/slick": "^1.0",
         "drupal/slick_media": "2.*",
         "drupal/slick_paragraphs": "^1.0@RC",
