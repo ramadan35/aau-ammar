@@ -376,3 +376,7 @@ and open the template in the editor.
 [dir="rtl"] .page-node-type-page .paragraph--type--pdf .bx-viewport {
   direction: ltr;
 }
+/* line 370, ../sass/style-rtl.scss */
+[dir="rtl"] .tabs-left > .nav-tabs {
+  float: right;
+}
