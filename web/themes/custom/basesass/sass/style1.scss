@@ -60,7 +60,14 @@ header{
     .bottom-header{
         padding:15px 70px;
         .header_left{
-
+          a.logo{
+            img{
+              max-width: 200px;
+            }
+          }
+          .logo-ar{
+            display:none;
+          }
         }
         .header_center{
             text-align: center;
@@ -68,10 +75,10 @@ header{
             font-size: 27px;
             font-style: italic;
             font-weight: 300;
-            padding-top: 40px;
+            padding-top: 10px;
         }
         .header_right{
-            padding-top: 40px;
+            padding-top: 0px;
             #block-socialmedia-2{
                 display: inline-block;
                 float:right;
