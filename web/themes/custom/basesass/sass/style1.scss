@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Oct 6, 2018, 5:47:10 PM
     Author     : aqasem
 */
@@ -22,7 +22,7 @@ header{
                     padding: 0 8px;
                     a{
                         color: #FFFFFF;
-                        font-size: 14px;
+                        font-size: 12px;
                         text-transform: uppercase;
                         padding:0;
                     }
@@ -201,7 +201,7 @@ header{
                 > li.menuparent{
                     > a::after , > span::after{
                         content: "\f0d7";
-                        font-family: fontAwesome; 
+                        font-family: fontAwesome;
                         position: absolute;
                         right: 22px;
                         font-size: 12px;
@@ -646,7 +646,7 @@ header{
                         li.active-trail{
                             background-color: #FFB500;
                         }
-                        li.sfHover, li:hover {                           
+                        li.sfHover, li:hover {
                             ul:not(.sf-hidden) {
                                 position: relative;
                                 left: 0 !important;
@@ -752,7 +752,7 @@ header{
                         font-weight: bold;
                         border: 0;
                     }
-                    .views-field-field-cv{  
+                    .views-field-field-cv{
                         text-align:right;
                         border: 0;
                         text-align: right;
@@ -1020,7 +1020,7 @@ header{
             text-align: center;
             padding-top: 15px;
             a {
-                
+
             }
         }
         .views-row {
