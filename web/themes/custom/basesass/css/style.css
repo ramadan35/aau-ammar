@@ -10806,3 +10806,15 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
 .paragraph--type--slideshow video {
   width: 100%;
 }
+
+/* line 1178, ../sass/style.scss */
+.path-user #content ul.vertical-tabs-list li a {
+  background: #0083D1;
+  color: #FFF;
+  border-radius: 0;
+  border: 0;
+}
+/* line 1186, ../sass/style.scss */
+.path-user #content ul.vertical-tabs-list li.active a {
+  background: #FFB500;
+}
