@@ -972,50 +972,47 @@ header .menu-region #block-mainnavigation ul.menu > li.menuparent > a::after, he
 /* line 989, ../sass/style1.scss */
 .path-e-gate #content .views-row {
   margin-bottom: 30px;
+  min-height: 200px;
 }
-/* line 991, ../sass/style1.scss */
+/* line 992, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing {
   background-color: #F6F6F6;
   border-radius: 5px;
   padding: 10px;
   min-height: 170px;
 }
-/* line 996, ../sass/style1.scss */
-.path-e-gate #content .views-row .views-field-nothing .img {
-  min-height: 130px;
-}
-/* line 998, ../sass/style1.scss */
+/* line 999, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .img img {
   margin: 0 auto;
 }
-/* line 1002, ../sass/style1.scss */
+/* line 1003, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title {
   text-align: center;
   margin-top: 10px;
 }
-/* line 1005, ../sass/style1.scss */
+/* line 1006, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title a {
   color: #333;
 }
-/* line 1008, ../sass/style1.scss */
+/* line 1009, ../sass/style1.scss */
 .path-e-gate #content .views-row .views-field-nothing .title a:hover {
   color: #0083D1;
 }
 
-/* line 1019, ../sass/style1.scss */
+/* line 1020, ../sass/style1.scss */
 .path-administrative #content .view-header {
   padding-bottom: 30px;
 }
-/* line 1023, ../sass/style1.scss */
+/* line 1024, ../sass/style1.scss */
 .path-administrative #content .views-field-field-image img {
   width: 100%;
 }
-/* line 1027, ../sass/style1.scss */
+/* line 1028, ../sass/style1.scss */
 .path-administrative #content .views-field-title {
   text-align: center;
   padding-top: 15px;
 }
-/* line 1034, ../sass/style1.scss */
+/* line 1035, ../sass/style1.scss */
 .path-administrative #content .views-row {
   margin-bottom: 30px;
 }

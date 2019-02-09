@@ -988,13 +988,14 @@ header{
     #content {
         .views-row {
             margin-bottom: 30px;
+            min-height: 200px;
             .views-field-nothing {
                 background-color: #F6F6F6;
                 border-radius: 5px;
                 padding: 10px;
                 min-height: 170px;
                 .img {
-                  min-height: 130px;
+                  //min-height: 130px;
                     img {
                         margin: 0 auto;
                     }
