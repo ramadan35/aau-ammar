@@ -10818,3 +10818,11 @@ header .menu-region #block-mainnavigation ul.menu > li:nth-child(5) ul {
 .path-user #content ul.vertical-tabs-list li.active a {
   background: #FFB500;
 }
+/* line 1192, ../sass/style.scss */
+.path-user .tabs-left > .nav-tabs {
+  float: right;
+}
+/* line 1195, ../sass/style.scss */
+.path-user .file-icon, .path-user .file-size, .path-user .file-link {
+  border: 0;
+}
