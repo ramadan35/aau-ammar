@@ -176,6 +176,10 @@ and open the template in the editor.
         border-top: solid 0px #fff;
         box-shadow: none;
     }
+    header .menu-region #block-mainnavigation ul.menu > li:last-child ul {
+        min-width: 100%;
+    }
+    
     header .menu-region #block-mainnavigation ul.menu > li ul li{
         float: none;
         text-align: center;

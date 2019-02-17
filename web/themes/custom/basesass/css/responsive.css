@@ -255,6 +255,11 @@ and open the template in the editor.
   }
 
   /* line 179, ../sass/responsive.scss */
+  header .menu-region #block-mainnavigation ul.menu > li:last-child ul {
+    min-width: 100%;
+  }
+
+  /* line 183, ../sass/responsive.scss */
   header .menu-region #block-mainnavigation ul.menu > li ul li {
     float: none;
     text-align: center;
@@ -262,30 +267,30 @@ and open the template in the editor.
     padding-top: 0px;
   }
 
-  /* line 185, ../sass/responsive.scss */
+  /* line 189, ../sass/responsive.scss */
   header .menu-region #block-mainnavigation ul.menu > li ul li a {
     text-align: center;
     color: #f0eadc;
     font-size: 14px;
   }
 
-  /* line 190, ../sass/responsive.scss */
+  /* line 194, ../sass/responsive.scss */
   .sf-accordion-toggle a span:before {
     content: url(../images/menu.png);
     padding: 0px 10px;
   }
 
-  /* line 194, ../sass/responsive.scss */
+  /* line 198, ../sass/responsive.scss */
   .sf-accordion-toggle a.sf-expanded span:before {
     content: url(../images/close-button.png);
   }
 
-  /* line 197, ../sass/responsive.scss */
+  /* line 201, ../sass/responsive.scss */
   .sf-accordion-toggle a:focus {
     text-decoration: none;
   }
 
-  /* line 200, ../sass/responsive.scss */
+  /* line 204, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul {
     left: 0;
     right: 0;
@@ -294,111 +299,111 @@ and open the template in the editor.
     top: 0px;
   }
 
-  /* line 207, ../sass/responsive.scss */
+  /* line 211, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li {
     padding: 0 30px;
   }
 
-  /* line 210, ../sass/responsive.scss */
+  /* line 214, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu ul li a {
     line-height: 25px;
   }
 
-  /* line 213, ../sass/responsive.scss */
+  /* line 217, ../sass/responsive.scss */
   .field--name-field-admission .paragraph--type-employees .bs-region--left {
     margin: 0px 0px;
   }
 
-  /* line 216, ../sass/responsive.scss */
+  /* line 220, ../sass/responsive.scss */
   [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li span, [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li a {
     border-left: 0px solid #FFF;
   }
 
-  /* line 219, ../sass/responsive.scss */
+  /* line 223, ../sass/responsive.scss */
   [dir="rtl"] .front_content_4 h1.block-title {
     text-align: right;
   }
 
-  /* line 222, ../sass/responsive.scss */
+  /* line 226, ../sass/responsive.scss */
   [dir="rtl"] .front_content_4 .right .view .views-row {
     float: right;
     margin-left: 30px;
     margin-right: 0px !important;
   }
 
-  /* line 227, ../sass/responsive.scss */
+  /* line 231, ../sass/responsive.scss */
   [dir="rtl"] .responsive-menus.responsified span.toggler {
     right: inherit;
     left: 57px;
   }
 
-  /* line 232, ../sass/responsive.scss */
+  /* line 236, ../sass/responsive.scss */
   [dir="rtl"] header .menu-region #block-mainnavigation ul.menu > li ul li a {
     text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 237, ../sass/responsive.scss */
+  /* line 241, ../sass/responsive.scss */
   header .bottom-header .header_center {
     display: none;
   }
 
-  /* line 240, ../sass/responsive.scss */
+  /* line 244, ../sass/responsive.scss */
   header .bottom-header .header_right #block-socialmedia-2 {
     display: none;
   }
 
-  /* line 243, ../sass/responsive.scss */
+  /* line 247, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
     padding-top: 80px;
   }
 
-  /* line 248, ../sass/responsive.scss */
+  /* line 252, ../sass/responsive.scss */
   header .bottom-header .header_left {
     width: 50%;
   }
 
-  /* line 251, ../sass/responsive.scss */
+  /* line 255, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 20px;
     float: left;
     width: 100%;
   }
 
-  /* line 255, ../sass/responsive.scss */
+  /* line 259, ../sass/responsive.scss */
   #footer {
     text-align: center;
   }
 
-  /* line 258, ../sass/responsive.scss */
+  /* line 262, ../sass/responsive.scss */
   #footer .footer-left h2::after {
     margin: 0px auto;
     margin-top: 5px;
   }
 
-  /* line 262, ../sass/responsive.scss */
+  /* line 266, ../sass/responsive.scss */
   #footer .footer-left {
     padding-top: 20px;
   }
 
-  /* line 265, ../sass/responsive.scss */
+  /* line 269, ../sass/responsive.scss */
   .front_content_2 .simplenews .simplenews-subscriber-form {
     margin-top: 28px;
   }
 
-  /* line 268, ../sass/responsive.scss */
+  /* line 272, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .paralax-image img {
     height: auto;
     top: 0px !important;
   }
 
-  /* line 273, ../sass/responsive.scss */
+  /* line 277, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     width: 100%;
   }
 
-  /* line 276, ../sass/responsive.scss */
+  /* line 280, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text {
     width: 100%;
     right: 0;
@@ -407,48 +412,48 @@ and open the template in the editor.
     float: none;
   }
 
-  /* line 283, ../sass/responsive.scss */
+  /* line 287, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu {
     display: block !important;
   }
 
-  /* line 286, ../sass/responsive.scss */
+  /* line 290, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 2%;
   }
 
-  /* line 289, ../sass/responsive.scss */
+  /* line 293, ../sass/responsive.scss */
   header .top-header {
     padding: 6px 10px;
   }
 
-  /* line 292, ../sass/responsive.scss */
+  /* line 296, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .title {
     color: #fff;
   }
 
-  /* line 295, ../sass/responsive.scss */
+  /* line 299, ../sass/responsive.scss */
   .front_content_3 > .container > .col-md-12 #block-views-block-featured-stories-block-1 .view-content .views-field-nothing .cont .overlay-text .body {
     color: #fff;
   }
 
-  /* line 298, ../sass/responsive.scss */
+  /* line 302, ../sass/responsive.scss */
   [dir="rtl"] .front_content_2 .announcement .views-row .views-field-title {
     float: right;
   }
 
-  /* line 301, ../sass/responsive.scss */
+  /* line 305, ../sass/responsive.scss */
   [dir="rtl"] .front_content_2 .news .view .views-row .views-field-title {
     float: right;
   }
 
-  /* line 304, ../sass/responsive.scss */
+  /* line 308, ../sass/responsive.scss */
   [dir="rtl"] #footer .footer-left {
     float: none;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 309, ../sass/responsive.scss */
+  /* line 313, ../sass/responsive.scss */
   .front_content_1 .view .views-row {
     position: relative;
     width: 75%;
@@ -458,55 +463,55 @@ and open the template in the editor.
     margin-bottom: 30px;
   }
 
-  /* line 317, ../sass/responsive.scss */
+  /* line 321, ../sass/responsive.scss */
   #footer .bottom #block-copyright {
     float: none;
     margin-bottom: 20px;
   }
 
-  /* line 321, ../sass/responsive.scss */
+  /* line 325, ../sass/responsive.scss */
   #footer .bottom #block-socialmedia {
     float: none;
   }
 
-  /* line 324, ../sass/responsive.scss */
+  /* line 328, ../sass/responsive.scss */
   .field--name-field-admission .paragraph--type-employees .bs-region--left {
     width: 100%;
   }
 
-  /* line 327, ../sass/responsive.scss */
+  /* line 331, ../sass/responsive.scss */
   .field--name-field-admission .paragraph--type-employees .bs-region--right {
     width: 100%;
   }
 
-  /* line 330, ../sass/responsive.scss */
+  /* line 334, ../sass/responsive.scss */
   [dir="rtl"] #footer .bottom #block-copyright, [dir="rtl"] #footer .bottom #block-socialmedia {
     float: none;
   }
 }
 @media screen and (max-width: 667px) {
-  /* line 335, ../sass/responsive.scss */
+  /* line 339, ../sass/responsive.scss */
   .front_content_4 .right .view .views-row {
     width: 42%;
   }
 }
 @media screen and (max-width: 555px) {
-  /* line 340, ../sass/responsive.scss */
+  /* line 344, ../sass/responsive.scss */
   header .bottom-header .header_right #block-exposedformsearch-apipage-1 form .form--inline .form-type-textfield input {
     width: 100%;
   }
 
-  /* line 343, ../sass/responsive.scss */
+  /* line 347, ../sass/responsive.scss */
   header .bottom-header .header_right {
     padding-top: 43px;
   }
 
-  /* line 346, ../sass/responsive.scss */
+  /* line 350, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 75%;
   }
 
-  /* line 349, ../sass/responsive.scss */
+  /* line 353, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title {
     position: relative;
     bottom: 0;
@@ -515,7 +520,7 @@ and open the template in the editor.
     right: 0;
   }
 
-  /* line 356, ../sass/responsive.scss */
+  /* line 360, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a {
     color: #0083D1;
     text-align: center;
@@ -523,39 +528,39 @@ and open the template in the editor.
     padding-top: 11px;
   }
 
-  /* line 362, ../sass/responsive.scss */
+  /* line 366, ../sass/responsive.scss */
   .front_content_1 .view .views-row .views-field-title a:after {
     margin: 0px auto;
     margin-top: 9px;
   }
 
-  /* line 366, ../sass/responsive.scss */
+  /* line 370, ../sass/responsive.scss */
   [dir="rtl"] .front_content_1 .view .views-row .views-field-title {
     left: inherit;
     right: inherit;
   }
 }
 @media screen and (max-width: 414px) {
-  /* line 372, ../sass/responsive.scss */
+  /* line 376, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 4%;
     line-height: 25px;
     font-size: 16px;
   }
 
-  /* line 377, ../sass/responsive.scss */
+  /* line 381, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
     font-size: 10.5px;
     line-height: 29px;
   }
 
-  /* line 381, ../sass/responsive.scss */
+  /* line 385, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 100%;
   }
 }
 @media screen and (max-width: 315px) {
-  /* line 386, ../sass/responsive.scss */
+  /* line 390, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 0px;
   }
