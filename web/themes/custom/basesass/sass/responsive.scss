@@ -246,7 +246,7 @@ and open the template in the editor.
     }
     header .bottom-header .header_right{
         width: 50%;  
-        padding-top: 80px;
+        padding-top: 15px;
 
     }
     header .bottom-header .header_left{
@@ -345,7 +345,7 @@ and open the template in the editor.
         width: 100%;
     }
     header .bottom-header .header_right{
-        padding-top: 43px;
+        padding-top: 10px;
     }
     header .bottom-header .header_left img{
         width: 75%; 
@@ -370,6 +370,21 @@ and open the template in the editor.
     [dir="rtl"] .front_content_1 .view .views-row .views-field-title{
         left: inherit;
         right: inherit;
+    }
+    
+    .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow {
+        display: none;
+    }
+    
+    .front_content_4 .right .view .views-row , .front_content_4 .right .view .views-row:nth-child(odd) {
+        margin: 0;
+        width: 50%;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    
+    .front_content_4 .right .view .views-row .views-field-title {
+        position: initial;
     }
 }
 @media screen and (max-width: 414px){

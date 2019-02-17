@@ -356,7 +356,7 @@ and open the template in the editor.
   /* line 247, ../sass/responsive.scss */
   header .bottom-header .header_right {
     width: 50%;
-    padding-top: 80px;
+    padding-top: 15px;
   }
 
   /* line 252, ../sass/responsive.scss */
@@ -503,7 +503,7 @@ and open the template in the editor.
 
   /* line 347, ../sass/responsive.scss */
   header .bottom-header .header_right {
-    padding-top: 43px;
+    padding-top: 10px;
   }
 
   /* line 350, ../sass/responsive.scss */
@@ -539,28 +539,46 @@ and open the template in the editor.
     left: inherit;
     right: inherit;
   }
+
+  /* line 375, ../sass/responsive.scss */
+  .dynamic_header .block-views .view-content #slick-views-dynamic-header-block-1-1 .slick__arrow {
+    display: none;
+  }
+
+  /* line 379, ../sass/responsive.scss */
+  .front_content_4 .right .view .views-row, .front_content_4 .right .view .views-row:nth-child(odd) {
+    margin: 0;
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+
+  /* line 386, ../sass/responsive.scss */
+  .front_content_4 .right .view .views-row .views-field-title {
+    position: initial;
+  }
 }
 @media screen and (max-width: 414px) {
-  /* line 376, ../sass/responsive.scss */
+  /* line 391, ../sass/responsive.scss */
   .image_header h1.page-header {
     padding: 5% 4%;
     line-height: 25px;
     font-size: 16px;
   }
 
-  /* line 381, ../sass/responsive.scss */
+  /* line 396, ../sass/responsive.scss */
   .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li a, .path-notfront #content > .container > .col-md-3 .block-superfish ul.menu li span {
     font-size: 10.5px;
     line-height: 29px;
   }
 
-  /* line 385, ../sass/responsive.scss */
+  /* line 400, ../sass/responsive.scss */
   header .bottom-header .header_left img {
     width: 100%;
   }
 }
 @media screen and (max-width: 315px) {
-  /* line 390, ../sass/responsive.scss */
+  /* line 405, ../sass/responsive.scss */
   header .bottom-header {
     padding: 15px 0px;
   }
